@@ -158,7 +158,8 @@ def test_why_button_explains_without_assigning(window, monkeypatch):
 
     monkeypatch.setattr(overlay.QDialog, "exec", inspect)
     window.why_button.click()
-    assert any("Strong on this battleground" in text for text in texts)
+    assert any("Ban value: +2" in text or "Draft fit: +2" in text for text in texts)
+    assert any("Infernal Shrines" in text and "<img" in text for text in texts)
     assert not window.draft.unavailable
 
 
@@ -275,7 +276,7 @@ def test_completed_build_view_changes_with_picked_hero(window):
     window.slot_buttons["enemies", 0].click()
     assert window.selected_hero == hero_id
     assert window.build_panel.hero_id == hero_id
-    assert "fit" in window.hero_list.item(0).text().lower()
+    assert window.hero_list.item(0).data(Qt.ItemDataRole.UserRole + 2) is not None
     window.undo_button.click()
     assert window.build_panel.isHidden()
 
@@ -315,13 +316,13 @@ def test_team_slot_fit_color_and_tooltip_update_with_draft(window):
     window.draft.assign("enemies", 0, "enemy")
     window.update_slots()
     assert "Draft fit: +8" in slot.toolTip()
-    assert "Counters Enemy" in slot.toolTip()
+    assert "alt='counter'" in slot.toolTip() and "Enemy" in slot.toolTip()
     assert slot.styleSheet() != initial_style
     window.heroes["jaina"]["counters"]["heroes"] = [{"id": "enemy"}]
     enemy["counters"]["heroes"] = []
     window.update_slots()
     assert "Draft fit: -3" in slot.toolTip()
-    assert "Threatened by Enemy" in slot.toolTip()
+    assert "-6" in slot.toolTip() and "Enemy" in slot.toolTip()
     assert "#cf7f86" in slot.styleSheet()
     window.draft.assign("allies", 0, None)
     window.update_slots()
@@ -333,3 +334,29 @@ def test_fit_colors_are_neutral_and_bounded():
     assert overlay.draft_fit_colors(0)[0] == "#1a2533"
     assert overlay.draft_fit_colors(20) == overlay.draft_fit_colors(100)
     assert overlay.draft_fit_colors(-12) == overlay.draft_fit_colors(-100)
+
+
+def test_skip_position_is_stable_and_undo_is_to_its_right(window, app):
+    app.processEvents()
+    skip_x, undo_x = window.skip_button.x(), window.undo_button.x()
+    assert undo_x > skip_x
+    for _ in range(4):
+        window.skip_button.click()
+        app.processEvents()
+        assert window.skip_button.x() == skip_x
+        assert window.undo_button.x() == undo_x
+    assert not window.skip_button.isEnabled()
+    assert not window.skip_button.isHidden()
+
+
+def test_score_metadata_and_icon_explanations_replace_rank_and_prose(window):
+    item = window.hero_list.item(0)
+    assert item.text() == "Jaina\n"
+    assert item.data(Qt.ItemDataRole.UserRole + 2) == 2
+    assert item.data(Qt.ItemDataRole.UserRole + 3)[0]["subject"] == "map"
+    assert window.testAttribute(Qt.WidgetAttribute.WA_AlwaysShowToolTips)
+    window.assign_selected()
+    slot = window.slot_buttons["ally_bans", 0]
+    assert "Ban value: +2" in slot.toolTip()
+    assert "Infernal Shrines" in slot.toolTip()
+    assert "#53b394" in slot.styleSheet()

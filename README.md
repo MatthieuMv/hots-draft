@@ -116,10 +116,12 @@ The PySide6 overlay focuses on quick draft decisions:
   Team portraits show progress; Undo corrects the last action and Skip handles a
   missed ban. Picks cannot be skipped. Settings starts a new draft.
   Picked slots shade green for positive draft fit, slate for neutral, and red for
-  negative fit. Hover for the exact score and matchup reasons. Scores update
+  negative fit. Ban slots use the same treatment for their current ban value.
+  Hover for the exact score and effect/subject breakdown, even when the overlay
+  is unfocused. Scores update
   throughout the draft and evaluate each hero from their own team's perspective.
-- Every available hero appears in a ranked list with a portrait and concise
-  reasons. Search by name, filter by role, then press Enter, double-click a result,
+- Every available hero appears in a ranked list with a portrait, right-aligned score, and compact
+  effect/subject icons (positive, negative, counter, synergy; map or hero). Search by name, filter by role, then press Enter, double-click a result,
   or use the Lock / Ban button. Drafted heroes disappear from the list.
 - Right-click a hero in the list or a filled team slot to open a build popup.
   After completion, all ten picked heroes are ranked by draft fit. Click a picked

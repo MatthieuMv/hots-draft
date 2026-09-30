@@ -38,6 +38,7 @@ from PySide6.QtWidgets import (
     QProgressBar,
     QPushButton,
     QSizeGrip,
+    QStyle,
     QStyledItemDelegate,
     QStyleOptionViewItem,
     QTextBrowser,
@@ -103,6 +104,11 @@ SYMBOLS = {
     "melee": '<path d="m17 3 4 4-11 11-4-4Zm-13 9 8 8m-5-3-4 4"/>',
     "ranged": '<circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/>',
     "support": '<path d="m12 2 3 7 7 3-7 3-3 7-3-7-7-3 7-3Z"/>',
+    "positive": '<path d="M12 4v16M4 12h16"/>',
+    "negative": '<path d="M4 12h16"/>',
+    "counter": '<path d="m4 4 16 16M20 4 4 20m-1-5 6 6m6-18 6 6"/>',
+    "synergy": '<path d="m9 15-2 2a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m3 3 2-2a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0M8 16l8-8"/>',
+    "map": '<path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2Zm6-2v16m6-14v16"/>',
     "search": '<circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/>',
     "close": '<path d="m6 6 12 12M18 6 6 18"/>',
     "collapse": '<path d="M4 8h16M4 16h16m-12-4 4-4 4 4"/>',
@@ -157,13 +163,67 @@ class HeroListDelegate(QStyledItemDelegate):
     """Keep the role glyph large and separate from the hero portrait and text."""
 
     def paint(self, painter, option, index):
+        if option.state & QStyle.StateFlag.State_Selected:
+            painter.fillRect(option.rect, QColor("#204456"))
         text_option = QStyleOptionViewItem(option)
-        text_option.rect.adjust(40, 0, 0, 0)
+        text_option.rect.adjust(40, 0, -55, 0)
         super().paint(painter, text_option, index)
         role = index.data(Qt.ItemDataRole.UserRole + 1)
         if role in ROLE_ICONS:
             rect = QRect(option.rect.left() + 6, option.rect.center().y() - 14, 28, 28)
             symbol(ROLE_ICONS[role], "#9ce0ef").paint(painter, rect)
+        score = index.data(Qt.ItemDataRole.UserRole + 2)
+        if score is not None:
+            painter.save()
+            painter.setPen(
+                QColor(
+                    "#82dfb7" if score > 0 else "#ed9d9f" if score < 0 else "#a1b0c3"
+                )
+            )
+            font = painter.font()
+            font.setBold(True)
+            font.setPointSize(13)
+            painter.setFont(font)
+            painter.drawText(
+                QRect(
+                    option.rect.right() - 54,
+                    option.rect.top(),
+                    45,
+                    option.rect.height(),
+                ),
+                Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter,
+                f"{score:+g}",
+            )
+            painter.restore()
+        window = self.parent().window()
+        x = option.rect.left() + 102
+        signals = index.data(Qt.ItemDataRole.UserRole + 3) or []
+        for i, signal in enumerate(signals):
+            if x + 62 > option.rect.right() - 58:
+                painter.drawText(
+                    QRect(x, option.rect.center().y() + 3, 40, 22),
+                    Qt.AlignmentFlag.AlignVCenter,
+                    f"+{len(signals) - i}",
+                )
+                break
+            positive = signal["value"] > 0
+            color = "#82dfb7" if positive else "#ed9d9f"
+            symbol("positive" if positive else "negative", color).paint(
+                painter, QRect(x, option.rect.center().y() + 2, 14, 20)
+            )
+            x += 16
+            if signal["effect"] in ("counter", "synergy"):
+                symbol(signal["effect"], color).paint(
+                    painter, QRect(x, option.rect.center().y() + 2, 20, 20)
+                )
+                x += 22
+            subject = (
+                window.portrait(signal["id"], 22)
+                if signal["subject"] == "hero"
+                else symbol("map", color)
+            )
+            subject.paint(painter, QRect(x, option.rect.center().y() + 1, 22, 22))
+            x += 34
 
 
 class DataLoader(QThread):
@@ -265,6 +325,7 @@ class OverlayWindow(QWidget):
         self.recommendations = []
         self.icon_cache = {}
         self.setWindowTitle("Nexus Draft")
+        self.setAttribute(Qt.WidgetAttribute.WA_AlwaysShowToolTips, True)
         self.setWindowFlags(
             Qt.WindowType.Window
             | Qt.WindowType.FramelessWindowHint
@@ -382,10 +443,11 @@ class OverlayWindow(QWidget):
         current.addWidget(self.target, 1)
         self.undo_button = QPushButton("Undo")
         self.undo_button.clicked.connect(self.undo_action)
-        current.addWidget(self.undo_button)
         self.skip_button = QPushButton("Skip ban")
         self.skip_button.clicked.connect(self.skip_ban)
         current.addWidget(self.skip_button)
+        self.skip_button.setFixedWidth(80)
+        current.addWidget(self.undo_button)
         flow.addLayout(current)
         self.next_action = QLabel()
         self.next_action.setObjectName("muted")
@@ -595,11 +657,11 @@ class OverlayWindow(QWidget):
         self.active_slot = (action.group, action.index) if action else None
         picked = {
             result.hero_id: result
-            for result in rank_picked_heroes(self.heroes, self.draft)
+            for result in rank_picked_heroes(self.heroes, self.draft, include_bans=True)
         }
         for (group, index), button in self.slot_buttons.items():
             id_ = self.draft.slots[group][index]
-            fit = picked.get(id_) if "bans" not in group else None
+            fit = picked.get(id_)
             button.setStyleSheet("padding: 4px;")
             if fit:
                 background, border = draft_fit_colors(fit.score)
@@ -629,20 +691,12 @@ class OverlayWindow(QWidget):
                 )
             )
             if fit:
-                hint = (
-                    "Strong fit"
-                    if fit.score >= 5
-                    else "Good fit"
-                    if fit.score > 0
-                    else "Neutral fit"
-                    if fit.score == 0
-                    else "Difficult matchup"
-                )
-                evidence = fit.reasons + fit.warnings or ["No specific guide advantage"]
                 button.setToolTip(
-                    button.toolTip()
-                    + f"\nDraft fit: {fit.score:+g} · {hint}\n"
-                    + "\n".join(evidence)
+                    self.fit_tooltip(
+                        fit,
+                        "Ban value" if "bans" in group else "Draft fit",
+                        button.toolTip(),
+                    )
                 )
         self.setup_panel.setVisible(not self.draft.configured)
         self.flow_panel.setVisible(self.draft.configured)
@@ -653,7 +707,8 @@ class OverlayWindow(QWidget):
         self.selection.setVisible(bool(action))
         self.progress.setValue(len(self.draft.history))
         self.undo_button.setEnabled(bool(self.draft.history))
-        self.skip_button.setVisible(bool(action and action.mode == "ban"))
+        self.skip_button.setVisible(bool(action))
+        self.skip_button.setEnabled(bool(action and action.mode == "ban"))
         if action:
             team = "Your team" if action.side == "allies" else "Enemy team"
             verb = "Ban a hero" if action.mode == "ban" else "Pick a hero"
@@ -914,43 +969,31 @@ class OverlayWindow(QWidget):
         role = None if self.draft.completed else self.selected_role
         self.hero_list.blockSignals(True)
         self.hero_list.clear()
-        for rank, result in enumerate(self.recommendations, 1):
+        for result in self.recommendations:
             hero = self.heroes[result.hero_id]
             if (
                 query not in normalized(hero["name"])
                 and query not in normalized(result.hero_id)
             ) or (role is not None and hero["role"] != role):
                 continue
-            evidence = (
-                " · ".join(result.reasons[:2])
-                if result.reasons
-                else "No specific guide advantage"
-            )
-            if result.warnings:
-                evidence += " · " + result.warnings[0]
-            if self.draft.completed:
-                strength = (
-                    "Strong fit"
-                    if result.score >= 5
-                    else "Good fit"
-                    if result.score > 0
-                    else "Neutral fit"
-                    if result.score == 0
-                    else "Difficult matchup"
-                )
-                team = (
-                    "You" if result.hero_id in self.draft.slots["allies"] else "Enemy"
-                )
-                evidence = f"{team} · {strength} ({result.score:+g}) · {evidence}"
-            item = QListWidgetItem(
-                self.portrait(result.hero_id),
-                f"{rank:02d}  {hero['name']}\n{evidence}",
-            )
+            item = QListWidgetItem(self.portrait(result.hero_id), hero["name"] + "\n")
             item.setData(Qt.ItemDataRole.UserRole, result.hero_id)
             item.setData(Qt.ItemDataRole.UserRole + 1, hero["role"])
+            item.setData(Qt.ItemDataRole.UserRole + 2, result.score)
+            item.setData(Qt.ItemDataRole.UserRole + 3, result.signals)
+            team = (
+                "Your team"
+                if result.hero_id in self.draft.slots["allies"]
+                else "Enemy team"
+                if self.draft.completed
+                else ""
+            )
             item.setToolTip(
-                f"{hero['role'] or 'Unknown role'}\nGuide match score: {result.score:+g} \n"
-                + "\n".join(result.reasons + result.warnings)
+                self.fit_tooltip(
+                    result,
+                    "Ban value" if action and action.mode == "ban" else "Draft fit",
+                    f"{hero['name']} · {hero['role'] or ''} {team}",
+                )
             )
             item.setSizeHint(QSize(0, 64))
             if result.score < 0:
@@ -980,7 +1023,11 @@ class OverlayWindow(QWidget):
                     f"{team} {action.mode} · {name}", Qt.TextElideMode.ElideRight, 162
                 )
             )
-            self.compact_text.setToolTip("\n".join(best.reasons + best.warnings))
+            self.compact_text.setToolTip(
+                self.fit_tooltip(
+                    best, "Ban value" if action.mode == "ban" else "Draft fit"
+                )
+            )
             self.compact_portrait.setPixmap(
                 self.portrait(best.hero_id, 32).pixmap(32, 32)
             )
@@ -1051,6 +1098,41 @@ class OverlayWindow(QWidget):
         if result:
             self.show_reasons(result)
 
+    def tooltip_image(self, icon, key):
+        directory = self.data_dir / "ui-icons"
+        path = directory / f"{zlib.crc32(key.encode()):08x}.png"
+        try:
+            directory.mkdir(parents=True, exist_ok=True)
+            if not path.exists():
+                icon.pixmap(24, 24).save(str(path))
+            return QUrl.fromLocalFile(str(path.resolve())).toString()
+        except OSError:
+            return ""
+
+    def fit_tooltip(self, result, heading="Draft fit", title=""):
+        e = html.escape
+        content = f"<b>{e(title)}</b><br>" if title else ""
+        content += f"<b>{e(heading)}: {result.score:+g}</b><table cellspacing='5'>"
+        for signal in result.signals:
+            color = "#82dfb7" if signal["value"] > 0 else "#ed9d9f"
+            effect = signal["effect"]
+            effect_url = self.tooltip_image(symbol(effect, color), effect + color)
+            subject_name = (
+                self.heroes.get(signal["id"], {}).get("name", "Hero")
+                if signal["subject"] == "hero"
+                else self.maps.get(signal["id"], "Battleground")
+            )
+            subject_icon = (
+                self.portrait(signal["id"], 24)
+                if signal["subject"] == "hero"
+                else symbol("map", color)
+            )
+            subject_url = self.tooltip_image(
+                subject_icon, signal["subject"] + str(signal["id"])
+            )
+            content += f"<tr><td style='color:{color}'><b>{signal['value']:+g}</b></td><td><img src='{e(effect_url, quote=True)}' width='22' height='22' alt='{e(effect)}'></td><td><img src='{e(subject_url, quote=True)}' width='24' height='24'></td><td>{e(subject_name)}</td></tr>"
+        return content + "</table>"
+
     def show_reasons(self, recommendation):
         hero = self.heroes[recommendation.hero_id]
         dialog = QDialog(self)
@@ -1060,21 +1142,9 @@ class OverlayWindow(QWidget):
         heading = QLabel(hero["name"])
         heading.setObjectName("section")
         layout.addWidget(heading)
-        for reason in recommendation.reasons or [
-            "No specific guide advantage for this draft."
-        ]:
-            label = QLabel("• " + reason)
-            label.setWordWrap(True)
-            layout.addWidget(label)
-        for warning in recommendation.warnings:
-            label = QLabel("• " + warning)
-            label.setObjectName("warning")
-            label.setWordWrap(True)
-            layout.addWidget(label)
-        note = QLabel("Based on guide matchups, battleground fit and team roles.")
-        note.setObjectName("muted")
-        note.setWordWrap(True)
-        layout.addWidget(note)
+        label = QLabel(self.fit_tooltip(recommendation))
+        label.setWordWrap(True)
+        layout.addWidget(label)
         guide = QPushButton("Hero guide")
         guide.clicked.connect(lambda: self.show_details(hero_id=recommendation.hero_id))
         layout.addWidget(guide)

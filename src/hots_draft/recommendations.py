@@ -12,20 +12,45 @@ class Recommendation:
     score: float = 0
     reasons: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
+    signals: list[dict] = field(default_factory=list)
+
+    def add(self, value, effect, subject, subject_id, label):
+        self.score += value
+        (self.reasons if value > 0 else self.warnings).append(label)
+        self.signals.append(
+            {
+                "value": value,
+                "effect": effect,
+                "subject": subject,
+                "id": subject_id,
+                "label": label,
+            }
+        )
 
 
-def rank_picked_heroes(heroes: dict, draft: DraftState) -> list[Recommendation]:
+def rank_picked_heroes(
+    heroes: dict, draft: DraftState, *, include_bans=False
+) -> list[Recommendation]:
     """Evaluate each picked hero against their teammates and opposing team."""
     results = []
-    for side in ("allies", "enemies"):
-        for index, hero_id in enumerate(draft.slots[side]):
+    for group in ("allies", "enemies", "ally_bans", "enemy_bans"):
+        if not include_bans and "bans" in group:
+            continue
+        side = "allies" if group in ("allies", "ally_bans") else "enemies"
+        for index, hero_id in enumerate(draft.slots[group]):
             if hero_id not in heroes:
                 continue
             context = deepcopy(draft)
-            context.slots[side][index] = None
+            context.slots[group][index] = None
             result = next(
                 result
-                for result in rank_heroes(heroes, context, side=side, include_all=True)
+                for result in rank_heroes(
+                    heroes,
+                    context,
+                    side=side,
+                    mode="ban" if "bans" in group else "pick",
+                    include_all=True,
+                )
                 if result.hero_id == hero_id
             )
             results.append(result)
@@ -65,53 +90,95 @@ def rank_heroes(
         strong = draft.map_id in {ref["id"] for ref in hero["maps"]["stronger"]}
         weak = draft.map_id in {ref["id"] for ref in hero["maps"]["weaker"]}
         if strong:
-            result.score += 3 if mode == "pick" else 2
-            result.reasons.append("Strong on this battleground")
+            result.add(
+                3 if mode == "pick" else 2,
+                "positive",
+                "map",
+                draft.map_id,
+                "Strong on this battleground",
+            )
         elif weak:
-            result.score -= 3 if mode == "pick" else 2
-            result.warnings.append("Weaker on this battleground")
+            result.add(
+                -3 if mode == "pick" else -2,
+                "negative",
+                "map",
+                draft.map_id,
+                "Weaker on this battleground",
+            )
         synergy = references(hero, "synergies")
         counters = references(hero, "counters")
         if mode == "pick":
             for friend in friends:
                 if friend in synergy or id_ in references(heroes[friend], "synergies"):
-                    result.score += 4
-                    result.reasons.append(f"Pairs with {heroes[friend]['name']}")
+                    result.add(
+                        4,
+                        "synergy",
+                        "hero",
+                        friend,
+                        f"Pairs with {heroes[friend]['name']}",
+                    )
             for opponent in opponents:
                 if id_ in references(heroes[opponent], "counters"):
-                    result.score += 5
-                    result.reasons.append(f"Counters {heroes[opponent]['name']}")
+                    result.add(
+                        5,
+                        "counter",
+                        "hero",
+                        opponent,
+                        f"Counters {heroes[opponent]['name']}",
+                    )
                 if opponent in counters:
-                    result.score -= 6
-                    result.warnings.append(f"Threatened by {heroes[opponent]['name']}")
+                    result.add(
+                        -6,
+                        "counter",
+                        "hero",
+                        opponent,
+                        f"Threatened by {heroes[opponent]['name']}",
+                    )
             if friends and len(friends) < 5 and hero["role"] in ("Tank", "Healer"):
                 if hero["role"] not in roles:
-                    result.score += 2
-                    result.reasons.append(
-                        f"Adds a missing {hero['role'].lower()} to the team"
+                    result.add(
+                        2,
+                        "positive",
+                        "hero",
+                        id_,
+                        f"Adds a missing {hero['role'].lower()} to the team",
                     )
                 else:
-                    result.score -= 2
-                    result.warnings.append(f"Team already has a {hero['role'].lower()}")
+                    result.add(
+                        -2,
+                        "negative",
+                        "hero",
+                        id_,
+                        f"Team already has a {hero['role'].lower()}",
+                    )
         else:
             for friend in friends:
                 if id_ in references(heroes[friend], "counters"):
-                    result.score += 6
-                    result.reasons.append(
-                        f"Protects {heroes[friend]['name']} from a listed counter"
+                    result.add(
+                        6,
+                        "counter",
+                        "hero",
+                        friend,
+                        f"Protects {heroes[friend]['name']} from a listed counter",
                     )
                 if friend in counters:
-                    result.score -= 3
-                    result.warnings.append(
-                        f"Already countered by {heroes[friend]['name']}"
+                    result.add(
+                        -3,
+                        "counter",
+                        "hero",
+                        friend,
+                        f"Already countered by {heroes[friend]['name']}",
                     )
             for opponent in opponents:
                 if opponent in synergy or id_ in references(
                     heroes[opponent], "synergies"
                 ):
-                    result.score += 4
-                    result.reasons.append(
-                        f"Denies synergy with {heroes[opponent]['name']}"
+                    result.add(
+                        4,
+                        "synergy",
+                        "hero",
+                        opponent,
+                        f"Denies synergy with {heroes[opponent]['name']}",
                     )
         if include_all or (result.score > 0 and result.reasons):
             results.append(result)

@@ -102,3 +102,30 @@ def test_picked_rankings_use_own_team_without_self_synergy():
     assert [r.hero_id for r in results] == ["ally", "partner", "enemy"]
     assert [r.score for r in results] == [9, 4, -6]
     assert draft.slots["allies"][:2] == ["ally", "partner"]
+
+
+def test_banned_hero_value_protects_own_team_and_denies_opponent_synergy():
+    from hots_draft.recommendations import rank_picked_heroes
+
+    heroes = {
+        "ally": hero("Ally", counters=("ban",)),
+        "enemy": hero("Enemy", synergies=("ban",)),
+        "ban": hero("Ban", strong=("map",)),
+    }
+    draft = DraftState(map_id="map")
+    draft.assign("allies", 0, "ally")
+    draft.assign("enemies", 0, "enemy")
+    draft.assign("ally_bans", 0, "ban")
+    result = next(
+        r
+        for r in rank_picked_heroes(heroes, draft, include_bans=True)
+        if r.hero_id == "ban"
+    )
+    assert result.score == 12
+    assert sum(s["value"] for s in result.signals) == 12
+    assert [(s["effect"], s["subject"], s["id"]) for s in result.signals] == [
+        ("positive", "map", "map"),
+        ("counter", "hero", "ally"),
+        ("synergy", "hero", "enemy"),
+    ]
+    assert draft.slots["ally_bans"][0] == "ban"
