@@ -1,0 +1,3 @@
+# Published data hashes require byte-identical files on Windows and other hosts.
+data/** -text
+assets/*.ico binary
