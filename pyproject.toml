@@ -1,0 +1,30 @@
+[project]
+name = "hots-draft"
+version = "0.1.0"
+description = "Icy Veins hero data and startup initialization for a Heroes of the Storm draft helper"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "filelock>=4.0.7",
+    "html5lib>=1.1",
+    "httpx>=0.28.1",
+    "pyside6>=6.11.2",
+]
+
+[project.scripts]
+hots-draft = "hots_draft:main"
+hots-scrape = "hots_draft.scraper:main"
+hots-build = "hots_draft.build:main"
+hots-release = "hots_draft.release:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+build = ["pyinstaller>=6.19,<7"]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]

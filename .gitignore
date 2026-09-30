@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Nexus Draft local files
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.venv-build/
+.tools/
+.env
+.env.*
+.uv-cache/
+.uv-python/
+data/
+.pytest_cache/
+.ruff_cache/
+artifacts/
