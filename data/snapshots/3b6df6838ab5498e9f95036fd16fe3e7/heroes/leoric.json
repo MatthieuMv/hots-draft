@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "id": "leoric",
+  "name": "Leoric",
+  "role": "Bruiser",
+  "overview": "Leoric is an aggressive melee Bruiser with strong self-sustain and great mobility. He excels at dealing high damage through powerful Basic Attacks and close-range abilities, while his survivability allows him to stand his ground even if outnumbered by several enemies. After taking lethal damage, Undying causes him to turn into a Ghost capable of moving freely and using abilities to slow enemies. After a certain amount of time (influenced by how abilities are used while in Ghost form), Leoric comes back to life at the current location of the Ghost.",
+  "strengths": [
+    "Good self-sustain",
+    "Solid waveclear",
+    "Decent mobility",
+    "Can deal percent-based damage",
+    "Fast respawn thanks to Drain Essence",
+    "Can become Unstoppable when needed",
+    "Strong in the late game"
+  ],
+  "weaknesses": [
+    "Vulnerable to burst damage",
+    "Suffers against healing reduction effects",
+    "Weak in the early game"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "orphea",
+        "name": "Orphea"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Leoric pairs off really well with Heroes who can follow up on his Entomb with a huge amount of burst damage (for example Orphea using Eternal Feast and all her Basic Abilities) or complementary crowd control (such as Lurking Arm by Stukov)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "dehaka",
+        "name": "Dehaka"
+      },
+      {
+        "id": "samuro",
+        "name": "Samuro"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      }
+    ],
+    "explanation": "Leoric struggles against high-mobility Heroes (such as Tracer) who can simply dodge Entomb and/or disconnect his Drain Hope (like Samuro using Mirror Image or Image Transmission).\n\nDue to having self-healing in his kit, Leoric does not like to face Heroes who have access to healing reduction Abilities (for example Biotic Grenade by Ana)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Leoric is a strong pick on Maps where the game lasts long enough to reach Level 20 and unlock Buried Alive and/or where double soaking is strong (notably Towers of Doom where you can count on both).\n\nAdditionally, Leoric is a good pick on Maps where your team requires a solid Offlaner with good self-sustain and waveclear."
+  },
+  "builds": [
+    {
+      "name": "Basic Attacks Build",
+      "label": "Recommended",
+      "description": "Leoric's Basic Attacks Build is particularly good to increase your damage output in a reliable way, without the risk of losing too much value when the enemy Heroes dodge or disconnect Drain Hope.\n\nSpectral Leech at Level 13 and Mithril Mace at Level 16 combined together will empower your Basic Attacks, especially against Heroes with high maximum Health who do not have Armor (such as Azmodan). Drain Momentum at Level 7 helps you stick on enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "leoric-talent-ossein-renewal",
+              "name": "Ossein Renewal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-1"
+            },
+            {
+              "id": "leoric-talent-consume-vitality",
+              "name": "Consume Vitality",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-1"
+            },
+            {
+              "id": "leoric-talent-fealty-unto-death",
+              "name": "Fealty Unto Death",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "leoric-talent-paralyzing-rage",
+              "name": "Paralyzing Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-4"
+            },
+            {
+              "id": "leoric-talent-kneel-peasants",
+              "name": "Kneel, Peasants!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "leoric-talent-drain-momentum",
+              "name": "Drain Momentum",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "leoric-talent-entomb",
+              "name": "Entomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "leoric-talent-spectral-leech",
+              "name": "Spectral Leech",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "leoric-talent-mithril-mace",
+              "name": "Mithril Mace",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "leoric-talent-buried-alive",
+              "name": "Buried Alive",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/leoric#52.2!3221331"
+    },
+    {
+      "name": "Wraith Walk Build",
+      "label": "Advanced",
+      "description": "Leoric's Wraith Walk Build provides a powerful and unique playstyle that, once you reach the late game, allows Leoric to severely cripple the combat performance of any Heroes coming in touch with Wraith Walk.\n\nOminous Wraith at Level 13 drastically reduce the damage done by enemy Heroes for a few seconds, and it can be applied over and over again with the help of Royal Focus at Level 16. Hopelessness at Level 7 helps you keep Drain Hope active during Wraith Walk.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "leoric-talent-consume-vitality",
+              "name": "Consume Vitality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "leoric-talent-ghastly-reach",
+              "name": "Ghastly Reach",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "leoric-talent-hopelessness",
+              "name": "Hopelessness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "leoric-talent-entomb",
+              "name": "Entomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "leoric-talent-ominous-wraith",
+              "name": "Ominous Wraith",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "leoric-talent-royal-focus",
+              "name": "Royal Focus",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "leoric-talent-buried-alive",
+              "name": "Buried Alive",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/leoric#52.2!1131221"
+    },
+    {
+      "name": "Drain Hope Build",
+      "label": "Situational",
+      "description": "Leoric's Drain Hope Build is extremely effective against low-mobility Heroes with high maximum Health (such as Arthas).\n\nUnyielding Despair at Level 13 reduces the cooldown of Drain Hope, Crushing Hope at Level 16 increases its damage when lasting its full duration, and Hopelessness at Level 7 helping you with that.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "leoric-talent-ossein-renewal",
+              "name": "Ossein Renewal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-1"
+            },
+            {
+              "id": "leoric-talent-consume-vitality",
+              "name": "Consume Vitality",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-1"
+            },
+            {
+              "id": "leoric-talent-fealty-unto-death",
+              "name": "Fealty Unto Death",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "leoric-talent-paralyzing-rage",
+              "name": "Paralyzing Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-4"
+            },
+            {
+              "id": "leoric-talent-kneel-peasants",
+              "name": "Kneel, Peasants!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "leoric-talent-hopelessness",
+              "name": "Hopelessness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "leoric-talent-entomb",
+              "name": "Entomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "leoric-talent-unyielding-despair",
+              "name": "Unyielding Despair",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "leoric-talent-crushing-hope",
+              "name": "Crushing Hope",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "leoric-talent-burning-despair",
+              "name": "Burning Despair",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-20"
+            },
+            {
+              "id": "leoric-talent-buried-alive",
+              "name": "Buried Alive",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/leoric-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/leoric#52.2!3231113"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/leoric-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:18.356996+00:00",
+    "updated_at": "2025-04-18T15:10:00+00:00",
+    "author_line": "Last updated on Apr 18, 2025 at 15:10 by Elitesparkle"
+  }
+}

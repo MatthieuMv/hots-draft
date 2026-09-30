@@ -1,0 +1,687 @@
+{
+  "schema_version": 1,
+  "id": "ragnaros",
+  "name": "Ragnaros",
+  "role": "Bruiser",
+  "overview": "Ragnaros is a Bruiser whose main strengths are self-sustain and waveclear, however, he can dish out a solid amount of damage during team fights as well.",
+  "strengths": [
+    "Solid waveclear",
+    "High self-sustain",
+    "Structures defense with Molten Core"
+  ],
+  "weaknesses": [
+    "Lack of mobility",
+    "Extremely weak to kite"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      }
+    ],
+    "explanation": "Ragnaros is at his best when coupled with Heroes that feature some form of reliable crowd control (such as E.T.C.)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Due to his lack of crowd control, Ragnaros will not be able to pressure Heroes whose Basic Abilities are weak to interrupts (such as Sonya).\n\nRagnaros is also particularly weak to kite because he does not have access to any tool that can help him playing around enemy displacement effects (such as Garrosh and Raynor) and Slows (such as Jaina)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "explanation": "Ragnaros excels on Maps where he can double soak with ease (such as Infernal Shrines), especially if he can get value from Molten Core to win the Objective or defend after losing it.\n\nThe worst Maps for Ragnaros are the ones where it is important to control a Capture Point, especially if it is impossible for him to double soak as an alternative strategy (such as Braxis Holdout), or where the Objective can be too far from Forts that Molten Core cannot be used during it (such as Towers of Doom)."
+  },
+  "builds": [
+    {
+      "name": "Blast Wave Build",
+      "label": "Recommended",
+      "description": "Ragnaros's Blast Wave Build can deal a high amount of burst damage and provides a fair amount of survivability and mobility during team fights.\n\nThe burst damage comes from Blistering Attacks at Level 7 and Engulfing Flame at Level 1, amplified by Blast Echo at Level 16.\n\nThe additional survivability while fighting enemy Heroes comes from Tempered Flame at Level 13, in synergy with Engulfing Flame at Level 1, and Blast Echo at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ragnaros-talent-engulfing-flame",
+              "name": "Engulfing Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ragnaros-talent-slow-burn",
+              "name": "Slow Burn",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ragnaros-talent-blistering-attacks",
+              "name": "Blistering Attacks",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ragnaros-talent-lava-wave",
+              "name": "Lava Wave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-10"
+            },
+            {
+              "id": "ragnaros-talent-sulfuras-smash",
+              "name": "Sulfuras Smash",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ragnaros-talent-tempered-flame",
+              "name": "Tempered Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ragnaros-talent-blast-echo",
+              "name": "Blast Echo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ragnaros-talent-heroic-difficulty",
+              "name": "Heroic Difficulty",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-flames-of-sulfuron",
+              "name": "Flames of Sulfuron",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-lava-surge",
+              "name": "Lava Surge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-submerge",
+              "name": "Submerge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ragnaros#55.17!3232233"
+    },
+    {
+      "name": "Hybrid Build",
+      "label": "Advanced",
+      "description": "Ragnaros's Hybrid Build can deal a high amount of burst damage and provides a great amount of self-sustain while laning.\n\nThe burst damage comes from Blistering Attacks at Level 7, Giant Scorcher at Level 16, and Sulfuras Smash.\n\nThe additional survivability, especially while laning, comes from Sulfuras Hungers at Level 1 that, after completing its Quest, will allow you to get more healing while hitting a full wave of Minions using Empower Sulfuras.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ragnaros-talent-sulfuras-hungers",
+              "name": "Sulfuras Hungers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ragnaros-talent-slow-burn",
+              "name": "Slow Burn",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ragnaros-talent-blistering-attacks",
+              "name": "Blistering Attacks",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ragnaros-talent-sulfuras-smash",
+              "name": "Sulfuras Smash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ragnaros-talent-resilient-flame",
+              "name": "Resilient Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            },
+            {
+              "id": "ragnaros-talent-cauterize-wounds",
+              "name": "Cauterize Wounds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ragnaros-talent-giant-scorcher",
+              "name": "Giant Scorcher",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ragnaros-talent-heroic-difficulty",
+              "name": "Heroic Difficulty",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-flames-of-sulfuron",
+              "name": "Flames of Sulfuron",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-lava-surge",
+              "name": "Lava Surge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-submerge",
+              "name": "Submerge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ragnaros#55.17!1231313"
+    },
+    {
+      "name": "Empower Sulfuras Build",
+      "label": "Situational",
+      "description": "Ragnaros's Empower Sulfuras Build can deal a high amount of sustain damage against team with multiple melee Heroes and provides a great amount of self-sustain while laning.\n\nThe additional survivability, especially while laning but not only, comes from Sulfuras Hungers at Level 1 that, after completing its Quest, will allow you to get more healing while hitting a full wave of Minions using Empower Sulfuras.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ragnaros-talent-sulfuras-hungers",
+              "name": "Sulfuras Hungers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ragnaros-talent-catching-fire",
+              "name": "Catching Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ragnaros-talent-hand-of-ragnaros",
+              "name": "Hand of Ragnaros",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ragnaros-talent-sulfuras-smash",
+              "name": "Sulfuras Smash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-10"
+            },
+            {
+              "id": "ragnaros-talent-lava-wave",
+              "name": "Lava Wave",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ragnaros-talent-resilient-flame",
+              "name": "Resilient Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            },
+            {
+              "id": "ragnaros-talent-cauterize-wounds",
+              "name": "Cauterize Wounds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ragnaros-talent-giant-scorcher",
+              "name": "Giant Scorcher",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ragnaros-talent-heroic-difficulty",
+              "name": "Heroic Difficulty",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-flames-of-sulfuron",
+              "name": "Flames of Sulfuron",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-lava-surge",
+              "name": "Lava Surge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-submerge",
+              "name": "Submerge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ragnaros#55.17!1311313"
+    },
+    {
+      "name": "Living Meteor Build",
+      "label": "Situational",
+      "description": "Ragnaros's Living Meteor Build is a decent alternative to other Builds for when you cannot afford to step up in melee range as it allows you to safely poke enemy Heroes from the distance.\n\nThe majority of your damage will come from the combination of Shifting Meteor at Level 1 after completing its Quest, Molten Power at Level 7, and Meteor Bomb at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ragnaros-talent-shifting-meteor",
+              "name": "Shifting Meteor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ragnaros-talent-fire-ward",
+              "name": "Fire Ward",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ragnaros-talent-molten-power",
+              "name": "Molten Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ragnaros-talent-sulfuras-smash",
+              "name": "Sulfuras Smash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-10"
+            },
+            {
+              "id": "ragnaros-talent-lava-wave",
+              "name": "Lava Wave",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ragnaros-talent-resilient-flame",
+              "name": "Resilient Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            },
+            {
+              "id": "ragnaros-talent-cauterize-wounds",
+              "name": "Cauterize Wounds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ragnaros-talent-meteor-bomb",
+              "name": "Meteor Bomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ragnaros-talent-heroic-difficulty",
+              "name": "Heroic Difficulty",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-flames-of-sulfuron",
+              "name": "Flames of Sulfuron",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-lava-surge",
+              "name": "Lava Surge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-submerge",
+              "name": "Submerge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ragnaros#55.17!2121323"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Ragnaros's ARAM Build is a decent alternative to other Builds for when you cannot afford to step up in melee range as it allows you to safely poke enemy Heroes from the distance.\n\nThe majority of your damage will come from the combination of Shifting Meteor at Level 1 after completing its Quest, Molten Power at Level 7, and Meteor Bomb at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ragnaros-talent-shifting-meteor",
+              "name": "Shifting Meteor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ragnaros-talent-fire-ward",
+              "name": "Fire Ward",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ragnaros-talent-molten-power",
+              "name": "Molten Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ragnaros-talent-sulfuras-smash",
+              "name": "Sulfuras Smash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ragnaros-talent-resilient-flame",
+              "name": "Resilient Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            },
+            {
+              "id": "ragnaros-talent-cauterize-wounds",
+              "name": "Cauterize Wounds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ragnaros-talent-meteor-bomb",
+              "name": "Meteor Bomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ragnaros-talent-heroic-difficulty",
+              "name": "Heroic Difficulty",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-flames-of-sulfuron",
+              "name": "Flames of Sulfuron",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            },
+            {
+              "id": "ragnaros-talent-submerge",
+              "name": "Submerge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ragnaros-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ragnaros#55.17!2121323"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/ragnaros-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:14.259350+00:00",
+    "updated_at": "2026-07-28T23:30:00+00:00",
+    "author_line": "Last updated on Jul 28, 2026 at 23:30 by Elitesparkle"
+  }
+}

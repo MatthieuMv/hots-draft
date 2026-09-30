@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "id": "the-butcher",
+  "name": "The Butcher",
+  "role": "Melee Assassin",
+  "overview": "The Butcher is a Melee Assassin who utilizes his Fresh Meat mechanic to grow drastically in power as a match progresses. The early part of the match should consist of The Butcher trying to complete the quest portion of Fresh Meat as soon as possible. This increase in Attack Damage and Attack Speed provide a huge power spike to The Butcher. His Basic Attacks hit incredibly hard, providing him with very high sustain damage. With the help of Furnace Blast however, he is also able to deal extremely high area of effect burst damage. Crowd control and focus fire from the enemy team pose the biggest threats, since both inhibit his ability to heal with Butcher's Brand, his only defensive Ability.",
+  "strengths": [
+    "Extremely high sustain damage",
+    "Can recover massive amounts of Health with Butcher's Brand",
+    "Strong duelist",
+    "Exceptional burst damage with Furnace Blast",
+    "Ruthless Onslaught allows for easy engages and ganks"
+  ],
+  "weaknesses": [
+    "Extremely vulnerable to burst damage and crowd control, including Blinds",
+    "Multiple ways for enemy Heroes to negate both of his Heroic Abilities",
+    "If he is unable to use Basic Attacks on the target marked with Butcher's Brand, he will fall very quickly in team fights",
+    "Losing Fresh Meat on death can make it difficult to recover",
+    "Usually requires a team composition to be built around him"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "abathur",
+        "name": "Abathur"
+      },
+      {
+        "id": "tyrande",
+        "name": "Tyrande"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      }
+    ],
+    "explanation": "The Butcher performs best with allies who are able to provide him with bonus means of survival after he charges into the enemy team. This is because often times The Butcher will become the primary target of focusfire after engaging with Ruthless Onslaught. Allies with some form of hard crowd-control who can followup on Ruthless Onslaught are also a welcomed addition."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "The Butcher's \"all-in\" play style tends to suffer against Heroes who are able to completely shut down his damage output through mitigation or hard crowd-control. Blinds, Silences, Stuns, and Invulnerability work well to keep The Butcher at bay."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      }
+    ],
+    "explanation": "One of The Butcher's greatest strength lies in his ganking potential as he roams the Battleground, particularly during the early portion of the match. This is why he is most valuable on maps with 3 lanes that require a heavy amount of rotation. This constant rotation will often times result in enemy Heroes being isolated as they try to soak experience or push in lanes. The Butcher and his allies should try to capitalize on this mis-positioning and take down over-extended enemies."
+  },
+  "builds": [
+    {
+      "name": "Ruthless Onslaught Build",
+      "label": "Recommended",
+      "description": "The Ruthless Onslaught build contains a healthy blend of survivability, utility, and reliable damage output. The cooldown reduction of Ruthless Onslaught greatly increases The Butcher's roaming and ganking potential while Meat Shield and Enraged mitigate much of the damage he will receive upon engaging his enemies. Lamb to the Slaughter allows The Butcher to lock down and shred a single target (usually an isolated Assassin or Healer), while Slaughterhouse at Level 20 provides an incredible source of multi-target crowd-control.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "the-butcher-talent-invigoration",
+              "name": "Invigoration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-1"
+            },
+            {
+              "id": "the-butcher-talent-chop-meat",
+              "name": "Chop Meat",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "the-butcher-talent-unrelenting-pursuit",
+              "name": "Unrelenting Pursuit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-4"
+            },
+            {
+              "id": "the-butcher-talent-cheap-shot",
+              "name": "Cheap Shot",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "the-butcher-talent-meat-shield",
+              "name": "Meat Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "the-butcher-talent-lamb-to-the-slaughter",
+              "name": "Lamb to the Slaughter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-10"
+            },
+            {
+              "id": "the-butcher-talent-furnace-blast",
+              "name": "Furnace Blast",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "the-butcher-talent-savage-charge",
+              "name": "Savage Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-13"
+            },
+            {
+              "id": "the-butcher-talent-brutal-strike",
+              "name": "Brutal Strike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "the-butcher-talent-enraged",
+              "name": "Enraged",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "the-butcher-talent-slaughterhouse",
+              "name": "Slaughterhouse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/the-butcher#55.13!1322222"
+    },
+    {
+      "name": "Hamstring Build",
+      "label": "Situational",
+      "description": "The Hamstring Build focuses on maximizing damage output by means bolstering the effectiveness of Hamstring at the cost of survivability and utility. This build works well against enemy Heroes who are able to more easily kite The Butcher around by means of Movement Speed buffs or gap-closers. The increased length of Hamstring from Flail Axe and its reduced cooldown from Invigoration will allow The Butcher to more easily land Hamstring and re-apply the slow portion of the ability. Insatiable Blade and Bolt of the Storm can further assist The Butcher in sticking to his desired target, particularly if you got Furnace Blast.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "the-butcher-talent-invigoration",
+              "name": "Invigoration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "the-butcher-talent-flail-axe",
+              "name": "Flail Axe",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "the-butcher-talent-insatiable-blade",
+              "name": "Insatiable Blade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "the-butcher-talent-lamb-to-the-slaughter",
+              "name": "Lamb to the Slaughter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-10"
+            },
+            {
+              "id": "the-butcher-talent-furnace-blast",
+              "name": "Furnace Blast",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "the-butcher-talent-brutal-strike",
+              "name": "Brutal Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "the-butcher-talent-enraged",
+              "name": "Enraged",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "the-butcher-talent-slaughterhouse",
+              "name": "Slaughterhouse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-20"
+            },
+            {
+              "id": "the-butcher-talent-bolt-of-the-storm",
+              "name": "Bolt of the Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-butcher-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/the-butcher#55.13!1112122"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/the-butcher-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:25.249080+00:00",
+    "updated_at": "2025-03-12T13:20:00+00:00",
+    "author_line": "Last updated on Mar 12, 2025 at 13:20 by Derenash"
+  }
+}

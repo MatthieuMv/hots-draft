@@ -51,6 +51,7 @@ from hots_draft._version import VERSION
 from hots_draft.draft import DraftState
 from hots_draft.portraits import download_portraits
 from hots_draft.recommendations import rank_heroes, rank_picked_heroes
+from hots_draft.runtime_data import initialize_bundled_data, resource_root
 from hots_draft.scraper import (
     DEFAULT_DATA_DIR,
     atomic_write,
@@ -236,7 +237,12 @@ class DataLoader(QThread):
 
     def run(self):
         try:
-            self.ready.emit(load_heroes(ensure_data_ready(self.data_dir)))
+            snapshot = (
+                initialize_bundled_data(self.data_dir)
+                if getattr(sys, "frozen", False)
+                else ensure_data_ready(self.data_dir)
+            )
+            self.ready.emit(load_heroes(snapshot))
         except (OSError, ValueError, KeyError, TypeError, RuntimeError) as error:
             self.failed.emit(str(error))
 
@@ -307,7 +313,13 @@ class OverlayWindow(QWidget):
         super().__init__()
         self.data_dir = Path(data_dir)
         self.portrait_dir = (
-            Path(portrait_dir) if portrait_dir else self.data_dir / "portraits"
+            Path(portrait_dir)
+            if portrait_dir
+            else (
+                resource_root() / "data/portraits"
+                if getattr(sys, "frozen", False)
+                else self.data_dir / "portraits"
+            )
         )
         self.heroes, self.maps = {}, {}
         self.draft = DraftState()
@@ -316,7 +328,11 @@ class OverlayWindow(QWidget):
         self.loader = self.portrait_loader = self.talent_loader = self.update_loader = (
             None
         )
-        self.talent_icon_dir = self.data_dir / "talent-icons"
+        self.talent_icon_dir = (
+            resource_root() / "data/talent-icons"
+            if getattr(sys, "frozen", False)
+            else self.data_dir / "talent-icons"
+        )
         self.talent_pending = []
         self.talent_attempted = set()
         self.closing = self.compact = False
@@ -324,7 +340,8 @@ class OverlayWindow(QWidget):
         self.flow_configured = None
         self.recommendations = []
         self.icon_cache = {}
-        self.setWindowTitle("Nexus Draft")
+        self.setWindowTitle("HotsDraft")
+        self.setWindowIcon(QIcon(str(resource_root() / "assets/hots-draft.ico")))
         self.setAttribute(Qt.WidgetAttribute.WA_AlwaysShowToolTips, True)
         self.setWindowFlags(
             Qt.WindowType.Window
@@ -342,9 +359,9 @@ class OverlayWindow(QWidget):
         title = QHBoxLayout(self.title_bar)
         title.setContentsMargins(14, 8, 10, 8)
         logo = QLabel()
-        logo.setPixmap(symbol("logo", "#70d2df").pixmap(24, 24))
+        logo.setPixmap(self.windowIcon().pixmap(24, 24))
         title.addWidget(logo)
-        brand = QLabel("Nexus Draft")
+        brand = QLabel("HotsDraft")
         brand.setObjectName("brand")
         title.addWidget(brand)
         title.addStretch()
@@ -380,7 +397,7 @@ class OverlayWindow(QWidget):
         self.compact_portrait = QLabel()
         self.compact_portrait.setFixedSize(32, 32)
         tiny.addWidget(self.compact_portrait)
-        self.compact_text = QLabel("Nexus Draft")
+        self.compact_text = QLabel("HotsDraft")
         self.compact_text.setObjectName("brand")
         tiny.addWidget(self.compact_text, 1)
         tiny.addWidget(
@@ -812,7 +829,7 @@ class OverlayWindow(QWidget):
 
     def data_loaded(self, heroes):
         self.set_heroes(heroes)
-        if not self.closing:
+        if not self.closing and not getattr(sys, "frozen", False):
             self.portrait_loader = PortraitLoader(self.portrait_dir, set(heroes), self)
             self.portrait_loader.ready.connect(self.portrait_ready)
             self.portrait_loader.finished.connect(self.loading_finished)
@@ -1231,6 +1248,8 @@ class OverlayWindow(QWidget):
         panel.browser.setHtml(content)
 
     def request_talent_icons(self, hero_id):
+        if getattr(sys, "frozen", False):
+            return
         if hero_id in self.talent_attempted or self.closing:
             return
         self.talent_attempted.add(hero_id)
@@ -1371,9 +1390,20 @@ def main():
         "--no-update", action="store_true", help="Skip the startup release check"
     )
     parser.add_argument("--version", action="version", version=VERSION)
+    parser.add_argument(
+        "--check-bundle",
+        action="store_true",
+        help="Validate bundled data and artwork without opening the UI",
+    )
     args = parser.parse_args()
+    if args.check_bundle:
+        from hots_draft.assets import validate_assets
+
+        snapshot = initialize_bundled_data(args.data_dir)
+        validate_assets(resource_root() / "data", load_heroes(snapshot))
+        return
     app = QApplication(sys.argv[:1])
-    app.setApplicationName("Nexus Draft")
+    app.setApplicationName("HotsDraft")
     window = OverlayWindow(args.data_dir)
     window.show()
     window.start_loading()

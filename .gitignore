@@ -217,7 +217,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Nexus Draft local files
+# HotsDraft local files
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -234,7 +234,11 @@ wheels/
 .env.*
 .uv-cache/
 .uv-python/
-data/
+/data/*
+!/data/manifest.json
+!/data/snapshots/
+!/data/portraits/
+!/data/talent-icons/
 .pytest_cache/
 .ruff_cache/
 artifacts/

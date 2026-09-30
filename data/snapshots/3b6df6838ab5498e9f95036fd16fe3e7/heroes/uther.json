@@ -1,0 +1,731 @@
+{
+  "schema_version": 1,
+  "id": "uther",
+  "name": "Uther",
+  "role": "Healer",
+  "overview": "Uther is a Healer whose strongest points are his single-target burst healing and reliable crowd control, but his Mana costs are prohibitive for extended team fights and the inability to keep multiple allied Heroes healthy.",
+  "strengths": [
+    "Strong burst healing",
+    "When healing allied Heroes, provides Armor to them",
+    "Reliable crowd control",
+    "High healing output right after dying (see Devotion)"
+  ],
+  "weaknesses": [
+    "Poor sustain healing and low Mana efficiency",
+    "Weak waveclear",
+    "Lack of mobility"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      },
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "the-butcher",
+        "name": "The Butcher"
+      },
+      {
+        "id": "zuljin",
+        "name": "Zul'jin"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Uther's high instantaneous healing and reliable means of providing Armor make him particularly potent with aggressive melee Heroes that can provide their own self-sustain but may otherwise need help against burst damage. You can get even more value from Armor by pairing Uther with a sustain Healer (such as Malfurion).\n\nDivine Shield enables some of the game's most dangerous combos by allowing certain Heroes to play aggressively without fear of retaliation (for example Kerrigan). Similarly, it can be used to protect channeled Abilities (notably Mosh Pit by E.T.C.) from enemy interrupts."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "guldan",
+        "name": "Gul'dan"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "nazeebo",
+        "name": "Nazeebo"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      },
+      {
+        "id": "zagara",
+        "name": "Zagara"
+      }
+    ],
+    "explanation": "Although not particularly vulnerable to any specific Hero himself, Uther tends to struggle against sustain damage, particularly over an area of effect, as his healing is powerful, but ultimately inefficient. His sub-par waveclear can also be problematic if your team composition does not make up for this weakness somewhere else."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Thanks to his burst healing, Uther prefers Maps where it is possible to secure the Objective after winning a quick team fight (such as Infernal Shrines) and that always get to the late game when he can shine more.\n\nDue to his poor Mana efficiency and lack of area of effect healing, Uther does not perform well on Maps that involve long battles that expose his team to poke damage, especially during the early game (such as Braxis Holdout)."
+  },
+  "builds": [
+    {
+      "name": "Holy Radiance Build",
+      "label": "Recommended",
+      "description": "Uther's Holy Radiance Build is designed to help you keep allied Heroes alive when you cannot position aggressively and to punish whoever gets too close to you or allied Heroes nearby.\n\nWave of Light at Level 1 slightly increases your sustain healing as well as your Armor uptime, allowing you to better support allied Heroes with Holy Radiance while they are taking damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "uther-talent-wave-of-light",
+              "name": "Wave of Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "uther-talent-pursuit-of-justice",
+              "name": "Pursuit of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-4"
+            },
+            {
+              "id": "uther-talent-holy-fire",
+              "name": "Holy Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "uther-talent-hand-of-protection",
+              "name": "Hand of Protection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            },
+            {
+              "id": "uther-talent-guardian-of-ancient-kings",
+              "name": "Guardian of Ancient Kings",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "uther-talent-divine-shield",
+              "name": "Divine Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            },
+            {
+              "id": "uther-talent-divine-storm",
+              "name": "Divine Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "uther-talent-well-met",
+              "name": "Well Met",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-13"
+            },
+            {
+              "id": "uther-talent-blessed-champion",
+              "name": "Blessed Champion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "uther-talent-benediction",
+              "name": "Benediction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "uther-talent-redemption",
+              "name": "Redemption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-bulwark-of-light",
+              "name": "Bulwark of Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-divine-hurricane",
+              "name": "Divine Hurricane",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-divine-protection",
+              "name": "Divine Protection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/uther#55.13!2231233"
+    },
+    {
+      "name": "Hammer of Justice Build",
+      "label": "Advanced",
+      "description": "Uther's Hammer of Justice Build increases your crowd control by a considerable amount, allowing you to peel for your team during team fights.\n\nHammer of the Lightbringer at Level 1 and Well Met at Level 13 are great together as they empower each other: the Slow provided by the latter makes you Basic Attack more while the cooldown reduction given by the former makes you Stun more.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "uther-talent-hammer-of-the-lightbringer",
+              "name": "Hammer of the Lightbringer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "uther-talent-pursuit-of-justice",
+              "name": "Pursuit of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-4"
+            },
+            {
+              "id": "uther-talent-holy-fire",
+              "name": "Holy Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "uther-talent-hand-of-protection",
+              "name": "Hand of Protection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            },
+            {
+              "id": "uther-talent-guardian-of-ancient-kings",
+              "name": "Guardian of Ancient Kings",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "uther-talent-divine-shield",
+              "name": "Divine Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            },
+            {
+              "id": "uther-talent-divine-storm",
+              "name": "Divine Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "uther-talent-well-met",
+              "name": "Well Met",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "uther-talent-benediction",
+              "name": "Benediction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "uther-talent-redemption",
+              "name": "Redemption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-bulwark-of-light",
+              "name": "Bulwark of Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/uther#55.13!3231233"
+    },
+    {
+      "name": "Hybrid Build",
+      "label": "Situational",
+      "description": "Uther's Hybrid Build features various offensive and utility Talents that can be used to damage and crowd control opponents.\n\nThe combination of Holy Shock at Level 4 and Silver Touch at Level 1 is useful for dismounting enemy Heroes, especially Tanks that are trying to engage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "uther-talent-silver-touch",
+              "name": "Silver Touch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "uther-talent-holy-shock",
+              "name": "Holy Shock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "uther-talent-hand-of-protection",
+              "name": "Hand of Protection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            },
+            {
+              "id": "uther-talent-guardian-of-ancient-kings",
+              "name": "Guardian of Ancient Kings",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            },
+            {
+              "id": "uther-talent-armor-of-faith",
+              "name": "Armor of Faith",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "uther-talent-divine-shield",
+              "name": "Divine Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            },
+            {
+              "id": "uther-talent-divine-storm",
+              "name": "Divine Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "uther-talent-well-met",
+              "name": "Well Met",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "uther-talent-benediction",
+              "name": "Benediction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "uther-talent-redemption",
+              "name": "Redemption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-bulwark-of-light",
+              "name": "Bulwark of Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/uther#55.13!1131233"
+    },
+    {
+      "name": "Holy Light Build",
+      "label": "Situational",
+      "description": "Uther's Holy Light Build gives a considerable boost to your healing power and survivability in the late game in the form of sustain healing for your teammates and burst healing for yourself.\n\nThe synergy between Beacon of Light at Level 16 and Blessed Champion at Level 13 allows you to go from low to high Health with a single Holy Light cast and few Basic Attacks. Basic Attacks will also heal nearby allied Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "uther-talent-silver-touch",
+              "name": "Silver Touch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "uther-talent-holy-shock",
+              "name": "Holy Shock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "uther-talent-hand-of-protection",
+              "name": "Hand of Protection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            },
+            {
+              "id": "uther-talent-armor-of-faith",
+              "name": "Armor of Faith",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "uther-talent-divine-shield",
+              "name": "Divine Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            },
+            {
+              "id": "uther-talent-divine-storm",
+              "name": "Divine Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "uther-talent-blessed-champion",
+              "name": "Blessed Champion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "uther-talent-beacon-of-light",
+              "name": "Beacon of Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "uther-talent-redemption",
+              "name": "Redemption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-bulwark-of-light",
+              "name": "Bulwark of Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-divine-protection",
+              "name": "Divine Protection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/uther#55.13!1131113"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Uther's ARAM Build is designed to help you keep allied Heroes alive when you cannot position aggressively and to punish whoever gets too close to you or allied Heroes nearby.\n\nWave of Light at Level 1 slightly increases your sustain healing as well as your Armor uptime, allowing you to better support allied Heroes with Holy Radiance while they are taking damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "uther-talent-wave-of-light",
+              "name": "Wave of Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "uther-talent-pursuit-of-justice",
+              "name": "Pursuit of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-4"
+            },
+            {
+              "id": "uther-talent-holy-fire",
+              "name": "Holy Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "uther-talent-hand-of-protection",
+              "name": "Hand of Protection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            },
+            {
+              "id": "uther-talent-guardian-of-ancient-kings",
+              "name": "Guardian of Ancient Kings",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "uther-talent-divine-shield",
+              "name": "Divine Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            },
+            {
+              "id": "uther-talent-divine-storm",
+              "name": "Divine Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "uther-talent-well-met",
+              "name": "Well Met",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-13"
+            },
+            {
+              "id": "uther-talent-blessed-champion",
+              "name": "Blessed Champion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "uther-talent-benediction",
+              "name": "Benediction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "uther-talent-redemption",
+              "name": "Redemption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-bulwark-of-light",
+              "name": "Bulwark of Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-divine-hurricane",
+              "name": "Divine Hurricane",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            },
+            {
+              "id": "uther-talent-divine-protection",
+              "name": "Divine Protection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/uther-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/uther#55.13!2231233"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/uther-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:32.309002+00:00",
+    "updated_at": "2026-03-16T15:30:00+00:00",
+    "author_line": "Last updated on Mar 16, 2026 at 15:30 by Elitesparkle"
+  }
+}

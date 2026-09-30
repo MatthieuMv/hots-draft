@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "id": "kharazim",
+  "name": "Kharazim",
+  "role": "Healer",
+  "overview": "Kharazim is a hybrid character who fits into the role of both a melee Assassin and a Healer. He combines deadly Basic Attacks with great mobility in order to either damage his foes or assist his allies. There is hardly any other Hero in the game that compares to Kharazim's dynamic playstyle. It is important to mention, however, that he does require strong mechanics and a lot of experience in order to unfold his true potential, which is why we consider Kharazim to be one of the harder Heroes to truly master..",
+  "strengths": [
+    "Great utility",
+    "Very mobile",
+    "Can be played as either Healer or melee Assassin",
+    "High damage against single targets",
+    "2 viable Heroic Abilities",
+    "Great chase potential",
+    "Has one of the best cleanses in the game",
+    "Good against Heroes reliant on Basic Attacks, due to Earth Ally"
+  ],
+  "weaknesses": [
+    "Weak against blinds",
+    "Healing power is very dependent on Talents",
+    "No crowd control",
+    "Fairly high learning curve",
+    "Both Heroic Abilities require experience to be properly used"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      }
+    ],
+    "explanation": ""
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": ""
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Kharazim is a solid pick on most maps with Braxis Holdout and Tomb of the Spider Queen being the two major exceptions. The most important reason why we do not recommend Kharazim on those maps is his utter lack of waveclear. On Battlefield of Eternity, however, his strong single-target damage and the ability to heal without using a lot of Mana make him a valuable asset to his team composition.\n\nKharazim excels at speeding up Mercenaries. Maps like Sky Temple, Dragon Shire, or Hanamura Temple are also good options for him, since Mercenaries are excellent on those maps."
+  },
+  "builds": [
+    {
+      "name": "Radiant Dash Build",
+      "label": "Recommended",
+      "description": "Kharazim's Radiant Dash Build relies on both outstanding mobility and good gameplay. While Talents like Cleansing Touch or Way of the Hundred Fists are hard to use correctly, they will be good in every match when used properly. At Level 13, Quicksilver is the default Talent, but it is important to carefully analyze the enemy team composition's main sources of damage. If they have strong Basic Attackers and crowd control effects, Sixth Sense gains a lot of value. However, if most of their damage comes from Abilities, Spell Shield can be a worthy replacement.\n\nWay of the Hundred Fists will be a good Talent in every game. However, if you are used to Kharazim, we recommend going for Cleansing Touch instead. It is one of the best cleanse effects in the whole game, since it can be used multiple times on multiple allies. Even if the enemy team does not have Stuns or Roots, it can be very useful together with Quicksilver, because you will be able to use it on your Tank to enhance their engage. An Unstoppable Garrosh with 30% extra Movement Speed is very dangerous, for example.\n\nEpiphany can be a good option at Level 20, it allows him to instantly restore Mana and two of his Radiant Dash charges at once. Still, other Talents at this tier are very relevant as well. We want to highlight that going for the Radiant Dash Build even when being the solo Healer in your team is doable due to the fact that you still put out enough healing while also providing a surprising amount of kill potential.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kharazim-talent-iron-fists",
+              "name": "Iron Fists",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kharazim-talent-earth-ally",
+              "name": "Earth Ally",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-4"
+            },
+            {
+              "id": "kharazim-talent-spirit-ally",
+              "name": "Spirit Ally",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kharazim-talent-blinding-speed",
+              "name": "Blinding Speed",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kharazim-talent-seven-sided-strike",
+              "name": "Seven-Sided Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-10"
+            },
+            {
+              "id": "kharazim-talent-divine-palm",
+              "name": "Divine Palm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kharazim-talent-quicksilver",
+              "name": "Quicksilver",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-13"
+            },
+            {
+              "id": "kharazim-talent-sixth-sense",
+              "name": "Sixth Sense",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-13"
+            },
+            {
+              "id": "kharazim-talent-spell-shield",
+              "name": "Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kharazim-talent-way-of-the-hundred-fists",
+              "name": "Way of the Hundred Fists",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-16"
+            },
+            {
+              "id": "kharazim-talent-cleansing-touch",
+              "name": "Cleansing Touch",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kharazim-talent-epiphany",
+              "name": "Epiphany",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-20"
+            },
+            {
+              "id": "kharazim-talent-storm-shield",
+              "name": "Storm Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-20"
+            },
+            {
+              "id": "kharazim-talent-transgression",
+              "name": "Transgression",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-20"
+            },
+            {
+              "id": "kharazim-talent-peaceful-repose",
+              "name": "Peaceful Repose",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kharazim#54.2!2212125"
+    },
+    {
+      "name": "Breath of Heaven Build",
+      "label": "Beginner",
+      "description": "Kharazim's Breath of Heaven Build is an easier build to use than the Radiant Dash one, we recommend it for new players using Kharazim as main Healer. Even though this is a healing build, we do not recommend Transcendence, because it only provides a heal that cannot be aimed, has small range, and is mostly unnecessary. Iron Fists will greatly increase all your damage, and in many situations it will be the difference between killing your target or not. It will also be a much better Talent when it comes to releasing Mercenaries or clearing them.\n\nThere are a few situational Talents available, which depend on what the enemy team's composition consists of. At Level 4, Earth Ally can be replaced by Air Ally if the enemy team does not have any Basic Attackers. At Level 13 Sixth Sense gains a lot of value against Basic Attackers and crowd control and is usually a safe bet in most games. If most of the damage comes from Abilities, Spell Shield can be a worthy replacement. Finally, at Level 20, Storm Shield is a good Talent against area of effect damage and can generally be picked instead of Peaceful Repose or Transgression.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kharazim-talent-iron-fists",
+              "name": "Iron Fists",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kharazim-talent-earth-ally",
+              "name": "Earth Ally",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-4"
+            },
+            {
+              "id": "kharazim-talent-air-ally",
+              "name": "Air Ally",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-4"
+            },
+            {
+              "id": "kharazim-talent-spirit-ally",
+              "name": "Spirit Ally",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kharazim-talent-heavenly-zeal",
+              "name": "Heavenly Zeal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kharazim-talent-seven-sided-strike",
+              "name": "Seven-Sided Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-10"
+            },
+            {
+              "id": "kharazim-talent-divine-palm",
+              "name": "Divine Palm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kharazim-talent-sixth-sense",
+              "name": "Sixth Sense",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-13"
+            },
+            {
+              "id": "kharazim-talent-spell-shield",
+              "name": "Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kharazim-talent-echo-of-heaven",
+              "name": "Echo of Heaven",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kharazim-talent-storm-shield",
+              "name": "Storm Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-20"
+            },
+            {
+              "id": "kharazim-talent-peaceful-repose",
+              "name": "Peaceful Repose",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-20"
+            },
+            {
+              "id": "kharazim-talent-transgression",
+              "name": "Transgression",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kharazim-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kharazim#54.2!2222334"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/kharazim-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:17.390457+00:00",
+    "updated_at": "2025-05-03T06:40:00+00:00",
+    "author_line": "Last updated on May 03, 2025 at 06:40 by Derenash"
+  }
+}

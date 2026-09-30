@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "id": "tassadar",
+  "name": "Tassadar",
+  "role": "Ranged Assassin",
+  "overview": "Tassadar is a Ranged Assassin with good damage output from high range. All his abilities deal AoE damage, being an excellent Hero if enemies tend to stay close together. Force Wall is an interesting ability. If used well, it can be very impactful, but without proper care, it can even harm your team. Even though Tassadar can get some Talents that improve his survivability, he is a squishy and immobile Hero. Without proper positioning, Tassadar will be an easy target for any tank or Melee Assassin.",
+  "strengths": [
+    "Psionic Storm and Shock Ray are great waveclear tools",
+    "Heavy AoE damage",
+    "High poke range",
+    "Can help to get pickoffs with Shock Ray's slow and Force Wall",
+    "Has great zoning potential, being good in small choke points"
+  ],
+  "weaknesses": [
+    "Is very squishy, and can be easily killed or ganked",
+    "Weak against high mobility Heroes, since all his Abilities can be easily dodged.",
+    "No mobility outside of specific Talents",
+    "Force Wall is hard to use and has a high Mana cost.",
+    "Weak against crowd control, including Knockbacks, since those will cancel Shock Ray."
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "Tassadar relies on hitting Shock Ray, so he excels with E.T.C. or Johanna, Heroes with powerful crowd controls, that can easily setup enemies for his Abilities. Tassadar also has a hard time finishing enemies, so Assassins with high mobility can be used with him in order to kill the low-Health targets."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      }
+    ],
+    "explanation": "Tassadar is countered by highly mobile Heroes who can easily dive or stun him. His lack of mobility and low health pool turns him into an easy target for mobile Heroes, being very dependent of allies to peel him against those."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Tassadar's insane AoE damage makes him exceptional on maps where waveclear is necessary, or on maps with many choke points. However, he will not be able to fight in maps where objective forces him to fight outside the wave, because he will be easily dived when there are no safe spots nearby."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "Tassadar's Standard Build is an excellent approach for every game, as it provides tassadar with a good mix of burst damage, resistance and sustain damage.\n\nAt Levels 4 and 13, there are several Talents that improve your safety. Induction's extra Movement Speed is excellent against Compositions with several skillshots. However, Plasma Shield is better against poke Heroes or against enemies that will chase you no matter how fast you move, like Zeratul or Genji. At Level 13, while Shadow Walk is excellent against divers, Oracle gives you a very good resistance against Spell Damage. Furthermore, Tassadar does not need all this safety in every game. Sometimes it will be better to get Electric Fence and Feedback instead, to increase your damage and crowd control.\n\nAt Level 7, Arc Discharge is a good option, since it will greatly increase Basic Attack range, enhancing Archon and providing good damage from Psionic Storm. However, the other Talents are also very effective. Psionic Echo adds a good burst damage, which is useful to follow up your Tank, but it does not enhance his DPS as much as Beam Alignment does. We always recommend going for Twilight Archon here, because this build is very dependent on Archon's Basic Attacks and having Beam Alignment charged.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tassadar-talent-static-charge",
+              "name": "Static Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tassadar-talent-plasma-shield",
+              "name": "Plasma Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-4"
+            },
+            {
+              "id": "tassadar-talent-induction",
+              "name": "Induction",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-4"
+            },
+            {
+              "id": "tassadar-talent-electric-fence",
+              "name": "Electric Fence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tassadar-talent-arc-discharge",
+              "name": "Arc Discharge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-7"
+            },
+            {
+              "id": "tassadar-talent-beam-alignment",
+              "name": "Beam Alignment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-7"
+            },
+            {
+              "id": "tassadar-talent-psionic-echo",
+              "name": "Psionic Echo",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tassadar-talent-archon",
+              "name": "Archon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tassadar-talent-oracle",
+              "name": "Oracle",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-13"
+            },
+            {
+              "id": "tassadar-talent-feedback",
+              "name": "Feedback",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-13"
+            },
+            {
+              "id": "tassadar-talent-shadow-walk",
+              "name": "Shadow Walk",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tassadar-talent-psychic-shock",
+              "name": "Psychic Shock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-16"
+            },
+            {
+              "id": "tassadar-talent-executors-will",
+              "name": "Executor's Will",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-16"
+            },
+            {
+              "id": "tassadar-talent-thermal-lance",
+              "name": "Thermal Lance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tassadar-talent-twilight-archon",
+              "name": "Twilight Archon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tassadar#50.0!1331321"
+    },
+    {
+      "name": "Psionic Storm Build",
+      "label": "Situational",
+      "description": "Tassadar's Psionic Storm Build allows Tassadar to be poking enemies from a long and safe range. It may not have the same damage capabilities as a Shock Ray Build, but due to the long range of all Abilities, it is a great choice if you are concerned about enemies easily reaching you. This build's playstyle is focused on using Psionic Storm from a long range, to then use Shock Ray in the direction the enemy is moving, so that in the moment they leave Psionic Storm area, Psionic Echo will spawn another one, being a great poke and harass tool.\n\nPsi-Infusion does not increase Tassadar's damage, but it enables him to be constantly poking enemies with the combo described above while also giving him good Mana sustain. However, it is not necessary if the enemy team's composition do not feature any high range Hero, and we recommend getting Static Charge in that situation. The main power spike from this Build comes with Psionic Echo, which greatly increases your damage output.\n\nAll the Talents at Level 13 can be good; Shadow Walk can save Tassadar from divers, Oracle gives him a very good resistance against Spell Damage, and Feedback will be outstanding during Archon, being a good pick if you do not need the extra survivability from the other 2 Talents.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tassadar-talent-psi-infusion",
+              "name": "Psi-Infusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-1"
+            },
+            {
+              "id": "tassadar-talent-static-charge",
+              "name": "Static Charge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tassadar-talent-electric-fence",
+              "name": "Electric Fence",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tassadar-talent-psionic-echo",
+              "name": "Psionic Echo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tassadar-talent-archon",
+              "name": "Archon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-10"
+            },
+            {
+              "id": "tassadar-talent-black-hole",
+              "name": "Black Hole",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tassadar-talent-shadow-walk",
+              "name": "Shadow Walk",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-13"
+            },
+            {
+              "id": "tassadar-talent-oracle",
+              "name": "Oracle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-13"
+            },
+            {
+              "id": "tassadar-talent-feedback",
+              "name": "Feedback",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tassadar-talent-psychic-shock",
+              "name": "Psychic Shock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tassadar-talent-force-barrier",
+              "name": "Force Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-20"
+            },
+            {
+              "id": "tassadar-talent-twilight-archon",
+              "name": "Twilight Archon",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-20"
+            },
+            {
+              "id": "tassadar-talent-kugelblitz",
+              "name": "Kugelblitz",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tassadar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tassadar#50.0!2221223"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/tassadar-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:24.258543+00:00",
+    "updated_at": "2025-09-01T01:30:00+00:00",
+    "author_line": "Last updated on Sep 01, 2025 at 01:30 by Derenash"
+  }
+}

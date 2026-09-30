@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "id": "the-lost-vikings",
+  "name": "The Lost Vikings",
+  "role": "Support",
+  "overview": "The Lost Vikings, also commonly referred to as TLV, are an assembly of three individual characters that compose a rather unique support. TLV's primary strength is their ability to split up and generate meaningful impact on the battlefield throughout multiple locations. This impact primarily consists of soaking experience from minion deaths in multiple lanes simultaneously creating potential for a massive team level advantage. The Vikings are also capable of applying enormous amounts of lane pressure by means of isolated wave clear and constant control of key mercenary camps while the enemy may be distracted with different objectives or rotations. Managing three individual characters with relatively small health pools and lack of escape does provide TLV players a challenging high-risk high-reward play style. When these little guys are utilized effectively they tend to be not only a frustrating annoyance for your opponent, but ultimately prove themselves worthy of being considered a massive threat.",
+  "strengths": [
+    "Large experience gains through soaking multiple lanes",
+    "Forces opponents into trading lane presence, minion experience, and structures for objectives due to Vikings multiple lane pressure",
+    "Baleog's splash damage based auto-attacks provide good waveclear",
+    "Excellent at clearing and maintaining control of Mercenary Camps, especially upon choosing the Viking Bribery at Level 1",
+    "Erik can easily harass enemies trying to channel an objective"
+  ],
+  "weaknesses": [
+    "Relatively difficult to play with a very steep learning curve",
+    "Each Viking has an especially low health pool, allowing them to be easily picked off",
+    "Very susceptible to ganks, particularly when overextending to pressure a lane",
+    "Requires constant map awareness, and a very thorough understanding of each battleground and its particular objective mechanics",
+    "Incredibly dependent on team communication",
+    "Can be easily counter-picked by heroes that deal large amounts of single target damage such as Zeratul or Falstad",
+    "Very weak early game while your opponents are still in lane. Usually the case until an important battleground objective requires contesting"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "zarya",
+        "name": "Zarya"
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      }
+    ],
+    "explanation": "The Lost Vikings do not need allies to help them to do their job (getting all the possible experience and Mercenaries). It will be better to draft Heroes with great pushing potential, or that have excellent lane presence to easily push as 4, while Vikings handle all the soak."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "zagara",
+        "name": "Zagara"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "nova",
+        "name": "Nova"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      },
+      {
+        "id": "dehaka",
+        "name": "Dehaka"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      }
+    ],
+    "explanation": "The Lost Vikings are countered by 3 kinds of Heroes:\n\nThey are also countered by Heroes with reset mechanics, like Genji or Li-Ming."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "As The Lost Vikings work best as split pushers, they have a hard time on two-lane maps. The Lost Vikings are especially effective on three-lane maps that provide numerous objectives at once, such as Sky Temple or Towers of Doom."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "Standard Build should be the option to go for in most matches. It not only improves Vikings' split-push, but is also decent in teamfights. Erik the Swift and Large and In Charge will enable constant harass by Erik, while giving a good crowd control to Olaf, which is much needed.\n\nOlaf the Stout is the standard choice on its tier, but Viking Bribery can be good in maps with good Siege Mercenary Camps, like in Cursed Hollow or Garden of Terror.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "the-lost-vikings-talent-olaf-the-stout",
+              "name": "Olaf the Stout",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-1"
+            },
+            {
+              "id": "the-lost-vikings-talent-viking-bribery",
+              "name": "Viking Bribery",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "the-lost-vikings-talent-erik-the-swift",
+              "name": "Erik the Swift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-4"
+            },
+            {
+              "id": "the-lost-vikings-talent-mercenary-lord",
+              "name": "Mercenary Lord",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "the-lost-vikings-talent-spin-to-win",
+              "name": "Spin To Win!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "the-lost-vikings-talent-play-again",
+              "name": "Play Again!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "the-lost-vikings-talent-jump",
+              "name": "Jump!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-13"
+            },
+            {
+              "id": "the-lost-vikings-talent-nordic-attack-squad",
+              "name": "Nordic Attack Squad",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "the-lost-vikings-talent-large-and-in-charge",
+              "name": "Large and In Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "the-lost-vikings-talent-fury-of-the-storm",
+              "name": "Fury of the Storm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/the-lost-vikings-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/the-lost-vikings#55.13!1222214"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/the-lost-vikings-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:26.172005+00:00",
+    "updated_at": "2021-06-04T20:20:00+00:00",
+    "author_line": "Last updated on Jun 04, 2021 at 20:20 by Derenash"
+  }
+}

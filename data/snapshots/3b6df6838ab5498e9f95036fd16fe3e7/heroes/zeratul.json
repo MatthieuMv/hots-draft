@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "id": "zeratul",
+  "name": "Zeratul",
+  "role": "Melee Assassin",
+  "overview": "Zeratul is a mobile Melee Assassin. Teleporting in and out of fights, he is able to deal massive amounts of burst damage to high-priority backline Heroes unpunished, or temporarily remove them from the fight or set up large combos with Void Prison. Zeratul is permanently Stealthed, allowing him to stalk his targets whilst unseen.",
+  "strengths": [
+    "High burst damage",
+    "Stealthed when out of combat",
+    "Void Prison can temporarily take multiple Heroes out of a fight; it can allow your allies to combo the affected enemy Heroes",
+    "Excellent ganker",
+    "Very mobile with Blink and Vorpal Blade",
+    "Multiple builds to adapt to each situation",
+    "Unlimited skill ceiling"
+  ],
+  "weaknesses": [
+    "Vulnerable to targeted crowd control, like polymorphs",
+    "Low base Health for a Melee Assassin",
+    "High skill floor",
+    "Weak early game"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "abathur",
+        "name": "Abathur"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "kharazim",
+        "name": "Kharazim"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "junkrat",
+        "name": "Junkrat"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      }
+    ],
+    "explanation": "Zeratul's mobility and burst damage makes him prefer allies that can follow his dives. Otherwise, he works well with Heroes that have strong Heroic Abilities that require some form of setup, thanks to Void Prison."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      }
+    ],
+    "explanation": "Zeratul tends to struggle against Heroes with targeted crowd control effects, as they prevent him from exploiting Blink and generally remaining safe due to his limited Health pool."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Zeratul is at his best when there are plenty of opportunities to roam and gank. Maps that split the attention of the opposing team with multiple Objective spawns or reasons to rotate give him such opportunities. Conversely, Maps with an emphasis on grouping up, laning and waveclearing suit him poorly.\n\nZeratul is very dependent on his Level 16 Talents, and therefore, does not do well on snowball maps, like Tomb of the Spider Queen or Braxis Holdout."
+  },
+  "builds": [
+    {
+      "name": "Basic Attacks Build",
+      "label": "Recommended",
+      "description": "This build provides superior mobility, sustain damage, and self-healing at the cost of being vulnerable to crowd control. As key Talents, Wormhole and Shadow Hunter provide extra mobility through diverse Blink in the fight. It has extraordinary dueling potential. With Master Warp-Blade, you will be able to kill a desired target in seconds, while also healing yourself.\n\nDespite all the bonuses provided by Wormhole, it has one major weakness, that is not being able to blink back for 1.25 seconds. Experienced players will use targeted or area of effect Abilities to control you in this window. For this reason, we do not recommend this build against this kind of Abilities, like Warlord's Challenge, Twilight Dream, or Polymorph.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zeratul-talent-shadow-hunter",
+              "name": "Shadow Hunter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zeratul-talent-psionic-strength",
+              "name": "Psionic Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zeratul-talent-wormhole",
+              "name": "Wormhole",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zeratul-talent-might-of-the-nerazim",
+              "name": "Might Of The Nerazim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zeratul-talent-mending-strikes",
+              "name": "Mending Strikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zeratul-talent-master-warp-blade",
+              "name": "Master Warp-Blade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zeratul-talent-shadow-stride",
+              "name": "Shadow Stride",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zeratul#50.2!2211213"
+    },
+    {
+      "name": "Void Prison Build",
+      "label": "Beginner",
+      "description": "This Build provides superior crowd control at the cost of damage. Since it is focused on Cleave, Zeratul can just dish out his damage and blink out safely. Therefore, Void Prison Build is a good choice against crowd control-heavy compositions.\n\nVoid Prison has numerous different applications, but it requires decent micro and good decision-making skills to be used properly. Void Prison enables Zeratul to control everything that happens on the map and in fights. Considering its macro properties, it can be used in 2 main ways:\n\nWhen it comes to a running fight, Void Prison can also be used effectively in several ways:\n\nThose are the main approaches to get value from Void Prison in this build. However, due to how flexible this Heroic Ability is, it can be used in other countless ways. For further information, check out the Abilities page.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zeratul-talent-greater-cleave",
+              "name": "Greater Cleave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zeratul-talent-rending-cleave",
+              "name": "Rending Cleave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zeratul-talent-wormhole",
+              "name": "Wormhole",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-7"
+            },
+            {
+              "id": "zeratul-talent-seeker-in-the-dark",
+              "name": "Seeker in the Dark",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zeratul-talent-void-prison",
+              "name": "Void Prison",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zeratul-talent-shroud-of-adun",
+              "name": "Shroud of Adun",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-13"
+            },
+            {
+              "id": "zeratul-talent-mending-strikes",
+              "name": "Mending Strikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-13"
+            },
+            {
+              "id": "zeratul-talent-spell-shield",
+              "name": "Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zeratul-talent-void-slash",
+              "name": "Void Slash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zeratul-talent-shadow-mending",
+              "name": "Shadow Mending",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zeratul#50.2!1112124"
+    },
+    {
+      "name": "Death Sentence Build",
+      "label": "Situational",
+      "description": "This Build provides the highest single target burst damage achievable by Zeratul. It is excellent for killing squishy Heroes, but also good to follow a Tank's engages.\n\nEach one of the 3 Talents at Level 1 excels at one particular area, and should be chosen according to your playstyle:\n\nAfter level 7, Seeker in the Dark enables a more aggressive playstyle in fights by granting an extra blink to engage. At Level 20, through a second use of all Abilities, Twilight Falls adds enough damage to kill a Healer or Assassin before they can react.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zeratul-talent-move-unseen",
+              "name": "Move Unseen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-1"
+            },
+            {
+              "id": "zeratul-talent-shadow-hunter",
+              "name": "Shadow Hunter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-1"
+            },
+            {
+              "id": "zeratul-talent-greater-cleave",
+              "name": "Greater Cleave",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zeratul-talent-psionic-strength",
+              "name": "Psionic Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zeratul-talent-seeker-in-the-dark",
+              "name": "Seeker in the Dark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zeratul-talent-might-of-the-nerazim",
+              "name": "Might Of The Nerazim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zeratul-talent-mending-strikes",
+              "name": "Mending Strikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-13"
+            },
+            {
+              "id": "zeratul-talent-shroud-of-adun",
+              "name": "Shroud of Adun",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zeratul-talent-sentenced-to-death",
+              "name": "Sentenced to Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zeratul-talent-twilight-falls",
+              "name": "Twilight Falls",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zeratul#50.2!3221231"
+    },
+    {
+      "name": "Cleave Build",
+      "label": "Situational",
+      "description": "Zeratul's Cleave Build has a great potential to win fights through high area of effect damage. Besides that, it also has good single-target damage from Psionic Strength and Might Of The Nerazim. We recommend getting this build if you cannot easily burst a squishy target, and would rather have a better teamfight by dealing more damage through Cleave resets.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zeratul-talent-greater-cleave",
+              "name": "Greater Cleave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zeratul-talent-psionic-strength",
+              "name": "Psionic Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zeratul-talent-seeker-in-the-dark",
+              "name": "Seeker in the Dark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-7"
+            },
+            {
+              "id": "zeratul-talent-wormhole",
+              "name": "Wormhole",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zeratul-talent-might-of-the-nerazim",
+              "name": "Might Of The Nerazim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zeratul-talent-mending-strikes",
+              "name": "Mending Strikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zeratul-talent-void-slash",
+              "name": "Void Slash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zeratul-talent-twilight-falls",
+              "name": "Twilight Falls",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zeratul#50.2!1221221"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Zeratul's ARAM Build focuses on dealing the most area of effect burst damage. However, if the opposing team has too much crowd control to deal with you, you can pick Rending Cleave at Level 4, Void Prison at Level 10, and Shadow Mending at Level 20 to increase your effectiveness while taking fewer risks in the teamfights.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zeratul-talent-greater-cleave",
+              "name": "Greater Cleave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zeratul-talent-psionic-strength",
+              "name": "Psionic Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-4"
+            },
+            {
+              "id": "zeratul-talent-rending-cleave",
+              "name": "Rending Cleave",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zeratul-talent-wormhole",
+              "name": "Wormhole",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-7"
+            },
+            {
+              "id": "zeratul-talent-seeker-in-the-dark",
+              "name": "Seeker in the Dark",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zeratul-talent-might-of-the-nerazim",
+              "name": "Might Of The Nerazim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-10"
+            },
+            {
+              "id": "zeratul-talent-void-prison",
+              "name": "Void Prison",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zeratul-talent-mending-strikes",
+              "name": "Mending Strikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zeratul-talent-void-slash",
+              "name": "Void Slash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zeratul-talent-twilight-falls",
+              "name": "Twilight Falls",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zeratul-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zeratul#50.2!1211221"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/zeratul-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:42.344130+00:00",
+    "updated_at": "2026-03-11T14:00:00+00:00",
+    "author_line": "Last updated on Mar 11, 2026 at 14:00 by Derenash"
+  }
+}

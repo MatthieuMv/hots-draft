@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "id": "xul",
+  "name": "Xul",
+  "role": "Bruiser",
+  "overview": "Xul is a high damage Bruiser that abuses his strong AoE damage from his abilities to quickly clear any minion wave, which then allows him to create many Skeletal Warriors thanks to Raise Skeleton, letting him become a major threat to towers and, by extension, making the wave much harder to clear. Xul also excels against melee compositions, given he can easily land Cursed Strikes into many targets, reducing their attack speed and making him really hard to deal without crowd control.",
+  "strengths": [
+    "Exceptional waveclear",
+    "Excellent AoE damage",
+    "Decent self-sustain thanks to Bone Armor and Harvest Vitality",
+    "Mortal Wound counters healing abilities",
+    "Good crowd control for team to follow up thanks to Bone Prison",
+    "Able to apply lots of debuffs on attack speed, damage, healing and armor"
+  ],
+  "weaknesses": [
+    "Very susceptible to crowd control",
+    "Weak against compositions featuring many ranged or poke-centric heroes",
+    "Really hard to play when facing counters",
+    "Susceptible to gank attempts",
+    "Requires good positioning"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "tyrande",
+        "name": "Tyrande"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      }
+    ],
+    "explanation": "Xul sinergizes very well with Heroes that are able to protect him while he receives burst damage or crowd control like Medivh. He also excels with good follow up for Bone Prison, like Tyrande with Lunar Flare, Falstad with Hinterland Blast or Li-Ming with all her Abilities."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      }
+    ],
+    "explanation": "Due to not having mobility, Xul suffers a lot from displacement effects or crowd control in general, making Heroes such as E.T.C. huge threats, while Johanna is able to Blind him during Cursed Strikes, reducing his effectiveness. Xul also struggles against Heroes with long range or with high burst damage that allows them to follow up the crowd control, like Jaina and Sgt. Hammer."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Xul shines in maps with nearby lanes, as he will be able to easily abuse his waveclear and Skeletal Warriors, making him excellent on Blackheart's Bay, Tomb of the Spider Queen, and Infernal Shrines. He will also be decent on big maps where the Objective will be very time consuming, allowing him to get a great experience lead through split-pushing, like in Sky Temple, Garden of Terror, or Cursed Hollow. However, Xul does not perform as well in 2-lane maps, given he cannot abuse his fast waveclear to spawn skeletons and go to another lane, which he normally would in a bigger map."
+  },
+  "builds": [
+    {
+      "name": "Scythe Build",
+      "label": "Recommended",
+      "description": "The Scythe Build offers plenty of AoE damage thanks to the additional Scythes offered by Echoes of Death at Level 13. Due to Mortal Wound at Level 20, this build becomes particularly powerful against double Healer composition who rely on a lot of healing. Unfortunately The Scythe Build is very dependent on Decrepify, which comes a bit too late and might not be a good choice if your team is looking for early-game fights.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "xul-talent-backlash",
+              "name": "Backlash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-1"
+            },
+            {
+              "id": "xul-talent-shade",
+              "name": "Shade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "xul-talent-jailors",
+              "name": "Jailors",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "xul-talent-wall-of-bones",
+              "name": "Wall Of Bones",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-7"
+            },
+            {
+              "id": "xul-talent-trag-ouls-essence",
+              "name": "Trag'Oul's Essence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-7"
+            },
+            {
+              "id": "xul-talent-harvest-vitality",
+              "name": "Harvest Vitality",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "xul-talent-skeletal-mages",
+              "name": "Skeletal Mages",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-10"
+            },
+            {
+              "id": "xul-talent-poison-nova",
+              "name": "Poison Nova",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "xul-talent-echoes-of-death",
+              "name": "Echoes of Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "xul-talent-decrepify",
+              "name": "Decrepify",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "xul-talent-mortal-wound",
+              "name": "Mortal Wound",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-20"
+            },
+            {
+              "id": "xul-talent-andariels-visage",
+              "name": "Andariel's Visage",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/xul#49.4!1332113"
+    },
+    {
+      "name": "Cursed Strikes Build",
+      "label": "Situational",
+      "description": "Xul's Cursed Strikes Build gives Xul much survivability thanks to Harvest Vitality's sustain, while Weaken provides considerable resistance by reducing enemy damage dealt. Since this build requires you to be constantly hitting many enemies with Cursed Strikes, it excels against melee-heavy compositions with little crowd control. This build is the most effective at capturing or clearing Mercenaries, considering Xul will have Cursed Strikes up nearly all the time, with very high Attack Speed.\n\nBacklash can be replaced with Shade when facing many Basic Attacks-reliant Heroes, like Raynor or Illidan. Both Poison Nova and Skeletal Mages are useful, though it is recommended to go with Poison Nova when facing many melee Heroes. Skeletal Mages will perform well when you need some kind of crowd control to reach the targets you are looking for.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "xul-talent-backlash",
+              "name": "Backlash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-1"
+            },
+            {
+              "id": "xul-talent-shade",
+              "name": "Shade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "xul-talent-grim-scythe",
+              "name": "Grim Scythe",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "xul-talent-harvest-vitality",
+              "name": "Harvest Vitality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "xul-talent-poison-nova",
+              "name": "Poison Nova",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-10"
+            },
+            {
+              "id": "xul-talent-skeletal-mages",
+              "name": "Skeletal Mages",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "xul-talent-rapid-harvest",
+              "name": "Rapid Harvest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "xul-talent-weaken",
+              "name": "Weaken",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "xul-talent-andariels-visage",
+              "name": "Andariel's Visage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-20"
+            },
+            {
+              "id": "xul-talent-mortal-wound",
+              "name": "Mortal Wound",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/xul#49.4!1211221"
+    },
+    {
+      "name": "Bone Prison Build",
+      "label": "Situational",
+      "description": "Xul's Bone Prison Build has much more burst than the other options. It is a great choice if the opposing team has lots of crowd control, ranged Heroes, or burst damage, since you will not be able to get much value out of Cursed Strikes.\n\nBacklash can be replaced with Shade when facing many Basic Attack-reliant Heroes, like Raynor, Illidan, or Greymane.\n\nIf you are having trouble facing the opposing laner, we recommend changing both the Level 4 and 7 Talents into Grim Scythe and Harvest Vitality respectively, since they will give you much more self-sustain while clearing waves, without crippling your burst capabilities.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "xul-talent-backlash",
+              "name": "Backlash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-1"
+            },
+            {
+              "id": "xul-talent-shade",
+              "name": "Shade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "xul-talent-jailors",
+              "name": "Jailors",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-4"
+            },
+            {
+              "id": "xul-talent-grim-scythe",
+              "name": "Grim Scythe",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "xul-talent-wall-of-bones",
+              "name": "Wall Of Bones",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-7"
+            },
+            {
+              "id": "xul-talent-harvest-vitality",
+              "name": "Harvest Vitality",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "xul-talent-skeletal-mages",
+              "name": "Skeletal Mages",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "xul-talent-amplify-damage",
+              "name": "Amplify Damage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "xul-talent-bone-spear",
+              "name": "Bone Spear",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "xul-talent-mortal-wound",
+              "name": "Mortal Wound",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xul-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/xul#49.4!1332333"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/xul-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:38.284851+00:00",
+    "updated_at": "2021-04-16T02:30:00+00:00",
+    "author_line": "Last updated on Apr 16, 2021 at 02:30 by Derenash"
+  }
+}

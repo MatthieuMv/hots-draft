@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "id": "kaelthas",
+  "name": "Kael'thas",
+  "role": "Ranged Assassin",
+  "overview": "Kael'thas is a Ranged Assassin, with an exceptional overall damage potential. All of his abilities deal AoE damage, severely punishing enemy teams that stand close together. However, Kael'thas is the definition of \"glass-cannon\"; his low maximum health and total lack of mobility leave him completely exposed to enemy assassins and bruisers.\n\nKael'thas' Trait mechanic, Verdant Spheres, allows him to improve the effectiveness of one Basic Ability at a time. It is important for players to decide which ability should be empowered and when, as every situation is incredibly different and will need to be approached accordingly. Try to not waste Verdant Spheres on an ability simply because it was available, as Kael'thas may immediately find himself in a dire situation without it.",
+  "strengths": [
+    "Very high single and area damage with appropriate talents",
+    "All of his abilities have an AoE component",
+    "Gravity Lapse provides crowd control",
+    "Excellent waveclear",
+    "Phoenix is an exceptional zoning tool",
+    "Effective gank during the early game"
+  ],
+  "weaknesses": [
+    "Has extremely low mobility and survivability",
+    "Requires close attention to positioning",
+    "Completely Mana dependant",
+    "Has difficulty self-peeling enemy Heroes; consistantly requires allies' assistance"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Kael'thas requires allies who are going to be able to provide him good peel and healing when he is targeted in team fights. A solid frontline with ample crowd-control will help keep enemies at bay, while Healers who can provide a source of Health or damage mitigation can keep him from being immediately picked off."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      }
+    ],
+    "explanation": "Kael'thas is countered by highly mobile assassins who are able to dive him behind the allied frontline. He will need to rely heavily on the assistance of his team to survive once engaged on by means of peel or damage mitigation abilities."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Kael'thas' high AoE and team fight damage cause him to be an incredibly effective pick on smaller maps where fights and skirmishes break out often. His strong waveclear also makes him a valuable pick on maps where quickly killing large amounts of low health targets is vital, such as on Tomb of the Spider Queen, Braxis Holdout, and Infernal Shrines. Kael'thas also favors maps with many narrow pathways and chokepoints. These passages force enemies close to one another and susceptible to Kael'thas' team-wide damage. Try to steer clear of large Battlegrounds with multiple objective locations as this may allow Kael'thas to be isolated and picked off while his team is split-up accross the map."
+  },
+  "builds": [
+    {
+      "name": "Standard Flamestrike Build",
+      "label": "Recommended",
+      "description": "The Standard Flamestrike Build focuses on bolstering the damage output and utility of Flamestrike, providing Kael'thas with an even stronger kit and higher teamfight presence. It is important for Kael'thas to try to complete the quest portion of Mana Addict as early as possible, as the reward will grant a massive shield that can be used defensively to help Kael'thas survive teamfights. Every talent synergizes with eachother in this build which is what makes it so great. Empowering Flamestrike with Verdant Spheres is crucial to make it easier to hit enemy heroes, making great use of either Ignite or Fury of the Sunwell.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kaelthas-talent-mana-addict",
+              "name": "Mana Addict",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kaelthas-talent-nether-wind",
+              "name": "Nether Wind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-4"
+            },
+            {
+              "id": "kaelthas-talent-energy-roil",
+              "name": "Energy Roil",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kaelthas-talent-burned-flesh",
+              "name": "Burned Flesh",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kaelthas-talent-phoenix",
+              "name": "Phoenix",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kaelthas-talent-pyromaniac",
+              "name": "Pyromaniac",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kaelthas-talent-ignite",
+              "name": "Ignite",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-16"
+            },
+            {
+              "id": "kaelthas-talent-fury-of-the-sunwell",
+              "name": "Fury of the Sunwell",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kaelthas-talent-flamethrower",
+              "name": "Flamethrower",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kaelthas#55.14!3111124"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Kael'thas's ARAM build is similar to the standard build as the build works very well even in ARAM. Focusing on heavy siege and getting the most out of Flamestrikes makes Kael'thas a desirable pick should you get him in ARAM.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kaelthas-talent-mana-addict",
+              "name": "Mana Addict",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kaelthas-talent-mana-tap",
+              "name": "Mana Tap",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kaelthas-talent-burned-flesh",
+              "name": "Burned Flesh",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kaelthas-talent-phoenix",
+              "name": "Phoenix",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kaelthas-talent-pyromaniac",
+              "name": "Pyromaniac",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kaelthas-talent-ignite",
+              "name": "Ignite",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kaelthas-talent-flamethrower",
+              "name": "Flamethrower",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kaelthas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kaelthas#55.14!3311124"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/kaelthas-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:14.331235+00:00",
+    "updated_at": "2026-02-23T13:00:00+00:00",
+    "author_line": "Last updated on Feb 23, 2026 at 13:00 by Outofmilk"
+  }
+}

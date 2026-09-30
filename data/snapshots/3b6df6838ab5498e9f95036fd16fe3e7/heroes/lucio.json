@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "id": "lucio",
+  "name": "Lúcio",
+  "role": "Healer",
+  "overview": "Lúcio is a very mobile Healer, who is capable of boosting his allies' Movement Speed and healing them over time. His unique Trait, called Wall Ride, allows him to skate along impassable terrain, causing him to become a very elusive Hero for the enemy team to catch.",
+  "strengths": [
+    "Outstanding mobility",
+    "Strong late game healing",
+    "Attacks while moving",
+    "Good at dodging skillshots",
+    "Can disrupt most tanks with correct use of Soundwave",
+    "Excellent against AoE damage"
+  ],
+  "weaknesses": [
+    "Very poor waveclear",
+    "Low health pool makes him susceptible to Stuns and Slows",
+    "Requires good multitasking and map awareness",
+    "Hard to play",
+    "Requires an aggressive playstyle, which can result in dying before a fight",
+    "Low Healing output during the early game"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "valla",
+        "name": "Valla"
+      }
+    ],
+    "explanation": "Lucio performs very well with low-mobility Heroes as he can provide useful Movement Speed to them, who will have a much easier time sticking to their targets. This characteristic, combined with the fact that Lúcio has 2 powerful Heroic Abilities, makes him one of the best dive Healers in the game."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      }
+    ],
+    "explanation": "Since Lúcio relies heavily on his High Five to save allies, Heroes with persistent cc abilities on the ground like Entangling Roots or Stay Awhile and Listen are effective against him, as he often gets caught in these when trying to help teammates. Lúcio also struggles against Heroes with long range and single-target damage, like Raynor or Sgt. Hammer."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Lucio does well on almost every Map, but he excels on Maps where having a decent waveclear is not a priority. Since Lúcio should be constantly dismounting or getting vision of enemy team, he will not be able to speed his team up in the early game. Furthermore, he is an excellent pick in Battlefield of Eternity, due to the quantity of corridors created by impassable terrain around Objective and the capability to knock someone towards an Immortal's Stun, just like Alarak does."
+  },
+  "builds": [
+    {
+      "name": "Advanced Build",
+      "label": "Recommended",
+      "description": "Lúcio's Advanced Build is aimed at experienced Lúcio players. In order to get value from Talents such as Accelerando and Smooth Moves, you should be playing more offensively, by either abusing Accelerando's increased Movement Speed to Harass enemies, or by constantly attacking and sustaining yourself through Smooth Moves.\n\nAccelerando takes some practice to maintain the boost constantly up, but once you get used to it, you will feel the difference it makes. Smooth Moves at Level 1 is also good, since it allows you to be more offensive and take some damage for your team.\n\nAt Level 20, Mixing Fire should be picked if you got High Five, while Summer Anthem when the enemy team has a wombo combo composition. House Party will be good against compositions without much burst. Bossa Nova can be an option if your team is dying before the fight starts, since the cooldown Reduction is very noticeable.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lucio-talent-accelerando",
+              "name": "Accelerando",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-1"
+            },
+            {
+              "id": "lucio-talent-smooth-moves",
+              "name": "Smooth Moves",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lucio-talent-off-the-wall",
+              "name": "Off the Wall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-4"
+            },
+            {
+              "id": "lucio-talent-subwoofer",
+              "name": "Subwoofer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-4"
+            },
+            {
+              "id": "lucio-talent-supersonic",
+              "name": "Supersonic",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lucio-talent-reverse-amp",
+              "name": "Reverse Amp",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-7"
+            },
+            {
+              "id": "lucio-talent-boombox",
+              "name": "Boombox",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-7"
+            },
+            {
+              "id": "lucio-talent-good-vibrations",
+              "name": "Good Vibrations",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lucio-talent-high-five",
+              "name": "High Five",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-10"
+            },
+            {
+              "id": "lucio-talent-sound-barrier",
+              "name": "Sound Barrier",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lucio-talent-heavy-casters",
+              "name": "Heavy Casters",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-13"
+            },
+            {
+              "id": "lucio-talent-all-together",
+              "name": "All Together",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lucio-talent-up-the-frequency",
+              "name": "Up the Frequency",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lucio-talent-mixing-fire",
+              "name": "Mixing Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-20"
+            },
+            {
+              "id": "lucio-talent-summer-anthem",
+              "name": "Summer Anthem",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-20"
+            },
+            {
+              "id": "lucio-talent-house-party",
+              "name": "House Party",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-20"
+            },
+            {
+              "id": "lucio-talent-bossa-nova",
+              "name": "Bossa Nova",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lucio#55.12!2222222"
+    },
+    {
+      "name": "Crossfade Build",
+      "label": "Beginner",
+      "description": "Lúcio's Crossfade Build is directly aimed for the novice Lúcio players, since it increases Crossfade's range and makes it easier to heal all your team without any concerns. This build has a smaller potential for making plays, and enables an easier and more defensive Lúcio playstyle.\n\nAll the Talents at Level 7 are good for this build. You can get Boombox to provide more vision to your team, and even heal them from distance. Reverse Amp is also a good option, since it will increase your damage and add little crowd control to Lúcio. Together with Off the Wall, Good Vibrations adds more resilience to Lúcio, and should be the choice if you are being focused by enemy team. Even though All Together gives Lúcio a much needed increased mobility, Slip is a good choice against dive compositions willing to kill you.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lucio-talent-party-mix",
+              "name": "Party Mix",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lucio-talent-subwoofer",
+              "name": "Subwoofer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lucio-talent-boombox",
+              "name": "Boombox",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-7"
+            },
+            {
+              "id": "lucio-talent-reverse-amp",
+              "name": "Reverse Amp",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-7"
+            },
+            {
+              "id": "lucio-talent-good-vibrations",
+              "name": "Good Vibrations",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lucio-talent-sound-barrier",
+              "name": "Sound Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lucio-talent-all-together",
+              "name": "All Together",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-13"
+            },
+            {
+              "id": "lucio-talent-slip",
+              "name": "Slip",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lucio-talent-rejuvenescencia",
+              "name": "Rejuvenescência",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-16"
+            },
+            {
+              "id": "lucio-talent-up-the-frequency",
+              "name": "Up the Frequency",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lucio-talent-house-party",
+              "name": "House Party",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lucio-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lucio#55.12!1131113"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/lucio-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:22.316055+00:00",
+    "updated_at": "2026-08-24T04:50:00+00:00",
+    "author_line": "Last updated on Aug 24, 2026 at 04:50 by Derenash"
+  }
+}

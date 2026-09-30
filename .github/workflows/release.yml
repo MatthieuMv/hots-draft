@@ -30,13 +30,17 @@ jobs:
       - name: Verify executable and checksum
         shell: pwsh
         run: |
-          $probe = Start-Process -FilePath "$pwd/dist/NexusDraft.exe" -ArgumentList '--help' -WindowStyle Hidden -PassThru
+          $probe = Start-Process -FilePath "$pwd/dist/HotsDraft.exe" -ArgumentList '--help' -WindowStyle Hidden -PassThru
           if (-not $probe.WaitForExit(30000)) { throw 'Executable startup timed out' }
           $probe.Refresh()
           if ($probe.ExitCode -ne 0) { throw "Executable startup failed: $($probe.ExitCode)" }
-          $digest = (Get-FileHash dist/NexusDraft.exe -Algorithm SHA256).Hash.ToLower()
-          "$digest  NexusDraft.exe" | Set-Content dist/SHA256SUMS.txt -Encoding ascii
+          $bundleProbe = Start-Process -FilePath "$pwd/dist/HotsDraft.exe" -ArgumentList '--check-bundle', '--data-dir', "$pwd/build/clean-host-data" -WindowStyle Hidden -PassThru
+          if (-not $bundleProbe.WaitForExit(30000)) { throw 'Bundle validation timed out' }
+          $bundleProbe.Refresh()
+          if ($bundleProbe.ExitCode -ne 0) { throw 'Bundle validation failed' }
+          $digest = (Get-FileHash dist/HotsDraft.exe -Algorithm SHA256).Hash.ToLower()
+          "$digest  HotsDraft.exe" | Set-Content dist/SHA256SUMS.txt -Encoding ascii
       - name: Publish release
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create $env:GITHUB_REF_NAME dist/NexusDraft.exe dist/SHA256SUMS.txt --verify-tag --generate-notes --latest --title "Nexus Draft $env:GITHUB_REF_NAME"
+        run: gh release create $env:GITHUB_REF_NAME dist/HotsDraft.exe dist/SHA256SUMS.txt --verify-tag --generate-notes --latest --title "HotsDraft $env:GITHUB_REF_NAME"

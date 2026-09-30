@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "id": "nazeebo",
+  "name": "Nazeebo",
+  "role": "Ranged Assassin",
+  "overview": "Nazeebo is a Mage able to deal a good amount of burst damage and a decent amount of sustained damage from the distance, provided with some crowd control and a high Health pool. While his damage looks decent at any stage of the game, Nazeebo becomes a real threat only in the late game.",
+  "strengths": [
+    "Decent sustain damage",
+    "Good burst damage",
+    "Zoning potential",
+    "Unique crowd control via Zombie Wall",
+    "High maximum Health",
+    "Access to Ice Block"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Zero mobility"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "In order to make Nazeebo work, we recommend picking a Marksman (such as Sylvanas) to guarantee your team a good damage output when your Abilities are on cooldown and a Tank who can provide crowd control (such as Mal'Ganis) that Nazeebo will be able to follow up with Zombie Wall. There are also some Healers who can get value from Zombie Wall after it spawns, usually by adding crowd control (for example Auriel using Detainment Strike)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      }
+    ],
+    "explanation": "Nazeebo is countered by Heroes who can punish his weak early game (such as Sylvanas that can enable her team to push by using Haunting Arrows to disable Structures) and he is rendered almost useless by Heroes who can easily get out from Zombie Wall and eventually dodge his other Abilities (for example E.T.C. can use Face Melt to Knockback the Zombies surrounding himself or a nearby allied Hero)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Nazeebo requires to rotate between two lanes in order to gather stacks for Voodoo Ritual as quickly as possible and eventually unlock Vile Infection at Level 20. As a consequence, he is good on Maps where it is fast and safe to rotate between lanes (such as rotating mid-top on Tomb of the Spider Queen) and he should not be picked on Maps where it is impossible to rotate because there are only 2 lanes (like Braxis Holdout), where it is slow and/or dangerous to rotate between lanes (for example Cursed Hollow), or on mid-game Maps where there is a low chance to reach Level 20 (such as Sky Temple)."
+  },
+  "builds": [
+    {
+      "name": "Zombie Wall Build",
+      "label": "Recommended",
+      "description": "Nazeebo's Zombie Wall Build combines a bit more safety with high damage output against enemy Heroes who cannot play around Zombie Wall by using their own Abilities or with the help of allied Heroes.\n\nThe increased casting range provided by Thing of the Deep at Level 1 helps Nazeebo hit enemies with his Abilities—especially Zombie Wall—and gives him extra safety at any stage of the game, unless dove.\n\nWhile his early game damage is not that great, the additional Spell Power provided empowers both his Heroic Abilities, something that will compensate this little weakness during big team fights in the later stages of the game.\n\nAttention! Once you reach Level 20, if you are too far from having 175 stacks of Voodoo Ritual, do not pick Vile Infection because it would do nothing. Upgrade your Heroic Ability instead.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "nazeebo-talent-thing-of-the-deep",
+              "name": "Thing of the Deep",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "nazeebo-talent-big-voodoo",
+              "name": "Big Voodoo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-4"
+            },
+            {
+              "id": "nazeebo-talent-blood-ritual",
+              "name": "Blood Ritual",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "nazeebo-talent-dead-rush",
+              "name": "Dead Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "nazeebo-talent-gargantuan",
+              "name": "Gargantuan",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-10"
+            },
+            {
+              "id": "nazeebo-talent-ravenous-spirit",
+              "name": "Ravenous Spirit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "nazeebo-talent-ice-block",
+              "name": "Ice Block",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-13"
+            },
+            {
+              "id": "nazeebo-talent-superstition",
+              "name": "Superstition",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "nazeebo-talent-ring-of-poison",
+              "name": "Ring of Poison",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-16"
+            },
+            {
+              "id": "nazeebo-talent-soul-harvest",
+              "name": "Soul Harvest",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "nazeebo-talent-vile-infection",
+              "name": "Vile Infection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            },
+            {
+              "id": "nazeebo-talent-humongoid",
+              "name": "Humongoid",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            },
+            {
+              "id": "nazeebo-talent-annihilating-spirit",
+              "name": "Annihilating Spirit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/nazeebo#54.3!3221323"
+    },
+    {
+      "name": "Corpse Spiders Build",
+      "label": "Advanced",
+      "description": "Nazeebo's Corpse Spiders Build focuses on Corpse Spiders, which provides him with outstanding burst damage.\n\nChoose this Build when you need to take down an enemy Hero as fast as possible, especially if they dive on your team but also when your Tank has a short-range engage that can be used to crowd control a target and allow you to easily follow-up with all of your Abilities.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "nazeebo-talent-widowmakers",
+              "name": "Widowmakers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "nazeebo-talent-hexed-crawlers",
+              "name": "Hexed Crawlers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "nazeebo-talent-spirit-of-arachyr",
+              "name": "Spirit of Arachyr",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "nazeebo-talent-ravenous-spirit",
+              "name": "Ravenous Spirit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "nazeebo-talent-ice-block",
+              "name": "Ice Block",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-13"
+            },
+            {
+              "id": "nazeebo-talent-superstition",
+              "name": "Superstition",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "nazeebo-talent-spider-colony",
+              "name": "Spider Colony",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-16"
+            },
+            {
+              "id": "nazeebo-talent-soul-harvest",
+              "name": "Soul Harvest",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "nazeebo-talent-annihilating-spirit",
+              "name": "Annihilating Spirit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/nazeebo#54.3!1112312"
+    },
+    {
+      "name": "Plague of Toads Build",
+      "label": "Situational",
+      "description": "Nazeebo's Plague of Toads Build is all about poke damage with Plague of Toads, to pressure the enemy Healer and win the team fight by attrition without exposing too much.\n\nIf you are playing on a Map where the Objective is valuable and takes over 30 seconds to be secured by one of the teams, this Build may be an option against some team compositions who lack sustain healing and cannot engage aggressively.\n\nAttention! Once you reach Level 20, if you are too far from having 175 stacks of Voodoo Ritual, do not pick Vile Infection because it would do nothing. Upgrade your Heroic Ability instead.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "nazeebo-talent-pandemic",
+              "name": "Pandemic",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "nazeebo-talent-big-voodoo",
+              "name": "Big Voodoo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "nazeebo-talent-toads-of-hugeness",
+              "name": "Toads of Hugeness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "nazeebo-talent-gargantuan",
+              "name": "Gargantuan",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-10"
+            },
+            {
+              "id": "nazeebo-talent-ravenous-spirit",
+              "name": "Ravenous Spirit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "nazeebo-talent-ice-block",
+              "name": "Ice Block",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-13"
+            },
+            {
+              "id": "nazeebo-talent-superstition",
+              "name": "Superstition",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "nazeebo-talent-soul-harvest",
+              "name": "Soul Harvest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "nazeebo-talent-vile-infection",
+              "name": "Vile Infection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            },
+            {
+              "id": "nazeebo-talent-humongoid",
+              "name": "Humongoid",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            },
+            {
+              "id": "nazeebo-talent-annihilating-spirit",
+              "name": "Annihilating Spirit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/nazeebo#54.3!2231333"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Nazeebo's ARAM Build combines a bit more safety with high damage output against enemy Heroes who cannot play around Zombie Wall by using their own Abilities or with the help of allied Heroes.\n\nThe increased casting range provided by Thing of the Deep at Level 1 helps Nazeebo hit enemies with his Abilities—especially Zombie Wall—and gives him extra safety at any stage of the game, unless dove.\n\nWhile his early game damage is not that great, the additional Spell Power provided empowers both his Heroic Abilities, something that will compensate this little weakness during big team fights in the later stages of the game.\n\nAttention! Once you reach Level 20, if you are too far from having 175 stacks of Voodoo Ritual, do not pick Vile Infection because it would do nothing. Upgrade your Heroic Ability instead.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "nazeebo-talent-thing-of-the-deep",
+              "name": "Thing of the Deep",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "nazeebo-talent-big-voodoo",
+              "name": "Big Voodoo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-4"
+            },
+            {
+              "id": "nazeebo-talent-blood-ritual",
+              "name": "Blood Ritual",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "nazeebo-talent-dead-rush",
+              "name": "Dead Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "nazeebo-talent-gargantuan",
+              "name": "Gargantuan",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-10"
+            },
+            {
+              "id": "nazeebo-talent-ravenous-spirit",
+              "name": "Ravenous Spirit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "nazeebo-talent-ice-block",
+              "name": "Ice Block",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-13"
+            },
+            {
+              "id": "nazeebo-talent-superstition",
+              "name": "Superstition",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "nazeebo-talent-ring-of-poison",
+              "name": "Ring of Poison",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-16"
+            },
+            {
+              "id": "nazeebo-talent-soul-harvest",
+              "name": "Soul Harvest",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "nazeebo-talent-vile-infection",
+              "name": "Vile Infection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            },
+            {
+              "id": "nazeebo-talent-humongoid",
+              "name": "Humongoid",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            },
+            {
+              "id": "nazeebo-talent-annihilating-spirit",
+              "name": "Annihilating Spirit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nazeebo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/nazeebo#54.3!3221323"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/nazeebo-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:09.247027+00:00",
+    "updated_at": "2026-08-12T09:50:00+00:00",
+    "author_line": "Last updated on Aug 12, 2026 at 09:50 by Elitesparkle"
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "id": "medivh",
+  "name": "Medivh",
+  "role": "Support",
+  "overview": "Medivh is a ranged Support with an exceptional amount of utility, which makes him one of the most flexible and adaptable Heroes in the game. His Force of Will possesses incredible synergy with Tanks and melee Assassins, in particular, Portal can be used to execute deadly ganks or tricky escape manoeuvres. One of Medivh's greatest strengths is his ability to scout the battlefield with his Raven Form. Doing so gathers valuable information for his team, which allows them to always be one step ahead of their opponents. With all the utility Medivh provides, he also requires a lot of game knowledge and experience to unleash his full potential. However, if played well, Medivh can single-handedly influence the outcome of a game in his team's favour.",
+  "strengths": [
+    "Powerful crowd control Abilities",
+    "Exceptional scouting capabilities",
+    "Synergises extremely well with Melee Assassins and Bruisers",
+    "Flexible playstyle",
+    "Superior utility"
+  ],
+  "weaknesses": [
+    "Relatively low damage output",
+    "High skill curve",
+    "Portal placement requires some practice"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "stitches",
+        "name": "Stitches"
+      }
+    ],
+    "explanation": "Medivh is a very powerful enabler of aggressive hard-engaging Assassins. Allowing those Heroes to become Invulnerable for 1.5 seconds can help them go for the big plays and escape dangerous situations. A very popular combo with Medivh is the Stitches Gorge into Portal or the Ley-line Seal into Diablo Apocalypse"
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "guldan",
+        "name": "Gul'dan"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Medivh does not have any natural counters per se, however, he is generally susceptible to damage over time. Poison damage continues to tick after Force of Will expires and as such the Ability loses some of its value. Crowd control effects, such as Malfurion's Entangling Roots can be placed at the entrance of a Portal, preventing allies or Medivh to move, so when playing against those Heroes, use Portals with caution."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      }
+    ],
+    "explanation": "Medivh thrives on battlegrounds that allow him to scout the enemy team's rotations. Consequently, Cursed Hollow or Sky Temple are great choices for him to be deployed. Make sure to use Portal to allow allied Heroes to surprise enemies and keep your team informed on their moves. Mercenary and Boss Camps, in particular, are important to track, as they allow your allies to either contest them or rotate accordingly to take them out swiftly."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "This build focuses on both Medivh's defense and offense. Arcane Explosion becomes an incredibly powerful talent if timed well against heavy damage from the enemy team. At Level 10 we recommend either Poly Bomb or Ley Line Seal depending on your team composition's playstyle. If you have other AoE combo abilities available, such as Diablo's Apocalypse, then Ley Line Seal becomes the perfect foundation to execute devastating crowd control chains. If the enemy team composition features aggressive Assassins, however, Poly Bomb can become a great counter to hinder their movement and render them defenseless for a couple of seconds.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "medivh-talent-portal-mastery",
+              "name": "Portal Mastery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-1"
+            },
+            {
+              "id": "medivh-talent-ravens-intellect",
+              "name": "Raven's Intellect",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "medivh-talent-raven-familiar",
+              "name": "Raven Familiar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "medivh-talent-arcane-explosion",
+              "name": "Arcane Explosion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "medivh-talent-ley-line-seal",
+              "name": "Ley Line Seal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-10"
+            },
+            {
+              "id": "medivh-talent-poly-bomb",
+              "name": "Poly Bomb",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "medivh-talent-enduring-will",
+              "name": "Enduring Will",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "medivh-talent-temporal-flux",
+              "name": "Temporal Flux",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-16"
+            },
+            {
+              "id": "medivh-talent-stable-portal",
+              "name": "Stable Portal",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "medivh-talent-medivh-cheats",
+              "name": "Medivh Cheats!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-20"
+            },
+            {
+              "id": "medivh-talent-glyph-of-poly-bomb",
+              "name": "Glyph Of Poly Bomb",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/medivh#55.16!3222222"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "The ARAM Build focuses on supporting your teammates with Portals, vision, and Force Of Will to reduce incoming damage. Due to the nature of ARAM games, Ley Line Seal can be used to set up plays for your teammates.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "medivh-talent-ravens-intellect",
+              "name": "Raven's Intellect",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "medivh-talent-raven-familiar",
+              "name": "Raven Familiar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "medivh-talent-arcane-explosion",
+              "name": "Arcane Explosion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "medivh-talent-ley-line-seal",
+              "name": "Ley Line Seal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-10"
+            },
+            {
+              "id": "medivh-talent-poly-bomb",
+              "name": "Poly Bomb",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "medivh-talent-enduring-will",
+              "name": "Enduring Will",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "medivh-talent-temporal-flux",
+              "name": "Temporal Flux",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "medivh-talent-medivh-cheats",
+              "name": "Medivh Cheats!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-20"
+            },
+            {
+              "id": "medivh-talent-glyph-of-poly-bomb",
+              "name": "Glyph Of Poly Bomb",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/medivh-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/medivh#55.16!2222222"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/medivh-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:28.347394+00:00",
+    "updated_at": "2026-04-27T18:40:00+00:00",
+    "author_line": "Last updated on Apr 27, 2026 at 18:40 by Outofmilk"
+  }
+}

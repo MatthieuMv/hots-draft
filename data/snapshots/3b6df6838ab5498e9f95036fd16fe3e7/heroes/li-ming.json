@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "id": "li-ming",
+  "name": "Li-Ming",
+  "role": "Ranged Assassin",
+  "overview": "Li-Ming is an aggressive ranged damage dealer. She thrives in situations where she gets to make use of her Hero Trait, Critical Mass, to deal an outrageous amount of burst damage, but is otherwise easily dispatched when careless. Since the majority of her Abilities are skillshots, Li-Ming is one of the most difficult Heroes to master.",
+  "strengths": [
+    "Outstanding long-range burst and sustain damage",
+    "Excellent Talent diversity to adapt to many different situations",
+    "Strong sieging potential",
+    "Exceptional poking"
+  ],
+  "weaknesses": [
+    "Very fragile, especially to melee Assassins",
+    "Difficult to play due to ALL Abilities being skillshots",
+    "Very limited team fight utility beyond raw damage"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "valeera",
+        "name": "Valeera"
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "xul",
+        "name": "Xul"
+      }
+    ],
+    "explanation": "Since Li-Ming depends highly on skillshots to deal her damage, she naturally works well with any Hero that can provide reliable crowd control against a kill target for her to follow up. Her frailty also makes her dependent on other Heroes to peel for her; Tanks tend to fulfill these two needs, though other Hero types can too."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "samuro",
+        "name": "Samuro"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "valeera",
+        "name": "Valeera"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "Since Li-Ming relies chiefly on skillshots to deal damage, she does particularly poorly against Heroes that either have ways of quickly dodging her Abilities, or can summon undesirable targets to get in the way. Furthermore, her frailty and lack of self-peel makes her vulnerable to Stealthed or otherwise high-damage nimble Heroes that can quickly reach her."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      }
+    ],
+    "average": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      }
+    ],
+    "explanation": "Li-Ming's safe and high ranged sustain poke damage makes her particularly strong on Maps where the Objective allows her to take potshots at opponents that must play aggressively against her and give up their position, or find themselves under constant fire. Otherwise, her versatility makes her a fine pick all-around."
+  },
+  "builds": [
+    {
+      "name": "Teleport Build",
+      "label": "Recommended",
+      "description": "Li-Ming's Teleport Build provides superior damage. As key Talents, Calamity and Mirrorball allow you to deal unparalleled burst damage. Quickly killing Heroes in this manner triggers Critical Mass, allowing you to deal even more damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "li-ming-talent-aether-walker",
+              "name": "Aether Walker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-1"
+            },
+            {
+              "id": "li-ming-talent-power-hungry",
+              "name": "Power Hungry",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-1"
+            },
+            {
+              "id": "li-ming-talent-force-armor",
+              "name": "Force Armor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "li-ming-talent-triumvirate",
+              "name": "Triumvirate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-4"
+            },
+            {
+              "id": "li-ming-talent-dominance",
+              "name": "Dominance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "li-ming-talent-calamity",
+              "name": "Calamity",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "li-ming-talent-wave-of-force",
+              "name": "Wave of Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-10"
+            },
+            {
+              "id": "li-ming-talent-disintegrate",
+              "name": "Disintegrate",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "li-ming-talent-illusionist",
+              "name": "Illusionist",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "li-ming-talent-mirrorball",
+              "name": "Mirrorball",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-16"
+            },
+            {
+              "id": "li-ming-talent-diamond-skin",
+              "name": "Diamond Skin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "li-ming-talent-tal-rashas-elements",
+              "name": "Tal Rasha's Elements",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-20"
+            },
+            {
+              "id": "li-ming-talent-repulsion",
+              "name": "Repulsion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/li-ming#48.2!2232123"
+    },
+    {
+      "name": "Artillery Build",
+      "label": "Beginner",
+      "description": "This specialised artillery build provides superior ranged damage. Key Arcane Orb-related Talents allow you to threaten Heroes while safely remaining out of their range. This build is notably effective against team compositions that lack mobility, and on the Infernal Shrines Battleground.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "li-ming-talent-aether-walker",
+              "name": "Aether Walker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-1"
+            },
+            {
+              "id": "li-ming-talent-power-hungry",
+              "name": "Power Hungry",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-1"
+            },
+            {
+              "id": "li-ming-talent-force-armor",
+              "name": "Force Armor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "li-ming-talent-triumvirate",
+              "name": "Triumvirate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "li-ming-talent-zeis-vengeance",
+              "name": "Zei's Vengeance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "li-ming-talent-wave-of-force",
+              "name": "Wave of Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-10"
+            },
+            {
+              "id": "li-ming-talent-disintegrate",
+              "name": "Disintegrate",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "li-ming-talent-glass-cannon",
+              "name": "Glass Cannon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "li-ming-talent-arcane-orbit",
+              "name": "Arcane Orbit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "li-ming-talent-tal-rashas-elements",
+              "name": "Tal Rasha's Elements",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-20"
+            },
+            {
+              "id": "li-ming-talent-repulsion",
+              "name": "Repulsion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-ming-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/li-ming#48.2!2222333"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/li-ming-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:20.331185+00:00",
+    "updated_at": "2020-10-27T06:00:00+00:00",
+    "author_line": "Last updated on Oct 27, 2020 at 06:00 by Oxygen"
+  }
+}

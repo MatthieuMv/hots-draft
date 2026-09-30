@@ -30,7 +30,7 @@ def release_asset(release: dict) -> dict | None:
         return None
     if stable_version(release["tag_name"]) <= stable_version(VERSION):
         return None
-    asset = next((a for a in release["assets"] if a["name"] == "NexusDraft.exe"), None)
+    asset = next((a for a in release["assets"] if a["name"] == "HotsDraft.exe"), None)
     if not asset:
         return None
     prefix = f"https://github.com/{REPO}/releases/download/{release['tag_name']}/"
@@ -52,7 +52,7 @@ def download_update(
         timeout=15,
         headers={
             "Accept": "application/vnd.github+json",
-            "User-Agent": f"NexusDraft/{VERSION}",
+            "User-Agent": f"HotsDraft/{VERSION}",
         },
     ) as client:
         response = client.get(LATEST_URL)
@@ -64,7 +64,7 @@ def download_update(
         if not asset or cancelled():
             return None
         directory.mkdir(parents=True, exist_ok=True)
-        destination = directory / f"NexusDraft-{release['tag_name']}-{os.getpid()}.exe"
+        destination = directory / f"HotsDraft-{release['tag_name']}-{os.getpid()}.exe"
         partial = destination.with_suffix(".partial")
         digest = hashlib.sha256()
         size = 0

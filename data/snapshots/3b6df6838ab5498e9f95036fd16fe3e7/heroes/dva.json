@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "id": "dva",
+  "name": "D.Va",
+  "role": "Bruiser",
+  "overview": "D.Va is a Bruiser who combines unique utility with reliable damage mitigation together with a solid damage output and a high amount of survivability when played at her maximum potential.",
+  "strengths": [
+    "Good survivability",
+    "Decent mobility",
+    "Reliable damage mitigation",
+    "Good at capturing Mercenary Camps",
+    "Powerful zoning potential"
+  ],
+  "weaknesses": [
+    "Susceptible to area of effect crowd control on the ground stopping Boosters",
+    "Predictable spawn position for D.Va's Pilot when her Mech gets destroyed by damage",
+    "Lack of Mount while in Mech Mode, however, Boosters helps with that"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      },
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      }
+    ],
+    "explanation": "D.Va is good when paired with Heroes that can play around her powerful Self-Destruct by displacing or locking enemy Heroes within its range with crowd control effects (for example Deckard Cain with Stay Awhile and Listen and/or Scroll Of Sealing) or by moving the exploding Mech (such as Into the Fray by Garrosh).\n\nBoosters are useful to combo with unique Heroes that require an allied Hero to move fast (for example Anduin with Lightbomb) or that can benefit from enemy Heroes being knocked away at the right moment (such as Maiev using Umbral Bind)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Like many Heroes in the game, D.Va suffers against crowd control paired with burst damage as they can drastically reduce the value she can get from Mech Mode by bursting her down before she can use Self-Destruct to restore the Health of her Mech.\n\nAs she spawns in a predictable position when her Mech dies, it is also easy to throw Abilities in that area to hit her (such as Entangling Roots by Malfurion). Similarly, a well-timed interrupt while she is channeling Call Mech is a powerful tool to take her down.\n\nWhile solo laning, D.Va has a hard time against Heroes who can easily outtrade her in a duel on Maps where there is a Capture Point to contest (such as Braxis Holdout) or that can rotate faster than her while double soaking on other Maps."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "D.Va tends to perform best on small to medium-sized Maps with lots of narrow choke points where she can get value from Self-Destruct for zoning away enemy Heroes (for example Infernal Shrines).\n\nAs Self-Destruct will get Charge progress based on how much time D.Va spends Basic Attacking with her Mech, she prefers playing on Maps where double soak is possible because that way she can Basic Attack enemy Minions twice as often compared to when staying in a single lane.\n\nDue to her lack of Mount while in Mech Mode, she does not like big Maps that much (such as Warhead Junction)."
+  },
+  "builds": [
+    {
+      "name": "Defense Matrix Build",
+      "label": "Recommended",
+      "description": "D.Va's Defense Matrix Build primarily focuses on reducing the damage done and the healing received by enemy Heroes, provided that the enemy team lets you channel Defense Matrix most of the time.\n\nThe area increase from Diverting Power at Level 16 is great for peeling for your teammates. The healing reduction from Aggression Matrix at Level 4 and the Armor reduction from Target Locked at Level 13 help to secure kills.\n\nWhen playing this Build, you should ideally use Defense Matrix on enemy Heroes who are dealing damage to yourself or to your teammates and on enemy Heroes who are being attacked by your teammates.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "dva-talent-full-metal",
+              "name": "Full Metal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-1"
+            },
+            {
+              "id": "dva-talent-pro-moves",
+              "name": "Pro Moves",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "dva-talent-aggression-matrix",
+              "name": "Aggression Matrix",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "dva-talent-fusion-generator",
+              "name": "Fusion Generator",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "dva-talent-bunny-hop",
+              "name": "Bunny Hop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-10"
+            },
+            {
+              "id": "dva-talent-micro-missiles",
+              "name": "Micro Missiles",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "dva-talent-target-locked",
+              "name": "Target Locked",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "dva-talent-diverting-power",
+              "name": "Diverting Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "dva-talent-ablative-armor",
+              "name": "Ablative Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            },
+            {
+              "id": "dva-talent-stop-and-pop",
+              "name": "Stop and Pop",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            },
+            {
+              "id": "dva-talent-timing-attack",
+              "name": "Timing Attack",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/dva#52.0!1231124"
+    },
+    {
+      "name": "Hybrid Build",
+      "label": "Situational",
+      "description": "D.Va's Hybrid Build is designed to increase your survivability, so that you can be more aggressive and less at risk in team fights, indirectly allowing you to deal more damage.\n\nThe survivability comes from the ability to enter in a new Mech faster thanks to Nuclear Option at Level 4 and the Shield provided by Emergency Shielding at Level 16 while in Mech Mode.\n\nYou also get to play Hit the Nitrous at Level 7 to interrupt enemy Heroes. If you do not need that, you can replace it with Get On The Point! to rotate faster.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "dva-talent-full-metal",
+              "name": "Full Metal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "dva-talent-nuclear-option",
+              "name": "Nuclear Option",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "dva-talent-hit-the-nitrous",
+              "name": "Hit the Nitrous",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-7"
+            },
+            {
+              "id": "dva-talent-get-on-the-point",
+              "name": "Get On The Point!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "dva-talent-bunny-hop",
+              "name": "Bunny Hop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-10"
+            },
+            {
+              "id": "dva-talent-micro-missiles",
+              "name": "Micro Missiles",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "dva-talent-good-to-go",
+              "name": "Good To Go",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "dva-talent-emergency-shielding",
+              "name": "Emergency Shielding",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "dva-talent-stop-and-pop",
+              "name": "Stop and Pop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            },
+            {
+              "id": "dva-talent-timing-attack",
+              "name": "Timing Attack",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            },
+            {
+              "id": "dva-talent-ablative-armor",
+              "name": "Ablative Armor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/dva#52.0!1321231"
+    },
+    {
+      "name": "Boosters Build",
+      "label": "Situational",
+      "description": "D.Va's Boosters Build increases your waveclear in the early game and your damage done to enemy Heroes in the late game.\n\nThe waveclear comes from Rush-down at Level 4, which can be used to finish off enemy Minions and start rotating to another lane.\n\nThe damage output increase is provided by In For The Kill at Level 16, but remember it only increases your Attack Damage when you hit enemy Heroes with Boosters.\n\nYou also get to play Hit the Nitrous at Level 7 to interrupt enemy Heroes. If you do not need that, you can replace it with Get On The Point! to rotate faster.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "dva-talent-full-metal",
+              "name": "Full Metal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-1"
+            },
+            {
+              "id": "dva-talent-pro-moves",
+              "name": "Pro Moves",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "dva-talent-rush-down",
+              "name": "Rush-down",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "dva-talent-hit-the-nitrous",
+              "name": "Hit the Nitrous",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-7"
+            },
+            {
+              "id": "dva-talent-get-on-the-point",
+              "name": "Get On The Point!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "dva-talent-bunny-hop",
+              "name": "Bunny Hop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-10"
+            },
+            {
+              "id": "dva-talent-micro-missiles",
+              "name": "Micro Missiles",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "dva-talent-good-to-go",
+              "name": "Good To Go",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "dva-talent-in-for-the-kill",
+              "name": "In For The Kill",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "dva-talent-stop-and-pop",
+              "name": "Stop and Pop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            },
+            {
+              "id": "dva-talent-timing-attack",
+              "name": "Timing Attack",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            },
+            {
+              "id": "dva-talent-ablative-armor",
+              "name": "Ablative Armor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/dva#52.0!1121211"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "D.Va's ARAM Build primarily focuses on reducing the damage done and the healing received by enemy Heroes. The damage reduction from Diverting Power at Level 16 is great for peeling for your teammates. The healing reduction from Aggression Matrix at Level 4 and the Armor reduction from Target Locked at Level 13 help to secure kills.\n\nWhen playing this Build, you should ideally use Defense Matrix on enemy Heroes who are dealing damage to yourself or to your teammates and on enemy Heroes who are being attacked by your teammates.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "dva-talent-pro-moves",
+              "name": "Pro Moves",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-1"
+            },
+            {
+              "id": "dva-talent-full-metal",
+              "name": "Full Metal",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "dva-talent-aggression-matrix",
+              "name": "Aggression Matrix",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "dva-talent-fusion-generator",
+              "name": "Fusion Generator",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "dva-talent-bunny-hop",
+              "name": "Bunny Hop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-10"
+            },
+            {
+              "id": "dva-talent-micro-missiles",
+              "name": "Micro Missiles",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "dva-talent-target-locked",
+              "name": "Target Locked",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "dva-talent-diverting-power",
+              "name": "Diverting Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "dva-talent-ablative-armor",
+              "name": "Ablative Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            },
+            {
+              "id": "dva-talent-stop-and-pop",
+              "name": "Stop and Pop",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            },
+            {
+              "id": "dva-talent-timing-attack",
+              "name": "Timing Attack",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dva-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/dva#52.0!2231124"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/dva-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:57:57.319336+00:00",
+    "updated_at": "2025-04-18T15:10:00+00:00",
+    "author_line": "Last updated on Apr 18, 2025 at 15:10 by Elitesparkle"
+  }
+}

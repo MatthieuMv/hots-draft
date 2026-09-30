@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "id": "guldan",
+  "name": "Gul'dan",
+  "role": "Ranged Assassin",
+  "overview": "Gul'dan is a Ranged Assassin with a good ability to siege, waveclear and teamfight. This unique Hero possesses the ability to replenish Mana using Life Tap at the cost of his own Health. Life Tap combined with Drain Life allows Gul'dan to have some of the best overall self-sustain in the game, as he can very quickly rise back to full Health after having spent a large portion of it to restore Mana. It is very important when playing Gul'dan to maintain a reasonable balance of Health and Mana, as to not end up Life Tapping yourself into a compromising situation. Despite his lack of readily available utility, Gul'dan's massive raw damage output makes him a valuable asset to most team compositions and a serious force to be reckoned with.",
+  "strengths": [
+    "Incredible self-sustain by means of Life Tap and Drain Life",
+    "Fel Flame provides good waveclear",
+    "High multi-target damage output",
+    "Horrify provides great utility despite its relatively long cooldown"
+  ],
+  "weaknesses": [
+    "Health and Mana pools require constant monitoring due to their unique co-dependent relationship",
+    "Incredibly vulnerable to crowd control",
+    "No gap-closer or utility in Basic Abilities",
+    "Requires great positioning during skirmishes and teamfights"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      }
+    ],
+    "explanation": "Like most ranged assassins, Gul'dan performs best with a sturdy frontline to provide him with reliable peel, and a support to keep his Health topped-off as he will need to use it to Life Tap for Mana."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      }
+    ],
+    "explanation": "Gul'dan's lack of gap-closer causes him to struggle most against highly mobile assassins, primarily those with a reliable form of crowd-control to interupt his channel of Drain Life."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Gul'dan is a good overall pick and performs well in most, if not all maps. However, he excels in maps that have 3 lanes where you would need to rotate between two lanes. Thanks to his Fel Flame ability, Gul'dan is able to clear waves faster than most other heroes. His team fighting potential is also strong enough to make him a viable option on any map when a team composition is in need of a dependable ranged assassin."
+  },
+  "builds": [
+    {
+      "name": "Drain Life Build",
+      "label": "Recommended",
+      "description": "Gul'dan's Drain Life Build is currently the best build to use on Gul'dan as it drastically improves your survibability by empowering Drain Life. The Talent choices in this build focuses heavily on reducing the downside of picking Gul'dan which is mainly having the Healer always healing Gul'dan due to how Life Tap works. With the Drain Life build, Gul'dan will have superb lane presence and lane sustain, in the later levels he gets alot of added burst damage if you manage to play around Darkness Within. Be careful when playing against interrupts.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "guldan-talent-chaotic-energy",
+              "name": "Chaotic Energy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "guldan-talent-health-funnel",
+              "name": "Health Funnel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "guldan-talent-curse-of-exhaustion",
+              "name": "Curse of Exhaustion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "guldan-talent-horrify",
+              "name": "Horrify",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "guldan-talent-harvest-life",
+              "name": "Harvest Life",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "guldan-talent-darkness-within",
+              "name": "Darkness Within",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "guldan-talent-haunt",
+              "name": "Haunt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-20"
+            },
+            {
+              "id": "guldan-talent-demonic-circle",
+              "name": "Demonic Circle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/guldan#55.14!2121231"
+    },
+    {
+      "name": "Corruption Build",
+      "label": "Advanced",
+      "description": "The Corruption Build is comprised of talents that will maximize Corruption's overall effectiveness in battle. Completion of Echoed Corruption provides Gul'dan with a massive power spike, therefore it is important for Gul'dan to land as many casts of Corruption as possible on enemy Heroes right from the start of a match. Corruption's long range makes it great for defending and sieging fortifications, as well as poking away enemies from capturing battleground specific objectives such as the Altars on Towers of Doom.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "guldan-talent-echoed-corruption",
+              "name": "Echoed Corruption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "guldan-talent-consume-soul",
+              "name": "Consume Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-4"
+            },
+            {
+              "id": "guldan-talent-improved-life-tap",
+              "name": "Improved Life Tap",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "guldan-talent-hunger-for-power",
+              "name": "Hunger for Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "guldan-talent-horrify",
+              "name": "Horrify",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "guldan-talent-healthstone",
+              "name": "Healthstone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "guldan-talent-ruinous-affliction",
+              "name": "Ruinous Affliction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "guldan-talent-haunt",
+              "name": "Haunt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-20"
+            },
+            {
+              "id": "guldan-talent-demonic-circle",
+              "name": "Demonic Circle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/guldan#55.14!3331421"
+    },
+    {
+      "name": "Anti-melee Fel Flame Build",
+      "label": "Situational",
+      "description": "The Fel Flame build is a heavily situational build and its effectiveness depends entirely on the enemy team composition. If it is a heavy melee team (at least 3 melee heroes) this build can see some use with its constant casting of Fel Flames. The bonus size of Fel Flame upon completion of Pursuit of Flame will allow Gul'dan to feel somewhat safer as he will need to extend less to harass his opponents.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "guldan-talent-pursuit-of-flame",
+              "name": "Pursuit of Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "guldan-talent-consume-soul",
+              "name": "Consume Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-4"
+            },
+            {
+              "id": "guldan-talent-improved-life-tap",
+              "name": "Improved Life Tap",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "guldan-talent-hunger-for-power",
+              "name": "Hunger for Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "guldan-talent-horrify",
+              "name": "Horrify",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "guldan-talent-healthstone",
+              "name": "Healthstone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "guldan-talent-rampant-hellfire",
+              "name": "Rampant Hellfire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "guldan-talent-haunt",
+              "name": "Haunt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-20"
+            },
+            {
+              "id": "guldan-talent-demonic-circle",
+              "name": "Demonic Circle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/guldan#55.14!1331411"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Gul'dan's ARAM build is the same as the corruption. The build offers heavy siege damage and good poke damage, both of which are exactly what you need for an ARAM game.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "guldan-talent-echoed-corruption",
+              "name": "Echoed Corruption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "guldan-talent-consume-soul",
+              "name": "Consume Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-4"
+            },
+            {
+              "id": "guldan-talent-improved-life-tap",
+              "name": "Improved Life Tap",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "guldan-talent-hunger-for-power",
+              "name": "Hunger for Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "guldan-talent-horrify",
+              "name": "Horrify",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "guldan-talent-healthstone",
+              "name": "Healthstone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "guldan-talent-ruinous-affliction",
+              "name": "Ruinous Affliction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "guldan-talent-haunt",
+              "name": "Haunt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-20"
+            },
+            {
+              "id": "guldan-talent-demonic-circle",
+              "name": "Demonic Circle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/guldan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/guldan#55.14!3331421"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/guldan-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:06.314446+00:00",
+    "updated_at": "2026-09-22T11:00:00+00:00",
+    "author_line": "Last updated on Sep 22, 2026 at 11:00 by Outofmilk"
+  }
+}

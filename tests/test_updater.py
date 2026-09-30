@@ -13,10 +13,10 @@ def release(data=b"MZnew executable"):
         "prerelease": False,
         "assets": [
             {
-                "name": "NexusDraft.exe",
+                "name": "HotsDraft.exe",
                 "size": len(data),
                 "digest": "sha256:" + hashlib.sha256(data).hexdigest(),
-                "browser_download_url": "https://github.com/MatthieuMv/hots-draft/releases/download/v9.0.0/NexusDraft.exe",
+                "browser_download_url": "https://github.com/MatthieuMv/hots-draft/releases/download/v9.0.0/HotsDraft.exe",
             }
         ],
     }
@@ -93,7 +93,7 @@ def test_replacement_keeps_backup_and_restarts_with_arguments(monkeypatch, tmp_p
     monkeypatch.setattr(
         ctypes, "WinDLL", lambda *args, **kwargs: Kernel(), raising=False
     )
-    target = tmp_path / "NexusDraft.exe"
+    target = tmp_path / "HotsDraft.exe"
     target.write_bytes(b"MZold")
     candidate = tmp_path / "new.exe"
     candidate.write_bytes(b"MZnew")
@@ -150,7 +150,7 @@ def test_restart_failure_restores_previous_executable(monkeypatch, tmp_path):
     monkeypatch.setattr(
         ctypes, "WinDLL", lambda *args, **kwargs: Kernel(), raising=False
     )
-    target = tmp_path / "NexusDraft.exe"
+    target = tmp_path / "HotsDraft.exe"
     target.write_bytes(b"MZold")
     candidate = tmp_path / "new.exe"
     candidate.write_bytes(b"MZnew")

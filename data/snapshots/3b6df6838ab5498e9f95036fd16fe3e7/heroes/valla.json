@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "id": "valla",
+  "name": "Valla",
+  "role": "Ranged Assassin",
+  "overview": "Valla is a highly versatile and flexible ranged damage dealer. Her strong points are her exceptional single-target damage and on-demand area of effect burst damage. However, her relative fragility makes her a high priority target for the enemy.",
+  "strengths": [
+    "Very high single-target and area of effect damage",
+    "Good waveclear",
+    "Good poke",
+    "Strong in all phases of the game",
+    "Flexible Talents that allow her to adapt to many different situations"
+  ],
+  "weaknesses": [
+    "Dependent on good positioning",
+    "Low base Health",
+    "Vulnerable to crowd control"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Valla is at her best when something stands between her and her enemies. Large, Healthy Tanks are particularly desirable as they draw attention away from Valla, and often provide their own form of crowd control for potential follow-ups. Otherwise, anything that can protect Valla is also desirable. Shielding effects are particularly impactful due to her limited Health pool."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "nova",
+        "name": "Nova"
+      },
+      {
+        "id": "the-butcher",
+        "name": "The Butcher"
+      },
+      {
+        "id": "valeera",
+        "name": "Valeera"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "As a frail Ranged Assassin, Valla tends to naturally struggle against other high-damage Assassins who have the ability to effectively gap close past her Vault's range or otherwise sneak up on her (such has Zeratul). With little in the way of self-peeling, make sure to stay near your Healer when possible against such Heroes, and make no bold attempts at outplaying your opponents."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "As a well-rounded Ranged Assassin, Valla is not particularly weak on any Maps. In general, it is better for her to remain accompanied while laning due to her relative frailty, something that should not be an issue for most Maps. Since she is good in long teamfights, she is excellent in maps that feature those, like Infernal Shrines, or Volskaya Foundry. A special mention should be made for Battlefield of Eternity, where her Hungering Arrow build really shines."
+  },
+  "builds": [
+    {
+      "name": "Attack Build",
+      "label": "Recommended",
+      "description": "Valla's Basic Attack Build provides superior sustain single-target damage at the cost of personal safety. Key Basic Attack-related Talents allow you to become a very threatening damage source, provided your teammates can protect you well.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "valla-talent-creed-of-the-hunter",
+              "name": "Creed of the Hunter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "valla-talent-death-dealer",
+              "name": "Death Dealer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "valla-talent-hot-pursuit",
+              "name": "Hot Pursuit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "valla-talent-rain-of-vengeance",
+              "name": "Rain of Vengeance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "valla-talent-tempered-by-discipline",
+              "name": "Tempered by Discipline",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-13"
+            },
+            {
+              "id": "valla-talent-gloom",
+              "name": "Gloom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "valla-talent-manticore",
+              "name": "Manticore",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "valla-talent-farflight-quiver",
+              "name": "Farflight Quiver",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            },
+            {
+              "id": "valla-talent-acrobat",
+              "name": "Acrobat",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            },
+            {
+              "id": "valla-talent-storm-of-vengeance",
+              "name": "Storm of Vengeance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/valla#23.0!3232234"
+    },
+    {
+      "name": "Burst Build",
+      "label": "Situational",
+      "description": "Valla's Burst Build provides superior single-target burst damage at the cost of sustain damage and being weaker against mobile Heroes. Key Hungering Arrow-related Talents allow you to frontload your damage to threaten isolated enemies.\n\nThis Build is excellent if you have a burst composition, as it does not require any Hatred to start dealing damage, being the most consistent build for following up quick engages.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "valla-talent-puncturing-arrow",
+              "name": "Puncturing Arrow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "valla-talent-repeating-arrow",
+              "name": "Repeating Arrow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "valla-talent-frost-shot",
+              "name": "Frost Shot",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-7"
+            },
+            {
+              "id": "valla-talent-monster-hunter",
+              "name": "Monster Hunter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "valla-talent-rain-of-vengeance",
+              "name": "Rain of Vengeance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-10"
+            },
+            {
+              "id": "valla-talent-strafe",
+              "name": "Strafe",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "valla-talent-siphoning-arrows",
+              "name": "Siphoning Arrows",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-13"
+            },
+            {
+              "id": "valla-talent-gloom",
+              "name": "Gloom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "valla-talent-manticore",
+              "name": "Manticore",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-16"
+            },
+            {
+              "id": "valla-talent-seething-hatred",
+              "name": "Seething Hatred",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "valla-talent-acrobat",
+              "name": "Acrobat",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            },
+            {
+              "id": "valla-talent-death-siphon",
+              "name": "Death Siphon",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            },
+            {
+              "id": "valla-talent-farflight-quiver",
+              "name": "Farflight Quiver",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/valla#23.0!1322133"
+    },
+    {
+      "name": "Multishot Build",
+      "label": "Situational",
+      "description": "Valla's Multishot Build provides superior area of effect damage and ease of use at the cost of single-target damage. As key Talents, Fire At Will and Arsenal allow you to quickly achieve max Hatred, while also damaging multiple enemies at once with Multishot.\n\nThis build has 2 variations based on your Heroic Ability. With Strafe it is better to get Death Siphon at Level 20, along with Punishment at Level 16. However, since Rain of Vengeance does not have access to Death Siphon, it is better to get Talents to enhance your Basic Attacks at 16 and 20, such as Manticore and Farflight Quiver with it.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "valla-talent-fire-at-will",
+              "name": "Fire At Will",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "valla-talent-arsenal",
+              "name": "Arsenal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "valla-talent-hot-pursuit",
+              "name": "Hot Pursuit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-7"
+            },
+            {
+              "id": "valla-talent-frost-shot",
+              "name": "Frost Shot",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "valla-talent-rain-of-vengeance",
+              "name": "Rain of Vengeance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-10"
+            },
+            {
+              "id": "valla-talent-strafe",
+              "name": "Strafe",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "valla-talent-gloom",
+              "name": "Gloom",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "valla-talent-manticore",
+              "name": "Manticore",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-16"
+            },
+            {
+              "id": "valla-talent-punishment",
+              "name": "Punishment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "valla-talent-farflight-quiver",
+              "name": "Farflight Quiver",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            },
+            {
+              "id": "valla-talent-death-siphon",
+              "name": "Death Siphon",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/valla#23.0!2132334"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Valla's ARAM Build is designed to exploit the frequent teamfights in ARAM, where enemies are often clumped together. Always look to cast Multishot at clustered opponents to greatly speed up your stacking.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "valla-talent-fire-at-will",
+              "name": "Fire At Will",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "valla-talent-arsenal",
+              "name": "Arsenal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "valla-talent-hot-pursuit",
+              "name": "Hot Pursuit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-7"
+            },
+            {
+              "id": "valla-talent-frost-shot",
+              "name": "Frost Shot",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "valla-talent-strafe",
+              "name": "Strafe",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-10"
+            },
+            {
+              "id": "valla-talent-rain-of-vengeance",
+              "name": "Rain of Vengeance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "valla-talent-siphoning-arrows",
+              "name": "Siphoning Arrows",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-13"
+            },
+            {
+              "id": "valla-talent-gloom",
+              "name": "Gloom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "valla-talent-punishment",
+              "name": "Punishment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-16"
+            },
+            {
+              "id": "valla-talent-manticore",
+              "name": "Manticore",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "valla-talent-death-siphon",
+              "name": "Death Siphon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            },
+            {
+              "id": "valla-talent-farflight-quiver",
+              "name": "Farflight Quiver",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valla-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/valla#23.0!2131111"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/valla-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:34.285195+00:00",
+    "updated_at": "2025-05-02T09:15:00+00:00",
+    "author_line": "Last updated on May 02, 2025 at 09:15 by Derenash"
+  }
+}

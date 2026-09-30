@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "id": "kel-thuzad",
+  "name": "Kel'Thuzad",
+  "role": "Ranged Assassin",
+  "overview": "Kel'Thuzad is a combo-oriented ranged damage dealer with outstanding area of effect crowd control and burst damage potential. Relying on skillshot Abilities to grow through Master of the Cold Dark makes him weak in the early stages of the game and harder than most Heroes to play, let alone master.",
+  "strengths": [
+    "Extremely potent crowd control chain",
+    "Powerful situational burst damage",
+    "Potent sieger",
+    "Global presence through Shadow Fissure"
+  ],
+  "weaknesses": [
+    "Very vulnerable to mobile Heroes",
+    "Difficult to play due to all Basic Abilities being skillshots",
+    "Limited defensive Talent options and general mobility",
+    "Weak in the early game"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "anduin",
+        "name": "Anduin"
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "the-butcher",
+        "name": "The Butcher"
+      },
+      {
+        "id": "valeera",
+        "name": "Valeera"
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "xul",
+        "name": "Xul"
+      }
+    ],
+    "explanation": "Since Kel'Thuzad depends highly on skillshots to deal damage, he naturally works well with any Hero that can provide reliable crowd control against a kill target for him to follow up. His frailty also makes him dependent on other Heroes to peel for him; Tanks tend to fulfill these two needs, though other Hero types can too."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "nova",
+        "name": "Nova"
+      },
+      {
+        "id": "samuro",
+        "name": "Samuro"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "valeera",
+        "name": "Valeera"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "Since Kel'Thuzad relies chiefly on skillshots to deal damage, he does particularly poorly against Heroes that have ways of quickly dodging his Abilities. Furthermore, his frailty and lack of self-peel makes him vulnerable to high-damage, nimble Heroes that can quickly reach him."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Maps that promote early skirmishes are optimal for the purpose of quickly completing Master of the Cold Dark."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "Kel'Thuzad's Standard Build focuses on helping you out in hitting your skillshots, siege damage and crowd control. The key to playing Kel'Thuzad well is managing to time your combo. With Chilling Touch, this becomes a lot easier due to the area of effect Slow component of it. Once Kel'Thuzad hits Level 10, he gets access to Frost Blast which can be a gamechanger either for catching an enemy hero out of bounds or in teamfights, rooting several members of the enemy team. When we get to level 20 and pick up The Damned Return, Kel'Thuzad is able to dish out a lot of siege damage.\n\nTo successfully perform a combo, we recommend using E-W-E. You have to cast Chains of Kel'Thuzad on an enemy Hero, then cast Frost Nova between that Hero and another enemy Hero, and then reactivate Chains of Kel'Thuzad targeting the other enemy Hero.\n\nWhen using Glacial Spike, the recommended combo is landing Chains, use Glacial Spike, Frost Nova right in front of the Glacial Spike and reactivating Chains onto the spike. Should the enemy hero be slowed, stunned or rooted from other sources, it can also be fine to pop Glacial Spike and chaining from the Spike onto the enemy hero.\n\nWith Frost Blast the combo doesn't change. Frost Blast can be used either before or after the combo, depending on the situation. Should you use Frost Blast before a combo, Glacial Spike has some follow-up value. Should you go with Shadow Fissure, the combo becomes E-W-E-R. Should you struggle to perform the recommended combo, you can use the E-E-W Combo, but it's less effective because Heroes with mobility can get out.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-the-plaguelands",
+              "name": "The Plaguelands",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-armor-of-the-archlich",
+              "name": "Armor of the Archlich",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-chilling-touch",
+              "name": "Chilling Touch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-frost-blast",
+              "name": "Frost Blast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-icy-grasp",
+              "name": "Icy Grasp",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-hungering-cold",
+              "name": "Hungering Cold",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-the-damned-return",
+              "name": "The Damned Return",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kel-thuzad#36.2!1321124"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Kel'Thuzad's ARAM build is similar to the standard build as the build works very well even in ARAM. Kel'Thuzad hits his powerspike pretty fast as landing his spells on multiple targets is a lot easier in ARAM. He also makes great use of Phylactery as globes are easy to come by.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-the-plaguelands",
+              "name": "The Plaguelands",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-phylactery-of-kel-thuzad",
+              "name": "Phylactery of Kel'Thuzad",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-4"
+            },
+            {
+              "id": "kel-thuzad-talent-armor-of-the-archlich",
+              "name": "Armor of the Archlich",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-chilling-touch",
+              "name": "Chilling Touch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-frost-blast",
+              "name": "Frost Blast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-icy-grasp",
+              "name": "Icy Grasp",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-hungering-cold",
+              "name": "Hungering Cold",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kel-thuzad-talent-the-damned-return",
+              "name": "The Damned Return",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kel-thuzad-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kel-thuzad#36.2!1221124"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/kel-thuzad-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:15.339808+00:00",
+    "updated_at": "2025-04-27T08:00:00+00:00",
+    "author_line": "Last updated on Apr 27, 2025 at 08:00 by Outofmilk"
+  }
+}

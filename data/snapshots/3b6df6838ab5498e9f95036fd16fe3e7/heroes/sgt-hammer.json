@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "id": "sgt-hammer",
+  "name": "Sgt. Hammer",
+  "role": "Ranged Assassin",
+  "overview": "Sgt. Hammer is a Ranged Assassin that excels at dealing large amounts of sustained damage from a very long range. Her unique playstyle, relative lack of mobility, and her fragility mean that her allies must adopt a patient playstyle in order to get the most out of her.",
+  "strengths": [
+    "Very high single-target sustain damage",
+    "Good area of effect sustain damage",
+    "Solid waveclear",
+    "High-range poke",
+    "Outstanding PvE damage"
+  ],
+  "weaknesses": [
+    "Exceedingly dependent on proper positioning",
+    "Vulnerable to skillshots",
+    "Very limited out-of-combat mobility due to not having a regular Mount",
+    "Limited team fighting utility",
+    "Peculiar playstyle around which your team must play"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "lt-morales",
+        "name": "Lt. Morales"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      }
+    ],
+    "explanation": "Protect the Hammer! Sgt. Hammer's binary design makes her depend on Heroes who have ways of keeping opponents away from her to thrive."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "artanis",
+        "name": "Artanis"
+      },
+      {
+        "id": "chromie",
+        "name": "Chromie"
+      },
+      {
+        "id": "kel-thuzad",
+        "name": "Kel'Thuzad"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "stitches",
+        "name": "Stitches"
+      }
+    ],
+    "explanation": "Since Sgt. Hammer needs to stand still to get the most out of her Abilities, she is naturally vulnerable to Heroes that use dangerous skillshots, particularly those that can displace her."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Sgt. Hammer's static nature makes her thrive on Maps with fixed Objectives that allows her to threaten Heroes from range. Conversely, she tends to be of limited usefulness where quick group rotations are required."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "This standard build focuses on maximizing sustained damage and healing over time, making it excellent for prolonged team fights and objective control. However, it skips Siege Tactics, so it is vulnerable against hard engage or displacement effects, such as Hook.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-advanced-artillery",
+              "name": "Advanced Artillery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-regenerative-bio-steel",
+              "name": "Regenerative Bio-Steel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-hover-siege-mode",
+              "name": "Hover Siege Mode",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-blunt-force-gun",
+              "name": "Blunt Force Gun",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-10"
+            },
+            {
+              "id": "sgt-hammer-talent-napalm-strike",
+              "name": "Napalm Strike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-hyper-cooling-engines",
+              "name": "Hyper-Cooling Engines",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-mechanical-know-how",
+              "name": "Mechanical Know-how",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-16"
+            },
+            {
+              "id": "sgt-hammer-talent-giant-killer",
+              "name": "Giant Killer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-16"
+            },
+            {
+              "id": "sgt-hammer-talent-executioner",
+              "name": "Executioner",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-ultra-capacitors",
+              "name": "Ultra Capacitors",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sgt-hammer#55.16!2321314"
+    },
+    {
+      "name": "Siege Tactics Build",
+      "label": "Situational",
+      "description": "This build prioritizes survivability against displacement and crowd control effects by picking Siege Tactics. It is the ideal choice when dealing with enemy teams that can threaten you with hard engage or abilities like Hook.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-advanced-artillery",
+              "name": "Advanced Artillery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-1"
+            },
+            {
+              "id": "sgt-hammer-talent-ambush",
+              "name": "Ambush",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-1"
+            },
+            {
+              "id": "sgt-hammer-talent-maelstrom-rounds",
+              "name": "Maelstrom Rounds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-siege-tactics",
+              "name": "Siege Tactics",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-hover-siege-mode",
+              "name": "Hover Siege Mode",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-blunt-force-gun",
+              "name": "Blunt Force Gun",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-10"
+            },
+            {
+              "id": "sgt-hammer-talent-napalm-strike",
+              "name": "Napalm Strike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-hyper-cooling-engines",
+              "name": "Hyper-Cooling Engines",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-giant-killer",
+              "name": "Giant Killer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-16"
+            },
+            {
+              "id": "sgt-hammer-talent-executioner",
+              "name": "Executioner",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sgt-hammer-talent-ultra-capacitors",
+              "name": "Ultra Capacitors",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sgt-hammer-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sgt-hammer#55.16!2221334"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/sgt-hammer-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:19.230678+00:00",
+    "updated_at": "2026-09-13T12:30:00+00:00",
+    "author_line": "Last updated on Sep 13, 2026 at 12:30 by Derenash"
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "id": "hogger",
+  "name": "Hogger",
+  "role": "Bruiser",
+  "overview": "Hogger is a Bruiser with the unique Ability to create and get advantage of impassable terrain with terrain outlines, something that works great in narrow spaces and has low value in wide areas. This characteristic can be used to easily capture Mercenary Camps by strategically aiming Hogg Wild.\n\nThanks to having Rage instead of Mana, Hogger inherently prefers drawn-out battles that tend to exhaust enemy resources, especially when paired with a sustain Healer that can keep him healthy for long periods of time. That said, Hogger has access to a respectable amount of burst damage.",
+  "strengths": [
+    "Good waveclear",
+    "Decent crowd control",
+    "Solid damage output, especially when full Rage",
+    "Decent mobility",
+    "Great at capturing Mercenary Camps"
+  ],
+  "weaknesses": [
+    "Weak to poke damage",
+    "Countered by percent-based damage",
+    "Cannot deal with high-mobility Heroes",
+    "Slightly vulnerable to healing reduction effects"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Heroes who benefit from impassable terrain with (for example Hanzo with Scatter Arrow) or without (such as Auriel with Detainment Strike) terrain outlines can get value from Loot Hoard.\n\nWhen enemy Heroes are stuck between Hogger and impassable terrain, allied Heroes can easily follow up with Abilities that require their target to stay still for a moment (like Chromie) or inside one area for a few seconds (for example Stukov).\n\nHaving access to a high amount of damage, Hogger can be paired with another similar Bruiser to have a more solid frontline than usual. One of them (usually not Hogger because he will take care of Mercenary Camps) will be played as Offlaner whereas the other will stay in the 4-man."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "tychus",
+        "name": "Tychus"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Try to lock Hogger in place with quick and unpredictable crowd control Abilities and then burst him down before he can get out with either Hogg Wild or Hoardapult (if selected and not on cooldown after an aggressive play). Since he has access to Armor, percent-based damage helps with that.\n\nBeing a melee Hero, Hogger does not like to play against poke damage and kite (for example Lunara), unless he can dive them with the help other Heroes.\n\nThere are some Heroes who can easily deny any value which Hogger could get with impassable terrain thanks to their mobility tools (such as Zeratul with Blink or even Medivh with Portal). Even worse, some of them can use impassable terrain against Hogger thanks to dedicated Abilities (for example Diablo with Shadow Charge).\n\nBe careful when playing against Heroes who can reduce healing (such as Ana with Biotic Grenade) because they reduce your survivability by partially or completely denying the healing provided by your chunks of Meat. The same is true for Heroes who can reduce your Spell Power, as it will decrease your self-healing too."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Hogger does well on medium-sized Battlegrounds where he can double soak (such as Infernal Shrines) and is great on Maps with narrow spaces where he can get value from impassable terrain, either by Knocking back enemy Heroes towards it or by blocking enemy Heroes in small corridors (notably Cursed Hollow).\n\nBattlegrounds where most of the action happens in wide areas (for example Hanamura Temple) do not favor Hogger because he will not be able to get enough value from impassable terrain and 2-lane Maps will not allow him to dominate the early game by double soaking."
+  },
+  "builds": [
+    {
+      "name": "Hoardapult Rage Build",
+      "label": "Recommended",
+      "description": "Hogger's Hoardapult Rage Build allows you to dive the enemy backline with the help of Hoardapult. In case of emergency, you can also use it for escaping and/or becoming Unstoppable.\n\nThe damage done by Garbage Fire at Level 7 also applies to the Loot Hoard created when using Hoardapult, so you should always pair them together.\n\nHeadbanger at Level 16 will also go off when pushing enemy Heroes towards the Loot Hoard created with Hoardapult.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "hogger-talent-on-the-prowl",
+              "name": "On The Prowl",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "hogger-talent-hoggers-joggers",
+              "name": "Hogger's Joggers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "hogger-talent-garbage-fire",
+              "name": "Garbage Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "hogger-talent-hoardapult",
+              "name": "Hoardapult",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "hogger-talent-pummel",
+              "name": "Pummel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "hogger-talent-headbanger",
+              "name": "Headbanger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "hogger-talent-anger-management",
+              "name": "Anger Management",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            },
+            {
+              "id": "hogger-talent-no-control",
+              "name": "No Control",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/hogger#55.17!3321214"
+    },
+    {
+      "name": "Shockwave Rage Build",
+      "label": "Situational",
+      "description": "Hogger's Shockwave Rage Build is designed to burst down enemy Heroes by using Shockwave in melee range to Stun them, so it should be picked when your team whats to kill the enemy frontline first.\n\nUse Shockwave and Staggering Blow towards your Loot Hoard in quick sequence to stun enemy Heroes for longer. This combo is particularly strong after you get Headbanger at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "hogger-talent-on-the-prowl",
+              "name": "On The Prowl",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "hogger-talent-hoggers-joggers",
+              "name": "Hogger's Joggers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "hogger-talent-seeing-red",
+              "name": "Seeing Red",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "hogger-talent-shockwave",
+              "name": "Shockwave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "hogger-talent-pummel",
+              "name": "Pummel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "hogger-talent-headbanger",
+              "name": "Headbanger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "hogger-talent-anger-management",
+              "name": "Anger Management",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            },
+            {
+              "id": "hogger-talent-no-control",
+              "name": "No Control",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/hogger#55.17!3332214"
+    },
+    {
+      "name": "Ez-Thro Dynamite Build",
+      "label": "Situational",
+      "description": "Hogger's Ez-Thro Dynamite Build makes you not only a threat for enemy Heroes who step too close but also allows you to deal poke damage from the distance, without fully committing to the team fight.\n\nDense Blasting Powder at Level 7 makes this Build particularly interesting when you can poke the enemy team, however, this Talent is also good in burst scenarios as you can hit the same Hero multiple times with it.\n\nYou should only go for this Build when playing Hogger in the 4-man because there you can easily stack Journeyman Cooking at Level 1 to increase your maximum Health and, as a consequence, how much it heals you.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "hogger-talent-journeyman-cooking",
+              "name": "Journeyman Cooking",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "hogger-talent-hoggers-joggers",
+              "name": "Hogger's Joggers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "hogger-talent-dense-blasting-powder",
+              "name": "Dense Blasting Powder",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "hogger-talent-hoardapult",
+              "name": "Hoardapult",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-10"
+            },
+            {
+              "id": "hogger-talent-shockwave",
+              "name": "Shockwave",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "hogger-talent-pummel",
+              "name": "Pummel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "hogger-talent-kablooie",
+              "name": "Kablooie!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "hogger-talent-secret-stash",
+              "name": "Secret Stash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            },
+            {
+              "id": "hogger-talent-no-control",
+              "name": "No Control",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            },
+            {
+              "id": "hogger-talent-anger-management",
+              "name": "Anger Management",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/hogger#55.17!1311221"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Hogger's ARAM Build makes you not only a threat for enemy Heroes who step too close but also allows you to deal poke damage from the distance, without fully committing to the team fight.\n\nDense Blasting Powder at Level 7 makes this Build particularly interesting when you can poke the enemy team, however, this Talent is also good in burst scenarios as you can hit the same Hero multiple times with it.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "hogger-talent-journeyman-cooking",
+              "name": "Journeyman Cooking",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "hogger-talent-hoggers-joggers",
+              "name": "Hogger's Joggers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "hogger-talent-dense-blasting-powder",
+              "name": "Dense Blasting Powder",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "hogger-talent-hoardapult",
+              "name": "Hoardapult",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-10"
+            },
+            {
+              "id": "hogger-talent-shockwave",
+              "name": "Shockwave",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "hogger-talent-pummel",
+              "name": "Pummel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "hogger-talent-kablooie",
+              "name": "Kablooie!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "hogger-talent-secret-stash",
+              "name": "Secret Stash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            },
+            {
+              "id": "hogger-talent-power-spike",
+              "name": "Power Spike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            },
+            {
+              "id": "hogger-talent-no-control",
+              "name": "No Control",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            },
+            {
+              "id": "hogger-talent-anger-management",
+              "name": "Anger Management",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hogger-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/hogger#55.17!1311221"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/hogger-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:08.331694+00:00",
+    "updated_at": "2026-09-11T08:25:00+00:00",
+    "author_line": "Last updated on Sep 11, 2026 at 08:25 by Elitesparkle"
+  }
+}

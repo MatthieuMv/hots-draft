@@ -1,0 +1,583 @@
+{
+  "schema_version": 1,
+  "id": "alexstrasza",
+  "name": "Alexstrasza",
+  "role": "Healer",
+  "overview": "Alexstrasza is a Healer who provides raw healing power but does not have access to hard crowd control.\n\nShe is particularly efficient if protected by a solid frontline, since she does not have any real escape mechanism.\n\nDuring important team fights, she uses Dragonqueen to improve her Abilities.",
+  "strengths": [
+    "Good waveclear",
+    "High healing output",
+    "Relatively low Mana consumption compared to other Healers",
+    "Dragonqueen gives a huge advantage during team fights"
+  ],
+  "weaknesses": [
+    "Limited self-healing capabilities",
+    "Lack of crowd-control",
+    "Underwhelming mobility",
+    "Weak while Dragonqueen is not available",
+    "No access to Cleanse or similar tools to remove crowd-control effects",
+    "Unable to provide Unstoppable frames"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "azmodan",
+        "name": "Azmodan"
+      }
+    ],
+    "explanation": "Alexstrasza has an affinity with Heroes that have high maximum Health (such as Diablo) because Abundance baseline, Life-Binder at Level 10, and Life Unbound at Level 13 provide percent-based healing.\n\nAs she lack crowd control, she should be played together with a few Heroes who can provide that (such as Kael'thas thanks to Gravity Lapse), in addition to similar effects provided by the main Tank of your team to peel for her."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "junkrat",
+        "name": "Junkrat"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      }
+    ],
+    "explanation": "Alexstrasza offers a lot of raw healing and barely any utility, therefore she struggles against enemey Heroes that have access to healing reduction effects (such as Deckard Cain with Emerald at Level 7).\n\nShe suffers against area of effect Abilities (such as Concussion Mine by Junkrat) and/or burst damage (for example Flamestrike by Kael'thas) used on Abundance's location.\n\nHeroes that can stick to Alexstrasza and interrupt (such as Yrel) Dragonqueen and/or Cleansing Flame can put serious pressure on her.\n\nDragonqueen can be countered by making Alexstrasza unable to act (for example Cocoon by Anub'arak) or by forcing a disengage (like Mighty Gust by Falstad)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Alexstrasza heavily prefers Maps that feature a static Objectives with a long cooldown, a single location, and a moderate duration (notably Infernal Shrines) because Dragonqueen can unfold its full potential for a team fight that, if won, will directly translate to taking down a Fort or even a Keep.\n\nThe worst Maps for Alexstrasza are the ones where having good sustain healing during the early game is extremely important (in particular Braxis Holdout, but also any other 2-lane Map)."
+  },
+  "builds": [
+    {
+      "name": "Abundance Build",
+      "label": "Recommended",
+      "description": "Alexstrasza's Abundance Build focuses on area of effect healing and increases your survivability against dives.\n\nConsidering that you are spending multiple Talents on Abundance, this Build will be harder to play against area of effect damage and crowd control effects because they can prevent Heroes from benefitting from it.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-circle-of-life",
+              "name": "Circle of Life",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-surge-of-vitality",
+              "name": "Surge of Vitality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-4"
+            },
+            {
+              "id": "alexstrasza-talent-heat-exhaustion",
+              "name": "Heat Exhaustion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-4"
+            },
+            {
+              "id": "alexstrasza-talent-exuberance",
+              "name": "Exuberance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-verdant-flourish",
+              "name": "Verdant Flourish",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-life-binder",
+              "name": "Life-Binder",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-10"
+            },
+            {
+              "id": "alexstrasza-talent-cleansing-flame",
+              "name": "Cleansing Flame",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-dragon-scales",
+              "name": "Dragon Scales",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-13"
+            },
+            {
+              "id": "alexstrasza-talent-life-unbound",
+              "name": "Life Unbound",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-13"
+            },
+            {
+              "id": "alexstrasza-talent-pacify",
+              "name": "Pacify",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-overprotective",
+              "name": "Overprotective",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-16"
+            },
+            {
+              "id": "alexstrasza-talent-draconic-discipline",
+              "name": "Draconic Discipline",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-ritual-of-life",
+              "name": "Ritual of Life",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-20"
+            },
+            {
+              "id": "alexstrasza-talent-on-ruby-wings",
+              "name": "On Ruby Wings",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/alexstrasza#57.0!2121121"
+    },
+    {
+      "name": "Gift of Life Build",
+      "label": "Situational",
+      "description": "Alexstrasza's Gift of Life Build provides high single target sustain healing, regardless of being in combat or not, but it comes online only after unlocking Lifeblossom at Level 7.\n\nThe major weakness of this Build is that its healing output goes down when Alexstrasza takes damage, so it should not be played when the enemy team has Heroes who can easily dive her.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-live-and-let-live",
+              "name": "Live and Let Live",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-exuberance",
+              "name": "Exuberance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-lifeblossom",
+              "name": "Lifeblossom",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-life-binder",
+              "name": "Life-Binder",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-10"
+            },
+            {
+              "id": "alexstrasza-talent-cleansing-flame",
+              "name": "Cleansing Flame",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-life-unbound",
+              "name": "Life Unbound",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-tough-love",
+              "name": "Tough Love",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-ritual-of-life",
+              "name": "Ritual of Life",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-20"
+            },
+            {
+              "id": "alexstrasza-talent-on-ruby-wings",
+              "name": "On Ruby Wings",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/alexstrasza#57.0!1311311"
+    },
+    {
+      "name": "Flame Buffet Build",
+      "label": "Situational",
+      "description": "Alexstrasza's Flame Buffet Build provides good self-sustain to increase your survivability during team fights and massively improves your Dragonqueen in the late game at the cost of healing and early-game power.\n\nAncient Flame at Level 20 greatly empowers Dragonqueen, allowing you to single-handedly win team fights if the enemy team does not play around it. Slow enemies with Heat Exhaustion at Level 4 and heal yourself with Fire Within at Level 7.\n\nWe do not recommend playing this Build on Maps where the early game is important (notably Braxis Holdout) because it provides low sustain healing and needs to scale into the late game.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-circle-of-life",
+              "name": "Circle of Life",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-1"
+            },
+            {
+              "id": "alexstrasza-talent-flames-of-fury",
+              "name": "Flames of Fury",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-heat-exhaustion",
+              "name": "Heat Exhaustion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-fire-within",
+              "name": "Fire Within",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-cleansing-flame",
+              "name": "Cleansing Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-dragon-scales",
+              "name": "Dragon Scales",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-draconic-discipline",
+              "name": "Draconic Discipline",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-ancient-flame",
+              "name": "Ancient Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/alexstrasza#57.0!2232133"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Alexstrasza's ARAM Build focuses on area of effect healing and increases your survivability against dives.\n\nConsidering that you are spending multiple Talents on Abundance, this Build will be harder to play against area of effect damage and crowd control effects because they can prevent Heroes from benefitting from it.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-circle-of-life",
+              "name": "Circle of Life",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-surge-of-vitality",
+              "name": "Surge of Vitality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-4"
+            },
+            {
+              "id": "alexstrasza-talent-heat-exhaustion",
+              "name": "Heat Exhaustion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-4"
+            },
+            {
+              "id": "alexstrasza-talent-exuberance",
+              "name": "Exuberance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-verdant-flourish",
+              "name": "Verdant Flourish",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-life-binder",
+              "name": "Life-Binder",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-10"
+            },
+            {
+              "id": "alexstrasza-talent-cleansing-flame",
+              "name": "Cleansing Flame",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-dragon-scales",
+              "name": "Dragon Scales",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-13"
+            },
+            {
+              "id": "alexstrasza-talent-life-unbound",
+              "name": "Life Unbound",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-13"
+            },
+            {
+              "id": "alexstrasza-talent-pacify",
+              "name": "Pacify",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-overprotective",
+              "name": "Overprotective",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-16"
+            },
+            {
+              "id": "alexstrasza-talent-draconic-discipline",
+              "name": "Draconic Discipline",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "alexstrasza-talent-ritual-of-life",
+              "name": "Ritual of Life",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-20"
+            },
+            {
+              "id": "alexstrasza-talent-on-ruby-wings",
+              "name": "On Ruby Wings",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alexstrasza-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/alexstrasza#57.0!2121121"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/alexstrasza-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:00.872217+00:00",
+    "updated_at": "2026-07-20T20:50:00+00:00",
+    "author_line": "Last updated on Jul 20, 2026 at 20:50 by Elitesparkle"
+  }
+}

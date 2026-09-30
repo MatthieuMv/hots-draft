@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "id": "greymane",
+  "name": "Greymane",
+  "role": "Ranged Assassin",
+  "overview": "Greymane is a Ranged Assassin that thrives on aggression. With an unusual ability to transform into a melee Hero to temporarily reveal a different set of Abilities, Greymane offers unparalleled versatility in terms of damage-dealing. His lack of defensive Abilities and Talents and limited utility, however, may spell his downfall... in the hands of an unprepared player.",
+  "strengths": [
+    "Outstanding on-demand burst damage",
+    "Excellent PvE damage output",
+    "Potent duelist",
+    "Flexible pick that can work in almost all compositions",
+    "Decent waveclear"
+  ],
+  "weaknesses": [
+    "Offers zero utility beyond raw damage",
+    "Low survivability albeit having a reasonably-sized Health pool",
+    "Particularly weak when playing \"from behind\""
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "abathur",
+        "name": "Abathur"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      }
+    ],
+    "explanation": "Greymane's excellent damage output scales well with anything that might improve his Attacks or give him extra resistance during Worgen form. Otherwise, strong initiation and team fight presence goes a long way to opening windows of opportunity for him to pick off Heroes that are out of position. He also has a good synergy with Malthael, as Cursed Bullet is excellent with Last Rites."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      },
+      {
+        "id": "the-butcher",
+        "name": "The Butcher"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "xul",
+        "name": "Xul"
+      }
+    ],
+    "explanation": "As an Assassin with a rather telegraphed play style, Greymane is very vulnerable to any form of targeted crowd control. Given that his Basic Attacks are his main source of damage, he is also greatly hindered by any form of debuff that might blind him or reduce his Attack speed."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Greymane's outstanding single-target DPS makes him particularly potent on Maps where there are multiple Mercenary Camps to be captured. Beyond this point, Greymane's relative well-roundedness does not make him particularly effective or weak anywhere, although his lack of self sustain might make him unsuited to offlane against some of the better duelists."
+  },
+  "builds": [
+    {
+      "name": "Attack Build",
+      "label": "Recommended",
+      "description": "Greymane's Basic Attack Build revolves around improving his Basic Attacks and thus sustained damage output. Although it provides less waveclear and burst damage than its counterpart, it provides Greymane with more consistent sustain damage.\n\nLord of His Pack greatly increases Greymane's damage, and should be the pick in most games where you have any kind of crowd control. If you do not have many Abilities to trigger Lord of His Pack in your team, Alpha Killer is a great option for more power in teamfights, while Eager Wolf is better in the PvE.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "greymane-talent-viciousness",
+              "name": "Viciousness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-1"
+            },
+            {
+              "id": "greymane-talent-wolfheart",
+              "name": "Wolfheart",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "greymane-talent-eyes-in-the-dark",
+              "name": "Eyes in the Dark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-4"
+            },
+            {
+              "id": "greymane-talent-thick-skin",
+              "name": "Thick Skin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "greymane-talent-quicksilver-bullets",
+              "name": "Quicksilver Bullets",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "greymane-talent-cursed-bullet",
+              "name": "Cursed Bullet",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-10"
+            },
+            {
+              "id": "greymane-talent-go-for-the-throat",
+              "name": "Go for the Throat",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "greymane-talent-on-the-prowl",
+              "name": "On the Prowl",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "greymane-talent-lord-of-his-pack",
+              "name": "Lord of His Pack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-16"
+            },
+            {
+              "id": "greymane-talent-alpha-killer",
+              "name": "Alpha Killer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-16"
+            },
+            {
+              "id": "greymane-talent-eager-wolf",
+              "name": "Eager Wolf",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "greymane-talent-hunters-blunderbuss",
+              "name": "Hunter's Blunderbuss",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/greymane#34.3!3212323"
+    },
+    {
+      "name": "Worgen Build",
+      "label": "Situational",
+      "description": "Greymane's Worgen Build, as the name suggests, is totally focused on dealing high damage as a Worgen. This build may not have the reliability provided by Quicksilver Bullets, but it has a much better kill potential and higher burst damage in melee form.\n\nConsidering this build has several Talents that require Greymane to play as Worgen in fights, it is much riskier to use. We do not recommend using this Build against Team Compositions with good single target damage and several crowd control tools to punish you. Otherwise, this build provides an excellent chase potential, dive capability, and a good way to dodge skillshots with Unfettered Assault.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "greymane-talent-viciousness",
+              "name": "Viciousness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-1"
+            },
+            {
+              "id": "greymane-talent-wolfheart",
+              "name": "Wolfheart",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "greymane-talent-thick-skin",
+              "name": "Thick Skin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-4"
+            },
+            {
+              "id": "greymane-talent-eyes-in-the-dark",
+              "name": "Eyes in the Dark",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "greymane-talent-wizened-duelist",
+              "name": "Wizened Duelist",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "greymane-talent-go-for-the-throat",
+              "name": "Go for the Throat",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-10"
+            },
+            {
+              "id": "greymane-talent-cursed-bullet",
+              "name": "Cursed Bullet",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "greymane-talent-unfettered-assault",
+              "name": "Unfettered Assault",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-13"
+            },
+            {
+              "id": "greymane-talent-on-the-prowl",
+              "name": "On the Prowl",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "greymane-talent-lord-of-his-pack",
+              "name": "Lord of His Pack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-16"
+            },
+            {
+              "id": "greymane-talent-alpha-killer",
+              "name": "Alpha Killer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "greymane-talent-tooth-and-claw",
+              "name": "Tooth and Claw",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-20"
+            },
+            {
+              "id": "greymane-talent-unleashed",
+              "name": "Unleashed",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/greymane#34.3!3131224"
+    },
+    {
+      "name": "Cocktail Build",
+      "label": "Situational",
+      "description": "Greymane's Cocktail Build focuses on dealing high damage to the opposing team's backline. Differently from Greymane's other builds, this one does not have a good early game, as it will only be useful after stacking Incendiary Elixir. However, once stacked, Greymane will start to deal massive damage in fights.\n\nGilnean Cocktail requires an enemy in front of a Hero to actually damage them. For this reason, we only recommend this build on maps with several Minions or Monsters where fights happen, such as Infernal Shrines or Tomb of the Spider Queen.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "greymane-talent-perfect-aim",
+              "name": "Perfect Aim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "greymane-talent-eyes-in-the-dark",
+              "name": "Eyes in the Dark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-4"
+            },
+            {
+              "id": "greymane-talent-thick-skin",
+              "name": "Thick Skin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "greymane-talent-incendiary-elixir",
+              "name": "Incendiary Elixir",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "greymane-talent-go-for-the-throat",
+              "name": "Go for the Throat",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-10"
+            },
+            {
+              "id": "greymane-talent-cursed-bullet",
+              "name": "Cursed Bullet",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "greymane-talent-on-the-prowl",
+              "name": "On the Prowl",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-13"
+            },
+            {
+              "id": "greymane-talent-running-wild",
+              "name": "Running Wild",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "greymane-talent-lord-of-his-pack",
+              "name": "Lord of His Pack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-16"
+            },
+            {
+              "id": "greymane-talent-alpha-killer",
+              "name": "Alpha Killer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "greymane-talent-hunters-blunderbuss",
+              "name": "Hunter's Blunderbuss",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-20"
+            },
+            {
+              "id": "greymane-talent-unleashed",
+              "name": "Unleashed",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/greymane-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/greymane#34.3!2221323"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/greymane-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:05.328506+00:00",
+    "updated_at": "2025-05-31T11:10:00+00:00",
+    "author_line": "Last updated on May 31, 2025 at 11:10 by Derenash"
+  }
+}

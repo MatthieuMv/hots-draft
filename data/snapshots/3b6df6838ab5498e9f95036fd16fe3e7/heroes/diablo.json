@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "id": "diablo",
+  "name": "Diablo",
+  "role": "Tank",
+  "overview": "Diablo is an aggressive Tank. With multiple crowd control Abilities that also displace his opponents, he excels at setting up and peeling for his teammates, and punishing poor positioning. Due to how Shadow Charge works, Diablo is particularly strong when enemy Heroes have impassable terrain right behind them.",
+  "strengths": [
+    "Powerful engage",
+    "Very large Health pool",
+    "Excellent at body blocking",
+    "May respawn very quickly upon death through Black Soulstone",
+    "Good self-sustain",
+    "High damage against enemy Heroes"
+  ],
+  "weaknesses": [
+    "Limited and conditional mobility",
+    "Low waveclear",
+    "Requires impassable terrain to shine"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "thrall",
+        "name": "Thrall"
+      },
+      {
+        "id": "tassadar",
+        "name": "Tassadar"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "tyrande",
+        "name": "Tyrande"
+      }
+    ],
+    "explanation": "Since Diablo provides reliable means of initiating, it follows naturally that he would work well with Heroes that have a strong and reliable way of playing off and following up said initiating. Any Hero that Stuns, Roots or otherwise hinders the movement of intended targets is preferred, but Heroic Abilities that synergise with Apocalypse make for particularly effective combos."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "tychus",
+        "name": "Tychus"
+      }
+    ],
+    "explanation": "As a Tank with a large amount of Health, Diablo is naturally vulnerable to Heroes that deal percent-based damage. His reliance on being able to engage to be impactful also makes him lackluster against some of the more resilient backline Assassins who have tools to avoid or otherwise nullify his Shadow Charge + Overpower combo."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Diablo does great on Maps where the early game is not that important (such as Garden of Terror) and where findining opportunities to use Shadow Charge near impassable terrain is easy, resulting into a Stun and thus extra damage.\n\nDiablo does poorly on Maps with wide areas, where he cannot get value from impassable terrain, and on Maps where the early game is important (notably Braxis Holdout) because he is too weak before Level 7 and without Souls for Black Soulstone."
+  },
+  "builds": [
+    {
+      "name": "Fire Stomp Build",
+      "label": "Recommended",
+      "description": "Diablo's Fire Stomp Build boosts your survivability and damage output when hitting enemy Heroes with Fire Stomp. Remember to alternate it with other Basic Abilities to get more value from Eternal Flames at Level 7.\n\nWhile you can play this Build in most games, the self-healing provided by Fire Stomp empowered by various Talents makes this Build particularly useful when playing against Heroes who counter you (for example Tychus) and therefore force you to not play aggressively.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "diablo-talent-soul-shield",
+              "name": "Soul Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-1"
+            },
+            {
+              "id": "diablo-talent-devils-due",
+              "name": "Devil's Due",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "diablo-talent-souls-to-the-flame",
+              "name": "Souls to the Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "diablo-talent-eternal-flames",
+              "name": "Eternal Flames",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "diablo-talent-lightning-breath",
+              "name": "Lightning Breath",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-10"
+            },
+            {
+              "id": "diablo-talent-apocalypse",
+              "name": "Apocalypse",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "diablo-talent-hellfire",
+              "name": "Hellfire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "diablo-talent-debilitating-flames",
+              "name": "Debilitating Flames",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "diablo-talent-hellgate",
+              "name": "Hellgate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            },
+            {
+              "id": "diablo-talent-hellstorm",
+              "name": "Hellstorm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            },
+            {
+              "id": "diablo-talent-lord-of-terror",
+              "name": "Lord of Terror",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/diablo#55.17!3212224"
+    },
+    {
+      "name": "Shadow Charge Build",
+      "label": "Advanced",
+      "description": "Diablo's Shadow Charge Build provides superior burst damage and crowd control on closed Maps where one can reliably slam opponents against impassable terrain (notably Infernal Shrines).\n\nYou should constantly look for good angles for Shadow Charge because you have various Talents depending on your target being Stunned with it. Ideally, you should go for squishy enemy Heroes, but any target is fine when they are out of position and/or have no defensive tools.\n\nSacrificial Soul at Level 4 helps to get Souls back but, to benefit from it, you have to fully commit to Stun enemy Heroes with Shadow Charge. Malevolence at Level 7 increases your burst damage when doing so.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "diablo-talent-devils-due",
+              "name": "Devil's Due",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "diablo-talent-sacrificial-soul",
+              "name": "Sacrificial Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "diablo-talent-malevolence",
+              "name": "Malevolence",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-7"
+            },
+            {
+              "id": "diablo-talent-diabolical-momentum",
+              "name": "Diabolical Momentum",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "diablo-talent-apocalypse",
+              "name": "Apocalypse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-10"
+            },
+            {
+              "id": "diablo-talent-lightning-breath",
+              "name": "Lightning Breath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "diablo-talent-devastating-charge",
+              "name": "Devastating Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "diablo-talent-domination",
+              "name": "Domination",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "diablo-talent-hellgate",
+              "name": "Hellgate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            },
+            {
+              "id": "diablo-talent-lord-of-terror",
+              "name": "Lord of Terror",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/diablo#55.17!2121114"
+    },
+    {
+      "name": "Basic Attacks Build",
+      "label": "Situational",
+      "description": "Diablo's Basic Attacks Build provides superior self-sustain and fair single-target damage potential. As a key Talent, Diabolical Momentum allows Feast on Fear to trigger often through repeated Ability casts for significantly increased combat survivability, especially once you get Cruelty.\n\nYou can get the most out of this Build when the enemy team has a low amount of crowd control—including Blinds—at their disposal as you will be generally free to hit your target and heal up via Life Leech at Level 4.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "diablo-talent-feast-on-fear",
+              "name": "Feast on Fear",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "diablo-talent-life-leech",
+              "name": "Life Leech",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "diablo-talent-diabolical-momentum",
+              "name": "Diabolical Momentum",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "diablo-talent-apocalypse",
+              "name": "Apocalypse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-10"
+            },
+            {
+              "id": "diablo-talent-lightning-breath",
+              "name": "Lightning Breath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "diablo-talent-cruelty",
+              "name": "Cruelty",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "diablo-talent-domination",
+              "name": "Domination",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-16"
+            },
+            {
+              "id": "diablo-talent-overpowering-nightmare",
+              "name": "Overpowering Nightmare",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "diablo-talent-hellgate",
+              "name": "Hellgate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            },
+            {
+              "id": "diablo-talent-lord-of-terror",
+              "name": "Lord of Terror",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/diablo#55.17!1331314"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Diablo's ARAM Build boosts your survivability and damage output when hitting enemy Heroes with Fire Stomp. Remember to alternate it with other Basic Abilities to get more value from Eternal Flames at Level 7.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "diablo-talent-soul-shield",
+              "name": "Soul Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-1"
+            },
+            {
+              "id": "diablo-talent-devils-due",
+              "name": "Devil's Due",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "diablo-talent-souls-to-the-flame",
+              "name": "Souls to the Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "diablo-talent-eternal-flames",
+              "name": "Eternal Flames",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "diablo-talent-lightning-breath",
+              "name": "Lightning Breath",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-10"
+            },
+            {
+              "id": "diablo-talent-apocalypse",
+              "name": "Apocalypse",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "diablo-talent-hellfire",
+              "name": "Hellfire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "diablo-talent-debilitating-flames",
+              "name": "Debilitating Flames",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "diablo-talent-hellgate",
+              "name": "Hellgate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            },
+            {
+              "id": "diablo-talent-hellstorm",
+              "name": "Hellstorm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            },
+            {
+              "id": "diablo-talent-lord-of-terror",
+              "name": "Lord of Terror",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/diablo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/diablo#55.17!3212224"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/diablo-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:57:56.303760+00:00",
+    "updated_at": "2026-07-20T22:10:00+00:00",
+    "author_line": "Last updated on Jul 20, 2026 at 22:10 by Elitesparkle"
+  }
+}

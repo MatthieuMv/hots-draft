@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "id": "artanis",
+  "name": "Artanis",
+  "role": "Bruiser",
+  "overview": "Artanis is an aggressive Bruiser that excels at fighting for prolonged periods of time thanks to Shield Overload and its related Talents making him difficult to kill without the use of crowd control and burst damage together.",
+  "strengths": [
+    "Phase Prism can be used during Blade Dash to pull enemy Heroes",
+    "Shield Overload can make Artanis difficult to kill using sustain damage only",
+    "Heroic Abilities with unlimited range, allowing him to contribute to team fights on the other side of the battlefield"
+  ],
+  "weaknesses": [
+    "Almost zero mobility",
+    "Weak to kite",
+    "Vulnerable to burst damage",
+    "Crowd control can prevent Artanis from using his Basic Attacks and/or Abilities, making him unable to reduce the cooldown of Shield Overload"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Artanis pairs extremely well with Healers who can provide sustained healing (such as Malfurion) to gradually replenish his Health while his own Shields guarantee him protection against burst damage, with Heroes who can crowd control enemy Heroes to either keep them at melee distance (for example Arthas with his Root or even just his Slow) or to stop them in place after a successful Blade Dash plus Phase Prism combo (like Kael'thas with Gravity Lapse), and Heroes who can mitigate his lack of mobility (such as Zarya with Speed Barrier at Level 4)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "li-li",
+        "name": "Li Li"
+      }
+    ],
+    "explanation": "Artanis gets countered by Heroes who can Knockback him out of his Blade Dash's animation (such as E.T.C. with Face Melt), Heroes who can Root him or even just Slow him (for example Arthas and Lunara respectively), Heroes who can Blind him (such as Johanna with Shield Glare), and Heroes who can deal bonus damage to Shields (Varian with Shattering Throw comes to mind)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "explanation": "Artanis is good on Maps where he can get value from Amateur Opponent at Level 1 to take down a big Monster at the Objective (such as the Immortal on Battlefield of Eternity) or for a strong Mercenary Camp (for example the Sentinel on Hanamura Temple) but he suffers on Maps where it is important that the Offlaner has waveclear (such as Towers of Doom)."
+  },
+  "builds": [
+    {
+      "name": "Blade Dash Build",
+      "label": "Recommended",
+      "description": "Artanis's Blade Dash Build is designed to heavily increase your survivability by empowering Shield Overload as much as possible, indirectly helping you to deal more damage over the course of a team fight.\n\nThe combination of Shield Battery at Level 4, Templar's Zeal at Level 13, and Force of Will at Level 16 makes Artanis hard to take down even when countered by Blinds.\n\nLevel 13 can be either Phase Bulwark against burst damage or Templar's Zeal against sustain damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "artanis-talent-amateur-opponent",
+              "name": "Amateur Opponent",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-1"
+            },
+            {
+              "id": "artanis-talent-reactive-parry",
+              "name": "Reactive Parry",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "artanis-talent-shield-battery",
+              "name": "Shield Battery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "artanis-talent-solarite-reaper",
+              "name": "Solarite Reaper",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "artanis-talent-suppression-pulse",
+              "name": "Suppression Pulse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "artanis-talent-templars-zeal",
+              "name": "Templar's Zeal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-13"
+            },
+            {
+              "id": "artanis-talent-phase-bulwark",
+              "name": "Phase Bulwark",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "artanis-talent-force-of-will",
+              "name": "Force of Will",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-16"
+            },
+            {
+              "id": "artanis-talent-blades-of-a-templar",
+              "name": "Blades of a Templar",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "artanis-talent-plasma-burn",
+              "name": "Plasma Burn",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            },
+            {
+              "id": "artanis-talent-zealot-charge",
+              "name": "Zealot Charge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            },
+            {
+              "id": "artanis-talent-orbital-bombardment",
+              "name": "Orbital Bombardment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/artanis#54.2!2211124"
+    },
+    {
+      "name": "Phase Prism Build",
+      "label": "Situational",
+      "description": "Artanis's Phase Prism Build provides various buffs when you hit enemy Heroes with Phase Prism: Armor, Attack Speed, and cooldown reduction.\n\nChrono Surge at Level 7 and Blades of a Templar at Level 16 give you Attack Speed that helps you stack Protector Of Aiur at Level 1, slowly turning you into a late-game powerhouse.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "artanis-talent-protector-of-aiur",
+              "name": "Protector Of Aiur",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "artanis-talent-psionic-synergy",
+              "name": "Psionic Synergy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "artanis-talent-chrono-surge",
+              "name": "Chrono Surge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "artanis-talent-suppression-pulse",
+              "name": "Suppression Pulse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "artanis-talent-graviton-vortex",
+              "name": "Graviton Vortex",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "artanis-talent-blades-of-a-templar",
+              "name": "Blades of a Templar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "artanis-talent-zealot-charge",
+              "name": "Zealot Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            },
+            {
+              "id": "artanis-talent-orbital-bombardment",
+              "name": "Orbital Bombardment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/artanis#54.2!3121333"
+    },
+    {
+      "name": "Twin Blades Build",
+      "label": "Situational",
+      "description": "Artanis's Twin Blades Build is designed to give you a high amount of damage, mostly in the form of burst damage right after activating Twin Blades.\n\nYou should consider this Build only if you really want to take down high-mobility Heroes who are diving in the backline of your team or if you need percent-based damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "artanis-talent-amateur-opponent",
+              "name": "Amateur Opponent",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "artanis-talent-shield-surge",
+              "name": "Shield Surge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "artanis-talent-final-cut",
+              "name": "Final Cut",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "artanis-talent-suppression-pulse",
+              "name": "Suppression Pulse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "artanis-talent-triple-strike",
+              "name": "Triple Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "artanis-talent-titan-killer",
+              "name": "Titan Killer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "artanis-talent-zealot-charge",
+              "name": "Zealot Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            },
+            {
+              "id": "artanis-talent-orbital-bombardment",
+              "name": "Orbital Bombardment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/artanis#54.2!2331213"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Artanis's ARAM Build provides various buffs when you hit enemy Heroes with Phase Prism: Armor, Attack Speed, and cooldown reduction.\n\nChrono Surge at Level 7 and Blades of a Templar at Level 16 give you Attack Speed that helps you stack Protector Of Aiur at Level 1, slowly turning you into a late-game powerhouse.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "artanis-talent-protector-of-aiur",
+              "name": "Protector Of Aiur",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "artanis-talent-psionic-synergy",
+              "name": "Psionic Synergy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "artanis-talent-chrono-surge",
+              "name": "Chrono Surge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "artanis-talent-suppression-pulse",
+              "name": "Suppression Pulse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "artanis-talent-graviton-vortex",
+              "name": "Graviton Vortex",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "artanis-talent-blades-of-a-templar",
+              "name": "Blades of a Templar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "artanis-talent-zealot-charge",
+              "name": "Zealot Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            },
+            {
+              "id": "artanis-talent-orbital-bombardment",
+              "name": "Orbital Bombardment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/artanis-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/artanis#54.2!3121333"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/artanis-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:04.886652+00:00",
+    "updated_at": "2025-04-18T15:10:00+00:00",
+    "author_line": "Last updated on Apr 18, 2025 at 15:10 by Elitesparkle"
+  }
+}

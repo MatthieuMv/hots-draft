@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "id": "cho",
+  "name": "Cho",
+  "role": "Tank",
+  "overview": "Cho is half of the entity controlled by two players known as Cho'gall. The player in charge of Cho has the burden of controlling the entity's movement and Basic Attacks, whereas the second player, in control of Gall, acts as a \"turret\" that uses Abilities from Cho's physical position. Cho's strongest points are his area of effect disruption, outstanding resilience, and ability to safely position Gall, whom can deal high levels of sustain damage, right into the midst of combat. Should Cho be killed, Gall will die with him, instantly yielding two kills worth of Experience to opponents.\n\nGiven the highly unusual nature of Cho, we highly recommend that you use this guide along with our guide for Gall, so as to get a better understanding of the Hero.",
+  "strengths": [
+    "Good waveclear",
+    "Humongous Health pool",
+    "Outstanding duelist",
+    "Permanently tied to Gall, an Assassin, making coordination easy",
+    "Strongest late game in Heroes of the Storm",
+    "Good escape with Shove",
+    "Provides vision for his team with Eye of Kilrogg"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Requires a dedicated Healer",
+    "Vulnerable to percent-based damage",
+    "Easily countered during drafts",
+    "Deaths are twice as punishing, as they mean losing two Heroes",
+    "Only allows a team to have 4 Heroes, reducing overall Map presence",
+    "Very reliant on Heroic Abilities to significantly impact team fights"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "alexstrasza",
+        "name": "Alexstrasza"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      }
+    ],
+    "explanation": "Cho'gall's nature makes him thrive when teamed up with a strong Healer, particularly those who possesses great single target healing, like Alexstrasza's Life-Binder, Brightwing's Phase Shift, or Ana's constant Healing. Furthermore, a good bruiser or tank to be with Cho in the frontline is a great addition to the composition."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "imperius",
+        "name": "Imperius"
+      },
+      {
+        "id": "kharazim",
+        "name": "Kharazim"
+      },
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      }
+    ],
+    "explanation": "Cho'gall's nature makes him particularly vulnerable to most forms of crowd control, strong single-target damage, and percent-based damage sources. Fortunately, Cho'gall has plenty of Talent choices and maneuvers that allow him to adapt to a variety of less-than-ideal situations. However, Anub'arak's Cocoon or Maiev's Containment Disc can turn the fight into a 5v3, and are a major threat to Cho'gall."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Since Cho'gall is completely dependent on late game Talents, he excels on maps which will mostly reach Levels 16 and 20. He is extremely weak in snowball maps, like Battlefield of Eternity and Warhead Junction."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "This standard build provides a balance between sustain and mobility. Calloused Hide greatly enhance Cho's teamfighting potential and escape capabilities when he is low on health, being a great Talent for surviving through the early game.\n\nLike all the Cho and Gall builds, it has great power spikes at Level 13 and beyond. At this Level, Twilight Veil is the standard Talent, but Surging Dash is decent against poke compositions, while Molten Block is good against burst percent-based damage that armor cannot be reduced (such as Greymane's Cursed Bullet and Malthael's Last Rites).",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "cho-talent-calloused-hide",
+              "name": "Calloused Hide",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "cho-talent-seared-flesh",
+              "name": "Seared Flesh",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "cho-talent-enraged-regeneration",
+              "name": "Enraged Regeneration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-7"
+            },
+            {
+              "id": "cho-talent-power-surge",
+              "name": "Power Surge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "cho-talent-hammer-of-twilight",
+              "name": "Hammer of Twilight",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "cho-talent-twilight-veil",
+              "name": "Twilight Veil",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-13"
+            },
+            {
+              "id": "cho-talent-molten-block",
+              "name": "Molten Block",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-13"
+            },
+            {
+              "id": "cho-talent-surging-dash",
+              "name": "Surging Dash",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "cho-talent-frenzied-fists",
+              "name": "Frenzied Fists",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "cho-talent-c-thuns-gift",
+              "name": "C'Thun's Gift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/cho#55.17!2331211"
+    },
+    {
+      "name": "Basic Attacks Build",
+      "label": "Situational",
+      "description": "Cho's Basic Attacks build is totally focused on constantly delivering Basic Attacks against enemy Heroes. Since it has Consuming Fire and Firestarter, this build will be incredibly strong if you can keep hitting enemies, but falls behind other options when enemies can punish you during the early game.\n\nA good point to note is that with this build, you can deal good damage while tanking, with either Ogre Hide or Twilight Veil to protect yourself.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "cho-talent-consuming-fire",
+              "name": "Consuming Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-1"
+            },
+            {
+              "id": "cho-talent-calloused-hide",
+              "name": "Calloused Hide",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "cho-talent-seared-flesh",
+              "name": "Seared Flesh",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "cho-talent-firestarter",
+              "name": "Firestarter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-7"
+            },
+            {
+              "id": "cho-talent-power-surge",
+              "name": "Power Surge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "cho-talent-hammer-of-twilight",
+              "name": "Hammer of Twilight",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "cho-talent-twilight-veil",
+              "name": "Twilight Veil",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "cho-talent-frenzied-fists",
+              "name": "Frenzied Fists",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "cho-talent-c-thuns-gift",
+              "name": "C'Thun's Gift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/cho#55.17!1321211"
+    },
+    {
+      "name": "Surging Fist Build",
+      "label": "Situational",
+      "description": "Uppercut adds good percentage damage and insane mobility to Cho. Being able to cast Surging Fist again after hitting 2 targets with it can turn the tides of a fight easily. However, it can be easily canceled by any crowd control, greatly reducing this build's effectiveness. For this reason, we recommend going for this Build when enemies do not have many ways to cancel Surging Fist and if they do, it is better to wait for it to be wasted to cast the Ability again.\n\nSince you do not get Seared Flesh at Level 4, attack speed will not be a great addition at Level 16, so Runed Gauntlet is a better choice at that tier.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "cho-talent-calloused-hide",
+              "name": "Calloused Hide",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "cho-talent-uppercut",
+              "name": "Uppercut",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "cho-talent-enraged-regeneration",
+              "name": "Enraged Regeneration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-7"
+            },
+            {
+              "id": "cho-talent-power-surge",
+              "name": "Power Surge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "cho-talent-hammer-of-twilight",
+              "name": "Hammer of Twilight",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-10"
+            },
+            {
+              "id": "cho-talent-upheaval",
+              "name": "Upheaval",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "cho-talent-twilight-veil",
+              "name": "Twilight Veil",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-13"
+            },
+            {
+              "id": "cho-talent-surging-dash",
+              "name": "Surging Dash",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-13"
+            },
+            {
+              "id": "cho-talent-molten-block",
+              "name": "Molten Block",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "cho-talent-runed-gauntlet",
+              "name": "Runed Gauntlet",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "cho-talent-c-thuns-gift",
+              "name": "C'Thun's Gift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-20"
+            },
+            {
+              "id": "cho-talent-favor-of-the-old-gods",
+              "name": "Favor of the Old Gods",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cho-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/cho#55.17!2131231"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/cho-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:12.850586+00:00",
+    "updated_at": "2025-05-31T11:00:00+00:00",
+    "author_line": "Last updated on May 31, 2025 at 11:00 by Derenash"
+  }
+}

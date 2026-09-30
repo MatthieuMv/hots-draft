@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "id": "li-li",
+  "name": "Li Li",
+  "role": "Healer",
+  "overview": "Li Li is a Healer that provides a high amount of sustain healing but a low amount of burst healing, something that makes her particularly good in prolonged team fights and bad in other scenarios, unless she can get some value out of her Blind to mitigate a considerable amount of damage.",
+  "strengths": [
+    "High sustain healing",
+    "Ability to Blind"
+  ],
+  "weaknesses": [
+    "No hard crowd control",
+    "Lack of burst healing",
+    "Her healing Abilities prioritize Heroes low on Health",
+    "Poor waveclear"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Li Li does very well with Heroes who can mitigate burst damage on their own because it allows her to succeed against burst damage, where she otherwise struggles. That said, this is not a concern when facing team compositions that lack burst damage altogether.\n\nWhile not really a synergy, Li Li also does well with Heroes who have strong waveclear as she is not able to directly contribute to macro pressure in a meaningful way.\n\nLast but not the least, Li Li does not have access to hard crowd control effects, therefore she will perform way better when paired with Heroes who can provide it.\n\nConsidering how her Abilities and Talents work, Li Li is pretty interesting to play together with a burst Healer, but make sure to still have a well-rounded team composition when doing so."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Healing Brew is not very effective against burst damage because it does not heal that much and has a relatively slow animation.\n\nLi Li is also countered by crowd control that can interrupt her Heroic Abilities."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Li Li's viability is not relative to the environment, but to the Heroes on either team, especially in the enemy one. While she performs consistently on most Maps, she tends to do slightly better where team fights take longer as she can get more value from her sustain healing, especially if accompanied by another Healer or just a Support, and slightly worse on Maps where waveclear is important."
+  },
+  "builds": [
+    {
+      "name": "Healing Brew Build",
+      "label": "Recommended",
+      "description": "Li Li's Healing Brew Build is designed to provide Blinds more often and for slightly longer, something that helps against Heroes who rely a lot on Basic Attacks for dealing damage, healing, and/or getting cooldown reduction (Illidan comes to mind).\n\nTwo For One at Level 16 helps you keep multiple allied Heroes in a good shape with the help of Free Drinks at Level 1. Surging Winds at Level 4 increases your healing output.\n\nSurging Winds at Level 4 slightly reduces Blinding Wind's cooldown and Gale Force at Level 13 makes the Blind last a bit longer.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "li-li-talent-free-drinks",
+              "name": "Free Drinks",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "li-li-talent-surging-winds",
+              "name": "Surging Winds",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "li-li-talent-lets-go",
+              "name": "Let's Go!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            },
+            {
+              "id": "li-li-talent-the-good-stuff",
+              "name": "The Good Stuff",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            },
+            {
+              "id": "li-li-talent-mass-vortex",
+              "name": "Mass Vortex",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "li-li-talent-jug-of-1-000-cups",
+              "name": "Jug of 1,000 Cups",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "li-li-talent-gale-force",
+              "name": "Gale Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "li-li-talent-two-for-one",
+              "name": "Two For One",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "li-li-talent-jug-of-1-000-000-cups",
+              "name": "Jug of 1,000,000 Cups",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/li-li#55.12!1231211"
+    },
+    {
+      "name": "Cloud Serpent Build",
+      "label": "Advanced",
+      "description": "Li Li's Cloud Serpent Build turns you into a battle Healer who can provide a fair amount of healing and deal a decent amount of damage at the same time, a combination that is particularly suited for drawn-out team fights.\n\nThe combination of Wind Serpent at Level 4 and Lightning Serpent at Level 13 allows her to constantly pressure the enemy team with low but steady damage, especially if you can get value from Fast Feet for Serpent Sidekick at Level 1.\n\nWhile good on its own, this Build works better when playing Li Li together with another Healer as it increases your damage (as explained already) and their healing, thanks to Blessings Of Yu'lon at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "li-li-talent-serpent-sidekick",
+              "name": "Serpent Sidekick",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "li-li-talent-wind-serpent",
+              "name": "Wind Serpent",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "li-li-talent-lets-go",
+              "name": "Let's Go!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            },
+            {
+              "id": "li-li-talent-the-good-stuff",
+              "name": "The Good Stuff",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            },
+            {
+              "id": "li-li-talent-mass-vortex",
+              "name": "Mass Vortex",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "li-li-talent-jug-of-1-000-cups",
+              "name": "Jug of 1,000 Cups",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-10"
+            },
+            {
+              "id": "li-li-talent-water-dragon",
+              "name": "Water Dragon",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "li-li-talent-lightning-serpent",
+              "name": "Lightning Serpent",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "li-li-talent-blessings-of-yu-lon",
+              "name": "Blessings Of Yu'lon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "li-li-talent-jug-of-1-000-000-cups",
+              "name": "Jug of 1,000,000 Cups",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-20"
+            },
+            {
+              "id": "li-li-talent-double-dragon",
+              "name": "Double Dragon",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/li-li#55.12!2131131"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Li Li's ARAM Build is designed to provide Blinds more often and for slightly longer, something that helps against Heroes who rely a lot on Basic Attacks for dealing damage, healing, and/or getting cooldown reduction (Illidan comes to mind).\n\nTwo For One at Level 16 helps you keep multiple allied Heroes in a good shape with the help of Free Drinks at Level 1. Surging Winds at Level 4 increases your healing output.\n\nSurging Winds at Level 4 slightly reduces Blinding Wind's cooldown and Gale Force at Level 13 makes the Blind last a bit longer.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "li-li-talent-free-drinks",
+              "name": "Free Drinks",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "li-li-talent-surging-winds",
+              "name": "Surging Winds",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "li-li-talent-lets-go",
+              "name": "Let's Go!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            },
+            {
+              "id": "li-li-talent-the-good-stuff",
+              "name": "The Good Stuff",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            },
+            {
+              "id": "li-li-talent-mass-vortex",
+              "name": "Mass Vortex",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "li-li-talent-jug-of-1-000-cups",
+              "name": "Jug of 1,000 Cups",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "li-li-talent-gale-force",
+              "name": "Gale Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "li-li-talent-two-for-one",
+              "name": "Two For One",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "li-li-talent-jug-of-1-000-000-cups",
+              "name": "Jug of 1,000,000 Cups",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/li-li-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/li-li#55.12!1231211"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/li-li-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:19.351678+00:00",
+    "updated_at": "2026-07-13T22:40:00+00:00",
+    "author_line": "Last updated on Jul 13, 2026 at 22:40 by Elitesparkle"
+  }
+}

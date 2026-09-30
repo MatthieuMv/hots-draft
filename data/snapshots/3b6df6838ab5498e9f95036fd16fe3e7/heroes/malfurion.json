@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "id": "malfurion",
+  "name": "Malfurion",
+  "role": "Healer",
+  "overview": "Malfurion is a ranged Healer that specialises in highly efficient healing-over-time and strong debuffs. When paired with Heroes that can properly protect him and cover his damage deficiency, his healing is a natural way to sway any extensive battle in his favour.",
+  "strengths": [
+    "Outstanding healing over time with Regrowth and Tranquility",
+    "Very strong area of effect crowd control through Entangling Roots",
+    "Innervate is valuable to Mana-hungry allied Heroes",
+    "Extremely versatile Talent choices to adapt to a broad variety of situations"
+  ],
+  "weaknesses": [
+    "Struggles against burst damage",
+    "Vulnerable to dive",
+    "Low waveclear",
+    "Unable to dispel Silence effects",
+    "Unable to provide Unstoppable frames"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "chromie",
+        "name": "Chromie"
+      },
+      {
+        "id": "guldan",
+        "name": "Gul'dan"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "kel-thuzad",
+        "name": "Kel'Thuzad"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "nazeebo",
+        "name": "Nazeebo"
+      },
+      {
+        "id": "ragnaros",
+        "name": "Ragnaros"
+      }
+    ],
+    "explanation": "Innervate makes Malfurion a natural ally to any Hero that heavily relies on cooldowns or Mana. Entangling Roots also makes him excellent at following up on anything that can provide their own source of reliable crowd control."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "alarak",
+        "name": "Alarak"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "artanis",
+        "name": "Artanis"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      }
+    ],
+    "explanation": "Although not particularly vulnerable to any specific Hero himself, Malfurion tends to struggle against burst damage. His sub-par waveclear can also be problematic if your team composition does not make up for this weakness somewhere else."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Malfurion tends to do well on Maps that feature many choke points, as he can easily get value from Entangling Roots there, and on Maps where team fights are not extremely long, as he would end up having Mana issues.\n\nIn general, however, his versatility makes him a solid pick on most Maps. Team compositions should be the most important factor to consider when drafting Malfurion because not having any protection from allied Heroes may be a problem."
+  },
+  "builds": [
+    {
+      "name": "Nature's Balance Build",
+      "label": "Recommended",
+      "description": "Malfurion's Nature's Balance Build makes it easier to hit enemy Heroes with Moonfire and to keep Regrowth active on allied Heroes in the late game.\n\nRejuvenation at Level 4 is important to have when you are the only Healer in your team. When that is not the case, you can replace it with either Celestial Alignment for more damage or with Shan'do's Clarity to enable an allied Hero with more Mana and cooldown reduction.\n\nNature's Swiftness at Level 13 drastically increases your survivability, however, it can occasionally be replaced with Hindering Moonfire when facing Heroes who can be kited (such as Garrosh) or with Revitalize when you need more Mana.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malfurion-talent-vengeful-roots",
+              "name": "Vengeful Roots",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malfurion-talent-rejuvenation",
+              "name": "Rejuvenation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            },
+            {
+              "id": "malfurion-talent-celestial-alignment",
+              "name": "Celestial Alignment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            },
+            {
+              "id": "malfurion-talent-shan-dos-clarity",
+              "name": "Shan'do's Clarity",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malfurion-talent-wild-growth",
+              "name": "Wild Growth",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-7"
+            },
+            {
+              "id": "malfurion-talent-natures-cure",
+              "name": "Nature's Cure",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malfurion-talent-tranquility",
+              "name": "Tranquility",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-10"
+            },
+            {
+              "id": "malfurion-talent-twilight-dream",
+              "name": "Twilight Dream",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malfurion-talent-natures-swiftness",
+              "name": "Nature's Swiftness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            },
+            {
+              "id": "malfurion-talent-hindering-moonfire",
+              "name": "Hindering Moonfire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            },
+            {
+              "id": "malfurion-talent-revitalize",
+              "name": "Revitalize",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malfurion-talent-natures-balance",
+              "name": "Nature's Balance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malfurion-talent-serenity",
+              "name": "Serenity",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-20"
+            },
+            {
+              "id": "malfurion-talent-astral-communion",
+              "name": "Astral Communion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malfurion#53.2!2111121"
+    },
+    {
+      "name": "Moonlit Harmony Build",
+      "label": "Advanced",
+      "description": "Malfurion's Moonlit Harmony Build allows you to deal a lot healing with a single Moonfire in the late game, especially if you are able to constantly hit multiple enemy Heroes at once.\n\nRejuvenation at Level 4 is important to have when you are the only Healer in your team. When that is not the case, you can replace it with either Celestial Alignment for more damage or with Shan'do's Clarity to enable an allied Hero with more Mana and cooldown reduction.\n\nNature's Swiftness at Level 13 drastically increases your survivability, however, it can occasionally be replaced with Hindering Moonfire when facing Heroes who can be kited (such as Garrosh) or with Revitalize when you need more Mana.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malfurion-talent-emerald-dreams",
+              "name": "Emerald Dreams",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-1"
+            },
+            {
+              "id": "malfurion-talent-vengeful-roots",
+              "name": "Vengeful Roots",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malfurion-talent-rejuvenation",
+              "name": "Rejuvenation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            },
+            {
+              "id": "malfurion-talent-celestial-alignment",
+              "name": "Celestial Alignment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            },
+            {
+              "id": "malfurion-talent-shan-dos-clarity",
+              "name": "Shan'do's Clarity",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malfurion-talent-natures-cure",
+              "name": "Nature's Cure",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malfurion-talent-tranquility",
+              "name": "Tranquility",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-10"
+            },
+            {
+              "id": "malfurion-talent-twilight-dream",
+              "name": "Twilight Dream",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malfurion-talent-natures-swiftness",
+              "name": "Nature's Swiftness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            },
+            {
+              "id": "malfurion-talent-hindering-moonfire",
+              "name": "Hindering Moonfire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            },
+            {
+              "id": "malfurion-talent-revitalize",
+              "name": "Revitalize",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malfurion-talent-moonlit-harmony",
+              "name": "Moonlit Harmony",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malfurion-talent-serenity",
+              "name": "Serenity",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-20"
+            },
+            {
+              "id": "malfurion-talent-astral-communion",
+              "name": "Astral Communion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malfurion#53.2!3131131"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Malfurion's ARAM Build makes it easier to hit enemy Heroes with Moonfire and to keep Regrowth active on allied Heroes in the late game.\n\nRejuvenation at Level 4 is important to have when you are the only Healer in your team. When that is not the case, you can replace it with either Celestial Alignment for more damage or with Shan'do's Clarity to enable an allied Hero with more Mana and cooldown reduction.\n\nNature's Swiftness at Level 13 drastically increases your survivability, however, it can occasionally be replaced with Hindering Moonfire when facing Heroes who can be kited (such as Garrosh) or with Revitalize when you need more Mana.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malfurion-talent-vengeful-roots",
+              "name": "Vengeful Roots",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malfurion-talent-rejuvenation",
+              "name": "Rejuvenation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            },
+            {
+              "id": "malfurion-talent-celestial-alignment",
+              "name": "Celestial Alignment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            },
+            {
+              "id": "malfurion-talent-shan-dos-clarity",
+              "name": "Shan'do's Clarity",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malfurion-talent-wild-growth",
+              "name": "Wild Growth",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-7"
+            },
+            {
+              "id": "malfurion-talent-natures-cure",
+              "name": "Nature's Cure",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malfurion-talent-tranquility",
+              "name": "Tranquility",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-10"
+            },
+            {
+              "id": "malfurion-talent-twilight-dream",
+              "name": "Twilight Dream",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malfurion-talent-natures-swiftness",
+              "name": "Nature's Swiftness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            },
+            {
+              "id": "malfurion-talent-hindering-moonfire",
+              "name": "Hindering Moonfire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            },
+            {
+              "id": "malfurion-talent-revitalize",
+              "name": "Revitalize",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malfurion-talent-natures-balance",
+              "name": "Nature's Balance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malfurion-talent-serenity",
+              "name": "Serenity",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-20"
+            },
+            {
+              "id": "malfurion-talent-astral-communion",
+              "name": "Astral Communion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malfurion-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malfurion#53.2!2111121"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/malfurion-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:25.413099+00:00",
+    "updated_at": "2025-09-20T23:09:00+00:00",
+    "author_line": "Last updated on Sep 20, 2025 at 23:09 by Elitesparkle"
+  }
+}

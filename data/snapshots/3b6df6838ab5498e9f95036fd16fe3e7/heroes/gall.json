@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "id": "gall",
+  "name": "Gall",
+  "role": "Ranged Assassin",
+  "overview": "Gall is the Assassin half of the entity controled by two players known as Cho'gall. The player in charge of Gall has the burden of using the entity's most powerful Abilities, whereas the second player, in control of Cho, acts as the \"driver\" that controls Cho's more simple Abilities, physical position, and Basic Attacks. Gall's strongest points are his high area of effect damage and outstanding resilience, due to being tied to Cho's extremely tough body. Should Cho be killed, Gall will die with him, instantly yielding two kills worth of experience to their opponents.\n\nGiven the highly unusual nature of Gall, we highly recommend that you use this guide along with our Cho guide, so as to get a better understanding of the Hero.",
+  "strengths": [
+    "Good waveclear",
+    "Humongous Health pool",
+    "Outstanding duelist",
+    "Permanently tied to Cho, a Tank, making coordination easy",
+    "Strongest late game in Heroes of the Storm",
+    "Good escape with Shove",
+    "Provides vision for his team with Eye of Kilrogg"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Requires a dedicated Healer",
+    "Vulnerable to percent-based damage",
+    "Easily countered during drafts",
+    "Deaths are twice as punishing, as they mean losing two Heroes",
+    "Only allows a team to have 4 Heroes, reducing overall map presence",
+    "Very reliant on Heroic Abilities to significantly impact team fights"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "alexstrasza",
+        "name": "Alexstrasza"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      }
+    ],
+    "explanation": "Cho'gall's nature makes him thrive when teamed up with a strong Healer, particularly those who possesses great single target healing, like Alexstrasza's Life-Binder, Brightwing's Phase Shift, or Ana's constant Healing. Furthermore, a good bruiser or tank to be with Cho'gall in the frontline is a great addition to the composition."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "imperius",
+        "name": "Imperius"
+      },
+      {
+        "id": "kharazim",
+        "name": "Kharazim"
+      },
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      }
+    ],
+    "explanation": "Cho'gall's nature makes him particularly vulnerable to most forms of crowd control, strong single-target damage, and percent-based damage sources. Fortunately, Cho'gall has plenty of Talent choices and maneuvers that allow him to adapt to a variety of less-than-ideal situations. However, Anub'arak's Cocoon or Maiev's Containment Disc can turn the fight into a 5v3, and are a major threat to Cho'gall."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Since Cho'gall is completely dependent on late game Talents, he excels on maps which will mostly reach Levels 16 and 20. He is extremely weak in snowball maps, like Battlefield of Eternity and Warhead Junction."
+  },
+  "builds": [
+    {
+      "name": "Dread Orb Build",
+      "label": "Recommended",
+      "description": "The Dread Orb build revolves around greatly improving the potency of Gall's Dread Orb, turning it into a powerful PvE-oriented Ability and general disruption tool. Key Talents include Twilight Nova and Leaden Orb.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "gall-talent-taskmaster",
+              "name": "Taskmaster",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gall-talents#level-1"
+            },
+            {
+              "id": "gall-talent-keep-moving",
+              "name": "Keep Moving!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gall-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "gall-talent-rising-dread",
+              "name": "Rising Dread",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gall-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "gall-talent-ogre-rampage",
+              "name": "Ogre Rampage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gall-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "gall-talent-twisting-nether",
+              "name": "Twisting Nether",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gall-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "gall-talent-twilight-nova",
+              "name": "Twilight Nova",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gall-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "gall-talent-leaden-orb",
+              "name": "Leaden Orb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gall-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "gall-talent-twilight-frenzy",
+              "name": "Twilight Frenzy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gall-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/gall#55.17!2132314"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/gall-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:01.292149+00:00",
+    "updated_at": "2025-05-31T11:00:00+00:00",
+    "author_line": "Last updated on May 31, 2025 at 11:00 by Derenash"
+  }
+}

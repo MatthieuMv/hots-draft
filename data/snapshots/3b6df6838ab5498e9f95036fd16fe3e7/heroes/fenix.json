@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "id": "fenix",
+  "name": "Fenix",
+  "role": "Ranged Assassin",
+  "overview": "Fenix is a ranged Assassin who can modify the range and performance of his weapon systems during battle. This allows him to excel at a variety of damage-related tasks, and to adapt to different battlefield situations accordingly. Shield Capacitor allows Fenix to trade damage favourably, but he must retreat from combat in order to regenerate his shields.",
+  "strengths": [
+    "Good AoE poke",
+    "Great waveclear from a safe distance",
+    "Can solo capture Mercenary Camps efficiently",
+    "Strong self-sustain via Shield Capacitor",
+    "Can reposition with Warp as needed"
+  ],
+  "weaknesses": [
+    "Large hitbox; easy to hit with skillshots",
+    "Must retreat in order to self-sustain with Shield Capacitor",
+    "Escape requires channel and can be interrupted",
+    "Healers cannot restore baseline Shield Capacitor",
+    "Lacks hard crowd-control"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "thrall",
+        "name": "Thrall"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      }
+    ],
+    "explanation": "The effectiveness of Fenix's AoE damage can be amplified by bringing enemy Heroes closer together, or by keeping them close together. This makes him strong with Heroes that can Pull enemies together (such as Johanna with Condemn). Fenix also does well with Heroes who can easily slow entire the enemy team, allowing Purification Salvo to deal maximum damage in teamfights. Thrall with Earthquake or Diablo with Lightning Breath are good setups for Purification Salvo."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      }
+    ],
+    "explanation": "Fenix relies on Shield Capacitor in order to trade damage efficiently. Varian has Shattering Throw that can obliterate shields, making it hard for Fenix to deal damage safely at all. He can also be countered by Heroes who can follow him when he uses Warp to escape, especially if those Heroes can get back out safely after diving him, like Zeratul or Genji. Fenix is also very punished by crowd control. Tanks with many stuns and knockbacks are a threat; you have to play very safely when against E.T.C.. Lúcio is also a concern, considering he can use Sound Barrier to counter Purification Salvo, and his Soundwave will often cancel your Warp."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Fenix is best on Maps where the Objective involves large numbers of units. This is due to his sustain area of effect damage, which will help to defend against such objectives. Fenix is also a relatively strong Offlaner. With strong waveclear, PvE damage, and solo-lane capability, Fenix is able to be somewhat effective on all Maps."
+  },
+  "builds": [
+    {
+      "name": "Basic Attack Build",
+      "label": "Recommended",
+      "description": "The Basic Attack Build is the only recommended build for Fenix. Most of his damage comes from Repeater Cannon and Phase Bomb. Therefore, it is better to pick talents that increases the damage output from Basic Attacks, such as Arsenal Synergy or Mobile Offense. This build stacks several Talents that increase Basic Attack damage. Divert Power: Weapons should usually be activated to increase damage once it is clear that the enemy team is committed to a teamfight. This will allow you to trade optimally until your shields are gone, and to benefit from the bonus damage as long as possible. Photonic Weaponry is a safe pick that will almost always add damage, but Offensive Cadence can be very strong against Tanks and Bruisers if they are unable to retaliate.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "fenix-talent-arsenal-synergy",
+              "name": "Arsenal Synergy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-1"
+            },
+            {
+              "id": "fenix-talent-mobile-offense",
+              "name": "Mobile Offense",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "fenix-talent-target-acquired",
+              "name": "Target Acquired",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "fenix-talent-divert-power-weapons",
+              "name": "Divert Power: Weapons",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "fenix-talent-purification-salvo",
+              "name": "Purification Salvo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-10"
+            },
+            {
+              "id": "fenix-talent-planet-cracker",
+              "name": "Planet Cracker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "fenix-talent-rapid-recharge",
+              "name": "Rapid Recharge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-13"
+            },
+            {
+              "id": "fenix-talent-auxiliary-shields",
+              "name": "Auxiliary Shields",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-13"
+            },
+            {
+              "id": "fenix-talent-adanium-shell",
+              "name": "Adanium Shell",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-13"
+            },
+            {
+              "id": "fenix-talent-dampening-field",
+              "name": "Dampening Field",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "fenix-talent-offensive-cadence",
+              "name": "Offensive Cadence",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-16"
+            },
+            {
+              "id": "fenix-talent-photonic-weaponry",
+              "name": "Photonic Weaponry",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "fenix-talent-unconquered-spirit",
+              "name": "Unconquered Spirit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-20"
+            },
+            {
+              "id": "fenix-talent-singularity-charge",
+              "name": "Singularity Charge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-20"
+            },
+            {
+              "id": "fenix-talent-armageddon-beam",
+              "name": "Armageddon Beam",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/fenix-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/fenix#53.2!2131314"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/fenix-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:00.275249+00:00",
+    "updated_at": "2025-05-31T10:45:00+00:00",
+    "author_line": "Last updated on May 31, 2025 at 10:45 by Derenash"
+  }
+}

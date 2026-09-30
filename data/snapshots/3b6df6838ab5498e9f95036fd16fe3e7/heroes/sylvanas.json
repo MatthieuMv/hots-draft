@@ -1,0 +1,527 @@
+{
+  "schema_version": 1,
+  "id": "sylvanas",
+  "name": "Sylvanas",
+  "role": "Ranged Assassin",
+  "overview": "Sylvanas is a mobile Ranged Assassin with versatile builds and playstyles that allow her to adapt to many different situations. She has several tools to safely pressure enemies and contribute in fights. However, she is heavily dependent on completing her Black Arrows's Quest to reach full power. Once her main Quest is finished and the game reaches the late game, her damage, self sustain, and mobility are extremely high.",
+  "strengths": [
+    "Improves the survivability of certain Map Objectives through Haunting Arrows",
+    "Excellent waveclear with Unstable Poison",
+    "Good pushing power with Possession",
+    "Versatile and powerful Heroic Ability choices",
+    "Versatile builds with strong single target or AoE damage, mobility, self-sustain and burst or sustained damage",
+    "Provides utility through armor reduction and crowd control tools"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Inability to deal selective damage; often stuck having to target what is closest",
+    "Low maximum Health; vulnerable to other, more mobile Assassins"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Sylvanas is a flexible pick whose build and gameplay versatility allow her to work well with almost any team composition. She excels when allied with Heroes that can reliably pull enemies together or keep them in place with area of effect crowd control, as she can easily burst down grouped enemies in confined spaces with Wailing Arrow and Shadow Dagger. Furthermore, she pairs well with Heroes that can quickly finish off low Health enemies, since her Talent builds can either spread damage across multiple targets or enable the team to swiftly eliminate a single priority target through Mind Control."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "nova",
+        "name": "Nova"
+      },
+      {
+        "id": "valeera",
+        "name": "Valeera"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "As a fragile backline Hero, Sylvanas struggles against anything that can either burst her down or match the mobility provided by Haunting Wave. Stealthed Heroes are particularly threatening to her, as they severely limit her ability to safely stack her Black Arrows quest."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Haunting Arrows makes Sylvanas especially strong on Maps with lane-pushing Objectives, as it greatly improves her ability to push when her team controls the Objective. Because much of her power comes from completing Black Arrows's quest, she also prefers Maps that promote frequent team fights or offer safe access to enemy Structures, where she can stack by hitting Forts and Keeps or by defending against enemy Objective pushes. By contrast, Maps such as Sky Temple and Blackheart's Bay, which discourage fighting and give few chances to hit Structures, make stacking slow and unreliable for her."
+  },
+  "builds": [
+    {
+      "name": "Sustained Damage Build",
+      "label": "Recommended",
+      "description": "This Sustained Damage Build utilizes several Talents to accelerate or facilitate the cooldown recovery of Shadow Dagger. By constantly using this ability, Sylvanas can constantly deal high amounts of damage to all enemies during fights.\n\nThis build is particularly effective against enemy compositions with low mobility, as these can be easily kited or hit by Mind Control.\n\nThe primary Heroic choice for this Build is Mind Control. It instantly applies all 3 Black Arrows stacks while also rendering an enemy 100% vulnerable to your attacks. This synergy greatly reduces the cooldown on Shadow Dagger and marks other enemies due to Remorseless, speeding up the Black Arrows quest completion.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sylvanas-talent-unrelenting-torment",
+              "name": "Unrelenting Torment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sylvanas-talent-haunting-arrows",
+              "name": "Haunting Arrows",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            },
+            {
+              "id": "sylvanas-talent-unstable-poison",
+              "name": "Unstable Poison",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            },
+            {
+              "id": "sylvanas-talent-mercenary-queen",
+              "name": "Mercenary Queen",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sylvanas-talent-lost-soul",
+              "name": "Lost Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sylvanas-talent-mind-control",
+              "name": "Mind Control",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-10"
+            },
+            {
+              "id": "sylvanas-talent-wailing-arrow",
+              "name": "Wailing Arrow",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sylvanas-talent-remorseless",
+              "name": "Remorseless",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sylvanas-talent-evasive-fire",
+              "name": "Evasive Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-16"
+            },
+            {
+              "id": "sylvanas-talent-will-of-the-forsaken",
+              "name": "Will of the Forsaken",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sylvanas-talent-withering-barrage",
+              "name": "Withering Barrage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            },
+            {
+              "id": "sylvanas-talent-dark-ladys-call",
+              "name": "Dark Lady's Call",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            },
+            {
+              "id": "sylvanas-talent-bolt-of-the-storm",
+              "name": "Bolt of the Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sylvanas#55.15!2322313"
+    },
+    {
+      "name": "Burst Build",
+      "label": "Advanced",
+      "description": "This build focuses on maximizing burst damage potential. At Level 13, choose between Windrunner and Cold Embrace. Cold Embrace is better when targeting melee units to maintain safe positioning. For ranged targets, select Windrunner, as you will need to use the second Haunting Wave to reach them.\n\nWhile Wailing Arrow is a great part of your burst damage, Mind Control should not be ignored as an alternative Heroic Ability. Consider picking Mind Control if your main target has no mobility and the enemy team lacks cleanse to counter it. This can create several opportunities to pick off enemies for your team.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sylvanas-talent-unrelenting-torment",
+              "name": "Unrelenting Torment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sylvanas-talent-unstable-poison",
+              "name": "Unstable Poison",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            },
+            {
+              "id": "sylvanas-talent-mercenary-queen",
+              "name": "Mercenary Queen",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            },
+            {
+              "id": "sylvanas-talent-haunting-arrows",
+              "name": "Haunting Arrows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sylvanas-talent-festering-wounds",
+              "name": "Festering Wounds",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sylvanas-talent-wailing-arrow",
+              "name": "Wailing Arrow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-10"
+            },
+            {
+              "id": "sylvanas-talent-mind-control",
+              "name": "Mind Control",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sylvanas-talent-windrunner",
+              "name": "Windrunner",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-13"
+            },
+            {
+              "id": "sylvanas-talent-cold-embrace",
+              "name": "Cold Embrace",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sylvanas-talent-will-of-the-forsaken",
+              "name": "Will of the Forsaken",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-16"
+            },
+            {
+              "id": "sylvanas-talent-evasive-fire",
+              "name": "Evasive Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-16"
+            },
+            {
+              "id": "sylvanas-talent-life-drain",
+              "name": "Life Drain",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sylvanas-talent-bolt-of-the-storm",
+              "name": "Bolt of the Storm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            },
+            {
+              "id": "sylvanas-talent-deafening-blast",
+              "name": "Deafening Blast",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            },
+            {
+              "id": "sylvanas-talent-dark-ladys-call",
+              "name": "Dark Lady's Call",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sylvanas#55.15!2131234"
+    },
+    {
+      "name": "Aram Build",
+      "label": "ARAM",
+      "description": "This build focuses on having the best late game options available, while also providing decent damage at early levels. However, this build is very dependent on completing the Black Arrows quest, so your early and mid games should be focused on completing this quest as soon as possible.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sylvanas-talent-unrelenting-torment",
+              "name": "Unrelenting Torment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sylvanas-talent-haunting-arrows",
+              "name": "Haunting Arrows",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            },
+            {
+              "id": "sylvanas-talent-unstable-poison",
+              "name": "Unstable Poison",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            },
+            {
+              "id": "sylvanas-talent-mercenary-queen",
+              "name": "Mercenary Queen",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sylvanas-talent-lost-soul",
+              "name": "Lost Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sylvanas-talent-mind-control",
+              "name": "Mind Control",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-10"
+            },
+            {
+              "id": "sylvanas-talent-wailing-arrow",
+              "name": "Wailing Arrow",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sylvanas-talent-remorseless",
+              "name": "Remorseless",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sylvanas-talent-evasive-fire",
+              "name": "Evasive Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-16"
+            },
+            {
+              "id": "sylvanas-talent-will-of-the-forsaken",
+              "name": "Will of the Forsaken",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sylvanas-talent-withering-barrage",
+              "name": "Withering Barrage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            },
+            {
+              "id": "sylvanas-talent-dark-ladys-call",
+              "name": "Dark Lady's Call",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            },
+            {
+              "id": "sylvanas-talent-bolt-of-the-storm",
+              "name": "Bolt of the Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sylvanas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sylvanas#55.15!2322313"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/sylvanas-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:23.283621+00:00",
+    "updated_at": "2026-03-11T13:50:00+00:00",
+    "author_line": "Last updated on Mar 11, 2026 at 13:50 by Derenash"
+  }
+}

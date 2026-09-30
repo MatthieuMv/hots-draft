@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "id": "lt-morales",
+  "name": "Lt. Morales",
+  "role": "Healer",
+  "overview": "Lt. Morales is a powerful single-target Healer who can provide Armor to allied Heroes, but her lack of mobility and crowd control makes her an easy target to engage on, especially if you are not careful with her positioning.",
+  "strengths": [
+    "Powerful single-target heals via Healing Beam and damage reduction via Safeguard",
+    "Ability to interrupt any stationary-channeled Ability using Displacement Grenade",
+    "Synergy with marksmen thanks to Stim Drone",
+    "Team-wide global with Medivac Dropships"
+  ],
+  "weaknesses": [
+    "Lack of area of effect healing",
+    "Healing Beam is quite Energy consuming",
+    "Almost non-existent crowd control",
+    "No mobility",
+    "Low self-healing",
+    "No access to Cleanse or similar tools to remove crowd-control effects",
+    "Unable to provide Unstoppable frames"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      }
+    ],
+    "explanation": "Lt. Morales requires a solid Tank who can consistently peel multiple enemy Heroes away from her (such as E.T.C.). If you want to get value from Stim Drone, you need a marksman in your team (for example Sgt. Hammer)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "chromie",
+        "name": "Chromie"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      }
+    ],
+    "explanation": "Considering that Healing Beam needs the targeted allied Hero to be in range for the whole time and not just the moment you cast it, Lt. Morales suffers against Heroes who have Displacement effects (such as Garrosh and Junkrat). Due to her limited self-healing and lack of crowd control, she does not like to play against dive compositions that count on aggressive Heroes who can directly engage on her by skipping her frontline (for example Zeratul and Anub'arak). What is often overlooked is the fact that she suffers poke damage because it can drain out her Energy in around 20 seconds, something that will make her almost useless for a while. As a consequence of how her Energy works, she does not want to take prolonged fights, especially when the enemy team can get value out of them (such as Auriel). Last but not the least, she definitely suffers area of effect damage (for example Lunara) because all of her Abilities can heal or mitigate damage on a single allied Hero at a time."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Lt. Morales performs better on Maps where the team fight cannot evolve on different fronts because she suffers from flank and dive strategies a lot. The notorious backdoor strategy involving Medivac Dropships works best on big Maps (preferably Sky Temple) and can completely reverse their ratings."
+  },
+  "builds": [
+    {
+      "name": "Healing Beam Build",
+      "label": "Recommended",
+      "description": "Lt. Morales's Healing Beam Build is quite versatile as it allows you to deal with both burst and sustain damage fairly well, therefore it can be used in most situations without any problem.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lt-morales-talent-life-support",
+              "name": "Life Support",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lt-morales-talent-trauma-trigger",
+              "name": "Trauma Trigger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lt-morales-talent-vanadium-plating",
+              "name": "Vanadium Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            },
+            {
+              "id": "lt-morales-talent-physical-therapy",
+              "name": "Physical Therapy",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            },
+            {
+              "id": "lt-morales-talent-medi-drone",
+              "name": "Medi-Drone",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lt-morales-talent-stim-drone",
+              "name": "Stim Drone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-10"
+            },
+            {
+              "id": "lt-morales-talent-medivac-dropships",
+              "name": "Medivac Dropships",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lt-morales-talent-system-shock",
+              "name": "System Shock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            },
+            {
+              "id": "lt-morales-talent-emp-grenade",
+              "name": "EMP Grenade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lt-morales-talent-extended-care",
+              "name": "Extended Care",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-16"
+            },
+            {
+              "id": "lt-morales-talent-shield-sequencer",
+              "name": "Shield Sequencer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lt-morales-talent-hospice-care",
+              "name": "Hospice Care",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            },
+            {
+              "id": "lt-morales-talent-hyperactivity",
+              "name": "Hyperactivity",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            },
+            {
+              "id": "lt-morales-talent-safe-zone",
+              "name": "Safe Zone",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lt-morales#54.2!2221213"
+    },
+    {
+      "name": "Basic Attacks Build",
+      "label": "Advanced",
+      "description": "Lt. Morales's Basic Attacks Build is great for healing your team during prolonged team fights, but it requires to use Basic Attacks on enemy Heroes whenever it is safe to do so.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lt-morales-talent-caduceus-feedback",
+              "name": "Caduceus Feedback",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lt-morales-talent-trauma-trigger",
+              "name": "Trauma Trigger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lt-morales-talent-vanadium-plating",
+              "name": "Vanadium Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            },
+            {
+              "id": "lt-morales-talent-physical-therapy",
+              "name": "Physical Therapy",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            },
+            {
+              "id": "lt-morales-talent-medi-drone",
+              "name": "Medi-Drone",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lt-morales-talent-stim-drone",
+              "name": "Stim Drone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-10"
+            },
+            {
+              "id": "lt-morales-talent-medivac-dropships",
+              "name": "Medivac Dropships",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lt-morales-talent-system-shock",
+              "name": "System Shock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            },
+            {
+              "id": "lt-morales-talent-emp-grenade",
+              "name": "EMP Grenade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            },
+            {
+              "id": "lt-morales-talent-bedside-manner",
+              "name": "Bedside Manner",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lt-morales-talent-extended-care",
+              "name": "Extended Care",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-16"
+            },
+            {
+              "id": "lt-morales-talent-first-responder",
+              "name": "First Responder",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lt-morales-talent-hospice-care",
+              "name": "Hospice Care",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            },
+            {
+              "id": "lt-morales-talent-hyperactivity",
+              "name": "Hyperactivity",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            },
+            {
+              "id": "lt-morales-talent-safe-zone",
+              "name": "Safe Zone",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lt-morales#54.2!1221213"
+    },
+    {
+      "name": "Displacement Grenade Build",
+      "label": "Situational",
+      "description": "Lt. Morales's Displacement Grenade Build gives you a lot of utility in the form of personal Shields and a powerful Slow in the early game, with extremely low cooldown once you reach the late game.\n\nYou can use this Build against team compositions featuring a lot of low-range Heroes. Since they tend to play near each other, you will easily get multi-hits with Displacement Grenade and, as a consequence, more value from Second Opinion at Level 20 and Blast Shield at Level 4.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lt-morales-talent-clear",
+              "name": "Clear!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lt-morales-talent-blast-shield",
+              "name": "Blast Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lt-morales-talent-vanadium-plating",
+              "name": "Vanadium Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            },
+            {
+              "id": "lt-morales-talent-physical-therapy",
+              "name": "Physical Therapy",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            },
+            {
+              "id": "lt-morales-talent-medi-drone",
+              "name": "Medi-Drone",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lt-morales-talent-stim-drone",
+              "name": "Stim Drone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-10"
+            },
+            {
+              "id": "lt-morales-talent-medivac-dropships",
+              "name": "Medivac Dropships",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lt-morales-talent-emp-grenade",
+              "name": "EMP Grenade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            },
+            {
+              "id": "lt-morales-talent-system-shock",
+              "name": "System Shock",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lt-morales-talent-extended-care",
+              "name": "Extended Care",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lt-morales-talent-second-opinion",
+              "name": "Second Opinion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lt-morales#54.2!3321114"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Lt. Morales's ARAM Build is quite versatile as it allows you to deal with both burst and sustain damage fairly well, therefore it can be used in most situations without any problem.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lt-morales-talent-life-support",
+              "name": "Life Support",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lt-morales-talent-trauma-trigger",
+              "name": "Trauma Trigger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lt-morales-talent-vanadium-plating",
+              "name": "Vanadium Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            },
+            {
+              "id": "lt-morales-talent-physical-therapy",
+              "name": "Physical Therapy",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            },
+            {
+              "id": "lt-morales-talent-medi-drone",
+              "name": "Medi-Drone",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lt-morales-talent-stim-drone",
+              "name": "Stim Drone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lt-morales-talent-system-shock",
+              "name": "System Shock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            },
+            {
+              "id": "lt-morales-talent-emp-grenade",
+              "name": "EMP Grenade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lt-morales-talent-extended-care",
+              "name": "Extended Care",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-16"
+            },
+            {
+              "id": "lt-morales-talent-shield-sequencer",
+              "name": "Shield Sequencer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lt-morales-talent-hospice-care",
+              "name": "Hospice Care",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            },
+            {
+              "id": "lt-morales-talent-hyperactivity",
+              "name": "Hyperactivity",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lt-morales-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lt-morales#54.2!2221213"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/lt-morales-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:21.375921+00:00",
+    "updated_at": "2026-09-22T10:35:00+00:00",
+    "author_line": "Last updated on Sep 22, 2026 at 10:35 by Elitesparkle"
+  }
+}

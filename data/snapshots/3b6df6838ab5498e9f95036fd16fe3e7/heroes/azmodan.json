@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "id": "azmodan",
+  "name": "Azmodan",
+  "role": "Ranged Assassin",
+  "overview": "Azmodan is a caster that revels in long-range assaults and sieging. Defined by his abnormally large Health pool and Globe of Annihilation Ability, Azmodan is able to scale his damage output beyond that of most other Heroes. As a tradeoff, he has very limited options for crowd control and mobility.",
+  "strengths": [
+    "High area of effect damage output potential and waveclear",
+    "Outstanding survivability for a Ranged Assassin",
+    "Excellent sieger, particularly when left alone"
+  ],
+  "weaknesses": [
+    "Large and relatively immobile; easy to body block",
+    "Very vulnerable to interruption",
+    "Limited team fight utility beyond raw damage; no crowd control"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Azmodan's dependency on stacking up Annihilation makes him particularly effective with Heroes that can \"cook up\" Minion waves for him to last-hit. Otherwise, he works well with anyone that provides reliable crowd control, particularly over an area of effect. Since Azmodan's early-game presence tends to be limited, avoid picking him along other lacklustre early-game Heroes such as Abathur or Murky."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "artanis",
+        "name": "Artanis"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "the-butcher",
+        "name": "The Butcher"
+      }
+    ],
+    "explanation": "Given his reliance upon channeling, as both Globe of Annihilation and All Shall Burn are put on a full Cooldown after interruption, Azmodan is naturally countered by Heroes that provide reliable means of Stunning or Silencing him. His tendency to split push also leaves him vulnerable to aggressive gankers, especially due to his large collision that makes him easy to hit and body block."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      }
+    ],
+    "explanation": "Azmodan revels on Maps that are either very large or very small; this is due to his broadly different play styles. Small, three-Lane Maps are generally good for Annihilation stacking, whereas larger Maps promote split pushing styles. Regardless, Azmodan can work on most Maps, granted you adapt your strategy."
+  },
+  "builds": [
+    {
+      "name": "Greed Build",
+      "label": "Recommended",
+      "description": "The Greed build focuses primarily on split pushing through the use of Azmodan's minions and heroic ability. Demonic Invasion does significant siege damage and can be used behind turrets directly onto a keep or fort and can slowly demolish them throughout the game. With the talents buffing Azmodan's All Shall Burn, he can provide some good teamfight presence as well.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "azmodan-talent-greed",
+              "name": "Greed",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "azmodan-talent-hellforged-armor",
+              "name": "Hellforged Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "azmodan-talent-master-of-destruction",
+              "name": "Master of Destruction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "azmodan-talent-demonic-invasion",
+              "name": "Demonic Invasion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "azmodan-talent-cydaeas-kiss",
+              "name": "Cydaea's Kiss",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "azmodan-talent-hell-rift",
+              "name": "Hell Rift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "azmodan-talent-sins-grasp",
+              "name": "Sin's Grasp",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/azmodan#55.15!1231224"
+    },
+    {
+      "name": "Gluttony Build",
+      "label": "Situational",
+      "description": "The Gluttony exploits the synergy between the aforementioned Talent, Art of Chaos, Total Annihilation, and Inescapable Annihilation, which are notable for making Globe of Annihilation powerful at all stages of the game. The rest of the build seeks to improves Summon Demon Warrior. Although inherently weak, Demon Warriors become significantly more useful with the key Hellforged Armor and Brutish Vanguard Talents.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "azmodan-talent-gluttony",
+              "name": "Gluttony",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "azmodan-talent-hellforged-armor",
+              "name": "Hellforged Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "azmodan-talent-art-of-chaos",
+              "name": "Art of Chaos",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "azmodan-talent-tide-of-sin",
+              "name": "Tide of Sin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "azmodan-talent-brutish-vanguard",
+              "name": "Brutish Vanguard",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "azmodan-talent-total-annihilation",
+              "name": "Total Annihilation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-16"
+            },
+            {
+              "id": "azmodan-talent-trample",
+              "name": "Trample",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "azmodan-talent-inescapable-annihilation",
+              "name": "Inescapable Annihilation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-20"
+            },
+            {
+              "id": "azmodan-talent-black-pool",
+              "name": "Black Pool",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/azmodan#55.15!2212113"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Azmodan's ARAM build is similar to the Gluttony Build and sees no changes in terms of playstyle. Spam Globe of Annhilation until you win the game.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "azmodan-talent-gluttony",
+              "name": "Gluttony",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "azmodan-talent-hellforged-armor",
+              "name": "Hellforged Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "azmodan-talent-art-of-chaos",
+              "name": "Art of Chaos",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "azmodan-talent-tide-of-sin",
+              "name": "Tide of Sin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "azmodan-talent-brutish-vanguard",
+              "name": "Brutish Vanguard",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "azmodan-talent-total-annihilation",
+              "name": "Total Annihilation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "azmodan-talent-inescapable-annihilation",
+              "name": "Inescapable Annihilation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/azmodan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/azmodan#55.15!2212113"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/azmodan-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:07.833888+00:00",
+    "updated_at": "2026-02-23T10:30:00+00:00",
+    "author_line": "Last updated on Feb 23, 2026 at 10:30 by Outofmilk"
+  }
+}

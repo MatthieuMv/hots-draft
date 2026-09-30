@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "id": "yrel",
+  "name": "Yrel",
+  "role": "Bruiser",
+  "overview": "Yrel is a resistant Bruiser who excels at creating opportunities to decide fights in her team's favor. Since all of her Basic Abilities come with a short wind-up time, it is extremely important to think ahead when playing Yrel in order to avoid getting interrupted or missing the right moment to strike.",
+  "strengths": [
+    "Good self-sustain",
+    "High waveclear",
+    "Good point control",
+    "Capable of interrupting",
+    "Good mobility",
+    "High durability"
+  ],
+  "weaknesses": [
+    "Vulnerable to crowd control",
+    "Predictable engage",
+    "Susceptible to getting kited",
+    "Bad at clearing Mercenary Camps"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "zarya",
+        "name": "Zarya"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      },
+      {
+        "id": "whitemane",
+        "name": "Whitemane"
+      }
+    ],
+    "explanation": "Yrel can help Tanks with a weak engage to force a fight by finding a good flank and can support the ones who lack peeling to protect the backline from aggressive enemy Heroes.\n\nThe Armor from Aegis of Light at Level 4 is great for protecting allied Heroes who lack mobility. Garrosh benefits from it more than other Heroes because it stacks with Armor Up.\n\nThe healing from Gift of the Naaru at Level 4 can be useful for playing in the offlane as a 2-man with Zarya on Braxis Holdout. This strategy allows you to have good damage and survivability on both lanes.\n\nThe ability to provide Movement Speed and remove some crowd control effects with Hand of Freedom at Level 4, together with the possibility to use Righteous Hammer defensively when needed, is quite useful for helping allied Heroes who are in trouble."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Yrel suffers against Heroes that possess reliable crowd control effects who can interrupt her Basic Abilities as they are being channeled (Stuns and Silences) or who can interrupt Avenging Wrath during its jump animation (Roots and Knockbacks).\n\nShe also struggles against Heroes who can kite her from the distance or have a lot of mobility to deal damage without being hit in return. While laning, these Heroes could threaten a gank, forcing Yrel to use her Heroic Ability to stay alive.\n\nLast but not the least, Yrel is relatively weak to healing reduction effects (especially if having Ardent Defender as Heroic Ability), Armor reduction effects (especially if having Sacred Ground as Heroic Ability), and percent-based damage because they all reduce her survivability during team fights."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Thanks to her excellent waveclear, Yrel does better on Maps where she can double soak. After gaining priority over the enemy Offlaner, she can rotate to force a fight with a numerical advantage over the enemy team.\n\nWhen contesting a Capture Point, Yrel can make use of her survivability to buy time and rely on Righteous Hammer to Knock enemy Heroes away. This is not only useful for securing Mercenary Camps but also for controlling some Objectives.\n\nYrel can unleash her true potential on Maps where there are various spots to flank by manually charging up Avenging Wrath while hidden, jump over impassable terrain to close the distance, and still have Divine Purpose to instantly fully-charge Righteous Hammer."
+  },
+  "builds": [
+    {
+      "name": "Vindication Build",
+      "label": "Recommended",
+      "description": "Yrel's Vindication Build provides a good balance of survivability, damage, and utility. While playing this Build, you should generally use Divine Purpose right before casting Vindication.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "yrel-talent-light-of-karabor",
+              "name": "Light of Karabor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "yrel-talent-aegis-of-light",
+              "name": "Aegis of Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            },
+            {
+              "id": "yrel-talent-gift-of-the-naaru",
+              "name": "Gift of the Naaru",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            },
+            {
+              "id": "yrel-talent-hand-of-freedom",
+              "name": "Hand of Freedom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "yrel-talent-righteous-momentum",
+              "name": "Righteous Momentum",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "yrel-talent-sacred-ground",
+              "name": "Sacred Ground",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-10"
+            },
+            {
+              "id": "yrel-talent-ardent-defender",
+              "name": "Ardent Defender",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "yrel-talent-velens-chosen",
+              "name": "Velen's Chosen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-13"
+            },
+            {
+              "id": "yrel-talent-aldor-peacekeeper",
+              "name": "Aldor Peacekeeper",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "yrel-talent-templars-verdict",
+              "name": "Templar's Verdict",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-16"
+            },
+            {
+              "id": "yrel-talent-holy-wrath",
+              "name": "Holy Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "yrel-talent-seraphim",
+              "name": "Seraphim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/yrel#57.0!1112314"
+    },
+    {
+      "name": "Righteous Hammer Build",
+      "label": "Advanced",
+      "description": "Yrel's Righteous Hammer Build provides a good balance of survivability, damage, and utility. While playing this Build, you should generally use Divine Purpose right before casting Righteous Hammer.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "yrel-talent-dauntless",
+              "name": "Dauntless",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-1"
+            },
+            {
+              "id": "yrel-talent-maraads-insight",
+              "name": "Maraad's Insight",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "yrel-talent-aegis-of-light",
+              "name": "Aegis of Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            },
+            {
+              "id": "yrel-talent-gift-of-the-naaru",
+              "name": "Gift of the Naaru",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            },
+            {
+              "id": "yrel-talent-hand-of-freedom",
+              "name": "Hand of Freedom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "yrel-talent-divine-steed",
+              "name": "Divine Steed",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-7"
+            },
+            {
+              "id": "yrel-talent-righteous-momentum",
+              "name": "Righteous Momentum",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "yrel-talent-ardent-defender",
+              "name": "Ardent Defender",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "yrel-talent-velens-chosen",
+              "name": "Velen's Chosen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-13"
+            },
+            {
+              "id": "yrel-talent-repentance",
+              "name": "Repentance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "yrel-talent-templars-verdict",
+              "name": "Templar's Verdict",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-16"
+            },
+            {
+              "id": "yrel-talent-holy-wrath",
+              "name": "Holy Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "yrel-talent-seraphim",
+              "name": "Seraphim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/yrel#57.0!2131314"
+    },
+    {
+      "name": "Avenging Wrath Build",
+      "label": "Situational",
+      "description": "Yrel's Avenging Wrath Build provides a good balance of survivability, damage, and utility. While playing this Build, you should generally use Divine Purpose right before casting Avenging Wrath.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "yrel-talent-dauntless",
+              "name": "Dauntless",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-1"
+            },
+            {
+              "id": "yrel-talent-maraads-insight",
+              "name": "Maraad's Insight",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "yrel-talent-gift-of-the-naaru",
+              "name": "Gift of the Naaru",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            },
+            {
+              "id": "yrel-talent-hand-of-freedom",
+              "name": "Hand of Freedom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "yrel-talent-holy-avenger",
+              "name": "Holy Avenger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "yrel-talent-ardent-defender",
+              "name": "Ardent Defender",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "yrel-talent-velens-chosen",
+              "name": "Velen's Chosen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "yrel-talent-divine-favor",
+              "name": "Divine Favor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "yrel-talent-seraphim",
+              "name": "Seraphim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/yrel#57.0!2221324"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Yrel's ARAM Build provides a good balance of survivability, damage, and utility. While playing this Build, you should generally use Divine Purpose right before casting Vindication.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "yrel-talent-light-of-karabor",
+              "name": "Light of Karabor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "yrel-talent-aegis-of-light",
+              "name": "Aegis of Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            },
+            {
+              "id": "yrel-talent-gift-of-the-naaru",
+              "name": "Gift of the Naaru",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            },
+            {
+              "id": "yrel-talent-hand-of-freedom",
+              "name": "Hand of Freedom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "yrel-talent-righteous-momentum",
+              "name": "Righteous Momentum",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "yrel-talent-sacred-ground",
+              "name": "Sacred Ground",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-10"
+            },
+            {
+              "id": "yrel-talent-ardent-defender",
+              "name": "Ardent Defender",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "yrel-talent-velens-chosen",
+              "name": "Velen's Chosen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-13"
+            },
+            {
+              "id": "yrel-talent-aldor-peacekeeper",
+              "name": "Aldor Peacekeeper",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "yrel-talent-templars-verdict",
+              "name": "Templar's Verdict",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-16"
+            },
+            {
+              "id": "yrel-talent-holy-wrath",
+              "name": "Holy Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "yrel-talent-seraphim",
+              "name": "Seraphim",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/yrel-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/yrel#57.0!1112314"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/yrel-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:39.315871+00:00",
+    "updated_at": "2026-09-11T10:00:00+00:00",
+    "author_line": "Last updated on Sep 11, 2026 at 10:00 by Elitesparkle"
+  }
+}

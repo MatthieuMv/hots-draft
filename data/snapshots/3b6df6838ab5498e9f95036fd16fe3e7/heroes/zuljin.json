@@ -1,0 +1,603 @@
+{
+  "schema_version": 1,
+  "id": "zuljin",
+  "name": "Zul'jin",
+  "role": "Ranged Assassin",
+  "overview": "Zul'jin is a Ranged Assassin who can be utilized as either a Marksman or a pseudo-Mage His play style is ultimately dependent on the way in which Zul'jin is talented. Berserker upgrades tends to shift Zul'jin toward Attack Damage, while Twin Cleave upgrades combined with Guillotine make for exceptional burst damage. Much like other Ranged Assassins, learning how to effectively position within the allied backline is integral to Zul'jin's success; as many times he will end up being the enemy team's primary target of focus.\n\n\"You Want Axe?\" is a Baseline Quest that can be broken down into 3 components. Every 5 Basic Attacks against Heroes will increase Zul'jin's Attack Damage by 1. Although not quite as important for Zul'jin when utilizing a Twin Cleave Build, the damage granted by this portion of the quest can add up fast and should always be \"farmed\" by striking over-extended Heroes with Basic Attacks whenever possible. The second portion of the Quest is completed once Zul'jin has struck enemy Heroes with 75 Basic Attacks. This grants Zul'jin 1.1 additional Basic Attack range which is incredibly important for either of Zul'jin's two builds. The bonus range will allow Zul'jin to either deal Attack Damage from a safer position during fights, or more quickly generate the remaining stacks of the \"You Want Axe?\" Quest in order to obtain the Twin Cleave upgrade. Once Zul'jin has landed 150 Basic Attacks on enemy Heroes, his Twin Cleave will revolve around twice (which is an integral component for a Twin Cleave Build).\n\nAlthough at first glance the Warlord of the Amani might seem relatively easy to master, his Trait Berserker adds some interesting depth the stereotypically straightforward Ranged Assassin pick. Players will constantly need to determine when to sacrifice Zul'jin's very own Health for a massive bonus to his damage output. The ability to balance this mechanic will quickly separate the good Zul'jin players and the great.",
+  "strengths": [
+    "Incredibly high single-target damage output via Basic Attacks",
+    "Good burst damage from Twin Cleave combined with Guillotine",
+    "Multiple sources of bonus Attack Range makes effective positioning easier than similar Ranged Assassins",
+    "Regeneration adds nice self-sustain in lane and between teamfights",
+    "Taz'dingo! provides a decent means of survivability to the otherwise squishy Hero",
+    "Can fill multiple roles to accommodate a multitude of team compositions and match-ups",
+    "Twin Cleave Build grants impressive waveclear"
+  ],
+  "weaknesses": [
+    "No gap-closer; very susceptible to enemy ganks and Heroes with dive potential",
+    "Overuse of Berserker will result in needlessly low Health",
+    "Vulnerable to crowd-control and focus-fire",
+    "Effectively useless when Blinded while running the Basic Attack build",
+    "Very difficult to play effectively with a fairly high learning-curve"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "tassadar",
+        "name": "Tassadar"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      }
+    ],
+    "explanation": "Zul'jin performs best with Heroes who are able to provide him a strong frontline as well as Healers who can help him manage his Health drain. Uther and Tyrael work particularly well with Zul'jin as Divine Shield and Sanctification can be overlapped with Taz'dingo! for a phenomenal results."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "dehaka",
+        "name": "Dehaka"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Zul'jin is heavily countered by enemy Heroes that can dive him, disable him via Stuns or Silences, and burst him down, especially before he is able to activate Taz'dingo!. Heroes with reliable Blinds (such as Li Li's Blinding Wind) also severely hinder Zul'jin's effectiveness in battle."
+  },
+  "maps": {
+    "stronger": [],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Zul'jin's role as a Basic Attack focused Ranged Assassin makes him a viable pick for most occasions. Nothing about his kit makes him particularly good or bad or any specific map and his viablity in a match should be centered more around the team's composition and it's needs as opposed to the map selection."
+  },
+  "builds": [
+    {
+      "name": "Twin Cleave Build",
+      "label": "Recommended",
+      "description": "The Twin Cleave Build relies on the AoE poke damage provided by Zul'jin's Twin Cleave. When running this build, completing the final portion of \"You Want Axe?\" is imperative. The completion of this Quest by landing 150 Basic Attacks on enemy Heroes literally doubles the effectiveness of Twin Cleave as the blades begin to revolve twice. Arcanite Axes is integral to the build, as it will endlessly increase the amount of damage the blades deal as the Match goes on. A single combo of a fully Talented cast of Twin Cleave combined with Guillotine can easily delete squishier members of the enemy backline such as Ranged Assassins or Healers. This is the standard build of Zul'jin and should be picked in most games.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zuljin-talent-recklessness",
+              "name": "Recklessness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zuljin-talent-amani-hide",
+              "name": "Amani Hide",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            },
+            {
+              "id": "zuljin-talent-trolls-blood",
+              "name": "Troll's Blood",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            },
+            {
+              "id": "zuljin-talent-voodoo-shuffle",
+              "name": "Voodoo Shuffle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zuljin-talent-arcanite-axes",
+              "name": "Arcanite Axes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zuljin-talent-taz-dingo",
+              "name": "Taz'dingo!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-10"
+            },
+            {
+              "id": "zuljin-talent-guillotine",
+              "name": "Guillotine",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zuljin-talent-eye-of-zul-jin",
+              "name": "Eye of Zul'jin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-13"
+            },
+            {
+              "id": "zuljin-talent-ensnare",
+              "name": "Ensnare",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zuljin-talent-wrong-place-wrong-time",
+              "name": "Wrong Place Wrong Time",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zuljin-talent-amani-resilience",
+              "name": "Amani Resilience",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            },
+            {
+              "id": "zuljin-talent-buzzsaw",
+              "name": "Buzzsaw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            },
+            {
+              "id": "zuljin-talent-a-surprise-for-ya",
+              "name": "A Surprise For Ya",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zuljin#55.14!2321221"
+    },
+    {
+      "name": "Grievous Build",
+      "label": "Situational",
+      "description": "The Grievous Throw build focuses on high damage output on a single target. Boneslicer and Vicious Assault synergize well and reward Zul'jin greatly should he have more attack speed through his trait, this also means that Taz'dingo! becomes close to mandatory for the build to shine. After level 16, Zul'jin completely negates enemy armor, countering certain enemy heroes such as Garrosh or Uther.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zuljin-talent-boneslicer",
+              "name": "Boneslicer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zuljin-talent-amani-hide",
+              "name": "Amani Hide",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            },
+            {
+              "id": "zuljin-talent-trolls-blood",
+              "name": "Troll's Blood",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            },
+            {
+              "id": "zuljin-talent-voodoo-shuffle",
+              "name": "Voodoo Shuffle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zuljin-talent-vicious-assault",
+              "name": "Vicious Assault",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zuljin-talent-taz-dingo",
+              "name": "Taz'dingo!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-10"
+            },
+            {
+              "id": "zuljin-talent-guillotine",
+              "name": "Guillotine",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zuljin-talent-eye-of-zul-jin",
+              "name": "Eye of Zul'jin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-13"
+            },
+            {
+              "id": "zuljin-talent-ensnare",
+              "name": "Ensnare",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zuljin-talent-no-mercy",
+              "name": "No Mercy!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zuljin-talent-amani-resilience",
+              "name": "Amani Resilience",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            },
+            {
+              "id": "zuljin-talent-buzzsaw",
+              "name": "Buzzsaw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            },
+            {
+              "id": "zuljin-talent-a-surprise-for-ya",
+              "name": "A Surprise For Ya",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zuljin#55.14!1311211"
+    },
+    {
+      "name": "Basic Attack Build",
+      "label": "Situational",
+      "description": "The Basic Attack Build focuses on maximizing the effectiveness of Zul'jin's core mechanic Berserker, and the insanely high single-target damage output he is able to maintain with his Basic Attacks. The combination of Recklessness, Ferocity, and Taz'dingo! will cause Zul'jin to tear through his opponents as both his Attack Speed and Attack Damage will be phenomenal for Taz'dingo's entire duration should he become the target of the enemy focus. Amani Resilience provides Zul'jin with a much needed boost of survivability for when the Unkillable effect of Taz'dingo wears off. The Basic Attack build should only be used if you have a team composition consisting of crowd-control allowing you to Basic Attack enemy heroes down.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zuljin-talent-recklessness",
+              "name": "Recklessness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zuljin-talent-amani-hide",
+              "name": "Amani Hide",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            },
+            {
+              "id": "zuljin-talent-trolls-blood",
+              "name": "Troll's Blood",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            },
+            {
+              "id": "zuljin-talent-voodoo-shuffle",
+              "name": "Voodoo Shuffle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zuljin-talent-ferocity",
+              "name": "Ferocity",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zuljin-talent-taz-dingo",
+              "name": "Taz'dingo!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-10"
+            },
+            {
+              "id": "zuljin-talent-guillotine",
+              "name": "Guillotine",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zuljin-talent-eye-of-zul-jin",
+              "name": "Eye of Zul'jin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-13"
+            },
+            {
+              "id": "zuljin-talent-ensnare",
+              "name": "Ensnare",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zuljin-talent-let-the-killing-begin",
+              "name": "Let the Killing Begin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-16"
+            },
+            {
+              "id": "zuljin-talent-no-mercy",
+              "name": "No Mercy!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zuljin-talent-amani-resilience",
+              "name": "Amani Resilience",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            },
+            {
+              "id": "zuljin-talent-buzzsaw",
+              "name": "Buzzsaw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            },
+            {
+              "id": "zuljin-talent-a-surprise-for-ya",
+              "name": "A Surprise For Ya",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zuljin#55.14!2331231"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "The ARAM Build focuses on primarily the Twin Cleave stacking on Zul'jin, but also on Auto-attacking a lot to stack Zul'jin's Trait damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zuljin-talent-headhunter",
+              "name": "Headhunter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zuljin-talent-trolls-blood",
+              "name": "Troll's Blood",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zuljin-talent-arcanite-axes",
+              "name": "Arcanite Axes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zuljin-talent-taz-dingo",
+              "name": "Taz'dingo!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zuljin-talent-eye-of-zul-jin",
+              "name": "Eye of Zul'jin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zuljin-talent-wrong-place-wrong-time",
+              "name": "Wrong Place Wrong Time",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zuljin-talent-a-surprise-for-ya",
+              "name": "A Surprise For Ya",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zuljin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zuljin#55.14!3121224"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/zuljin-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:43.301260+00:00",
+    "updated_at": "2025-02-11T11:00:00+00:00",
+    "author_line": "Last updated on Feb 11, 2025 at 11:00 by Outofmilk"
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "id": "samuro",
+  "name": "Samuro",
+  "role": "Melee Assassin",
+  "overview": "Samuro is a Melee Assassin who can Stealth and create Images of himself on demand. His Mirror Images can confuse his enemies, causing them to waste resources and cooldowns. Samuro is an excellent Offlaner. With proper micro, his clones become a great nuisance for the enemy team, while Samuro will shred through any target.",
+  "strengths": [
+    "Has very good DPS if he is free to hit",
+    "Has 2 different cleanses for DoTs or debuffs",
+    "Can tank many skillshots with clones",
+    "Can quickly clear Minions, Mercenaries or Monsters with Bladestorm",
+    "Has a very high skill ceiling",
+    "Can distract and confuse enemy Heroes with Illusion Master",
+    "Easily escape from any gank attempts",
+    "Has good self-sustain with Wind Walk"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Images can help enemies complete Quests",
+    "Vulnerable if Revealed",
+    "Vulnerable to peel and Knockbacks",
+    "Hard to play",
+    "No crowd control as a Bruiser"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "abathur",
+        "name": "Abathur"
+      },
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      }
+    ],
+    "explanation": "Samuro does well with Heroes who can increase the stats of his Images, or that can heal him from afar, like Malfurion and Deckard can. He also excels with Abathur, the only thing better than Three Blade Style is Six Blade Style. You, improved."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "cassia",
+        "name": "Cassia"
+      },
+      {
+        "id": "orphea",
+        "name": "Orphea"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "As Samuro has a hard time dealing with Knockbacks, Heroes like Lúcio and E.T.C. can greatly reduce his effectiveness by pushing him away at every possible aggression. He also suffers against Heroes that can easily kill his images, like Jaina, Orphea or Cassia with Surge of Light. Furthermore, Heroes that benefit from hitting clones can be a problem, such as Medivh, or Diablo.\n\nStukov is exceptional against Samuro because of Biotic Armor and Flailing Swipe, which can greatly reduce Samuro's damage."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Samuro does very well on maps dependent on point capture, like Dragon Shire or Braxis Holdout, because he can easily beat almost every hero after Level 7. He is also very good on big maps where you need to channel objectives, due to his great stall capabilities and great duel potential during them. Samuro excels on maps with many different flank angles, where you can chase enemies or hit them from behind during objectives."
+  },
+  "builds": [
+    {
+      "name": "Wind Storm Build",
+      "label": "Recommended",
+      "description": "Samuro's Wind Storm Build is excellent to enhance Samuro's macro. It has Way of the Wind (greatly increases Samuro's self-sustain and rotation speed), Burning Blade (enhances Samuro's waveclear), and Bladestorm (can be used to clear a wave instantly). Further, it also focuses on Talents that increase Wind Walk's utility. This helps Samuro get into and out of melee range, where Samuro deals all of his meaningful damage. This build is a great starting point for players new to Samuro, and can perform well at all levels of play.\n\nBladestorm will mostly be used to clear Minions and Mercenaries effectively, due to its low cooldown and high area of effect damage.\n\nYour Level 16 Talent greatly increases Samuro's lethality towards all kinds of enemies. While Press the Attack is an incredible DPS boost in long fights, Harsh Winds can be picked for good burst damage against squishy enemies, such as Tracer or Hanzo. However, it is important to consider that Merciless Strikes will yield the most damage if you have a good way to constantly apply slows to important targets.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "samuro-talent-way-of-the-wind",
+              "name": "Way of the Wind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "samuro-talent-one-with-the-wind",
+              "name": "One With The Wind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-4"
+            },
+            {
+              "id": "samuro-talent-deflection",
+              "name": "Deflection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "samuro-talent-burning-blade",
+              "name": "Burning Blade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-7"
+            },
+            {
+              "id": "samuro-talent-crushing-blows",
+              "name": "Crushing Blows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "samuro-talent-bladestorm",
+              "name": "Bladestorm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "samuro-talent-shukuchi",
+              "name": "Shukuchi",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "samuro-talent-press-the-attack",
+              "name": "Press the Attack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-16"
+            },
+            {
+              "id": "samuro-talent-harsh-winds",
+              "name": "Harsh Winds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-16"
+            },
+            {
+              "id": "samuro-talent-merciless-strikes",
+              "name": "Merciless Strikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "samuro-talent-wind-strider",
+              "name": "Wind Strider",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/samuro#29.3!3211333"
+    },
+    {
+      "name": "Illusion Master Build",
+      "label": "Advanced",
+      "description": "The Illusion Master build is a good choice if your playstyle will be more focused on teamfights than on the macro part of a game. This build is excellent if you are experienced with the Hero, as it is considerably harder to use than Wind Storm build.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "samuro-talent-way-of-illusion",
+              "name": "Way of Illusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-1"
+            },
+            {
+              "id": "samuro-talent-way-of-the-blade",
+              "name": "Way of the Blade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "samuro-talent-deflection",
+              "name": "Deflection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-4"
+            },
+            {
+              "id": "samuro-talent-mirage",
+              "name": "Mirage",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "samuro-talent-crushing-blows",
+              "name": "Crushing Blows",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-7"
+            },
+            {
+              "id": "samuro-talent-burning-blade",
+              "name": "Burning Blade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "samuro-talent-illusion-master",
+              "name": "Illusion Master",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "samuro-talent-shukuchi",
+              "name": "Shukuchi",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "samuro-talent-press-the-attack",
+              "name": "Press the Attack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-16"
+            },
+            {
+              "id": "samuro-talent-merciless-strikes",
+              "name": "Merciless Strikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "samuro-talent-blademasters-pursuit",
+              "name": "Blademaster's Pursuit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-20"
+            },
+            {
+              "id": "samuro-talent-three-blade-style",
+              "name": "Three Blade Style",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/samuro-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/samuro#29.3!1332334"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/samuro-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:18.228753+00:00",
+    "updated_at": "2024-09-14T13:40:00+00:00",
+    "author_line": "Last updated on Sep 14, 2024 at 13:40 by Derenash"
+  }
+}

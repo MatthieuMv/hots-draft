@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "id": "jaina",
+  "name": "Jaina",
+  "role": "Ranged Assassin",
+  "overview": "Jaina is combo-oriented ranged damage dealer with outstanding area of effect crowd control and burst damage potential. Befitting her Frost Mage theme, her Abilities also Slow everything they hit. Her reliance on skillshots and delayed Abilities, and relative fragility, however, make her one of the hardest Heroes to play, let alone master.",
+  "strengths": [
+    "Outstanding burst damage",
+    "ALL Abilities apply a strong Slow effect on hit",
+    "Excellent waveclear",
+    "Flexible build with Talents for all situations"
+  ],
+  "weaknesses": [
+    "Difficult to play due to ALL Abilities having some form of counterplay",
+    "Long Cooldowns that must be managed with care",
+    "Limited mobility",
+    "Dependent on completing a quest to have a reliable way to survive engages"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "xul",
+        "name": "Xul"
+      }
+    ],
+    "explanation": "Since Jaina depends highly on skillshots to deal her damage, she naturally works well with any Hero that can provide reliable crowd control against a kill target for her to follow up. Her frailty also makes her dependent on other Heroes to peel for her; Tanks tend to fulfill these two needs, although other Hero types can as well."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "alarak",
+        "name": "Alarak"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "Since Jaina relies chiefly on skillshots and delayed Abilities to deal damage, she does particularly poorly against Heroes that have ways of quickly dodging her Abilities. Furthermore, her frailty and lack of mobility makes her vulnerable to heroes that can easily dive or push you to a bad position."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Jaina's excellent waveclear makes her particularly effective on Maps where the Objective requires the rapid destruction of several small enemies, or where quick rotations are expected. She also becomes quite proficient at claiming Mercenary Camps as well past Hero Level 7. She tends to be weaker on Maps where she might need to be isolated, although she should probably never be left without an ally regardless, due to her dependence on peeling."
+  },
+  "builds": [
+    {
+      "name": "Frostbolt Build",
+      "label": "Recommended",
+      "description": "Jaina's Frostbolt Build seeks to improve Jaina's sustain damage output through the several synergistic Talents which empower Frostbolt. By picking Ice Lance at Level 7 and Northern Exposure at Level 16, it also provides Jaina with the most single target sustained and burst damage among her builds. Fingers of Frost provides much needed Mana and a bit of extra damage; Frost Shards makes Frostbolt more difficult to block and potentially doubles its damage; Ice Lance situationally halves Frostbolt's cooldown, which is particularly significant when combined with Icy Veins; Summon Water Elemental provides a reliable way to keep targets Chilled through Frostbite.\n\nIt is important to note that Winter's Reach is an option at Level 1, but should only be chosen against several high ranged Heroes, as it is necessary to apply pressure on them.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "jaina-talent-fingers-of-frost",
+              "name": "Fingers of Frost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-1"
+            },
+            {
+              "id": "jaina-talent-winters-reach",
+              "name": "Winter's Reach",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "jaina-talent-frost-shards",
+              "name": "Frost Shards",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "jaina-talent-ice-lance",
+              "name": "Ice Lance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "jaina-talent-summon-water-elemental",
+              "name": "Summon Water Elemental",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "jaina-talent-icy-veins",
+              "name": "Icy Veins",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "jaina-talent-northern-exposure",
+              "name": "Northern Exposure",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-16"
+            },
+            {
+              "id": "jaina-talent-numbing-blast",
+              "name": "Numbing Blast",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "jaina-talent-wintermute",
+              "name": "Wintermute",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/jaina#23.0!3112322"
+    },
+    {
+      "name": "Balanced Build",
+      "label": "Situational",
+      "description": "Jaina's Balanced Build is a very versatile and useful Build path to take in every game. It has a good damage on the frontline with Icefury Wand or with Ice Floes, excellent Mana management with Level 1 and Level 4, and has several Talent options to pick based on the opposing composition.\n\nIcefury Wand is an excellent Talent to apply constant damage to a Tank or Bruiser without cooldowns. However, Ice Floes is outstanding against several melees in the opposing team. Combined with Icy Veins and Numbing Blast, Cone of Cold can Root divers and melees for five seconds, but remember to apply chill on them before using it!",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "jaina-talent-fingers-of-frost",
+              "name": "Fingers of Frost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-1"
+            },
+            {
+              "id": "jaina-talent-lingering-chill",
+              "name": "Lingering Chill",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "jaina-talent-arcane-intellect",
+              "name": "Arcane Intellect",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-4"
+            },
+            {
+              "id": "jaina-talent-frost-shards",
+              "name": "Frost Shards",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "jaina-talent-ice-floes",
+              "name": "Ice Floes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-7"
+            },
+            {
+              "id": "jaina-talent-icefury-wand",
+              "name": "Icefury Wand",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "jaina-talent-summon-water-elemental",
+              "name": "Summon Water Elemental",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-10"
+            },
+            {
+              "id": "jaina-talent-ring-of-frost",
+              "name": "Ring of Frost",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "jaina-talent-icy-veins",
+              "name": "Icy Veins",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "jaina-talent-numbing-blast",
+              "name": "Numbing Blast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-16"
+            },
+            {
+              "id": "jaina-talent-northern-exposure",
+              "name": "Northern Exposure",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "jaina-talent-wintermute",
+              "name": "Wintermute",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-20"
+            },
+            {
+              "id": "jaina-talent-ice-blink",
+              "name": "Ice Blink",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/jaina#23.0!3222332"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Jaina's ARAM Build focuses on maximizing her team fighting potential by combining Icy Veins, Ice Floes, and Numbing Blast. This combination allows you to Root multiple enemies throughout most of Icy Veins' duration while applying heavy burst damage to all of them.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "jaina-talent-fingers-of-frost",
+              "name": "Fingers of Frost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "jaina-talent-arcane-intellect",
+              "name": "Arcane Intellect",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-4"
+            },
+            {
+              "id": "jaina-talent-frost-shards",
+              "name": "Frost Shards",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "jaina-talent-ice-floes",
+              "name": "Ice Floes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "jaina-talent-summon-water-elemental",
+              "name": "Summon Water Elemental",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-10"
+            },
+            {
+              "id": "jaina-talent-ring-of-frost",
+              "name": "Ring of Frost",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "jaina-talent-icy-veins",
+              "name": "Icy Veins",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "jaina-talent-numbing-blast",
+              "name": "Numbing Blast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "jaina-talent-wintermute",
+              "name": "Wintermute",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-20"
+            },
+            {
+              "id": "jaina-talent-ice-blink",
+              "name": "Ice Blink",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/jaina-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/jaina#23.0!3222332"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/jaina-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:11.331701+00:00",
+    "updated_at": "2026-03-16T02:45:00+00:00",
+    "author_line": "Last updated on Mar 16, 2026 at 02:45 by Derenash"
+  }
+}

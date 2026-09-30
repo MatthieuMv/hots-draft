@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "id": "mei",
+  "name": "Mei",
+  "role": "Tank",
+  "overview": "Mei is a Tank who relies on various types of crowd control to mess up the enemy plans and some peculiar forms of self-sustain to survive longer during team fights.",
+  "strengths": [
+    "High survivability",
+    "Decent damage output",
+    "Versatile crowd control",
+    "Good mobility"
+  ],
+  "weaknesses": [
+    "Not able to peel from high mobility Heroes (like Tracer)",
+    "Weak to Knockbacks and Roots"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "xul",
+        "name": "Xul"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      }
+    ],
+    "explanation": "Considering that her Basic Abilities are not that reliable when trying to engage enemy Heroes, Mei prefers having allied Heroes who can initiate for her (for example Maiev), so that she can follow-up with Blizzard.\n\nSimilarly, Mei benefits from Heroes that can help her to keep enemy Heroes within Blizzard by creating impassable terrain (like Tassadar with Force Wall) or by Knocking back enemy Heroes nearby (such as Maiev with Umbral Bind).\n\nAs she provides a lot of crowd control, Mei performs better with Heroes that can follow-up her Abilities with burst damage (for example Jaina).\n\nMei's high Slow uptime is good for allied Heroes who get increased damage from it (such as Ace In The Hole at Level 1 on Raynor) as the condition for triggering their increased damage will easily be met."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "junkrat",
+        "name": "Junkrat"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      }
+    ],
+    "explanation": "Mei suffers while facing Heroes who have access to any kind of mobility because she will have a hard time trying to engage and her peeling tools will not accomplish anything (for example Tracer).\n\nRoots (such as Entangling Roots by Malfurion) and Knockbacks (like Face Melt by E.T.C.) can stop her while trying to engage with Icing.\n\nWhile she does not gets completely shut down by them, Mei also does not like effects that reduce healing (for example Biotic Grenade by Ana), deal percent-based damage (such as Cursed Bullet at Level 10 by Greymane), or deal bonus damage to Shields (like EMP Grenade at Level 13 by Lt. Morales). The same is true for Heroes who can poke her team from a long distance (such as Li-Ming).\n\nLast but not the least, you can combine crowd control and burst damage to kill Mei before she can even use Cryo-Freeze defensively."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "explanation": "Mei does better on Maps where the fights happen on a small Capture Point (like Braxis Holdout), that have narrow passages where she can get more value from her kit (for example Cursed Hollow), and that have a Boss Camp that goes in lane once captured.\n\nWhen picking Ice Storm at Level 1, Mei has good waveclear, making her a good pick on Maps where macro is important. Keep in mind, though, that she will not be able to help you capture Mercenary Camps quickly."
+  },
+  "builds": [
+    {
+      "name": "Icing Build",
+      "label": "Recommended",
+      "description": "Mei's Icing Build is focused on improving your damage to enemy Heroes and increasing the crowd control you can provide during team fights, at the cost of some survivability.\n\nThe cooldown reduction provided by Cold Front at Level 4 is great for using Black Ice at Level 16 more often and to have Icing up when Blizzard is up thanks to the cooldown reduction given by Flurry at Level 13.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "mei-talent-ice-storm",
+              "name": "Ice Storm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "mei-talent-cold-front",
+              "name": "Cold Front",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "mei-talent-skating-away",
+              "name": "Skating Away",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "mei-talent-ice-wall",
+              "name": "Ice Wall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-10"
+            },
+            {
+              "id": "mei-talent-avalanche",
+              "name": "Avalanche",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "mei-talent-flurry",
+              "name": "Flurry",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "mei-talent-black-ice",
+              "name": "Black Ice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "mei-talent-shatter",
+              "name": "Shatter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-20"
+            },
+            {
+              "id": "mei-talent-cascade",
+              "name": "Cascade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/mei#51.0!2222122"
+    },
+    {
+      "name": "Cryo-Freeze Build",
+      "label": "Situational",
+      "description": "Mei's Cryo-Freeze Build is designed to increase her survivability and sustain damage via Basic Attacks.\n\nThe additional survivability comes from Crystallize at Level 4, a defensive Talent that makes it harder for the enemy team to break the Shield provided by Cryo-Freeze.\n\nThe damage increase is primarily provided by Heat Transfer at Level 1, combined with the Passive effect from Cooling Servos at Level 13. With these Talents, you can pressure the enemy frontline.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "mei-talent-heat-transfer",
+              "name": "Heat Transfer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "mei-talent-crystallize",
+              "name": "Crystallize",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "mei-talent-skating-away",
+              "name": "Skating Away",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "mei-talent-ice-wall",
+              "name": "Ice Wall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-10"
+            },
+            {
+              "id": "mei-talent-avalanche",
+              "name": "Avalanche",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "mei-talent-cooling-servos",
+              "name": "Cooling Servos",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "mei-talent-acclimation",
+              "name": "Acclimation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "mei-talent-shatter",
+              "name": "Shatter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-20"
+            },
+            {
+              "id": "mei-talent-cascade",
+              "name": "Cascade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/mei#51.0!3322232"
+    },
+    {
+      "name": "Snow Blind Build",
+      "label": "Situational",
+      "description": "Mei's Snow Blind Build is quite good to counter enemy Heroes who primarily deal damage via Basic Attacks and also lack mobility (notably The Butcher and Zul'jin).\n\nBlind them twice in a row thanks to Fresh Powder at Level 16 and then again thanks to Heavy Pack at Level 1 giving cooldown reduction. In addition to that, Skating Away at Level 7 grants Physical Armor, which also counters Basic Attacks.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "mei-talent-heavy-pack",
+              "name": "Heavy Pack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "mei-talent-slushball",
+              "name": "Slushball",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "mei-talent-skating-away",
+              "name": "Skating Away",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "mei-talent-ice-wall",
+              "name": "Ice Wall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-10"
+            },
+            {
+              "id": "mei-talent-avalanche",
+              "name": "Avalanche",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "mei-talent-polar-vortex",
+              "name": "Polar Vortex",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "mei-talent-fresh-powder",
+              "name": "Fresh Powder",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "mei-talent-shatter",
+              "name": "Shatter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-20"
+            },
+            {
+              "id": "mei-talent-cascade",
+              "name": "Cascade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/mei#51.0!1122312"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Mei's ARAM Build is focused on improving your damage to enemy Heroes and increasing the crowd control you can provide during team fights, at the cost of some survivability.\n\nThe cooldown reduction provided by Cold Front at Level 4 is great for using Black Ice at Level 16 more often and to have Icing up when Blizzard is up thanks to the cooldown reduction given by Flurry at Level 13.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "mei-talent-ice-storm",
+              "name": "Ice Storm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "mei-talent-cold-front",
+              "name": "Cold Front",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "mei-talent-skating-away",
+              "name": "Skating Away",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "mei-talent-ice-wall",
+              "name": "Ice Wall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-10"
+            },
+            {
+              "id": "mei-talent-avalanche",
+              "name": "Avalanche",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "mei-talent-flurry",
+              "name": "Flurry",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "mei-talent-black-ice",
+              "name": "Black Ice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "mei-talent-shatter",
+              "name": "Shatter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-20"
+            },
+            {
+              "id": "mei-talent-cascade",
+              "name": "Cascade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mei-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/mei#51.0!2222122"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/mei-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:05.289064+00:00",
+    "updated_at": "2025-04-18T15:10:00+00:00",
+    "author_line": "Last updated on Apr 18, 2025 at 15:10 by Elitesparkle"
+  }
+}

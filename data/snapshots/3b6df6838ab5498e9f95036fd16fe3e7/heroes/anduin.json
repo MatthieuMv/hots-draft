@@ -1,0 +1,606 @@
+{
+  "schema_version": 1,
+  "id": "anduin",
+  "name": "Anduin",
+  "role": "Healer",
+  "overview": "Anduin is a ranged Healer that excels at saving his allies, not only by healing them. Notably, Anduin can save allied Heroes in need by using Leap of Faith, which makes them Unstoppable and Pulls them towards Anduin. Mastering Anduin's arsenal of protective and offensive tools provides your team with a powerful Healer in the backline that can contribute a great deal during team fights. Unlike some of the other Healers, Anduin possesses quite some play-making potential utilizing various crowd control and utility effects.",
+  "strengths": [
+    "Strong burst healing",
+    "Access to crowd control",
+    "Powerful late game",
+    "Baseline cleanse effect"
+  ],
+  "weaknesses": [
+    "Low area of effect healing",
+    "Standing still to channel",
+    "No mobility"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "the-butcher",
+        "name": "The Butcher"
+      },
+      {
+        "id": "alarak",
+        "name": "Alarak"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      }
+    ],
+    "explanation": "Chastise is not that easy to land, therefore Heroes with reliable crowd control can help Anduin with doing so. For this reason, you should draft Anduin together with a Tank with a Stun, Root, or a powerful Slow. On a similar note, Stitches is a unique Hero who can also help you with that, given you are ready to cast Chastise right after Hook goes off, without waiting to see if it will hit or not, otherwise the projectile will end up being late.\n\nThe utility that Anduin offers with Leap of Faith can help allied Heroes who lack mobility (such as Raynor) to get away from danger or even enable more aggressive plays from Heroes that lack escape tools (for example Diablo, to save his Souls).\n\nYou can pair Lightbomb with a lot of Abilities (for example Wind Rush by Thrall) to execute powerful and quick engages that the enemy team will struggle to play against or simply use it as a follow-up to other crowd control effects (such as Blessed Shield by Johanna)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Anduin cannot rely on Leap of Faith to save allied Heroes from enemy Heroes that can engage multiple times per minute (for example E.T.C. with Powerslide).\n\nA strong dive Hero (such as Sonya) can heavily pressure Anduin, to the point that he will not be able to heal the rest of his team anymore, in addition to rendering Leap of Faith useless.\n\nPoke damage is annoying for Anduin because he lacks area of effect sustain healing to keep everyone healthy during prolonged team fights."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      }
+    ],
+    "explanation": "Anduin excels on Maps that feature static Objectives where team fights do not last too long (such as Shrines on Dragon Shire). Choke points can make for great locations for Divine Star to get value from as well as to catch enemy Heroes with Lightbomb.\n\nAll in all, Anduin's well-rounded kit leaves him with no real Map vulnerabilities, except for a moderate disadvantage on Maps where the Objective takes too much time to be won that his Mana eventually expires (for example Braxis Holdout) and where there are good paths for flanking."
+  },
+  "builds": [
+    {
+      "name": "Lightwell Build",
+      "label": "Recommended",
+      "description": "Anduin's Lightwell Build is all about keeping yourself and allied Heroes healthy over time, which is great when facing a team that mostly relies on sustain damage but weak against burst damage.\n\nTry to apply Renew at Level 16 on as many allied Heroes as possible, then rely on Moral Compass to refresh its duration from the distance every 5 seconds with either Divine Star or Basic Attacks.\n\nMost of the Talents in this Build will contribute to reducing the cooldown of Lightwell at Level 1, increasing your healing output without having to spend extra Mana but with the need for allied Heroes to stand in the healing area for a few seconds. For this reason, we find it better for stationary fights to control a given location on the battlefield.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "anduin-talent-lightwell",
+              "name": "Lightwell",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "anduin-talent-moral-compass",
+              "name": "Moral Compass",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "anduin-talent-binding-heal",
+              "name": "Binding Heal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-7"
+            },
+            {
+              "id": "anduin-talent-desperate-prayer",
+              "name": "Desperate Prayer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-7"
+            },
+            {
+              "id": "anduin-talent-blessed-recovery",
+              "name": "Blessed Recovery",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "anduin-talent-lightbomb",
+              "name": "Lightbomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-10"
+            },
+            {
+              "id": "anduin-talent-holy-word-salvation",
+              "name": "Holy Word: Salvation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "anduin-talent-speed-of-the-pious",
+              "name": "Speed of the Pious",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "anduin-talent-renew",
+              "name": "Renew",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "anduin-talent-varians-legacy",
+              "name": "Varian's Legacy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            },
+            {
+              "id": "anduin-talent-light-of-stormwind",
+              "name": "Light of Stormwind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/anduin#54.1!3112114"
+    },
+    {
+      "name": "Leap of Faith Build",
+      "label": "Advanced",
+      "description": "Anduin's Leap of Faith Build is primarily designed to deal with crowd control and burst damage by sacrificing sustain healing.\n\nDesperate Prayer at Level 7 provides burst healing, and Glyph of Faith at Level 16 gives you another charge of Leap of Faith to save allied Heroes from danger.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "anduin-talent-power-word-shield",
+              "name": "Power Word: Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-1"
+            },
+            {
+              "id": "anduin-talent-evenhanded-blessings",
+              "name": "Evenhanded Blessings",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-1"
+            },
+            {
+              "id": "anduin-talent-lightwell",
+              "name": "Lightwell",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "anduin-talent-moral-compass",
+              "name": "Moral Compass",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-4"
+            },
+            {
+              "id": "anduin-talent-surge-of-light",
+              "name": "Surge of Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-4"
+            },
+            {
+              "id": "anduin-talent-piercing-light",
+              "name": "Piercing Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "anduin-talent-desperate-prayer",
+              "name": "Desperate Prayer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "anduin-talent-lightbomb",
+              "name": "Lightbomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-10"
+            },
+            {
+              "id": "anduin-talent-holy-word-salvation",
+              "name": "Holy Word: Salvation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "anduin-talent-speed-of-the-pious",
+              "name": "Speed of the Pious",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-13"
+            },
+            {
+              "id": "anduin-talent-enchant-boots-lions-speed",
+              "name": "Enchant Boots - Lion's Speed",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "anduin-talent-glyph-of-faith",
+              "name": "Glyph of Faith",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "anduin-talent-censure",
+              "name": "Censure",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            },
+            {
+              "id": "anduin-talent-light-of-stormwind",
+              "name": "Light of Stormwind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            },
+            {
+              "id": "anduin-talent-inner-fire",
+              "name": "Inner Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/anduin#54.1!2132133"
+    },
+    {
+      "name": "Inner Focus Build",
+      "label": "Situational",
+      "description": "Anduin's Inner Focus Build is designed to help you stay alive against dive (for example Zeratul) as otherwise you do not have tools to deal with it.\n\nThe survivability comes from Blessed Recovery at Level 7 and Inner Focus at Level 16, whose cooldown is reduced by dealing damage to enemy Heroes. Varian's Legacy at Level 20 also helps with that.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "anduin-talent-power-word-shield",
+              "name": "Power Word: Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "anduin-talent-moral-compass",
+              "name": "Moral Compass",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-4"
+            },
+            {
+              "id": "anduin-talent-surge-of-light",
+              "name": "Surge of Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-4"
+            },
+            {
+              "id": "anduin-talent-piercing-light",
+              "name": "Piercing Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "anduin-talent-blessed-recovery",
+              "name": "Blessed Recovery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "anduin-talent-lightbomb",
+              "name": "Lightbomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-10"
+            },
+            {
+              "id": "anduin-talent-holy-word-salvation",
+              "name": "Holy Word: Salvation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "anduin-talent-speed-of-the-pious",
+              "name": "Speed of the Pious",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "anduin-talent-inner-focus",
+              "name": "Inner Focus",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "anduin-talent-varians-legacy",
+              "name": "Varian's Legacy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            },
+            {
+              "id": "anduin-talent-light-of-stormwind",
+              "name": "Light of Stormwind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/anduin#54.1!2122144"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Anduin's ARAM Build is all about keeping yourself and allied Heroes healthy over time, which is great when facing a team that mostly relies on sustain damage but weak against burst damage.\n\nTry to apply Renew at Level 16 on as many allied Heroes as possible, then rely on Moral Compass to refresh its duration from the distance every 5 seconds with either Divine Star or Basic Attacks.\n\nMost of the Talents in this Build will contribute to reducing the cooldown of Lightwell at Level 1, increasing your healing output without having to spend extra Mana but with the need for allied Heroes to stand in the healing area for a few seconds. For this reason, we find it better for stationary fights to control a given location on the battlefield.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "anduin-talent-lightwell",
+              "name": "Lightwell",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "anduin-talent-moral-compass",
+              "name": "Moral Compass",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "anduin-talent-binding-heal",
+              "name": "Binding Heal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-7"
+            },
+            {
+              "id": "anduin-talent-desperate-prayer",
+              "name": "Desperate Prayer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-7"
+            },
+            {
+              "id": "anduin-talent-blessed-recovery",
+              "name": "Blessed Recovery",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "anduin-talent-lightbomb",
+              "name": "Lightbomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-10"
+            },
+            {
+              "id": "anduin-talent-holy-word-salvation",
+              "name": "Holy Word: Salvation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "anduin-talent-speed-of-the-pious",
+              "name": "Speed of the Pious",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "anduin-talent-renew",
+              "name": "Renew",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "anduin-talent-varians-legacy",
+              "name": "Varian's Legacy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            },
+            {
+              "id": "anduin-talent-light-of-stormwind",
+              "name": "Light of Stormwind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anduin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/anduin#54.1!3112114"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/anduin-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:02.874766+00:00",
+    "updated_at": "2026-07-12T21:35:00+00:00",
+    "author_line": "Last updated on Jul 12, 2026 at 21:35 by Elitesparkle"
+  }
+}

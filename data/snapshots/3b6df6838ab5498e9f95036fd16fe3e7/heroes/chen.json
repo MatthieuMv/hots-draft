@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "id": "chen",
+  "name": "Chen",
+  "role": "Bruiser",
+  "overview": "Chen is a durable Bruiser and a strong duelist as he can trade exceptionally well against many Heroes thanks to his solid damage output and high self-sustain, making him one of the best Offlaners in the game when played correctly.",
+  "strengths": [
+    "Good survivability",
+    "Decent mobility",
+    "Solid damage output, especially against Heroes"
+  ],
+  "weaknesses": [
+    "Low baseline waveclear",
+    "Struggle against interrupts",
+    "Conditional mobility"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "abathur",
+        "name": "Abathur"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      }
+    ],
+    "explanation": "Chen likes to play together with Heroes that can empower his dive (such as Tyrael), dive with him (for example Abathur), provide waveclear (like Rehgar), clear Mercenary Camps (for example Greymane), and/or offer crowd control (such as Johanna)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "the-lost-vikings",
+        "name": "The Lost Vikings"
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      }
+    ],
+    "explanation": "Whether team fighting or dueling, Chen struggles against Heroes who have access to crowd control effects that can interrupt Fortifying Brew (for example E.T.C. with either Powerslide or Face Melt) because, without channeling it for at least 1 second due to a quick interrupt, he will not have enough Brew to use some of his Basic Abilities.\n\nSpeaking about team fights in particular, anything that can protect his target from a dive attempt makes Chen's plan more difficult to execute (for example a well-timed Sanctification by Tyrael or even a Sound Barrier by Lúcio).\n\nIf we consider the macro aspect of the game, primarily due to his low waveclear, Chen has a hard time when the enemy team has access to Heroes who can completely warp the game and allow the enemy team to play in a different way than usual (such as Abathur and The Lost Vikings)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Chen performs better on Maps where he needs to take care of a single lane, the Boss Camp is a strong win condition, and macro is not that important.\n\nDue to his mediocre waveclear, Chen is not that good on Maps where double soaking is important (such as Towers of Doom), even if he can still provide good value in team fights thanks to his Heroic Abilities.\n\nChen does not excel on big Maps (like Garden of Terror) because, when it comes to macro, he cannot compete with Heroes who can quickly clear Minions or do Mercenary Camps alone."
+  },
+  "builds": [
+    {
+      "name": "Hybrid Build",
+      "label": "Recommended",
+      "description": "Chen's Hybrid Build focus on increasing your damage as much as possible, mostly by empowering Abilities. Paired with Chen's good survivability, the additional damage allows you to take down valuable enemy Heroes with little to no help from your team.\n\nAccumulating Flame at Level 1 progressively increases your damage output during the game and, more importantly, your waveclear. In order to get more stacks, remember to hit enemy Heroes whenever it is safe to do so.\n\nWithering Flames at Level 4 allows you to trade better with enemy Heroes without getting in melee range. A Touch of Honey at Level 13 helps you engage or stick on enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "chen-talent-accumulating-flame",
+              "name": "Accumulating Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "chen-talent-withering-flames",
+              "name": "Withering Flames",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "chen-talent-brewmasters-balance",
+              "name": "Brewmaster's Balance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            },
+            {
+              "id": "chen-talent-gift-of-the-ox",
+              "name": "Gift of the Ox",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            },
+            {
+              "id": "chen-talent-elusive-brawler",
+              "name": "Elusive Brawler",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "chen-talent-wandering-keg",
+              "name": "Wandering Keg",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "chen-talent-a-touch-of-honey",
+              "name": "A Touch of Honey",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "chen-talent-flying-leap",
+              "name": "Flying Leap",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "chen-talent-purifying-brew",
+              "name": "Purifying Brew",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/chen#55.16!1321213"
+    },
+    {
+      "name": "Flying Kick Build",
+      "label": "Situational",
+      "description": "Chen's Flying Kick Build is designed to keep your damage high when you cannot rely on Basic Attacks that much, either because you are countered by enemy Heroes or because team fights will be relatively short, and a lot of playmaking potential via Wandering Keg.\n\nAfter picking Enough to Share at Level 13, briefly using Fortifying Brew to get a Shield and stopping as soon as possible becomes a valid play to trigger the bonus damage of Deadly Strike at Level 4.\n\nFlying Kick will deal more damage thanks to Deadly Strike at Level 4. Tap Fortifying Brew right before using Flying Kick to deal even more damage thanks to Enough to Share at Level 13 instantly giving you a Shield.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "chen-talent-freshest-ingredients",
+              "name": "Freshest Ingredients",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "chen-talent-deadly-strike",
+              "name": "Deadly Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "chen-talent-elusive-brawler",
+              "name": "Elusive Brawler",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            },
+            {
+              "id": "chen-talent-gift-of-the-ox",
+              "name": "Gift of the Ox",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "chen-talent-wandering-keg",
+              "name": "Wandering Keg",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "chen-talent-enough-to-share",
+              "name": "Enough to Share",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "chen-talent-flying-leap",
+              "name": "Flying Leap",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "chen-talent-purifying-brew",
+              "name": "Purifying Brew",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/chen#55.16!2131413"
+    },
+    {
+      "name": "Stagger Build",
+      "label": "Situational",
+      "description": "Chen's Stagger Build focuses on increasing your survivability by making Stagger more efficient and boosting your damage output by empowering your Basic Attacks and Breath of Fire.\n\nAccumulating Flame at Level 1 progressively increases your damage output during the game and, more importantly, your waveclear. In order to get more stacks, remember to hit enemy Heroes whenever it is safe to do so.\n\nCombined together, Gift of the Ox at Level 7 and Celerity at Level 16 make Chen harder to kill. The latter can reduce Stagger's cooldown, which makes you get more value from both Talents.\n\nWithering Flames at Level 4 allows you to trade better with enemy Heroes without getting in melee range. A Touch of Honey at Level 13 helps you engage or stick on enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "chen-talent-accumulating-flame",
+              "name": "Accumulating Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "chen-talent-withering-flames",
+              "name": "Withering Flames",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "chen-talent-gift-of-the-ox",
+              "name": "Gift of the Ox",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "chen-talent-wandering-keg",
+              "name": "Wandering Keg",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "chen-talent-a-touch-of-honey",
+              "name": "A Touch of Honey",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "chen-talent-celerity",
+              "name": "Celerity",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "chen-talent-purifying-brew",
+              "name": "Purifying Brew",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/chen#55.16!1311223"
+    },
+    {
+      "name": "Basic Attacks Build",
+      "label": "Situational",
+      "description": "Chen's Basic Attacks Build focus on increasing your damage as much as possible, mostly by empowering Basic Attacks. Paired with Chen's good survivability, the additional damage allows you to take down valuable enemy Heroes with little to no help from your team.\n\nAccumulating Flame at Level 1 progressively increases your damage output during the game and, more importantly, your waveclear. In order to get more stacks, remember to hit enemy Heroes whenever it is safe to do so.\n\nCombo Strikes at Level 16 is the signature Talent of this Build, heavily increasing your damage output especially when paired with Eye of the Tiger at Level 4 for even more damage from Basic Attacks against enemy Heroes.\n\nEye of the Tiger at Level 4 allows you to trade better with enemy Heroes while in melee range. A Touch of Honey at Level 13 helps you engage or stick on enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "chen-talent-accumulating-flame",
+              "name": "Accumulating Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "chen-talent-eye-of-the-tiger",
+              "name": "Eye of the Tiger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "chen-talent-brewmasters-balance",
+              "name": "Brewmaster's Balance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "chen-talent-wandering-keg",
+              "name": "Wandering Keg",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "chen-talent-a-touch-of-honey",
+              "name": "A Touch of Honey",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "chen-talent-combo-strikes",
+              "name": "Combo Strikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "chen-talent-purifying-brew",
+              "name": "Purifying Brew",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/chen#55.16!1221233"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Chen's ARAM Build focus on increasing your damage as much as possible, mostly by empowering Abilities. Paired with Chen's good survivability, the additional damage allows you to take down valuable enemy Heroes with little to no help from your team.\n\nAccumulating Flame at Level 1 progressively increases your damage output during the game and, more importantly, your waveclear. In order to get more stacks, remember to hit enemy Heroes whenever it is safe to do so.\n\nWithering Flames at Level 4 allows you to trade better with enemy Heroes without getting in melee range. A Touch of Honey at Level 13 helps you engage or stick on enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "chen-talent-accumulating-flame",
+              "name": "Accumulating Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "chen-talent-withering-flames",
+              "name": "Withering Flames",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "chen-talent-brewmasters-balance",
+              "name": "Brewmaster's Balance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            },
+            {
+              "id": "chen-talent-gift-of-the-ox",
+              "name": "Gift of the Ox",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            },
+            {
+              "id": "chen-talent-elusive-brawler",
+              "name": "Elusive Brawler",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "chen-talent-wandering-keg",
+              "name": "Wandering Keg",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "chen-talent-a-touch-of-honey",
+              "name": "A Touch of Honey",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "chen-talent-flying-leap",
+              "name": "Flying Leap",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "chen-talent-purifying-brew",
+              "name": "Purifying Brew",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chen-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/chen#55.16!1321213"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/chen-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:11.889126+00:00",
+    "updated_at": "2026-06-14T11:30:00+00:00",
+    "author_line": "Last updated on Jun 14, 2026 at 11:30 by Elitesparkle"
+  }
+}

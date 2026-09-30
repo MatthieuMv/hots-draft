@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "id": "muradin",
+  "name": "Muradin",
+  "role": "Tank",
+  "overview": "Muradin is a generalist Tank that excels at disrupting the enemy team, dealing damage, and surviving kill attempts. His versatile kit allows him to do many things, from peeling to diving, from scouting to ganking.\n\nDuring the laning phase, he can focus on giving vision as well as messing up enemy rotations by dismounting and chunking down enemy Heroes. Dwarf Toss allows him to easily escape from most situations. Second Wind denies all damage he received. Meanwhile, he farms stack for his Baseline Quest which empowers Storm Bolt.\n\nDuring team fights, he can either play defensively or offensively. The choice depends on the situation, your team composition, and the enemy team composition. When playing defensively, he mainly focuses on peeling and/or counter-engaging for his team. When playing offensively, he primarily focuses on engaging and/or diving vulnerable enemy Heroes.",
+  "strengths": [
+    "Strong self-sustain",
+    "Decent crowd control",
+    "Good mobility"
+  ],
+  "weaknesses": [
+    "Not able to peel from high mobility Heroes (like Tracer)",
+    "Weak to crowd control that can stop Dwarf Toss"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Being able to follow up on Muradin's Storm Bolt with a devastating burst damage combo is what makes Mages (for example Li-Ming) his ideal partners.\n\nChaining crowd control Abilities one after another is so valuable in this game that having another Hero who can provide this kind of effects from another Role (such as Blaze played as Offlaner) in your team will make Muradin a real threat for the enemy team."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "thrall",
+        "name": "Thrall"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Heroes who can deal percent-based damage (such as Tychus via Minigun) can shred Muradin's Health very quickly, especially while in Avatar.\n\nWhen played quick enough, crowd control Abilities (for example Face Melt by E.T.C.) puts a lot of pressure on him because they can stop Dwarf Toss, his only form of escape."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "In the hand of experienced players, Muradin is good on Maps where he can use his innate resilience and mobility to harass enemy Heroes and enable plays for his entire team by aggressively but safely invading the enemy side of the Map during the early game (such as Hanamura Temple).\n\nOn the other hand, he is bad on Maps where the Objective takes a long period of time (for example Braxis Holdout) because he will eventually run out of Mana, effectively denying his Trait value."
+  },
+  "builds": [
+    {
+      "name": "Dwarf Toss Build",
+      "label": "Recommended",
+      "description": "Muradin's Dwarf Toss Build is quite versatile as it is designed to increase your damage output, your survivability, and your utility when necessary. When played properly, it can create a lot of space and be very impactful in team fights.\n\nBronzebeard Rage at Level 13 is a key Talent in this Build as it allows you to deal a lot of damage while also healing yourself in the process. Note that it requires you to have good aim with Storm Bolt.\n\nIf the opponents do not have any Hero with fast-hitting Basic Attacks but they have at least one Hero with slow but heavy-hitting Basic Attacks, you should pick Dwarf Block at Level 1 to be more durable. If your team lacks sustain healing or does not have a Healer at all, you should consider picking Third Wind at Level 1.\n\nHeavy Impact at Level 7 can be used as a setup for Storm Bolt when going for aggressive plays whereas Skullcracker at Level 7 can be situationally picked as an interrupt against enemy Heroes who rely on channeled Abilities (notably Yrel).",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "muradin-talent-give-em-the-axe",
+              "name": "Give 'em the Axe!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            },
+            {
+              "id": "muradin-talent-dwarf-block",
+              "name": "Dwarf Block",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            },
+            {
+              "id": "muradin-talent-third-wind",
+              "name": "Third Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "muradin-talent-reverberation",
+              "name": "Reverberation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-4"
+            },
+            {
+              "id": "muradin-talent-sledgehammer",
+              "name": "Sledgehammer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-4"
+            },
+            {
+              "id": "muradin-talent-thunder-burn",
+              "name": "Thunder Burn",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "muradin-talent-skullcracker",
+              "name": "Skullcracker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-7"
+            },
+            {
+              "id": "muradin-talent-heavy-impact",
+              "name": "Heavy Impact",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "muradin-talent-avatar",
+              "name": "Avatar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-10"
+            },
+            {
+              "id": "muradin-talent-haymaker",
+              "name": "Haymaker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "muradin-talent-bronzebeard-rage",
+              "name": "Bronzebeard Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "muradin-talent-dwarf-launch",
+              "name": "Dwarf Launch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            },
+            {
+              "id": "muradin-talent-stoneform",
+              "name": "Stoneform",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            },
+            {
+              "id": "muradin-talent-imposing-presence",
+              "name": "Imposing Presence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "muradin-talent-mountain-king",
+              "name": "Mountain King",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            },
+            {
+              "id": "muradin-talent-grand-slam",
+              "name": "Grand Slam",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            },
+            {
+              "id": "muradin-talent-hardened-shield",
+              "name": "Hardened Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/muradin#55.16!3231113"
+    },
+    {
+      "name": "Thunder Clap Build",
+      "label": "Situational",
+      "description": "Muradin's Thunder Clap Build is designed to increase your survivability at the cost of damage output, in order to survive against team compositions that can take down any target, regardless of how much maximum Health they have.\n\nCompared to other Builds, you will have more self-healing in team fights because of Healing Static at Level 13 combined with Thunder Burn at Level 4.\n\nIf the opponents do not have any Hero with fast-hitting Basic Attacks but they have at least one Hero with slow but heavy-hitting Basic Attacks, you should pick Dwarf Block at Level 1 to be more durable. If your team lacks sustain healing or does not have a Healer at all, you should consider picking Third Wind at Level 1.\n\nHeavy Impact at Level 7 can be used as a setup for Storm Bolt when going for aggressive plays whereas Skullcracker at Level 7 can be situationally picked as an interrupt against enemy Heroes who rely on channeled Abilities (notably Yrel).",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "muradin-talent-give-em-the-axe",
+              "name": "Give 'em the Axe!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            },
+            {
+              "id": "muradin-talent-dwarf-block",
+              "name": "Dwarf Block",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            },
+            {
+              "id": "muradin-talent-third-wind",
+              "name": "Third Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "muradin-talent-thunder-burn",
+              "name": "Thunder Burn",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "muradin-talent-skullcracker",
+              "name": "Skullcracker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-7"
+            },
+            {
+              "id": "muradin-talent-heavy-impact",
+              "name": "Heavy Impact",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "muradin-talent-avatar",
+              "name": "Avatar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-10"
+            },
+            {
+              "id": "muradin-talent-haymaker",
+              "name": "Haymaker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "muradin-talent-healing-static",
+              "name": "Healing Static",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "muradin-talent-stoneform",
+              "name": "Stoneform",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            },
+            {
+              "id": "muradin-talent-dwarf-launch",
+              "name": "Dwarf Launch",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            },
+            {
+              "id": "muradin-talent-imposing-presence",
+              "name": "Imposing Presence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "muradin-talent-mountain-king",
+              "name": "Mountain King",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            },
+            {
+              "id": "muradin-talent-grand-slam",
+              "name": "Grand Slam",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            },
+            {
+              "id": "muradin-talent-hardened-shield",
+              "name": "Hardened Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/muradin#55.16!3331223"
+    },
+    {
+      "name": "Storm Bolt Build",
+      "label": "Situational",
+      "description": "Muradin's Storm Bolt Build is quite versatile as it is designed to increase your damage output, your survivability, and your utility when necessary. When played properly, it can create a lot of space and be very impactful in team fights.\n\nBronzebeard Rage at Level 13 is a key Talent in this Build as it allows you to deal a lot of damage while also healing yourself in the process. Note that it requires you to have good aim with Storm Bolt.\n\nIf the opponents do not have any Hero with fast-hitting Basic Attacks but they have at least one Hero with slow but heavy-hitting Basic Attacks, you should pick Dwarf Block at Level 1 to be more durable. If your team lacks sustain healing or does not have a Healer at all, you should consider picking Third Wind at Level 1.\n\nAfter unlocking Storm Bolt's pierce from Muradin's Baseline Quest, Perfect Storm at Level 7 can be used to reset Storm Bolt's cooldown by hitting an enemy Hero behind a non-Hero who is low on Health. The damage bonus against non-Heroes from Sledgehammer at Level 4 increases the chances this will result in a cooldown reset.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "muradin-talent-give-em-the-axe",
+              "name": "Give 'em the Axe!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            },
+            {
+              "id": "muradin-talent-dwarf-block",
+              "name": "Dwarf Block",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            },
+            {
+              "id": "muradin-talent-third-wind",
+              "name": "Third Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "muradin-talent-sledgehammer",
+              "name": "Sledgehammer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "muradin-talent-perfect-storm",
+              "name": "Perfect Storm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "muradin-talent-avatar",
+              "name": "Avatar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-10"
+            },
+            {
+              "id": "muradin-talent-haymaker",
+              "name": "Haymaker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "muradin-talent-bronzebeard-rage",
+              "name": "Bronzebeard Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "muradin-talent-dwarf-launch",
+              "name": "Dwarf Launch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            },
+            {
+              "id": "muradin-talent-stoneform",
+              "name": "Stoneform",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            },
+            {
+              "id": "muradin-talent-imposing-presence",
+              "name": "Imposing Presence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "muradin-talent-mountain-king",
+              "name": "Mountain King",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            },
+            {
+              "id": "muradin-talent-grand-slam",
+              "name": "Grand Slam",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            },
+            {
+              "id": "muradin-talent-hardened-shield",
+              "name": "Hardened Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/muradin#55.16!3111113"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Muradin's ARAM Build is quite versatile as it is designed to increase your damage output, your survivability, and your utility when necessary. When played properly, it can create a lot of space and be very impactful in team fights.\n\nBronzebeard Rage at Level 13 is a key Talent in this Build as it allows you to deal a lot of damage while also healing yourself in the process. Note that it requires you to have good aim with Storm Bolt.\n\nIf the opponents do not have any Hero with fast-hitting Basic Attacks but they have at least one Hero with slow but heavy-hitting Basic Attacks, you should pick Dwarf Block at Level 1 to be more durable. If your team lacks sustain healing or does not have a Healer at all, you should consider picking Third Wind at Level 1.\n\nHeavy Impact at Level 7 can be used as a setup for Storm Bolt when going for aggressive plays whereas Skullcracker at Level 7 can be situationally picked as an interrupt against enemy Heroes who rely on channeled Abilities (notably Yrel).",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "muradin-talent-give-em-the-axe",
+              "name": "Give 'em the Axe!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            },
+            {
+              "id": "muradin-talent-dwarf-block",
+              "name": "Dwarf Block",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            },
+            {
+              "id": "muradin-talent-third-wind",
+              "name": "Third Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "muradin-talent-reverberation",
+              "name": "Reverberation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-4"
+            },
+            {
+              "id": "muradin-talent-sledgehammer",
+              "name": "Sledgehammer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-4"
+            },
+            {
+              "id": "muradin-talent-thunder-burn",
+              "name": "Thunder Burn",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "muradin-talent-skullcracker",
+              "name": "Skullcracker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-7"
+            },
+            {
+              "id": "muradin-talent-heavy-impact",
+              "name": "Heavy Impact",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "muradin-talent-avatar",
+              "name": "Avatar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-10"
+            },
+            {
+              "id": "muradin-talent-haymaker",
+              "name": "Haymaker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "muradin-talent-bronzebeard-rage",
+              "name": "Bronzebeard Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "muradin-talent-dwarf-launch",
+              "name": "Dwarf Launch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            },
+            {
+              "id": "muradin-talent-stoneform",
+              "name": "Stoneform",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            },
+            {
+              "id": "muradin-talent-imposing-presence",
+              "name": "Imposing Presence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "muradin-talent-mountain-king",
+              "name": "Mountain King",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            },
+            {
+              "id": "muradin-talent-grand-slam",
+              "name": "Grand Slam",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            },
+            {
+              "id": "muradin-talent-hardened-shield",
+              "name": "Hardened Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/muradin-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/muradin#55.16!3231113"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/muradin-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:07.288140+00:00",
+    "updated_at": "2026-05-29T22:45:00+00:00",
+    "author_line": "Last updated on May 29, 2026 at 22:45 by Elitesparkle"
+  }
+}

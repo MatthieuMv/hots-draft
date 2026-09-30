@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "id": "stukov",
+  "name": "Stukov",
+  "role": "Healer",
+  "overview": "Stukov is a high utility solo Healer, who provides excellent zone control. His exceptional healing is reliant on well timed use of Bio-Kill Switch. While his Abilities are very powerful, their use needs to be carefully planned to achieve maximum effect. Stukov has limited mobility, and should not roam by himself. He is designed to assist his allies, and will not perform well without them nearby.",
+  "strengths": [
+    "Can Silence enemies with Lurking Arm",
+    "Capable of exceptional multitarget healing via Bio-Kill Switch and Healing Pathogen",
+    "Very strong Basic Attack",
+    "Can remove an enemy from team fight range with Massive Shove",
+    "Very high skill ceiling, but easy to start learning"
+  ],
+  "weaknesses": [
+    "No mobility",
+    "Long cooldown on Bio-Kill Switch",
+    "No access to Cleanse or similar tools to remove crowd-control effects",
+    "Unable to provide Unstoppable frames"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      }
+    ],
+    "explanation": "Stukov is strong with Heroes who teamfight near their allies, as opposed to those that will dive out of range of Healing Pathogen. He is also strong with Heroes who have access to some form of Executioner, because he is capable of liberally applying slows."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Stukov is countered by high mobility Heroes who can circumvent his zone control. Lacking any form of Cleanse, Heroes with access to multiple crowd control Abilities are also effective against him."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      }
+    ],
+    "explanation": "Stukov is great on maps that feature many choke points, and on maps with two lanes. Lurking Arm provides a lot of zone control in tight areas, while Healing Pathogen excells at healing large groups of allies. Stukov does not perform poorly on many maps."
+  },
+  "builds": [
+    {
+      "name": "Standard Bio-kill Build",
+      "label": "Situational",
+      "description": "The Standard Bio-kill build focuses on enhancing Stukovs trait. Reactive Ballistospores and Fetid Touch are both situational and the correct talent depends on the enemy team composition. If they have dive heroes, Reactive Ballistospores is the correct talent, if not Spine Launcher would be recommended. Targeted Excision will allow Stukov to use his trait more often, resulting in both more healing and damage/CC through Weighted Pustule.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "stukov-talent-reactive-ballistospores",
+              "name": "Reactive Ballistospores",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-1"
+            },
+            {
+              "id": "stukov-talent-fetid-touch",
+              "name": "Fetid Touch",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "stukov-talent-vigorous-reuptake",
+              "name": "Vigorous Reuptake",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "stukov-talent-targeted-excision",
+              "name": "Targeted Excision",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "stukov-talent-massive-shove",
+              "name": "Massive Shove",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-10"
+            },
+            {
+              "id": "stukov-talent-flailing-swipe",
+              "name": "Flailing Swipe",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "stukov-talent-poppin-pustules",
+              "name": "Poppin' Pustules",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "stukov-talent-pox-populi",
+              "name": "Pox Populi",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "stukov-talent-push-comes-to-shove",
+              "name": "Push Comes To Shove",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-20"
+            },
+            {
+              "id": "stukov-talent-controlled-chaos",
+              "name": "Controlled Chaos",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/stukov#55.12!3332332"
+    },
+    {
+      "name": "Lurking Arms Build",
+      "label": "Recommended",
+      "description": "The Lurking Arms build focuses on backing up your team with additional CC. This build shines if your team composition consists of heroes with reliable CC, allowing you to get the full duration of Growing Infestation in and helping secure enemy hero kills.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "stukov-talent-low-blow",
+              "name": "Low Blow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "stukov-talent-vigorous-reuptake",
+              "name": "Vigorous Reuptake",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-4"
+            },
+            {
+              "id": "stukov-talent-biotic-armor",
+              "name": "Biotic Armor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-4"
+            },
+            {
+              "id": "stukov-talent-one-good-spread",
+              "name": "One Good Spread...",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "stukov-talent-growing-infestation",
+              "name": "Growing Infestation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "stukov-talent-massive-shove",
+              "name": "Massive Shove",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-10"
+            },
+            {
+              "id": "stukov-talent-flailing-swipe",
+              "name": "Flailing Swipe",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "stukov-talent-it-hungers",
+              "name": "It Hungers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "stukov-talent-superstrain",
+              "name": "Superstrain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-16"
+            },
+            {
+              "id": "stukov-talent-pox-populi",
+              "name": "Pox Populi",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "stukov-talent-push-comes-to-shove",
+              "name": "Push Comes To Shove",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-20"
+            },
+            {
+              "id": "stukov-talent-controlled-chaos",
+              "name": "Controlled Chaos",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/stukov#55.12!2322112"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "The ARAM Build is exactly the same as the Standard Bio-kill Build. It's proven to be quite strong in ARAM.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "stukov-talent-reactive-ballistospores",
+              "name": "Reactive Ballistospores",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-1"
+            },
+            {
+              "id": "stukov-talent-fetid-touch",
+              "name": "Fetid Touch",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "stukov-talent-vigorous-reuptake",
+              "name": "Vigorous Reuptake",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "stukov-talent-targeted-excision",
+              "name": "Targeted Excision",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "stukov-talent-massive-shove",
+              "name": "Massive Shove",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-10"
+            },
+            {
+              "id": "stukov-talent-flailing-swipe",
+              "name": "Flailing Swipe",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "stukov-talent-poppin-pustules",
+              "name": "Poppin' Pustules",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "stukov-talent-pox-populi",
+              "name": "Pox Populi",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "stukov-talent-push-comes-to-shove",
+              "name": "Push Comes To Shove",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-20"
+            },
+            {
+              "id": "stukov-talent-controlled-chaos",
+              "name": "Controlled Chaos",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-20"
+            },
+            {
+              "id": "stukov-talent-bio-explosion-switch",
+              "name": "Bio-Explosion Switch",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stukov-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/stukov#55.12!3332332"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/stukov-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:22.257660+00:00",
+    "updated_at": "2026-09-15T11:11:00+00:00",
+    "author_line": "Last updated on Sep 15, 2026 at 11:11 by Outofmilk"
+  }
+}

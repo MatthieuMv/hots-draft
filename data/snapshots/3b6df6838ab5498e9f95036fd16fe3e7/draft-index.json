@@ -1,0 +1,4200 @@
+{
+  "abathur": {
+    "name": "Abathur",
+    "role": "Support",
+    "synergies": [
+      "illidan",
+      "zeratul",
+      "tracer",
+      "greymane",
+      "genji",
+      "malthael",
+      "yrel",
+      "sonya"
+    ],
+    "countered_by": [
+      "dehaka",
+      "falstad",
+      "ragnaros",
+      "zarya",
+      "sylvanas",
+      "sgt-hammer"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "towers-of-doom"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "dragon-shire",
+        "infernal-shrines",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ]
+    },
+    "build_names": [
+      "Symbiote Build",
+      "Toxic Nest Build",
+      "Locust Strain Build"
+    ],
+    "file": "heroes/abathur.json"
+  },
+  "alarak": {
+    "name": "Alarak",
+    "role": "Melee Assassin",
+    "synergies": [
+      "raynor",
+      "jaina",
+      "e-t-c",
+      "garrosh"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "johanna",
+      "deathwing",
+      "medivh"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "towers-of-doom"
+      ],
+      "average": [
+        "alterac-pass",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "infernal-shrines",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Overwhelming Power Build",
+      "Lightning Surge Build",
+      "Combo Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/alarak.json"
+  },
+  "alexstrasza": {
+    "name": "Alexstrasza",
+    "role": "Healer",
+    "synergies": [
+      "johanna",
+      "blaze",
+      "kaelthas",
+      "azmodan"
+    ],
+    "countered_by": [
+      "anubarak",
+      "yrel",
+      "junkrat",
+      "sylvanas",
+      "ana"
+    ],
+    "maps": {
+      "stronger": [
+        "infernal-shrines"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Abundance Build",
+      "Gift of Life Build",
+      "Flame Buffet Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/alexstrasza.json"
+  },
+  "ana": {
+    "name": "Ana",
+    "role": "Healer",
+    "synergies": [
+      "e-t-c",
+      "li-ming"
+    ],
+    "countered_by": [
+      "anubarak",
+      "zeratul",
+      "hanzo",
+      "lucio"
+    ],
+    "maps": {
+      "stronger": [
+        "hanamura-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "dragon-shire",
+        "infernal-shrines",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Biotic Grenade Build",
+      "Sleep Dart Build",
+      "Shrike Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/ana.json"
+  },
+  "anduin": {
+    "name": "Anduin",
+    "role": "Healer",
+    "synergies": [
+      "johanna",
+      "blaze",
+      "the-butcher",
+      "alarak",
+      "genji",
+      "sylvanas"
+    ],
+    "countered_by": [
+      "varian",
+      "sonya",
+      "lunara",
+      "kaelthas",
+      "stukov"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "braxis-holdout"
+      ]
+    },
+    "build_names": [
+      "Lightwell Build",
+      "Leap of Faith Build",
+      "Inner Focus Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/anduin.json"
+  },
+  "anubarak": {
+    "name": "Anub'arak",
+    "role": "Tank",
+    "synergies": [
+      "greymane",
+      "jaina",
+      "kaelthas",
+      "kerrigan",
+      "rehgar",
+      "the-butcher"
+    ],
+    "countered_by": [
+      "leoric",
+      "malthael",
+      "tracer",
+      "valla",
+      "varian",
+      "zuljin"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Beetles Build",
+      "Burrow Charge Build",
+      "Harden Carapace Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/anubarak.json"
+  },
+  "artanis": {
+    "name": "Artanis",
+    "role": "Bruiser",
+    "synergies": [
+      "garrosh",
+      "arthas",
+      "kaelthas",
+      "lunara",
+      "medivh",
+      "malfurion"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "arthas",
+      "varian",
+      "jaina",
+      "lunara",
+      "li-li"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "sky-temple",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom"
+      ]
+    },
+    "build_names": [
+      "Blade Dash Build",
+      "Phase Prism Build",
+      "Twin Blades Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/artanis.json"
+  },
+  "arthas": {
+    "name": "Arthas",
+    "role": "Tank",
+    "synergies": [
+      "diablo",
+      "tyrael",
+      "maiev",
+      "greymane",
+      "raynor",
+      "chromie",
+      "zarya",
+      "stukov",
+      "rehgar"
+    ],
+    "countered_by": [
+      "garrosh",
+      "sonya",
+      "tracer",
+      "raynor",
+      "jaina",
+      "ana"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "dragon-shire",
+        "garden-of-terror"
+      ]
+    },
+    "build_names": [
+      "Death Coil Build",
+      "Howling Blast Build",
+      "Frozen Tempest Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/arthas.json"
+  },
+  "auriel": {
+    "name": "Auriel",
+    "role": "Healer",
+    "synergies": [
+      "diablo",
+      "leoric",
+      "valla",
+      "tassadar"
+    ],
+    "countered_by": [
+      "anubarak",
+      "chen",
+      "junkrat",
+      "chromie",
+      "deckard"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "dragon-shire",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "cursed-hollow",
+        "garden-of-terror",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Detainment Strike Build",
+      "Sacred Sweep Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/auriel.json"
+  },
+  "azmodan": {
+    "name": "Azmodan",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "jaina",
+      "johanna",
+      "maiev",
+      "malfurion"
+    ],
+    "countered_by": [
+      "artanis",
+      "anubarak",
+      "diablo",
+      "leoric",
+      "malthael",
+      "muradin",
+      "sonya",
+      "the-butcher"
+    ],
+    "maps": {
+      "stronger": [
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "braxis-holdout"
+      ]
+    },
+    "build_names": [
+      "Greed Build",
+      "Gluttony Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/azmodan.json"
+  },
+  "blaze": {
+    "name": "Blaze",
+    "role": "Tank",
+    "synergies": [
+      "arthas",
+      "kerrigan",
+      "maiev",
+      "malfurion"
+    ],
+    "countered_by": [
+      "leoric",
+      "lunara",
+      "malthael",
+      "nova",
+      "tracer",
+      "valla"
+    ],
+    "maps": {
+      "stronger": [
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "dragon-shire"
+      ]
+    },
+    "build_names": [
+      "Basic Attacks Build",
+      "Oil Spill Build",
+      "Pyromania Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/blaze.json"
+  },
+  "brightwing": {
+    "name": "Brightwing",
+    "role": "Healer",
+    "synergies": [
+      "diablo",
+      "cho",
+      "stitches",
+      "tracer",
+      "genji"
+    ],
+    "countered_by": [
+      "anubarak",
+      "johanna",
+      "e-t-c"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "cursed-hollow",
+        "sky-temple",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Critical Mist Build",
+      "Teleport Build",
+      "Arcane Flare Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/brightwing.json"
+  },
+  "cassia": {
+    "name": "Cassia",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "li-li",
+      "johanna",
+      "artanis",
+      "thrall",
+      "jaina"
+    ],
+    "countered_by": [
+      "kaelthas",
+      "xul",
+      "imperius",
+      "e-t-c",
+      "malganis",
+      "johanna"
+    ],
+    "maps": {
+      "stronger": [],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Lightning Fury Build",
+      "Charged Strikes Build"
+    ],
+    "file": "heroes/cassia.json"
+  },
+  "chen": {
+    "name": "Chen",
+    "role": "Bruiser",
+    "synergies": [
+      "tyrael",
+      "greymane",
+      "li-ming",
+      "abathur",
+      "rehgar"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "yrel",
+      "raynor",
+      "li-ming",
+      "the-lost-vikings",
+      "lucio"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple",
+        "sky-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "dragon-shire",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "towers-of-doom",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Hybrid Build",
+      "Flying Kick Build",
+      "Stagger Build",
+      "Basic Attacks Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/chen.json"
+  },
+  "cho": {
+    "name": "Cho",
+    "role": "Tank",
+    "synergies": [
+      "alexstrasza",
+      "ana",
+      "auriel",
+      "brightwing",
+      "yrel",
+      "blaze"
+    ],
+    "countered_by": [
+      "anubarak",
+      "garrosh",
+      "greymane",
+      "imperius",
+      "kharazim",
+      "leoric",
+      "maiev",
+      "malthael",
+      "raynor"
+    ],
+    "maps": {
+      "stronger": [
+        "garden-of-terror",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "hanamura-temple",
+        "sky-temple",
+        "towers-of-doom"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Standard Build",
+      "Basic Attacks Build",
+      "Surging Fist Build"
+    ],
+    "file": "heroes/cho.json"
+  },
+  "chromie": {
+    "name": "Chromie",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "johanna",
+      "ana",
+      "malfurion"
+    ],
+    "countered_by": [
+      "illidan",
+      "diablo",
+      "zeratul",
+      "tracer"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Sand Blast Build",
+      "Dragon's Breath Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/chromie.json"
+  },
+  "deathwing": {
+    "name": "Deathwing",
+    "role": "Bruiser",
+    "synergies": [
+      "e-t-c",
+      "arthas",
+      "johanna",
+      "muradin"
+    ],
+    "countered_by": [
+      "tychus",
+      "greymane",
+      "valla",
+      "zeratul",
+      "tracer"
+    ],
+    "maps": {
+      "stronger": [
+        "cursed-hollow",
+        "garden-of-terror",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "dragon-shire",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Dragonflight Build",
+      "Basic Attacks Build",
+      "Molten Flame Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/deathwing.json"
+  },
+  "deckard": {
+    "name": "Deckard",
+    "role": "Healer",
+    "synergies": [
+      "johanna",
+      "blaze",
+      "sgt-hammer",
+      "jaina"
+    ],
+    "countered_by": [
+      "johanna",
+      "deathwing",
+      "tracer",
+      "li-ming",
+      "malfurion"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "garden-of-terror",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "braxis-holdout",
+        "dragon-shire",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "hanamura-temple",
+        "sky-temple",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Sapphire Emerald Build",
+      "Ruby Emerald Build",
+      "Sapphire Ruby Build",
+      "Emerald Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/deckard.json"
+  },
+  "dehaka": {
+    "name": "Dehaka",
+    "role": "Bruiser",
+    "synergies": [
+      "anubarak",
+      "jaina",
+      "hanzo",
+      "maiev"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "valla",
+      "raynor",
+      "sgt-hammer",
+      "lucio"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "sky-temple",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "weaker": [
+        "hanamura-temple",
+        "volskaya-foundry"
+      ]
+    },
+    "build_names": [
+      "Brushstalker Build",
+      "Essence Build",
+      "Dark Swarm Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/dehaka.json"
+  },
+  "diablo": {
+    "name": "Diablo",
+    "role": "Tank",
+    "synergies": [
+      "thrall",
+      "tassadar",
+      "medivh",
+      "tyrande"
+    ],
+    "countered_by": [
+      "garrosh",
+      "leoric",
+      "malthael",
+      "raynor",
+      "tychus"
+    ],
+    "maps": {
+      "stronger": [
+        "cursed-hollow",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "dragon-shire",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "braxis-holdout",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Fire Stomp Build",
+      "Shadow Charge Build",
+      "Basic Attacks Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/diablo.json"
+  },
+  "dva": {
+    "name": "D.Va",
+    "role": "Bruiser",
+    "synergies": [
+      "garrosh",
+      "maiev",
+      "falstad",
+      "deckard"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "malthael",
+      "raynor",
+      "kaelthas",
+      "stukov"
+    ],
+    "maps": {
+      "stronger": [
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "dragon-shire",
+        "garden-of-terror",
+        "sky-temple",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "cursed-hollow",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Defense Matrix Build",
+      "Hybrid Build",
+      "Boosters Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/dva.json"
+  },
+  "e-t-c": {
+    "name": "E.T.C.",
+    "role": "Tank",
+    "synergies": [
+      "blaze",
+      "alarak",
+      "greymane",
+      "kaelthas",
+      "uther"
+    ],
+    "countered_by": [
+      "johanna",
+      "deathwing",
+      "raynor",
+      "kaelthas",
+      "brightwing"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "dragon-shire",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ]
+    },
+    "build_names": [
+      "Face Melt Build",
+      "Hybrid Build",
+      "Guitar Solo Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/e-t-c.json"
+  },
+  "falstad": {
+    "name": "Falstad",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "arthas",
+      "e-t-c",
+      "tassadar",
+      "uther"
+    ],
+    "countered_by": [
+      "genji",
+      "greymane",
+      "illidan",
+      "nova",
+      "valeera",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "hanamura-temple",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Basic Attacks Build",
+      "Hammerang Build",
+      "Lightning Rod Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/falstad.json"
+  },
+  "fenix": {
+    "name": "Fenix",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "johanna",
+      "maiev",
+      "thrall",
+      "diablo"
+    ],
+    "countered_by": [
+      "varian",
+      "e-t-c",
+      "genji",
+      "zeratul",
+      "lucio"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Basic Attack Build"
+    ],
+    "file": "heroes/fenix.json"
+  },
+  "gall": {
+    "name": "Gall",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "alexstrasza",
+      "ana",
+      "auriel",
+      "brightwing",
+      "yrel",
+      "blaze"
+    ],
+    "countered_by": [
+      "anubarak",
+      "garrosh",
+      "greymane",
+      "imperius",
+      "kharazim",
+      "leoric",
+      "maiev",
+      "malthael",
+      "raynor"
+    ],
+    "maps": {
+      "stronger": [
+        "garden-of-terror",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "hanamura-temple",
+        "sky-temple",
+        "towers-of-doom"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Dread Orb Build"
+    ],
+    "file": "heroes/gall.json"
+  },
+  "garrosh": {
+    "name": "Garrosh",
+    "role": "Tank",
+    "synergies": [
+      "hanzo",
+      "jaina",
+      "zarya",
+      "malfurion"
+    ],
+    "countered_by": [
+      "johanna",
+      "malthael",
+      "hanzo",
+      "jaina",
+      "anduin"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "hanamura-temple",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Bloodthirst Build",
+      "Groundbreaker Build",
+      "Wrecking Ball Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/garrosh.json"
+  },
+  "gazlowe": {
+    "name": "Gazlowe",
+    "role": "Bruiser",
+    "synergies": [
+      "diablo",
+      "e-t-c",
+      "jaina",
+      "johanna",
+      "kaelthas",
+      "malfurion"
+    ],
+    "countered_by": [
+      "raynor",
+      "lunara",
+      "guldan",
+      "chromie",
+      "hanzo",
+      "li-ming"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "braxis-holdout",
+        "infernal-shrines",
+        "sky-temple",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "tomb-of-the-spider-queen"
+      ],
+      "weaker": [
+        "hanamura-temple",
+        "towers-of-doom"
+      ]
+    },
+    "build_names": [
+      "Standard Build",
+      "Xplodium Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/gazlowe.json"
+  },
+  "genji": {
+    "name": "Genji",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "jaina",
+      "uther",
+      "e-t-c"
+    ],
+    "countered_by": [
+      "varian",
+      "malfurion",
+      "lunara",
+      "uther"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "cursed-hollow",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "dragon-shire",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction",
+        "alterac-pass"
+      ],
+      "weaker": [
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Shuriken Build",
+      "Swift Strike Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/genji.json"
+  },
+  "greymane": {
+    "name": "Greymane",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "abathur",
+      "e-t-c",
+      "garrosh",
+      "tyrael",
+      "uther",
+      "rehgar",
+      "malthael"
+    ],
+    "countered_by": [
+      "arthas",
+      "brightwing",
+      "johanna",
+      "muradin",
+      "the-butcher",
+      "uther",
+      "xul"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "dragon-shire",
+        "garden-of-terror",
+        "sky-temple",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "hanamura-temple",
+        "infernal-shrines",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Attack Build",
+      "Worgen Build",
+      "Cocktail Build"
+    ],
+    "file": "heroes/greymane.json"
+  },
+  "guldan": {
+    "name": "Gul'dan",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "e-t-c",
+      "malfurion",
+      "auriel"
+    ],
+    "countered_by": [
+      "illidan",
+      "greymane",
+      "kerrigan",
+      "tracer"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "dragon-shire",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry",
+        "alterac-pass"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "towers-of-doom",
+        "warhead-junction",
+        "hanamura-temple"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Drain Life Build",
+      "Corruption Build",
+      "Anti-melee Fel Flame Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/guldan.json"
+  },
+  "hanzo": {
+    "name": "Hanzo",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "zeratul",
+      "e-t-c",
+      "diablo",
+      "blaze",
+      "johanna",
+      "malganis"
+    ],
+    "countered_by": [
+      "genji",
+      "illidan",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "dragon-shire",
+        "infernal-shrines",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "tomb-of-the-spider-queen"
+      ],
+      "weaker": [
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Storm Bow Build",
+      "Scatter Arrow Build",
+      "Basic Attack Build"
+    ],
+    "file": "heroes/hanzo.json"
+  },
+  "hogger": {
+    "name": "Hogger",
+    "role": "Bruiser",
+    "synergies": [
+      "diablo",
+      "sonya",
+      "hanzo",
+      "li-ming",
+      "stukov"
+    ],
+    "countered_by": [
+      "diablo",
+      "malthael",
+      "tychus",
+      "lunara",
+      "uther"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "warhead-junction",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Hoardapult Rage Build",
+      "Shockwave Rage Build",
+      "Ez-Thro Dynamite Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/hogger.json"
+  },
+  "illidan": {
+    "name": "Illidan",
+    "role": "Melee Assassin",
+    "synergies": [
+      "abathur",
+      "medivh",
+      "rehgar",
+      "tyrael",
+      "uther",
+      "zarya"
+    ],
+    "countered_by": [
+      "arthas",
+      "brightwing",
+      "e-t-c",
+      "li-li",
+      "johanna",
+      "muradin",
+      "sonya",
+      "uther",
+      "varian"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "dragon-shire",
+        "hanamura-temple",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ]
+    },
+    "build_names": [
+      "Universal Build",
+      "Basic Attacks Build",
+      "Split Build",
+      "Dive Build"
+    ],
+    "file": "heroes/illidan.json"
+  },
+  "imperius": {
+    "name": "Imperius",
+    "role": "Bruiser",
+    "synergies": [
+      "jaina",
+      "fenix",
+      "rehgar",
+      "malganis",
+      "e-t-c",
+      "yrel",
+      "blaze"
+    ],
+    "countered_by": [
+      "jaina",
+      "raynor",
+      "sgt-hammer",
+      "zuljin",
+      "e-t-c",
+      "lucio"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "dragon-shire",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "garden-of-terror",
+        "sky-temple",
+        "towers-of-doom"
+      ]
+    },
+    "build_names": [
+      "Celestial Charge Build",
+      "Hybrid Build",
+      "Molten Armor Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/imperius.json"
+  },
+  "jaina": {
+    "name": "Jaina",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "e-t-c",
+      "johanna",
+      "maiev",
+      "malfurion",
+      "muradin",
+      "varian",
+      "xul"
+    ],
+    "countered_by": [
+      "alarak",
+      "anubarak",
+      "chen",
+      "genji",
+      "tracer",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "dragon-shire",
+        "garden-of-terror",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "hanamura-temple",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Frostbolt Build",
+      "Balanced Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/jaina.json"
+  },
+  "johanna": {
+    "name": "Johanna",
+    "role": "Tank",
+    "synergies": [
+      "blaze",
+      "maiev",
+      "hanzo",
+      "jaina",
+      "deckard"
+    ],
+    "countered_by": [
+      "varian",
+      "leoric",
+      "hanzo",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "average": [
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "dragon-shire",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Shield Glare Build",
+      "Basic Attacks Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/johanna.json"
+  },
+  "junkrat": {
+    "name": "Junkrat",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "e-t-c",
+      "garrosh",
+      "uther",
+      "malfurion",
+      "zeratul"
+    ],
+    "countered_by": [
+      "illidan",
+      "tracer",
+      "zeratul",
+      "tyrael",
+      "genji"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "hanamura-temple"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Steel Trap Build",
+      "Concussion Mine Build",
+      "Frag Launcher Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/junkrat.json"
+  },
+  "kaelthas": {
+    "name": "Kael'thas",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "e-t-c",
+      "arthas",
+      "malfurion",
+      "uther"
+    ],
+    "countered_by": [
+      "illidan",
+      "zeratul",
+      "kerrigan",
+      "tracer"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "braxis-holdout",
+        "dragon-shire",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "hanamura-temple"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Standard Flamestrike Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/kaelthas.json"
+  },
+  "kel-thuzad": {
+    "name": "Kel'Thuzad",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "anduin",
+      "arthas",
+      "johanna",
+      "malfurion",
+      "the-butcher",
+      "valeera",
+      "varian",
+      "xul"
+    ],
+    "countered_by": [
+      "anubarak",
+      "chen",
+      "genji",
+      "nova",
+      "samuro",
+      "tracer",
+      "valeera",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "towers-of-doom"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "alterac-pass",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Standard Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/kel-thuzad.json"
+  },
+  "kerrigan": {
+    "name": "Kerrigan",
+    "role": "Melee Assassin",
+    "synergies": [
+      "tyrael",
+      "uther",
+      "medivh",
+      "tyrande"
+    ],
+    "countered_by": [
+      "tyrael",
+      "e-t-c",
+      "garrosh",
+      "uther",
+      "medivh",
+      "auriel",
+      "lucio"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "braxis-holdout",
+        "dragon-shire",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "towers-of-doom",
+        "hanamura-temple"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Primal Grasp Build",
+      "Combo Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/kerrigan.json"
+  },
+  "kharazim": {
+    "name": "Kharazim",
+    "role": "Healer",
+    "synergies": [
+      "garrosh",
+      "e-t-c",
+      "anubarak",
+      "genji"
+    ],
+    "countered_by": [
+      "johanna",
+      "auriel",
+      "medivh",
+      "uther"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "dragon-shire",
+        "hanamura-temple",
+        "sky-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "infernal-shrines",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Radiant Dash Build",
+      "Breath of Heaven Build"
+    ],
+    "file": "heroes/kharazim.json"
+  },
+  "leoric": {
+    "name": "Leoric",
+    "role": "Bruiser",
+    "synergies": [
+      "diablo",
+      "orphea",
+      "stukov"
+    ],
+    "countered_by": [
+      "dehaka",
+      "samuro",
+      "tracer",
+      "falstad",
+      "ana"
+    ],
+    "maps": {
+      "stronger": [
+        "cursed-hollow",
+        "garden-of-terror",
+        "infernal-shrines",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "dragon-shire",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "sky-temple",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Basic Attacks Build",
+      "Wraith Walk Build",
+      "Drain Hope Build"
+    ],
+    "file": "heroes/leoric.json"
+  },
+  "li-li": {
+    "name": "Li Li",
+    "role": "Healer",
+    "synergies": [
+      "johanna",
+      "blaze",
+      "hanzo",
+      "kaelthas",
+      "uther"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "yrel",
+      "sylvanas",
+      "jaina",
+      "stukov"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "dragon-shire",
+        "hanamura-temple",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "braxis-holdout",
+        "cursed-hollow",
+        "garden-of-terror",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Healing Brew Build",
+      "Cloud Serpent Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/li-li.json"
+  },
+  "li-ming": {
+    "name": "Li-Ming",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "arthas",
+      "e-t-c",
+      "johanna",
+      "malfurion",
+      "valeera",
+      "varian",
+      "xul"
+    ],
+    "countered_by": [
+      "anubarak",
+      "chen",
+      "genji",
+      "samuro",
+      "tracer",
+      "valeera",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "infernal-shrines"
+      ],
+      "average": [
+        "braxis-holdout",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "blackhearts-bay"
+      ]
+    },
+    "build_names": [
+      "Teleport Build",
+      "Artillery Build"
+    ],
+    "file": "heroes/li-ming.json"
+  },
+  "lt-morales": {
+    "name": "Lt. Morales",
+    "role": "Healer",
+    "synergies": [
+      "johanna",
+      "raynor"
+    ],
+    "countered_by": [
+      "garrosh",
+      "chen",
+      "chromie",
+      "lunara",
+      "auriel"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "alterac-pass",
+        "garden-of-terror",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Healing Beam Build",
+      "Basic Attacks Build",
+      "Displacement Grenade Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/lt-morales.json"
+  },
+  "lucio": {
+    "name": "Lúcio",
+    "role": "Healer",
+    "synergies": [
+      "arthas",
+      "diablo",
+      "greymane",
+      "valla"
+    ],
+    "countered_by": [
+      "deckard",
+      "malfurion",
+      "sgt-hammer",
+      "raynor"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "braxis-holdout",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Advanced Build",
+      "Crossfade Build"
+    ],
+    "file": "heroes/lucio.json"
+  },
+  "lunara": {
+    "name": "Lunara",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "arthas",
+      "muradin",
+      "jaina"
+    ],
+    "countered_by": [
+      "illidan",
+      "genji",
+      "malfurion",
+      "stukov"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "alterac-pass"
+      ],
+      "weaker": [
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Noxious Blossom Build",
+      "Standard Auto Attack Build",
+      "Nature's Toxin Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/lunara.json"
+  },
+  "maiev": {
+    "name": "Maiev",
+    "role": "Melee Assassin",
+    "synergies": [
+      "e-t-c",
+      "blaze",
+      "jaina",
+      "tassadar",
+      "deckard",
+      "malfurion"
+    ],
+    "countered_by": [
+      "arthas",
+      "tyrael",
+      "e-t-c",
+      "johanna",
+      "lunara",
+      "tracer",
+      "lucio",
+      "brightwing"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "hanamura-temple",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Standard Build",
+      "Cruel Chain Build"
+    ],
+    "file": "heroes/maiev.json"
+  },
+  "malfurion": {
+    "name": "Malfurion",
+    "role": "Healer",
+    "synergies": [
+      "blaze",
+      "chromie",
+      "guldan",
+      "jaina",
+      "kaelthas",
+      "kel-thuzad",
+      "li-ming",
+      "nazeebo",
+      "ragnaros"
+    ],
+    "countered_by": [
+      "alarak",
+      "anubarak",
+      "artanis",
+      "jaina",
+      "kerrigan",
+      "li-ming",
+      "tracer"
+    ],
+    "maps": {
+      "stronger": [
+        "cursed-hollow",
+        "dragon-shire",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Nature's Balance Build",
+      "Moonlit Harmony Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/malfurion.json"
+  },
+  "malganis": {
+    "name": "Mal'Ganis",
+    "role": "Tank",
+    "synergies": [
+      "jaina",
+      "zeratul",
+      "malfurion"
+    ],
+    "countered_by": [
+      "garrosh",
+      "hanzo",
+      "zeratul",
+      "malfurion"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom"
+      ],
+      "average": [
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "tomb-of-the-spider-queen",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Necrotic Embrace Build",
+      "Fel Claws Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/malganis.json"
+  },
+  "malthael": {
+    "name": "Malthael",
+    "role": "Bruiser",
+    "synergies": [
+      "e-t-c",
+      "garrosh",
+      "greymane",
+      "tychus",
+      "medivh",
+      "ana",
+      "malfurion"
+    ],
+    "countered_by": [
+      "blaze",
+      "falstad",
+      "fenix",
+      "lunara",
+      "tracer",
+      "valla"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "dragon-shire",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "braxis-holdout",
+        "cursed-hollow",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Massacre Build",
+      "Standard Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/malthael.json"
+  },
+  "medivh": {
+    "name": "Medivh",
+    "role": "Support",
+    "synergies": [
+      "illidan",
+      "greymane",
+      "genji",
+      "tracer",
+      "diablo",
+      "stitches"
+    ],
+    "countered_by": [
+      "guldan",
+      "lunara",
+      "garrosh",
+      "malfurion"
+    ],
+    "maps": {
+      "stronger": [
+        "cursed-hollow",
+        "sky-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout"
+      ]
+    },
+    "build_names": [
+      "Standard Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/medivh.json"
+  },
+  "mei": {
+    "name": "Mei",
+    "role": "Tank",
+    "synergies": [
+      "xul",
+      "lunara",
+      "jaina",
+      "deckard"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "yrel",
+      "hanzo",
+      "junkrat",
+      "zeratul",
+      "ana"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "cursed-hollow",
+        "hanamura-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "dragon-shire",
+        "garden-of-terror",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ]
+    },
+    "build_names": [
+      "Icing Build",
+      "Cryo-Freeze Build",
+      "Snow Blind Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/mei.json"
+  },
+  "mephisto": {
+    "name": "Mephisto",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "deckard",
+      "e-t-c",
+      "zarya",
+      "diablo"
+    ],
+    "countered_by": [
+      "kaelthas",
+      "kel-thuzad",
+      "junkrat",
+      "stitches",
+      "anubarak"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "infernal-shrines",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom"
+      ],
+      "weaker": [
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Skull Missile Build",
+      "Standard Lightning Nova Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/mephisto.json"
+  },
+  "muradin": {
+    "name": "Muradin",
+    "role": "Tank",
+    "synergies": [
+      "blaze",
+      "kerrigan",
+      "kaelthas",
+      "hanzo",
+      "malfurion"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "thrall",
+      "raynor",
+      "jaina",
+      "malfurion"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "hanamura-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Dwarf Toss Build",
+      "Thunder Clap Build",
+      "Storm Bolt Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/muradin.json"
+  },
+  "murky": {
+    "name": "Murky",
+    "role": "Melee Assassin",
+    "synergies": [
+      "johanna",
+      "zarya",
+      "brightwing"
+    ],
+    "countered_by": [
+      "sonya",
+      "falstad"
+    ],
+    "maps": {
+      "stronger": [
+        "dragon-shire",
+        "garden-of-terror",
+        "infernal-shrines",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "sky-temple",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Slime Build",
+      "Pufferfish Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/murky.json"
+  },
+  "nazeebo": {
+    "name": "Nazeebo",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "johanna",
+      "raynor",
+      "stukov"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "sylvanas"
+    ],
+    "maps": {
+      "stronger": [
+        "dragon-shire",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Zombie Wall Build",
+      "Corpse Spiders Build",
+      "Plague of Toads Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/nazeebo.json"
+  },
+  "nova": {
+    "name": "Nova",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "johanna",
+      "blaze",
+      "sylvanas",
+      "stukov"
+    ],
+    "countered_by": [
+      "anubarak",
+      "chen",
+      "genji",
+      "zarya",
+      "brightwing"
+    ],
+    "maps": {
+      "stronger": [
+        "dragon-shire",
+        "hanamura-temple",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom"
+      ]
+    },
+    "build_names": [
+      "Holo Decoy Build",
+      "Pinning Shot Build",
+      "Snipe Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/nova.json"
+  },
+  "orphea": {
+    "name": "Orphea",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "blaze",
+      "johanna",
+      "maiev",
+      "malganis",
+      "varian",
+      "xul"
+    ],
+    "countered_by": [
+      "anubarak",
+      "chen",
+      "genji",
+      "johanna",
+      "lunara",
+      "muradin"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "dragon-shire",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Standard Build",
+      "Shadow Waltz Build",
+      "Chomp Build",
+      "Aram Build"
+    ],
+    "file": "heroes/orphea.json"
+  },
+  "probius": {
+    "name": "Probius",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "e-t-c",
+      "diablo",
+      "anubarak",
+      "arthas",
+      "malfurion"
+    ],
+    "countered_by": [
+      "kerrigan",
+      "alarak",
+      "zeratul",
+      "tracer"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "braxis-holdout",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "sky-temple",
+        "warhead-junction",
+        "hanamura-temple"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "blackhearts-bay"
+      ]
+    },
+    "build_names": [
+      "Photon Cannon Build"
+    ],
+    "file": "heroes/probius.json"
+  },
+  "qhira": {
+    "name": "Qhira",
+    "role": "Melee Assassin",
+    "synergies": [
+      "uther",
+      "rehgar",
+      "abathur",
+      "anubarak"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "diablo",
+      "garrosh",
+      "lunara",
+      "tracer"
+    ],
+    "maps": {
+      "stronger": [
+        "dragon-shire",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Heavy Bleeding Build",
+      "Basic Attack Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/qhira.json"
+  },
+  "ragnaros": {
+    "name": "Ragnaros",
+    "role": "Bruiser",
+    "synergies": [
+      "e-t-c",
+      "hanzo",
+      "kaelthas",
+      "ana"
+    ],
+    "countered_by": [
+      "garrosh",
+      "chen",
+      "lunara",
+      "jaina",
+      "stukov"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "towers-of-doom"
+      ]
+    },
+    "build_names": [
+      "Blast Wave Build",
+      "Hybrid Build",
+      "Empower Sulfuras Build",
+      "Living Meteor Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/ragnaros.json"
+  },
+  "raynor": {
+    "name": "Raynor",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "e-t-c",
+      "garrosh",
+      "thrall",
+      "lt-morales"
+    ],
+    "countered_by": [
+      "johanna",
+      "artanis",
+      "cassia"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "dragon-shire",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Penetrating Round Build",
+      "Adrenaline Build"
+    ],
+    "file": "heroes/raynor.json"
+  },
+  "rehgar": {
+    "name": "Rehgar",
+    "role": "Healer",
+    "synergies": [
+      "sonya",
+      "illidan",
+      "greymane"
+    ],
+    "countered_by": [
+      "muradin",
+      "varian",
+      "ana",
+      "tracer"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "dragon-shire",
+        "infernal-shrines",
+        "towers-of-doom"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ]
+    },
+    "build_names": [
+      "Earthbind Totem Build",
+      "Hybrid Build",
+      "Lightning Shield Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/rehgar.json"
+  },
+  "rexxar": {
+    "name": "Rexxar",
+    "role": "Bruiser",
+    "synergies": [
+      "johanna",
+      "jaina",
+      "malfurion"
+    ],
+    "countered_by": [
+      "tyrael",
+      "illidan",
+      "qhira",
+      "zeratul",
+      "kharazim"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "dragon-shire"
+      ],
+      "average": [
+        "tomb-of-the-spider-queen"
+      ],
+      "weaker": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Basic Attacks Build",
+      "Charge Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/rexxar.json"
+  },
+  "samuro": {
+    "name": "Samuro",
+    "role": "Melee Assassin",
+    "synergies": [
+      "abathur",
+      "deckard",
+      "malfurion",
+      "sylvanas"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "lucio",
+      "yrel",
+      "cassia",
+      "orphea",
+      "medivh",
+      "diablo",
+      "stukov"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "dragon-shire",
+        "sky-temple",
+        "towers-of-doom"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "garden-of-terror",
+        "infernal-shrines",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "cursed-hollow",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Wind Storm Build",
+      "Illusion Master Build"
+    ],
+    "file": "heroes/samuro.json"
+  },
+  "sgt-hammer": {
+    "name": "Sgt. Hammer",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "e-t-c",
+      "johanna",
+      "lt-morales",
+      "ana"
+    ],
+    "countered_by": [
+      "artanis",
+      "chromie",
+      "kel-thuzad",
+      "li-ming",
+      "stitches"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "infernal-shrines"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "dragon-shire",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "garden-of-terror",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Standard Build",
+      "Siege Tactics Build"
+    ],
+    "file": "heroes/sgt-hammer.json"
+  },
+  "sonya": {
+    "name": "Sonya",
+    "role": "Bruiser",
+    "synergies": [
+      "muradin",
+      "jaina",
+      "tracer",
+      "medivh",
+      "rehgar"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "leoric",
+      "sylvanas",
+      "tychus",
+      "brightwing"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "garden-of-terror",
+        "infernal-shrines"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "hanamura-temple",
+        "towers-of-doom"
+      ]
+    },
+    "build_names": [
+      "Basic Attacks Build",
+      "Leap Build",
+      "Whirlwind Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/sonya.json"
+  },
+  "stitches": {
+    "name": "Stitches",
+    "role": "Tank",
+    "synergies": [
+      "blaze",
+      "falstad",
+      "kaelthas",
+      "malfurion"
+    ],
+    "countered_by": [
+      "johanna",
+      "malthael",
+      "greymane",
+      "tychus",
+      "anduin"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "cursed-hollow",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "sky-temple",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Standard Hook Build",
+      "Defensive Hook Build",
+      "Vile Gas Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/stitches.json"
+  },
+  "stukov": {
+    "name": "Stukov",
+    "role": "Healer",
+    "synergies": [
+      "raynor",
+      "e-t-c",
+      "sgt-hammer"
+    ],
+    "countered_by": [
+      "anubarak",
+      "genji",
+      "uther"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "cursed-hollow"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity"
+      ]
+    },
+    "build_names": [
+      "Standard Bio-kill Build",
+      "Lurking Arms Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/stukov.json"
+  },
+  "sylvanas": {
+    "name": "Sylvanas",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "diablo",
+      "e-t-c",
+      "maiev",
+      "genji",
+      "blaze",
+      "malthael",
+      "malfurion"
+    ],
+    "countered_by": [
+      "chen",
+      "genji",
+      "nova",
+      "valeera",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "hanamura-temple",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Sustained Damage Build",
+      "Burst Build",
+      "Aram Build"
+    ],
+    "file": "heroes/sylvanas.json"
+  },
+  "tassadar": {
+    "name": "Tassadar",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "maiev",
+      "johanna",
+      "e-t-c",
+      "genji",
+      "zeratul"
+    ],
+    "countered_by": [
+      "tracer",
+      "greymane",
+      "zeratul",
+      "anubarak",
+      "kerrigan"
+    ],
+    "maps": {
+      "stronger": [
+        "braxis-holdout",
+        "garden-of-terror",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "dragon-shire",
+        "sky-temple",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Standard Build",
+      "Psionic Storm Build"
+    ],
+    "file": "heroes/tassadar.json"
+  },
+  "the-butcher": {
+    "name": "The Butcher",
+    "role": "Melee Assassin",
+    "synergies": [
+      "abathur",
+      "tyrande",
+      "uther",
+      "tyrael"
+    ],
+    "countered_by": [
+      "johanna",
+      "e-t-c",
+      "brightwing",
+      "uther"
+    ],
+    "maps": {
+      "stronger": [
+        "dragon-shire",
+        "garden-of-terror",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "warhead-junction",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "infernal-shrines",
+        "hanamura-temple"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout"
+      ]
+    },
+    "build_names": [
+      "Ruthless Onslaught Build",
+      "Hamstring Build"
+    ],
+    "file": "heroes/the-butcher.json"
+  },
+  "the-lost-vikings": {
+    "name": "The Lost Vikings",
+    "role": "Support",
+    "synergies": [
+      "zarya",
+      "garrosh",
+      "sylvanas",
+      "raynor",
+      "sgt-hammer"
+    ],
+    "countered_by": [
+      "zagara",
+      "sonya",
+      "zeratul",
+      "nova",
+      "falstad",
+      "dehaka",
+      "li-ming"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "towers-of-doom",
+        "warhead-junction",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "dragon-shire",
+        "infernal-shrines"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "tomb-of-the-spider-queen",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Standard Build"
+    ],
+    "file": "heroes/the-lost-vikings.json"
+  },
+  "thrall": {
+    "name": "Thrall",
+    "role": "Bruiser",
+    "synergies": [
+      "diablo",
+      "fenix",
+      "chromie",
+      "rehgar"
+    ],
+    "countered_by": [
+      "johanna",
+      "arthas",
+      "kaelthas",
+      "lunara",
+      "malfurion"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "dragon-shire",
+        "infernal-shrines",
+        "sky-temple",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "garden-of-terror",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Chain Lightning Build",
+      "Feral Spirit Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/thrall.json"
+  },
+  "tracer": {
+    "name": "Tracer",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "tassadar",
+      "jaina",
+      "guldan",
+      "kaelthas",
+      "malfurion",
+      "anduin",
+      "abathur"
+    ],
+    "countered_by": [
+      "varian",
+      "diablo",
+      "medivh",
+      "raynor",
+      "sgt-hammer"
+    ],
+    "maps": {
+      "stronger": [
+        "cursed-hollow",
+        "dragon-shire",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "garden-of-terror",
+        "hanamura-temple"
+      ],
+      "weaker": [
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Burst Build",
+      "Basic Attacks Build"
+    ],
+    "file": "heroes/tracer.json"
+  },
+  "tychus": {
+    "name": "Tychus",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "garrosh",
+      "e-t-c",
+      "dehaka",
+      "uther"
+    ],
+    "countered_by": [
+      "anubarak",
+      "johanna",
+      "lucio"
+    ],
+    "maps": {
+      "stronger": [
+        "cursed-hollow",
+        "infernal-shrines",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "tomb-of-the-spider-queen"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "sky-temple",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Standard Build"
+    ],
+    "file": "heroes/tychus.json"
+  },
+  "tyrael": {
+    "name": "Tyrael",
+    "role": "Tank",
+    "synergies": [
+      "blaze",
+      "illidan",
+      "alarak",
+      "sgt-hammer",
+      "lt-morales"
+    ],
+    "countered_by": [
+      "arthas",
+      "blaze",
+      "zeratul",
+      "medivh",
+      "brightwing"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "cursed-hollow",
+        "infernal-shrines",
+        "sky-temple",
+        "warhead-junction"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "dragon-shire",
+        "garden-of-terror",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom"
+      ],
+      "weaker": [
+        "hanamura-temple",
+        "volskaya-foundry"
+      ]
+    },
+    "build_names": [
+      "Basic Attacks Build",
+      "Righteousness Build",
+      "Smite Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/tyrael.json"
+  },
+  "tyrande": {
+    "name": "Tyrande",
+    "role": "Healer",
+    "synergies": [
+      "diablo",
+      "e-t-c",
+      "varian",
+      "anubarak",
+      "li-ming",
+      "greymane",
+      "raynor",
+      "hanzo"
+    ],
+    "countered_by": [
+      "anubarak",
+      "muradin",
+      "zeratul",
+      "maiev",
+      "fenix",
+      "lunara"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "dragon-shire",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Hunter Build",
+      "Ranger Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/tyrande.json"
+  },
+  "uther": {
+    "name": "Uther",
+    "role": "Healer",
+    "synergies": [
+      "e-t-c",
+      "kerrigan",
+      "illidan",
+      "the-butcher",
+      "zuljin",
+      "malfurion"
+    ],
+    "countered_by": [
+      "guldan",
+      "lunara",
+      "malthael",
+      "nazeebo",
+      "sylvanas",
+      "zagara"
+    ],
+    "maps": {
+      "stronger": [
+        "infernal-shrines"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Holy Radiance Build",
+      "Hammer of Justice Build",
+      "Hybrid Build",
+      "Holy Light Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/uther.json"
+  },
+  "valeera": {
+    "name": "Valeera",
+    "role": "Melee Assassin",
+    "synergies": [
+      "garrosh",
+      "e-t-c",
+      "thrall",
+      "jaina",
+      "abathur"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "arthas",
+      "medivh",
+      "lucio"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "dragon-shire",
+        "sky-temple",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "garden-of-terror",
+        "infernal-shrines",
+        "towers-of-doom",
+        "hanamura-temple",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Sinister Strike Build",
+      "Limpanjo Build"
+    ],
+    "file": "heroes/valeera.json"
+  },
+  "valla": {
+    "name": "Valla",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "arthas",
+      "garrosh",
+      "auriel",
+      "uther"
+    ],
+    "countered_by": [
+      "greymane",
+      "illidan",
+      "nova",
+      "the-butcher",
+      "valeera",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "sky-temple",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Attack Build",
+      "Burst Build",
+      "Multishot Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/valla.json"
+  },
+  "varian": {
+    "name": "Varian",
+    "role": "Bruiser",
+    "synergies": [
+      "e-t-c",
+      "blaze",
+      "li-ming",
+      "tyrande"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "arthas",
+      "lunara",
+      "medivh",
+      "rehgar"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "braxis-holdout",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "towers-of-doom",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "average": [
+        "alterac-pass",
+        "cursed-hollow",
+        "tomb-of-the-spider-queen"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "infernal-shrines",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Offensive Taunt Build",
+      "Defensive Taunt Build",
+      "Colossus Smash Build",
+      "Twin Blades Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/varian.json"
+  },
+  "whitemane": {
+    "name": "Whitemane",
+    "role": "Healer",
+    "synergies": [
+      "johanna",
+      "sonya",
+      "cassia",
+      "chromie",
+      "hanzo"
+    ],
+    "countered_by": [
+      "garrosh",
+      "malthael",
+      "alarak",
+      "li-ming",
+      "ana"
+    ],
+    "maps": {
+      "stronger": [
+        "infernal-shrines",
+        "towers-of-doom"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "cursed-hollow",
+        "garden-of-terror",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "blackhearts-bay",
+        "braxis-holdout",
+        "dragon-shire",
+        "hanamura-temple",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Inquisition Build",
+      "Searing Lash Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/whitemane.json"
+  },
+  "xalatath": {
+    "name": "Xal'atath",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "zeratul",
+      "maiev",
+      "anubarak",
+      "e-t-c",
+      "diablo"
+    ],
+    "countered_by": [
+      "genji",
+      "tracer",
+      "zeratul",
+      "sonya",
+      "hanzo",
+      "alarak"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "dragon-shire",
+        "infernal-shrines",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "average": [
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "garden-of-terror",
+        "tomb-of-the-spider-queen",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "hanamura-temple",
+        "sky-temple"
+      ]
+    },
+    "build_names": [
+      "Dark Heart Ritual Build",
+      "Void Volley Build",
+      "Void Step Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/xalatath.json"
+  },
+  "xul": {
+    "name": "Xul",
+    "role": "Bruiser",
+    "synergies": [
+      "tyrande",
+      "medivh",
+      "li-ming",
+      "falstad"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "johanna",
+      "jaina",
+      "sgt-hammer",
+      "auriel"
+    ],
+    "maps": {
+      "stronger": [
+        "blackhearts-bay",
+        "cursed-hollow",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "dragon-shire",
+        "towers-of-doom",
+        "warhead-junction",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Scythe Build",
+      "Cursed Strikes Build",
+      "Bone Prison Build"
+    ],
+    "file": "heroes/xul.json"
+  },
+  "yrel": {
+    "name": "Yrel",
+    "role": "Bruiser",
+    "synergies": [
+      "garrosh",
+      "zarya",
+      "sgt-hammer",
+      "whitemane"
+    ],
+    "countered_by": [
+      "muradin",
+      "malthael",
+      "sgt-hammer",
+      "tracer",
+      "stukov"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "dragon-shire",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "towers-of-doom",
+        "warhead-junction",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Vindication Build",
+      "Righteous Hammer Build",
+      "Avenging Wrath Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/yrel.json"
+  },
+  "zagara": {
+    "name": "Zagara",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "e-t-c",
+      "jaina",
+      "deckard"
+    ],
+    "countered_by": [
+      "illidan",
+      "falstad",
+      "chen",
+      "zeratul"
+    ],
+    "maps": {
+      "stronger": [
+        "alterac-pass",
+        "braxis-holdout",
+        "cursed-hollow",
+        "garden-of-terror",
+        "sky-temple",
+        "towers-of-doom",
+        "warhead-junction"
+      ],
+      "average": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "dragon-shire",
+        "infernal-shrines",
+        "tomb-of-the-spider-queen",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "hanamura-temple"
+      ]
+    },
+    "build_names": [
+      "Infested Drop Build",
+      "Infest Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/zagara.json"
+  },
+  "zarya": {
+    "name": "Zarya",
+    "role": "Support",
+    "synergies": [
+      "garrosh",
+      "sonya",
+      "valla",
+      "malfurion"
+    ],
+    "countered_by": [
+      "garrosh",
+      "yrel",
+      "lunara",
+      "maiev",
+      "auriel"
+    ],
+    "maps": {
+      "stronger": [
+        "battlefield-of-eternity",
+        "braxis-holdout",
+        "hanamura-temple"
+      ],
+      "average": [
+        "alterac-pass",
+        "blackhearts-bay",
+        "dragon-shire",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "volskaya-foundry"
+      ],
+      "weaker": [
+        "cursed-hollow",
+        "garden-of-terror",
+        "warhead-junction"
+      ]
+    },
+    "build_names": [
+      "Basic Attacks Build",
+      "Shield Ally Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/zarya.json"
+  },
+  "zeratul": {
+    "name": "Zeratul",
+    "role": "Melee Assassin",
+    "synergies": [
+      "abathur",
+      "diablo",
+      "garrosh",
+      "malfurion",
+      "kharazim",
+      "jaina",
+      "li-ming",
+      "junkrat",
+      "hanzo"
+    ],
+    "countered_by": [
+      "brightwing",
+      "uther",
+      "varian",
+      "diablo",
+      "e-t-c",
+      "medivh"
+    ],
+    "maps": {
+      "stronger": [
+        "cursed-hollow",
+        "infernal-shrines",
+        "sky-temple",
+        "towers-of-doom"
+      ],
+      "average": [
+        "alterac-pass",
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "dragon-shire",
+        "garden-of-terror",
+        "hanamura-temple",
+        "volskaya-foundry",
+        "warhead-junction"
+      ],
+      "weaker": [
+        "braxis-holdout",
+        "tomb-of-the-spider-queen"
+      ]
+    },
+    "build_names": [
+      "Basic Attacks Build",
+      "Void Prison Build",
+      "Death Sentence Build",
+      "Cleave Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/zeratul.json"
+  },
+  "zuljin": {
+    "name": "Zul'jin",
+    "role": "Ranged Assassin",
+    "synergies": [
+      "tyrael",
+      "e-t-c",
+      "tassadar",
+      "uther",
+      "medivh",
+      "arthas"
+    ],
+    "countered_by": [
+      "e-t-c",
+      "dehaka",
+      "diablo",
+      "garrosh",
+      "uther"
+    ],
+    "maps": {
+      "stronger": [],
+      "average": [
+        "battlefield-of-eternity",
+        "blackhearts-bay",
+        "braxis-holdout",
+        "cursed-hollow",
+        "dragon-shire",
+        "garden-of-terror",
+        "infernal-shrines",
+        "sky-temple",
+        "tomb-of-the-spider-queen",
+        "towers-of-doom",
+        "warhead-junction",
+        "hanamura-temple",
+        "volskaya-foundry",
+        "alterac-pass"
+      ],
+      "weaker": []
+    },
+    "build_names": [
+      "Twin Cleave Build",
+      "Grievous Build",
+      "Basic Attack Build",
+      "ARAM Build"
+    ],
+    "file": "heroes/zuljin.json"
+  }
+}

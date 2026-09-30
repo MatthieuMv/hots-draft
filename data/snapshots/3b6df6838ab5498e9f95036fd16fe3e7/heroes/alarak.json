@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "id": "alarak",
+  "name": "Alarak",
+  "role": "Melee Assassin",
+  "overview": "Alarak is a melee Assassin who controls the battlefield by manipulating the positioning of his enemies. He can sacrifice raw damage for increased utility through Sadism, allowing him to deal with each challenge differently. Telekinesis allows him to push himself and enemies in any direction, while Discord Strike can render them completely helpless afterward. It is recommended to play him alongside tanks and assassins. He excels at displacing enemies into dangerous positions, enabling easy follow-ups from teammates, securing takedowns. Reliably landing Discord Strike and Telekinesis can be difficult, and requires practice. Putting in the time to get comfortable with these Abilities is essential in leveraging his great potential.",
+  "strengths": [
+    "Can Silence enemies often by using Discord Strike",
+    "Can reposition enemies or himself with Telekinesis",
+    "Great potential to setup takedowns",
+    "Strong burst damage",
+    "Very high skill ceiling"
+  ],
+  "weaknesses": [
+    "Poor waveclear",
+    "Cannot solo Mercenary Camps effectively",
+    "Discord Strike's delay and shape can make it a relatively difficult skillshot",
+    "Difficult to master"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      }
+    ],
+    "explanation": "Alarak has terrible waveclear, but excels at displacing enemies, while silencing them. Therefore, Assassins with decent waveclear and good damage to follow his combo are excellent with him, such as Jaina or Raynor. E.T.C. and Garrosh are also decent with Alarak, since their displacement and crowdcontrol are good for following his combo, or to setup for it."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "deathwing",
+        "name": "Deathwing"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      }
+    ],
+    "explanation": "Alarak is countered by crowd control. Johanna and E.T.C. are a threat, since their stuns will not allow Counter-Strike or Telekinesis to be used, turning him into an easy kill. Medivh is also a nuisance, since his Force of Will may protect against Discord Strike, and Poly Bomb is a great follow up to kill you. Deathwing can ignore Alarak, since he is constantly unstoppable and will not be displaced or silenced."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Alarak is not able to deal large amounts of damage to non-Heroic entities during PvE encounters with his Abilities; however, he can be effective during team fights that occur during map objectives. He is better on maps that are oriented around team fighting, rather than those that require strong Minion or Mercenary clearing. Narrow choke points can help him land his Abilities on multiple enemy Heroes at the same time.\n\nAlarak is an excellent pick in Battlefield of Eternity, considering he can use Telekinesis to displace enemies into Immortal stun. Be aware this can be done in other maps as well, such as Hanamura Temple, or Tomb of The Spider Queen. You can use it to Displace your enemies into Sentinel's AoE slash, or towards Webweavers' Death Wave."
+  },
+  "builds": [
+    {
+      "name": "Overwhelming Power Build",
+      "label": "Recommended",
+      "description": "Alarak's Overwhelming Power Build shifts him from a burst Hero towards a Bruiser playstyle, by enhancing his Basic Attacks, self-sustain, and crowd control. Differently from the other builds, this one does not get Applied Force at Level 7. Therefore, we do not recommend it against poke compositions or against many Ranged Assassins, since you will have a hard time hitting combos or delivering Basic Attacks towards them. Despite this weakness, we find this build excellent when facing melee-heavy team compositions. Alarak will be able to easily punish those melee Heroes, while also reducing their power due to extra Silence or Slow provided by his Level 7 Talents.\n\nOverwhelming Power empowers Basic Attacks and encourages Alarak to be always delivering Basic Attacks after a combo. At Level 7, Hindered Motion is the standard Talent, since it will enable you to be constantly attacking the target, getting value from your Level 1 and 16's Talents. However, if you already have a decent way to reduce your enemy's movements in your team, like Jaina or Fenix provide, we recommend going for Dissonance instead. Lethal Onslaught at Level 16 will be excellent if you have a good amount of Sadism stacks, because it will provide more damage and healing from your Basic Attacks, making it easier to maintain your lead. However, Mocking Strikes will be a great power spike in fights, since it will provide more combos and crowd control for your team.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "alarak-talent-overwhelming-power",
+              "name": "Overwhelming Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "alarak-talent-show-of-force",
+              "name": "Show of Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "alarak-talent-hindered-motion",
+              "name": "Hindered Motion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-7"
+            },
+            {
+              "id": "alarak-talent-dissonance",
+              "name": "Dissonance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "alarak-talent-deadly-charge",
+              "name": "Deadly Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-10"
+            },
+            {
+              "id": "alarak-talent-counter-strike",
+              "name": "Counter-Strike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "alarak-talent-blade-of-the-highlord",
+              "name": "Blade of the Highlord",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-13"
+            },
+            {
+              "id": "alarak-talent-pure-malice",
+              "name": "Pure Malice",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-13"
+            },
+            {
+              "id": "alarak-talent-rite-of-rak-shir",
+              "name": "Rite of Rak'Shir",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "alarak-talent-lethal-onslaught",
+              "name": "Lethal Onslaught",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-16"
+            },
+            {
+              "id": "alarak-talent-mocking-strikes",
+              "name": "Mocking Strikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "alarak-talent-wrath-of-the-highlord",
+              "name": "Wrath of the Highlord",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            },
+            {
+              "id": "alarak-talent-might-of-the-highlord",
+              "name": "Might of the Highlord",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            },
+            {
+              "id": "alarak-talent-hasty-bargain",
+              "name": "Hasty Bargain",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            },
+            {
+              "id": "alarak-talent-last-laugh",
+              "name": "Last Laugh",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/alarak#55.12!1321111"
+    },
+    {
+      "name": "Lightning Surge Build",
+      "label": "Advanced",
+      "description": "The Lightning Surge Build is exceptionally good at long range poke, especially against melee-heavy team compositions. Target enemy Heroes behind the enemy frontline whenever possible, to damage as many Heroes with each cast as possible. When you finish stacking Extended Lightning, you will be able to slow enemies who are hit by the center of the beam. Negatively Charged can be stacked without limit, and is not lost on death. With Hasty Bargain and clever positioning, you can cast Lightning Surge up to 4 times in quick succession. It is very important to focus on hitting enemy Heroes with the center of Lightning Surge's beam, as many of your Talent investments involve this mechanic.\n\nUnfortunately this build has poor early game, and is very reliant on having many stacks from Extended Lightning. For this reason, we only recommend going for it in scenarios where you will easily stack, like in Tomb of the Spider Queen, Braxis Holdout or Infernal Shrines.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "alarak-talent-extended-lightning",
+              "name": "Extended Lightning",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "alarak-talent-negatively-charged",
+              "name": "Negatively Charged",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "alarak-talent-applied-force",
+              "name": "Applied Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-7"
+            },
+            {
+              "id": "alarak-talent-dissonance",
+              "name": "Dissonance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "alarak-talent-counter-strike",
+              "name": "Counter-Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "alarak-talent-pure-malice",
+              "name": "Pure Malice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "alarak-talent-lightning-barrage",
+              "name": "Lightning Barrage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "alarak-talent-hasty-bargain",
+              "name": "Hasty Bargain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            },
+            {
+              "id": "alarak-talent-last-laugh",
+              "name": "Last Laugh",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/alarak#55.12!3232224"
+    },
+    {
+      "name": "Combo Build",
+      "label": "Situational",
+      "description": "Alarak's Combo Build will enable him to use Telekinesis more often, due to Ruthless Momentum. Show of Force enhances your burst damage, facilitating the kill on the displaced target. It will also be slowly empowering your Sadism, turning Alarak into a real threat. Counter-Strike is a good survivability option for him, however, Deadly Charge can be a good choice for securing kills.\n\nAt Level 20, Hasty Bargain is excellent for securing late-game kills. However, if you have chosen Deadly Charge, then Wrath of the Highlord is also a strong choice. On the other hand, with Counter-Strike, it might be more beneficial to stick with Hasty Bargain or consider Might of the Highlord instead.\n\nThis build is focused on using Discord Strike and Lightning Surge to follow-up Telekinesis whenever you can do so safely. Do not be afraid to combo Tanks; with a good follow-up, they may lose most of their Health or even get killed by it.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "alarak-talent-ruthless-momentum",
+              "name": "Ruthless Momentum",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "alarak-talent-show-of-force",
+              "name": "Show of Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "alarak-talent-applied-force",
+              "name": "Applied Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "alarak-talent-counter-strike",
+              "name": "Counter-Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-10"
+            },
+            {
+              "id": "alarak-talent-deadly-charge",
+              "name": "Deadly Charge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "alarak-talent-pure-malice",
+              "name": "Pure Malice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-13"
+            },
+            {
+              "id": "alarak-talent-rite-of-rak-shir",
+              "name": "Rite of Rak'Shir",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "alarak-talent-lethal-onslaught",
+              "name": "Lethal Onslaught",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-16"
+            },
+            {
+              "id": "alarak-talent-mocking-strikes",
+              "name": "Mocking Strikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-16"
+            },
+            {
+              "id": "alarak-talent-lightning-barrage",
+              "name": "Lightning Barrage",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "alarak-talent-hasty-bargain",
+              "name": "Hasty Bargain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            },
+            {
+              "id": "alarak-talent-wrath-of-the-highlord",
+              "name": "Wrath of the Highlord",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            },
+            {
+              "id": "alarak-talent-might-of-the-highlord",
+              "name": "Might of the Highlord",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/alarak#55.12!2332214"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Alarak's ARAM build mainly revolves around his Level 4 Talent. ARAM's one-lane nature makes it much easier to stack Negatively Charged. At Level 16, you will start dealing much more damage and will be lethal to most enemies. Therefore, before then, you should focus solely on stacking your quests.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "alarak-talent-extended-lightning",
+              "name": "Extended Lightning",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "alarak-talent-negatively-charged",
+              "name": "Negatively Charged",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "alarak-talent-applied-force",
+              "name": "Applied Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-7"
+            },
+            {
+              "id": "alarak-talent-dissonance",
+              "name": "Dissonance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "alarak-talent-counter-strike",
+              "name": "Counter-Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "alarak-talent-pure-malice",
+              "name": "Pure Malice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "alarak-talent-lightning-barrage",
+              "name": "Lightning Barrage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "alarak-talent-hasty-bargain",
+              "name": "Hasty Bargain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            },
+            {
+              "id": "alarak-talent-last-laugh",
+              "name": "Last Laugh",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/alarak-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/alarak#55.12!3232224"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/alarak-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:55:59.892150+00:00",
+    "updated_at": "2025-09-25T11:25:00+00:00",
+    "author_line": "Last updated on Sep 25, 2025 at 11:25 by Derenash"
+  }
+}

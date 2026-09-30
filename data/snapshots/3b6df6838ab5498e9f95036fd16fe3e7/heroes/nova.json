@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "id": "nova",
+  "name": "Nova",
+  "role": "Ranged Assassin",
+  "overview": "Nova is a Ranged Assassin capable of using Stealth to confuse opponents and surprise them with ganks. Her strongest point is her exceptional long-ranged single-target burst damage. As a fragile Hero with no mobility tools, Nova needs to position safely and always have a retreat path ready.",
+  "strengths": [
+    "Holo Decoy to counter some Abilities",
+    "Attack Range higher than most other Heroes",
+    "Stealthed when out of combat",
+    "Good at ganking or just threatening so"
+  ],
+  "weaknesses": [
+    "No mobility tools",
+    "Bad siege damage",
+    "Extremely poor waveclear",
+    "Low base Health",
+    "Mana issues"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Nova works best with Heroes that provide one or many form of engage or crowd control, to help her deal damage with Snipe without the risk of missing too often.\n\nMore importantly, Nova has to be paired with Heroes that make up for her huge lack of waveclear, otherwise your team will struggle doing anything during the game because of enemy Minions constantly giving vision to the enemy team and continually damaging your Structures until they fall."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "zarya",
+        "name": "Zarya"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      }
+    ],
+    "explanation": "Being a Ranged Assassin with little in the way of escaping, Nova must rely on burst damage and long range to perform well. As a consequence, she struggles with anything that has tools for mitigating damage (for example Zarya) and against dive Heroes who get up close and personal with her (such as Zeratul).\n\nNova does not like to play against global Heroes (notably Brightwing) because they can instantly nullify her numerical advantage when she is trying to gank someone. Never fully commit to a gank in those cases, otherwise it may backfire. Instead, play it safely and always be ready to retreat as someone else shows up."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "explanation": "Nova is a good choice on 2-lane Battlegrounds as they do not require a high amount of waveclear and they give her many opportunities to gank isolated enemy Heroes who tend to expose in the solo lane (such as Hanamura Temple).\n\nDue to her lack of waveclear, Nova is usually a bad choice on 3-lane Battlegrounds, especially if their Objective takes too long for her high Mana consumption to not be an issue (for example Alterac Pass) and/or requires to kill multiple Monsters at the same time (such as Infernal Shrines)."
+  },
+  "builds": [
+    {
+      "name": "Holo Decoy Build",
+      "label": "Recommended",
+      "description": "Nova's Holo Decoy Build provides good single-target sustain damage from the mid game. Since you cannot choose the target of your Clones, this Build is more effective against partially or fully isolated enemy Heroes.\n\nLethal Decoy at Level 16 increases your damage output when having Clones active, although you cannot choose who they will attack. Rapid Projection at Level 4 lets you do this more often and for less Mana. Ionic Force Field at Level 13 makes you and your Clones harder to kill.\n\nAt Level 20, Rewind is the best option for burst damage, Precision Barrage provides more waveclear and area of effect damage, and Apollo Suit to confuse enemies with Stealth.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "nova-talent-advanced-cloaking",
+              "name": "Advanced Cloaking",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "nova-talent-rapid-projection",
+              "name": "Rapid Projection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "nova-talent-anti-armor-shells",
+              "name": "Anti-Armor Shells",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "nova-talent-precision-strike",
+              "name": "Precision Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-10"
+            },
+            {
+              "id": "nova-talent-triple-tap",
+              "name": "Triple Tap",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "nova-talent-ionic-force-field",
+              "name": "Ionic Force Field",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "nova-talent-lethal-decoy",
+              "name": "Lethal Decoy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "nova-talent-rewind",
+              "name": "Rewind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            },
+            {
+              "id": "nova-talent-precision-barrage",
+              "name": "Precision Barrage",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            },
+            {
+              "id": "nova-talent-apollo-suit",
+              "name": "Apollo Suit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/nova#29.3!3132334"
+    },
+    {
+      "name": "Pinning Shot Build",
+      "label": "Advanced",
+      "description": "Nova's Pinning Shot Build provides superior single-target burst damage in the late game, also enabling allied Heroes to deal more damage if you all focus the same target.\n\nThe combination of Double Tap at Level 13 and Crippling Shot at Level 16 is great for increasing not only your own damage but also your team's one.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "nova-talent-longshot",
+              "name": "Longshot",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "nova-talent-rapid-projection",
+              "name": "Rapid Projection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-4"
+            },
+            {
+              "id": "nova-talent-holo-stability",
+              "name": "Holo Stability",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-4"
+            },
+            {
+              "id": "nova-talent-covert-mission",
+              "name": "Covert Mission",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "nova-talent-anti-armor-shells",
+              "name": "Anti-Armor Shells",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "nova-talent-precision-strike",
+              "name": "Precision Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-10"
+            },
+            {
+              "id": "nova-talent-triple-tap",
+              "name": "Triple Tap",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "nova-talent-double-tap",
+              "name": "Double Tap",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "nova-talent-crippling-shot",
+              "name": "Crippling Shot",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "nova-talent-precision-barrage",
+              "name": "Precision Barrage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            },
+            {
+              "id": "nova-talent-rewind",
+              "name": "Rewind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/nova#29.3!1132222"
+    },
+    {
+      "name": "Snipe Build",
+      "label": "Situational",
+      "description": "Nova's Snipe Build provides superior single-target sustain damage against Heroes in the early game and solid area-of-effect damage against Heroes and non-Heroes in the late game.\n\nPerfect Shot at Level 7 drastically increases your damage output, given you can constantly hit enemy Heroes with Snipe. Psionic Efficiency at Level 13 helps you to recover Precision Sniper stacks when you happen to miss enemies with Snipe. Explosive Round at Level 16 provides waveclear and can be used to hit targets that would be otherwise impossible to reach.\n\nChoose this Build when your team needs more waveclear, even though it comes online in the mid game, and when the enemy team features low-mobility Heroes that cannot easily dodge your Snipe.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "nova-talent-covert-ops",
+              "name": "Covert Ops",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "nova-talent-covert-mission",
+              "name": "Covert Mission",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-4"
+            },
+            {
+              "id": "nova-talent-rapid-projection",
+              "name": "Rapid Projection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "nova-talent-perfect-shot",
+              "name": "Perfect Shot",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "nova-talent-precision-strike",
+              "name": "Precision Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "nova-talent-psionic-efficiency",
+              "name": "Psionic Efficiency",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "nova-talent-explosive-round",
+              "name": "Explosive Round",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "nova-talent-precision-barrage",
+              "name": "Precision Barrage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/nova#29.3!2312112"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Nova's ARAM Build provides good single-target sustain damage from the mid game. Since you cannot choose the target of your Clones, this Build is more effective against partially or fully isolated enemy Heroes.\n\nLethal Decoy at Level 16 increases your damage output when having Clones active, although you cannot choose who they will attack. Rapid Projection at Level 4 lets you do this more often and for less Mana.\n\nAt Level 20, Rewind is the best option for burst damage, Precision Barrage provides more waveclear and area of effect damage, and Apollo Suit to confuse enemies with Stealth.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "nova-talent-advanced-cloaking",
+              "name": "Advanced Cloaking",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "nova-talent-rapid-projection",
+              "name": "Rapid Projection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "nova-talent-anti-armor-shells",
+              "name": "Anti-Armor Shells",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "nova-talent-precision-strike",
+              "name": "Precision Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-10"
+            },
+            {
+              "id": "nova-talent-triple-tap",
+              "name": "Triple Tap",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "nova-talent-ionic-force-field",
+              "name": "Ionic Force Field",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "nova-talent-lethal-decoy",
+              "name": "Lethal Decoy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "nova-talent-rewind",
+              "name": "Rewind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            },
+            {
+              "id": "nova-talent-precision-barrage",
+              "name": "Precision Barrage",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            },
+            {
+              "id": "nova-talent-apollo-suit",
+              "name": "Apollo Suit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/nova-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/nova#29.3!3132334"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/nova-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:10.271391+00:00",
+    "updated_at": "2025-04-18T15:10:00+00:00",
+    "author_line": "Last updated on Apr 18, 2025 at 15:10 by Elitesparkle"
+  }
+}

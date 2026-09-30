@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "id": "ana",
+  "name": "Ana",
+  "role": "Healer",
+  "overview": "Ana is a Healer who excels at manipulating the course of battle from a safe distance. She is particularly efficient if protected by a solid frontline, since she does not have any real escape mechanism. Consequently, knowing how to position Ana during a team fight is crucial when it comes to staying clear of danger, but also when it comes to healing allied targets from the right angle.",
+  "strengths": [
+    "Relatively low Mana consumption",
+    "Counters other Healers",
+    "Synergizes with Mages",
+    "Provides crowd control"
+  ],
+  "weaknesses": [
+    "Weak against dive",
+    "Underwhelming mobility",
+    "Struggles to heal high-mobility allied Heroes",
+    "Unable to dispel Silence effects",
+    "Unable to provide Unstoppable frames"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      }
+    ],
+    "explanation": "Nano Boost possesses outstanding synergy with Mages (such as Mephisto) or, more in general, Heroes who deal the majority of their damage with Abilities and not Basic Attacks.\n\nEven if they can also be used on their own, Sleep Dart and Biotic Grenade benefit from allied Heroes who can provide reliable crowd control with their Basic Abilities (like E.T.C.) that will make them impossible to miss."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      }
+    ],
+    "explanation": "Since her self-healing is limited, Ana usually struggles against Heroes who can ignore her team and dive her instead (such as Chen with Storm, Earth, Fire).\n\nAbilities that can isolate an enemy Hero (like Cocoon by Anub'arak) or disengage (like Mighty Gust by Falstad) can be used to counter Nano Boost in two different ways.\n\nWhile not as effective as the counters that have been mentioned above, poke is also a decent tool against her, but only if you can actually do considerable damage to her from high distance (such as Hanzo).\n\nThere are no Healers who can counter Ana, however, you might prefer going for a Hero who offers utility instead of raw healing (like Lúcio that can count on Sound Barrier to support his team without actually healing them)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Ana performs better on Maps where the team fight cannot evolve on different fronts because she suffers from flank and dive strategies a lot."
+  },
+  "builds": [
+    {
+      "name": "Biotic Grenade Build",
+      "label": "Recommended",
+      "description": "Ana's Biotic Grenade Build increases your healing when allied and/or enemy Heroes tend to group. This usually happens when either team has more than two frontline Heroes or when the enemy team is diving and your team is peeling.\n\nThe burst healing from Contact Healing at Level 1 is quite handy when enemy Heroes are on top of you. Anti-Healer at Level 7 helps you hit more Heroes, to get more healing from it. Biotic Enhancements at Level 4 lets you use it more often.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ana-talent-contact-healing",
+              "name": "Contact Healing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ana-talent-biotic-enhancements",
+              "name": "Biotic Enhancements",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-4"
+            },
+            {
+              "id": "ana-talent-debilitating-dart",
+              "name": "Debilitating Dart",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ana-talent-anti-healer",
+              "name": "Anti-Healer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ana-talent-nano-boost",
+              "name": "Nano Boost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-10"
+            },
+            {
+              "id": "ana-talent-eye-of-horus",
+              "name": "Eye of Horus",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ana-talent-smelling-salts",
+              "name": "Smelling Salts",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            },
+            {
+              "id": "ana-talent-purifying-darts",
+              "name": "Purifying Darts",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            },
+            {
+              "id": "ana-talent-speed-serum",
+              "name": "Speed Serum",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ana-talent-active-reload",
+              "name": "Active Reload",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-16"
+            },
+            {
+              "id": "ana-talent-sharpshooter",
+              "name": "Sharpshooter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ana-talent-nano-infusion",
+              "name": "Nano Infusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-20"
+            },
+            {
+              "id": "ana-talent-deadeye",
+              "name": "Deadeye",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ana#43.0!1111331"
+    },
+    {
+      "name": "Sleep Dart Build",
+      "label": "Advanced",
+      "description": "Ana's Sleep Dart Build improves your offensive tools, to help your team find and secure kills with Sleep Dart, and slightly increases your survivability, by Slowing enemy Heroes and giving you Movement Speed to reposition, dodge, or flee.\n\nNight Terrors at Level 7 adds a considerable amount of percent-based damage on Heroes your team intends to take down. Use it in conjunction with Biotic Grenade to help your team kill even the most durable Heroes (such as Diablo).",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ana-talent-slumber-shells",
+              "name": "Slumber Shells",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ana-talent-overdose",
+              "name": "Overdose",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-4"
+            },
+            {
+              "id": "ana-talent-debilitating-dart",
+              "name": "Debilitating Dart",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ana-talent-night-terrors",
+              "name": "Night Terrors",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ana-talent-nano-boost",
+              "name": "Nano Boost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-10"
+            },
+            {
+              "id": "ana-talent-eye-of-horus",
+              "name": "Eye of Horus",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ana-talent-smelling-salts",
+              "name": "Smelling Salts",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            },
+            {
+              "id": "ana-talent-purifying-darts",
+              "name": "Purifying Darts",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            },
+            {
+              "id": "ana-talent-speed-serum",
+              "name": "Speed Serum",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ana-talent-active-reload",
+              "name": "Active Reload",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ana-talent-nano-infusion",
+              "name": "Nano Infusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-20"
+            },
+            {
+              "id": "ana-talent-deadeye",
+              "name": "Deadeye",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ana#43.0!2221331"
+    },
+    {
+      "name": "Shrike Build",
+      "label": "Situational",
+      "description": "Ana's Shrike Build is particularly good at trading resources with the enemy team. You can do this by reducing their damage and healing done when affected by Shrike.\n\nThe debuff comes from Mind-Numbing Agent at Level 7 and can be applied in two ways: via Basic Attacks, when safe to do so, or via Sleep Dart, thanks to Overdose at Level 4.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ana-talent-contact-healing",
+              "name": "Contact Healing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ana-talent-overdose",
+              "name": "Overdose",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ana-talent-mind-numbing-agent",
+              "name": "Mind-Numbing Agent",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ana-talent-nano-boost",
+              "name": "Nano Boost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-10"
+            },
+            {
+              "id": "ana-talent-eye-of-horus",
+              "name": "Eye of Horus",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ana-talent-smelling-salts",
+              "name": "Smelling Salts",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            },
+            {
+              "id": "ana-talent-purifying-darts",
+              "name": "Purifying Darts",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            },
+            {
+              "id": "ana-talent-speed-serum",
+              "name": "Speed Serum",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ana-talent-active-reload",
+              "name": "Active Reload",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-16"
+            },
+            {
+              "id": "ana-talent-sharpshooter",
+              "name": "Sharpshooter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ana-talent-nano-infusion",
+              "name": "Nano Infusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-20"
+            },
+            {
+              "id": "ana-talent-deadeye",
+              "name": "Deadeye",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ana#43.0!1231331"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Ana's ARAM Build increases your healing when allied and/or enemy Heroes tend to group. This usually happens when either team has more than two frontline Heroes or when the enemy team is diving and your team is peeling.\n\nThe burst healing from Contact Healing at Level 1 is quite handy when enemy Heroes are on top of you. Anti-Healer at Level 7 helps you hit more Heroes, to get more healing from it. Biotic Enhancements at Level 4 lets you use it more often.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "ana-talent-contact-healing",
+              "name": "Contact Healing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "ana-talent-biotic-enhancements",
+              "name": "Biotic Enhancements",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-4"
+            },
+            {
+              "id": "ana-talent-debilitating-dart",
+              "name": "Debilitating Dart",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "ana-talent-anti-healer",
+              "name": "Anti-Healer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "ana-talent-nano-boost",
+              "name": "Nano Boost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-10"
+            },
+            {
+              "id": "ana-talent-eye-of-horus",
+              "name": "Eye of Horus",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "ana-talent-smelling-salts",
+              "name": "Smelling Salts",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            },
+            {
+              "id": "ana-talent-purifying-darts",
+              "name": "Purifying Darts",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            },
+            {
+              "id": "ana-talent-speed-serum",
+              "name": "Speed Serum",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "ana-talent-sharpshooter",
+              "name": "Sharpshooter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-16"
+            },
+            {
+              "id": "ana-talent-active-reload",
+              "name": "Active Reload",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "ana-talent-nano-infusion",
+              "name": "Nano Infusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-20"
+            },
+            {
+              "id": "ana-talent-deadeye",
+              "name": "Deadeye",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/ana-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/ana#43.0!1111311"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/ana-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:01.849502+00:00",
+    "updated_at": "2026-01-27T11:15:00+00:00",
+    "author_line": "Last updated on Jan 27, 2026 at 11:15 by Elitesparkle"
+  }
+}

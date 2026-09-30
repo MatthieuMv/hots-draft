@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "id": "stitches",
+  "name": "Stitches",
+  "role": "Tank",
+  "overview": "Stitches is a Tank whose signature move is Hook, a unique Ability that can be used to pull enemy Heroes from the distance and allow allied Heroes to follow up with crowd control and burst damage.",
+  "strengths": [
+    "Solid waveclear",
+    "Powerful high-range pull effect",
+    "High maximum Health",
+    "Good self-sustain",
+    "Decent damage"
+  ],
+  "weaknesses": [
+    "Low crowd control",
+    "Lack of mobility",
+    "Weak peeling"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Stitches works well with Heroes who can quickly respond to any successful Hook by locking the target enemy Hero in place with crowd control (for example Malfurion with Entangling Roots) and that have access to burst damage to get a kill before the enemy team can react (such as Jaina).\n\nTo compensate his lack of peeling, Stitches likes to be in team with Heroes that have access to crowd control. We recommend an Offlaner who can act as a secondary Tank during team fights (for example Blaze).\n\nIf your team has access to a disengage tool (such as Mighty Gust), they can use it either to save you from danger or to knock the rest of the enemy team away right after you Hook someone."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "tychus",
+        "name": "Tychus"
+      },
+      {
+        "id": "anduin",
+        "name": "Anduin"
+      }
+    ],
+    "explanation": "Because so much of Stitches's ability to impact a match is baked into Hook, he can be challenged by frontline Heroes who are bad targets for it as they may use Unstoppable on demand, put a Summon on the trajectory, easily dodge the skillshot, or run away right after. Heroes who can save the target right after they get caught are good counters as well.\n\nDue to his high Health pool and lack of mobility, Stitches is also susceptible to percent-based damage (for example Leoric with Drain Hope and Entomb)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Stitches prefers Maps where Hook can easily be used through impassable terrain and/or near choke points while teams tend to group. This way your team gets the opportunity to quickly take down an enemy Hero before their team is able to respond.\n\nThe high amount of waveclear he provides makes Stitches a good pick on 3-lane Maps where the metagame strategy is to rotate between two lanes (for example Volskaya Foundry).\n\nDue to his lack of mobility to escape himself and peeling to protect the rest of his team, Stitches does not like Maps where the enemy team can easily gank him or flank his team before he can even get a chance to use Hook from the distance."
+  },
+  "builds": [
+    {
+      "name": "Standard Hook Build",
+      "label": "Recommended",
+      "description": "Stitches's Standard Hook Build revolves around Hook followed by Gorge to pull enemy Heroes completely out of position, ready for your team to kill them.\n\nThe additional Movement Speed provided by Hungry for More at Level 1 allows you to move faster without having to use Shambling Horror just for the extra Movement Speed, unless you need to remove a Slow from yourself. This way you can usually keep it for another moment.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "stitches-talent-hungry-for-more",
+              "name": "Hungry for More",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "stitches-talent-tenderizer",
+              "name": "Tenderizer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-4"
+            },
+            {
+              "id": "stitches-talent-playtime",
+              "name": "Playtime!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "stitches-talent-serrated-edge",
+              "name": "Serrated Edge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "stitches-talent-gorge",
+              "name": "Gorge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "stitches-talent-meat-hook",
+              "name": "Meat Hook",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "stitches-talent-pulverize",
+              "name": "Pulverize",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "stitches-talent-master-hooker",
+              "name": "Master Hooker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/stitches#49.3!3312113"
+    },
+    {
+      "name": "Defensive Hook Build",
+      "label": "Advanced",
+      "description": "Stitches's Defensive Hook Build revolves around Hook followed by Gorge to pull enemy Heroes completely out of position, ready for your team to kill them.\n\nThe extra Armor and healing from Patchwork Creation at Level 1 is great for suriving longer while creating space for your team. Use Vile Cleaver at Level 4 to easily debuff multiple enemies and get more Armor as a consequence, then activate Shambling Horror to double it when needed.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "stitches-talent-patchwork-creation",
+              "name": "Patchwork Creation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "stitches-talent-vile-cleaver",
+              "name": "Vile Cleaver",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "stitches-talent-serrated-edge",
+              "name": "Serrated Edge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "stitches-talent-gorge",
+              "name": "Gorge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "stitches-talent-meat-hook",
+              "name": "Meat Hook",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "stitches-talent-pulverize",
+              "name": "Pulverize",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "stitches-talent-master-hooker",
+              "name": "Master Hooker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/stitches#49.3!1212113"
+    },
+    {
+      "name": "Vile Gas Build",
+      "label": "Advanced",
+      "description": "Stitches's Putrid Bile Build, other than using Hook to pull enemy Heroes from ranged distance, can also use Putrid Bile to Slow and damage them from melee distance.\n\nThe extra Armor and healing from Patchwork Creation at Level 1 is great for suriving longer while creating space for your team. Use Vile Cleaver at Level 4 to easily debuff multiple enemies and get more Armor as a consequence, then activate Shambling Horror to double it when needed.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "stitches-talent-patchwork-creation",
+              "name": "Patchwork Creation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "stitches-talent-vile-cleaver",
+              "name": "Vile Cleaver",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "stitches-talent-putrefaction",
+              "name": "Putrefaction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "stitches-talent-putrid-bile",
+              "name": "Putrid Bile",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "stitches-talent-meat-hook",
+              "name": "Meat Hook",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "stitches-talent-pulverize",
+              "name": "Pulverize",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "stitches-talent-gift-from-the-embalmer",
+              "name": "Gift From The Embalmer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/stitches#49.3!1231111"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Stitches's ARAM Build revolves around Hook followed by Gorge to pull enemy Heroes completely out of position, ready for your team to kill them.\n\nThe additional Movement Speed provided by Hungry for More at Level 1 allows you to move faster without having to use Shambling Horror just for the extra Movement Speed, unless you need to remove a Slow from yourself. This way you can usually keep it for another moment.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "stitches-talent-hungry-for-more",
+              "name": "Hungry for More",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "stitches-talent-tenderizer",
+              "name": "Tenderizer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "stitches-talent-serrated-edge",
+              "name": "Serrated Edge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "stitches-talent-gorge",
+              "name": "Gorge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "stitches-talent-meat-hook",
+              "name": "Meat Hook",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "stitches-talent-pulverize",
+              "name": "Pulverize",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "stitches-talent-master-hooker",
+              "name": "Master Hooker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/stitches-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/stitches#49.3!3312113"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/stitches-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:21.276372+00:00",
+    "updated_at": "2025-05-26T13:55:00+00:00",
+    "author_line": "Last updated on May 26, 2025 at 13:55 by Elitesparkle"
+  }
+}

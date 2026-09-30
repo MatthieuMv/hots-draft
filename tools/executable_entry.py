@@ -2,6 +2,7 @@
 
 import json
 import os
+import shutil
 import sys
 from pathlib import Path
 
@@ -28,5 +29,13 @@ if __name__ == "__main__":
         data_home = Path(
             os.environ.get("LOCALAPPDATA", Path.home() / ".local" / "share")
         )
-        sys.argv.extend(["--data-dir", str(data_home / "NexusDraft" / "data")])
+        destination = data_home / "HotsDraft" / "data"
+        legacy_session = data_home / "NexusDraft" / "data" / "draft-session.json"
+        if (
+            legacy_session.exists()
+            and not (destination / "draft-session.json").exists()
+        ):
+            destination.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(legacy_session, destination / "draft-session.json")
+        sys.argv.extend(["--data-dir", str(destination)])
     main()

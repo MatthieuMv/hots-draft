@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "id": "deckard",
+  "name": "Deckard",
+  "role": "Healer",
+  "overview": "Deckard is a Healer specialized in single-target healing, with the possibility to prepare Healing Potion on the ground for later usage, and crowd control, usually used as follow-up to your Tank's engage.",
+  "strengths": [
+    "Strong and efficient single-target healing output",
+    "Powerful area of effect crowd control",
+    "Access to Emerald for healing reduction"
+  ],
+  "weaknesses": [
+    "Weak against burst damage",
+    "No access to Cleanse or similar tools to remove crowd-control effects",
+    "Struggles when facing high-mobility Heroes",
+    "Unable to provide Unstoppable frames"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      }
+    ],
+    "explanation": "Scroll Of Sealing makes Deckard excellent at following up on Heroes that can provide their own source of reliable crowd control (for example Johanna) and similarly good at setting up enemy Heroes for allied skillshot-based Abilities (such as Kel'Thuzad).\n\nHealing Potion is extremely easy to use for healing allied Heroes without mobility, so they are great to have on Deckard's side. For the same reason, you should avoid picking high-mobility Heroes and/or dive Heroes."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "deathwing",
+        "name": "Deathwing"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "With little in the way of mobility, Deckard struggles against Heroes who can easily engage on him, especially if they are ranged.\n\nHeroes who have access to Unstoppable effects have easy life against Deckard as they can ignore all his offensive Abilities. Similarly, Cleanse effects (for example Intercession by Whitemane) are good against Deckard because they basically deny his main strength: crowd control.\n\nDeckard can make up for his weakness to burst damage by taking short fights, however, the enemy team will usually still have an edge during them."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Deckard tends to do well on Maps that feature many choke points, where he is able to get value from Scroll Of Sealing and his Heroic Ability: Stay Awhile and Listen or Lorenado. Battlegrounds with a lot of wide areas (such as Hanamura Temple) will obviously make this characteristic harder to exploit.\n\nThe way Healing Potion works is particularly good when contesting powerful Objectives that take a long time to be secured (for example Shrines on Infernal Shrines). Having to move too much on the battlefield means you will get less value out of the potion-stocking aspect."
+  },
+  "builds": [
+    {
+      "name": "Sapphire Emerald Build",
+      "label": "Recommended",
+      "description": "Deckard's Sapphire Emerald Build increases your burst healing as well as your crowd control and utility. Due to its nature, this Build excels in short team fights.\n\nSapphire at Level 1 can be used to engage for your team and/or as a setup Scroll Of Sealing. Emerald at Level 7 should be used on the kill target, so that the Healer will not be able to save them.\n\nThanks to the Shield it provides, Potion of Shielding at Level 4 helps you keep alive whoever is being focused by enemy Heroes. Horadric Staff at Level 16 can be used to peel for allied Heroes and/or counter-engage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deckard-talent-sapphire",
+              "name": "Sapphire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deckard-talent-potion-of-shielding",
+              "name": "Potion of Shielding",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deckard-talent-emerald",
+              "name": "Emerald",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deckard-talent-stay-awhile-and-listen",
+              "name": "Stay Awhile and Listen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            },
+            {
+              "id": "deckard-talent-lorenado",
+              "name": "Lorenado",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deckard-talent-ancient-blessings",
+              "name": "Ancient Blessings",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-13"
+            },
+            {
+              "id": "deckard-talent-super-healing-potion",
+              "name": "Super Healing Potion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deckard-talent-horadric-staff",
+              "name": "Horadric Staff",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-16"
+            },
+            {
+              "id": "deckard-talent-scroll-of-stone-curse",
+              "name": "Scroll of Stone Curse",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-16"
+            },
+            {
+              "id": "deckard-talent-safety-in-numbers",
+              "name": "Safety in Numbers",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deckard-talent-respect-the-elderly",
+              "name": "Respect the Elderly",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            },
+            {
+              "id": "deckard-talent-morenados",
+              "name": "Morenados!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deckard-cain#55.12!3131331"
+    },
+    {
+      "name": "Ruby Emerald Build",
+      "label": "Situational",
+      "description": "Deckard's Ruby Emerald Build increases your sustain healing and utility at the cost of crowd control. Due to its nature, this Build excels in long team fights.\n\nRuby at Level 4 is best used on multiple enemy Heroes when they are surrounding allied Heroes, to spawn more Lesser Healing Potions near your teammates. Emerald at Level 7 should be used on the kill target, so that the Healer will not be able to save them.\n\nField Study at Level 1 increases your Spell Power, which not only increases your damage done with Abilities but also your healing done. Safety in Numbers at Level 16 further increases the value you get from your Basic Abilities by reducing their cooldown.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deckard-talent-field-study",
+              "name": "Field Study",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deckard-talent-ruby",
+              "name": "Ruby",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deckard-talent-emerald",
+              "name": "Emerald",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deckard-talent-stay-awhile-and-listen",
+              "name": "Stay Awhile and Listen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            },
+            {
+              "id": "deckard-talent-lorenado",
+              "name": "Lorenado",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deckard-talent-ancient-blessings",
+              "name": "Ancient Blessings",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-13"
+            },
+            {
+              "id": "deckard-talent-super-healing-potion",
+              "name": "Super Healing Potion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deckard-talent-safety-in-numbers",
+              "name": "Safety in Numbers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deckard-talent-respect-the-elderly",
+              "name": "Respect the Elderly",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            },
+            {
+              "id": "deckard-talent-morenados",
+              "name": "Morenados!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deckard-cain#55.12!2331321"
+    },
+    {
+      "name": "Sapphire Ruby Build",
+      "label": "Situational",
+      "description": "Deckard's Sapphire Ruby Build provides a balanced mix of sustain and burst healing, crowd control, and utility. Due to its nature, this Build excels against 3 or more melee Heroes.\n\nSapphire at Level 1 can be used to engage for your team and/or as a setup Scroll Of Sealing. Ruby at Level 4 is best used on multiple enemy Heroes when they are surrounding allied Heroes, to spawn more Lesser Healing Potions near your teammates.\n\nKanai's Cube at Level 7 is a good defensive tool usable for reducing the effectiveness of dive Heroes. Scroll of Stone Curse at Level 16 can be used to deal damage to enemy Heroes who tend to group while figthing.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deckard-talent-sapphire",
+              "name": "Sapphire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deckard-talent-ruby",
+              "name": "Ruby",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deckard-talent-kanais-cube",
+              "name": "Kanai's Cube",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deckard-talent-stay-awhile-and-listen",
+              "name": "Stay Awhile and Listen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            },
+            {
+              "id": "deckard-talent-lorenado",
+              "name": "Lorenado",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deckard-talent-ancient-blessings",
+              "name": "Ancient Blessings",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-13"
+            },
+            {
+              "id": "deckard-talent-super-healing-potion",
+              "name": "Super Healing Potion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deckard-talent-scroll-of-stone-curse",
+              "name": "Scroll of Stone Curse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deckard-talent-respect-the-elderly",
+              "name": "Respect the Elderly",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            },
+            {
+              "id": "deckard-talent-morenados",
+              "name": "Morenados!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deckard-cain#55.12!3321311"
+    },
+    {
+      "name": "Emerald Build",
+      "label": "Situational",
+      "description": "Deckard's Emerald Build increases your sustain healing and healing reduction. Due to its nature, this Build excels against team compositions featuring multiple Healers.\n\nEmerald at Level 7 should be used on the kill target, so that the Healer will not be able to save them. Once you get Perfect Gems at Level 20, you will be able to reduce enemy healing more often.\n\nSuper Healing Potion at Level 13 and Safety in Numbers at Level 16 combined together will greatly improve your sustain healing, which is great for the long team fights that happen when the enemy team has multiple Healers.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deckard-talent-field-study",
+              "name": "Field Study",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deckard-talent-potion-of-shielding",
+              "name": "Potion of Shielding",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-4"
+            },
+            {
+              "id": "deckard-talent-rejuvenation-potion",
+              "name": "Rejuvenation Potion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deckard-talent-emerald",
+              "name": "Emerald",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deckard-talent-stay-awhile-and-listen",
+              "name": "Stay Awhile and Listen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            },
+            {
+              "id": "deckard-talent-lorenado",
+              "name": "Lorenado",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deckard-talent-super-healing-potion",
+              "name": "Super Healing Potion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deckard-talent-safety-in-numbers",
+              "name": "Safety in Numbers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deckard-talent-perfect-gems",
+              "name": "Perfect Gems",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deckard-cain#55.12!2131124"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Deckard's ARAM Build increases your damage against enemy Heroes who tend to group. This damage scales as the game goes and spikes at Level 16. We find this Build particularly effective when there is another Healer in your team.\n\nThe synergy between Scroll of Identify at Level 1 and Scroll of Stone Curse at Level 16 allows you to deal a lot of damage to enemy Heroes who get caught inside Scroll Of Sealing. Cube Mastery at Level 7 lets you do that more often.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deckard-talent-scroll-of-identify",
+              "name": "Scroll of Identify",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deckard-talent-potion-of-shielding",
+              "name": "Potion of Shielding",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-4"
+            },
+            {
+              "id": "deckard-talent-rejuvenation-potion",
+              "name": "Rejuvenation Potion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-4"
+            },
+            {
+              "id": "deckard-talent-ruby",
+              "name": "Ruby",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deckard-talent-cube-mastery",
+              "name": "Cube Mastery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deckard-talent-stay-awhile-and-listen",
+              "name": "Stay Awhile and Listen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            },
+            {
+              "id": "deckard-talent-lorenado",
+              "name": "Lorenado",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deckard-talent-super-healing-potion",
+              "name": "Super Healing Potion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deckard-talent-scroll-of-stone-curse",
+              "name": "Scroll of Stone Curse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deckard-talent-bottomless-flask",
+              "name": "Bottomless Flask",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            },
+            {
+              "id": "deckard-talent-respect-the-elderly",
+              "name": "Respect the Elderly",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            },
+            {
+              "id": "deckard-talent-morenados",
+              "name": "Morenados!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deckard-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deckard-cain#55.12!1111113"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/deckard-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:57:54.316074+00:00",
+    "updated_at": "2026-01-27T10:35:00+00:00",
+    "author_line": "Last updated on Jan 27, 2026 at 10:35 by Elitesparkle"
+  }
+}

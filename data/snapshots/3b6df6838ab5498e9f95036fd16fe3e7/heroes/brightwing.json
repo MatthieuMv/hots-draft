@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "id": "brightwing",
+  "name": "Brightwing",
+  "role": "Healer",
+  "overview": "Brightwing is a ranged Healer with strong global presence. She is capable of continually healing nearby allies without using Mana and protect them against enemy crowd control effects, due to her Soothing Mist Trait. Her ability to teleport to an allied Hero across the entire map makes Brightwing a very mobile Hero that excels on large battlegrounds, like Cursed Hollow.",
+  "strengths": [
+    "Great split-pushing potential",
+    "Soothing Mist does not require any Mana",
+    "Strong disengage thanks to Emerald Wind",
+    "Reliable crowd control with Polymorph",
+    "Built-in Cleanse that breaks Stuns, Slows, Roots, and Silences every 75 seconds",
+    "Allows a variety of talent builds depending on the game situation"
+  ],
+  "weaknesses": [
+    "Cannot use a mount",
+    "Requires a lot of map awareness",
+    "Her burst or sustained healing takes time or channeling to be applied",
+    "Fairly high skill cap compared to other Healers",
+    "Requires good positioning"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "cho",
+        "name": "Cho"
+      },
+      {
+        "id": "stitches",
+        "name": "Stitches"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      }
+    ],
+    "explanation": "Since Brightwing's Phase Shift heals based on the target's maximum Health, she is excellent with high-health Heroes, like Diablo, Stitches, or Cho. Furthermore, through her global mobility she provides good support for dives, being a good pick with Heroes that excel at that, like Genji or Tracer."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      }
+    ],
+    "explanation": "Brightwing gets countered by crowd control heavy Tanks that cannot have their engages canceled by Polymorph, such as Anub'arak, Johanna, or E.T.C.."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Brightwing does particularly well on larger Maps like Towers of Doom or Warhead Junction, on which she can use her global mobility to great effect. On rotation-heavy maps like Tomb of the Spider Queen, Brightwing's inability to use a mount can often slow her down, making her a liability against aggressive pushing compositions."
+  },
+  "builds": [
+    {
+      "name": "Critical Mist Build",
+      "label": "Recommended",
+      "description": "Brightwing's Critical Mist Build, thanks to Critical Mist, focuses on denying crowd control engages from enemies while providing good healing for your team. It is a great option against compositions with many different area of effect Stuns (like Blaze and E.T.C. have) or Roots.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "brightwing-talent-hyper-shift",
+              "name": "Hyper Shift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "brightwing-talent-magic-spit",
+              "name": "Magic Spit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "brightwing-talent-critical-mist",
+              "name": "Critical Mist",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "brightwing-talent-blink-heal",
+              "name": "Blink Heal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-10"
+            },
+            {
+              "id": "brightwing-talent-emerald-wind",
+              "name": "Emerald Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "brightwing-talent-safety-dust",
+              "name": "Safety Dust",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            },
+            {
+              "id": "brightwing-talent-pixie-power",
+              "name": "Pixie Power",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            },
+            {
+              "id": "brightwing-talent-pixie-boost",
+              "name": "Pixie Boost",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "brightwing-talent-critterize",
+              "name": "Critterize",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            },
+            {
+              "id": "brightwing-talent-hush",
+              "name": "Hush!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            },
+            {
+              "id": "brightwing-talent-phase-out",
+              "name": "Phase Out",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "brightwing-talent-invisible-friends",
+              "name": "Invisible Friends",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            },
+            {
+              "id": "brightwing-talent-faerie-protector",
+              "name": "Faerie Protector",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            },
+            {
+              "id": "brightwing-talent-intensive-winds",
+              "name": "Intensive Winds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/brightwing#55.12!2331221"
+    },
+    {
+      "name": "Teleport Build",
+      "label": "Situational",
+      "description": "Brightwing's Teleport Build focuses on providing great global mobility, which becomes particularly useful on larger Maps like Cursed Hollow, Garden of Terror, or the medium-sized Infernal Shrines.\n\nAt Level 16, we mention Critterize as the main Talent, since it will greatly enhance Brightwing's capabilities to kill any targeted Hero. However, Hush! is a great option if your team is more focused on dealing sustain damage, instead of on blowing up a target. Phase Out is not necessary, but is an option if you are being the target very often.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "brightwing-talent-hyper-shift",
+              "name": "Hyper Shift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "brightwing-talent-unstable-anomaly",
+              "name": "Unstable Anomaly",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-4"
+            },
+            {
+              "id": "brightwing-talent-dream-shot",
+              "name": "Dream Shot",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "brightwing-talent-peekaboo",
+              "name": "Peekaboo!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "brightwing-talent-blink-heal",
+              "name": "Blink Heal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-10"
+            },
+            {
+              "id": "brightwing-talent-emerald-wind",
+              "name": "Emerald Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "brightwing-talent-safety-dust",
+              "name": "Safety Dust",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            },
+            {
+              "id": "brightwing-talent-pixie-power",
+              "name": "Pixie Power",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            },
+            {
+              "id": "brightwing-talent-pixie-boost",
+              "name": "Pixie Boost",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "brightwing-talent-critterize",
+              "name": "Critterize",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            },
+            {
+              "id": "brightwing-talent-hush",
+              "name": "Hush!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            },
+            {
+              "id": "brightwing-talent-phase-out",
+              "name": "Phase Out",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "brightwing-talent-invisible-friends",
+              "name": "Invisible Friends",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            },
+            {
+              "id": "brightwing-talent-speedy-dragon",
+              "name": "Speedy Dragon",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            },
+            {
+              "id": "brightwing-talent-intensive-winds",
+              "name": "Intensive Winds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/brightwing#55.12!2221221"
+    },
+    {
+      "name": "Arcane Flare Build",
+      "label": "Situational",
+      "description": "The Arcane Flare Build emphasizes Brightwing's unexpectedly strong damage and crowd control when combining several Q-based talents such as Dream Shot at Level 4, Sticky Flare at Level 7, and Hush! at Level 16. Phase Out can be a helpful defensive talent to pick up at Level 16, since casting Blink Heal may sometimes cause Brightwing to get too close to the enemy team.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "brightwing-talent-hyper-shift",
+              "name": "Hyper Shift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-1"
+            },
+            {
+              "id": "brightwing-talent-pixie-charm",
+              "name": "Pixie Charm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "brightwing-talent-dream-shot",
+              "name": "Dream Shot",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "brightwing-talent-sticky-flare",
+              "name": "Sticky Flare",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-7"
+            },
+            {
+              "id": "brightwing-talent-peekaboo",
+              "name": "Peekaboo!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "brightwing-talent-blink-heal",
+              "name": "Blink Heal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "brightwing-talent-safety-dust",
+              "name": "Safety Dust",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            },
+            {
+              "id": "brightwing-talent-pixie-power",
+              "name": "Pixie Power",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            },
+            {
+              "id": "brightwing-talent-pixie-boost",
+              "name": "Pixie Boost",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "brightwing-talent-hush",
+              "name": "Hush!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            },
+            {
+              "id": "brightwing-talent-phase-out",
+              "name": "Phase Out",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "brightwing-talent-invisible-friends",
+              "name": "Invisible Friends",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/brightwing#55.12!2111211"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Brightwing's ARAM Build takes advantage of your team being grouped at all times, allowing you to consistently heal everyone with Critical Mist's activation.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "brightwing-talent-hyper-shift",
+              "name": "Hyper Shift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "brightwing-talent-magic-spit",
+              "name": "Magic Spit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "brightwing-talent-critical-mist",
+              "name": "Critical Mist",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "brightwing-talent-blink-heal",
+              "name": "Blink Heal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-10"
+            },
+            {
+              "id": "brightwing-talent-emerald-wind",
+              "name": "Emerald Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "brightwing-talent-safety-dust",
+              "name": "Safety Dust",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            },
+            {
+              "id": "brightwing-talent-pixie-power",
+              "name": "Pixie Power",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            },
+            {
+              "id": "brightwing-talent-pixie-boost",
+              "name": "Pixie Boost",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "brightwing-talent-critterize",
+              "name": "Critterize",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            },
+            {
+              "id": "brightwing-talent-hush",
+              "name": "Hush!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            },
+            {
+              "id": "brightwing-talent-phase-out",
+              "name": "Phase Out",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "brightwing-talent-invisible-friends",
+              "name": "Invisible Friends",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            },
+            {
+              "id": "brightwing-talent-faerie-protector",
+              "name": "Faerie Protector",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            },
+            {
+              "id": "brightwing-talent-intensive-winds",
+              "name": "Intensive Winds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/brightwing-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/brightwing#55.12!2331221"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/brightwing-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:09.898302+00:00",
+    "updated_at": "2025-05-31T09:54:00+00:00",
+    "author_line": "Last updated on May 31, 2025 at 09:54 by Derenash"
+  }
+}

@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "id": "lunara",
+  "name": "Lunara",
+  "role": "Ranged Assassin",
+  "overview": "Lunara is a Ranged Assassin who relies on her high Movement Speed and damage over time abilities to fight her enemies from a large distance. She combines the ability to grant vision to her team with strong Basic Attacks and outstanding maneuverability, especially during the later stages of the game. As most ranged Assassins, she requires good positioning and map awareness in order to unfold her true strength. Lunara is a challenging Hero to master, however, she is a very rewarding Assassin, capable of having a massive impact on team fights and skirmishes.",
+  "strengths": [
+    "Strong sustain DPS in teamfights",
+    "Good PvE ability with dedicated Talents",
+    "Very mobile due to Trait"
+  ],
+  "weaknesses": [
+    "Susceptible to crowd control",
+    "Fairly high learning curve",
+    "No real burst damage",
+    "Requires good positioning"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      }
+    ],
+    "explanation": "Lunara works with a variety of different Heroes and team compositions, however, she truly shines if paired with crowd control heavy Heroes such as Arthas, Jaina, or Muradin who all provide plenty of Slow for Lunara's Unfair Advantage talent at Level 16 to get value from."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      }
+    ],
+    "explanation": "Lunara gets countered by two things: mobile Assassins like Illidan or Genji that can chase her down even after she used Leaping Strike and strong AoE healing provided by Healers like Malfurion or Stukov who can shut down Nature's Toxin's poison damage."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Lunara performs quite well on most maps with the exception of Warhead Junction where the fact that Lunara cannot use a mount causes her to feel very clunky and slow. On Battlefield of Eternity, however, Lunara feels even more powerful than on other battlegrounds thanks to her Level 4 talent Nature's Culling, which allows her to inflict heavy damage onto enemy Immortals."
+  },
+  "builds": [
+    {
+      "name": "Noxious Blossom Build",
+      "label": "Recommended",
+      "description": "Lunara's Noxious Blossom Build turns her into a sort of hybrid damage class. Your main focus should be keeping up stacks through Basic Attacks thus activating the damage portion of Choking Pollen to deal some great burst damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lunara-talent-sentinel-wisp",
+              "name": "Sentinel Wisp",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            },
+            {
+              "id": "lunara-talent-hippity-hop",
+              "name": "Hippity Hop",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            },
+            {
+              "id": "lunara-talent-natural-perspective",
+              "name": "Natural Perspective",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lunara-talent-blossom-swell",
+              "name": "Blossom Swell",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lunara-talent-choking-pollen",
+              "name": "Choking Pollen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lunara-talent-thornwood-vine",
+              "name": "Thornwood Vine",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-10"
+            },
+            {
+              "id": "lunara-talent-leaping-strike",
+              "name": "Leaping Strike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lunara-talent-let-them-wither",
+              "name": "Let Them Wither",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            },
+            {
+              "id": "lunara-talent-greater-spell-shield",
+              "name": "Greater Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            },
+            {
+              "id": "lunara-talent-abolish-magic",
+              "name": "Abolish Magic",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lunara-talent-accelerated-contamination",
+              "name": "Accelerated Contamination",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lunara-talent-for-the-wildlands",
+              "name": "For the Wildlands",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            },
+            {
+              "id": "lunara-talent-intensifying-toxin",
+              "name": "Intensifying Toxin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            },
+            {
+              "id": "lunara-talent-forests-wrath",
+              "name": "Forest's Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lunara#32.3!1121211"
+    },
+    {
+      "name": "Standard Auto Attack Build",
+      "label": "Beginner",
+      "description": "The Standard Auto Attack Build is where Lunara shines the brightest. Focusing on enhancing her auto attack damage, Lunara can quickly stack up Nature's Toxin, activating Choking Pollen's extra damage. After level 16, Lunara can shred tanks through Invigorating Spores.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lunara-talent-sentinel-wisp",
+              "name": "Sentinel Wisp",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            },
+            {
+              "id": "lunara-talent-hippity-hop",
+              "name": "Hippity Hop",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            },
+            {
+              "id": "lunara-talent-natural-perspective",
+              "name": "Natural Perspective",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lunara-talent-natures-culling",
+              "name": "Nature's Culling",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lunara-talent-choking-pollen",
+              "name": "Choking Pollen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-7"
+            },
+            {
+              "id": "lunara-talent-wild-vigor",
+              "name": "Wild Vigor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lunara-talent-thornwood-vine",
+              "name": "Thornwood Vine",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-10"
+            },
+            {
+              "id": "lunara-talent-leaping-strike",
+              "name": "Leaping Strike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lunara-talent-let-them-wither",
+              "name": "Let Them Wither",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            },
+            {
+              "id": "lunara-talent-greater-spell-shield",
+              "name": "Greater Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            },
+            {
+              "id": "lunara-talent-abolish-magic",
+              "name": "Abolish Magic",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lunara-talent-invigorating-spores",
+              "name": "Invigorating Spores",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-16"
+            },
+            {
+              "id": "lunara-talent-star-wood-spear",
+              "name": "Star Wood Spear",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lunara-talent-for-the-wildlands",
+              "name": "For the Wildlands",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            },
+            {
+              "id": "lunara-talent-intensifying-toxin",
+              "name": "Intensifying Toxin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            },
+            {
+              "id": "lunara-talent-forests-wrath",
+              "name": "Forest's Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lunara#32.3!1221231"
+    },
+    {
+      "name": "Nature's Toxin Build",
+      "label": "Situational",
+      "description": "The Nature's Toxin Build enhances Lunara's trait damage. Focus on stacking up her poison on all enemies rewards you greatly once at 3 stacks, slowly withering the enemies down. Leaping Strike is the most viable Heroic ability due to the small burst damage it has and also allows you to stick on a target in case they were to flee.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lunara-talent-sentinel-wisp",
+              "name": "Sentinel Wisp",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            },
+            {
+              "id": "lunara-talent-hippity-hop",
+              "name": "Hippity Hop",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            },
+            {
+              "id": "lunara-talent-natural-perspective",
+              "name": "Natural Perspective",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lunara-talent-natures-culling",
+              "name": "Nature's Culling",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lunara-talent-splintered-spear",
+              "name": "Splintered Spear",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lunara-talent-thornwood-vine",
+              "name": "Thornwood Vine",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-10"
+            },
+            {
+              "id": "lunara-talent-leaping-strike",
+              "name": "Leaping Strike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lunara-talent-let-them-wither",
+              "name": "Let Them Wither",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            },
+            {
+              "id": "lunara-talent-greater-spell-shield",
+              "name": "Greater Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            },
+            {
+              "id": "lunara-talent-abolish-magic",
+              "name": "Abolish Magic",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lunara-talent-unfair-advantage",
+              "name": "Unfair Advantage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lunara-talent-for-the-wildlands",
+              "name": "For the Wildlands",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            },
+            {
+              "id": "lunara-talent-intensifying-toxin",
+              "name": "Intensifying Toxin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            },
+            {
+              "id": "lunara-talent-forests-wrath",
+              "name": "Forest's Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lunara#32.3!1211241"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "The ARAM Build enhances Lunara's trait damage. Focus on stacking up her poison on all enemies, as it rewards you greatly while at 3 stacks, slowly withering the enemies down. Leaping Strike is the most viable Heroic ability due to the small burst damage it has and also allows you to stick on a target in case they were to flee.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "lunara-talent-natural-perspective",
+              "name": "Natural Perspective",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            },
+            {
+              "id": "lunara-talent-sentinel-wisp",
+              "name": "Sentinel Wisp",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "lunara-talent-blossom-swell",
+              "name": "Blossom Swell",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-4"
+            },
+            {
+              "id": "lunara-talent-natures-culling",
+              "name": "Nature's Culling",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-4"
+            },
+            {
+              "id": "lunara-talent-siphoning-toxin",
+              "name": "Siphoning Toxin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "lunara-talent-splintered-spear",
+              "name": "Splintered Spear",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "lunara-talent-thornwood-vine",
+              "name": "Thornwood Vine",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-10"
+            },
+            {
+              "id": "lunara-talent-leaping-strike",
+              "name": "Leaping Strike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "lunara-talent-let-them-wither",
+              "name": "Let Them Wither",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            },
+            {
+              "id": "lunara-talent-greater-spell-shield",
+              "name": "Greater Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            },
+            {
+              "id": "lunara-talent-abolish-magic",
+              "name": "Abolish Magic",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "lunara-talent-unfair-advantage",
+              "name": "Unfair Advantage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "lunara-talent-for-the-wildlands",
+              "name": "For the Wildlands",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            },
+            {
+              "id": "lunara-talent-intensifying-toxin",
+              "name": "Intensifying Toxin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            },
+            {
+              "id": "lunara-talent-forests-wrath",
+              "name": "Forest's Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/lunara-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/lunara#32.3!2111241"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/lunara-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:23.353777+00:00",
+    "updated_at": "2025-05-21T11:00:00+00:00",
+    "author_line": "Last updated on May 21, 2025 at 11:00 by Outofmilk"
+  }
+}

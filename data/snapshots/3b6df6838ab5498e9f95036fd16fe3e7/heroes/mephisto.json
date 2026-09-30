@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "id": "mephisto",
+  "name": "Mephisto",
+  "role": "Ranged Assassin",
+  "overview": "Mephisto is a ranged Assassin who excels at following up allies' ability-chains. In other words, he works well in team compositions that are designed for \"wombo combo\". Mephisto can be devastating to the enemy team when his attacks are carefully planned. However, poor positioning and hasty use of Shade of Mephisto are easily punished by enemy Heroes who have had enough of the Lord of Hatred.",
+  "strengths": [
+    "Lord Of Hatred allows for liberal use of Basic Abilities",
+    "Decent waveclear from Basic Abilities",
+    "Has great follow-up",
+    "Can secure takedowns on enemy Heroes globally with Consume Souls",
+    "Can secure takedowns on fleeing enemies with Shade of Mephisto"
+  ],
+  "weaknesses": [
+    "Somewhat reliant on allies for set-up",
+    "Shade of Mephisto is easy to punish if enemies can see initial cast location",
+    "Poor ability to solo-capture Mercenary Camps",
+    "Susceptible to burst damage",
+    "Susceptible to ganks when solo-laning"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "zarya",
+        "name": "Zarya"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      }
+    ],
+    "explanation": "Both of Mephisto's Heroics are excellent follow-ups, and can be devastating to enemies caught by setup Heroics like E.T.C.'s Mosh Pit, Zarya's Graviton Surge, Deckard's Stay Awhile and Listen, and Diablo's Apocalypse. Mephisto's Basic Abilities also greatly benefit from strong crowd-control."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "kel-thuzad",
+        "name": "Kel'Thuzad"
+      },
+      {
+        "id": "junkrat",
+        "name": "Junkrat"
+      },
+      {
+        "id": "stitches",
+        "name": "Stitches"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      }
+    ],
+    "explanation": "Mephisto can be countered by Heroes who can quickly close into melee range, as they will avoid taking damage from Lightning Nova. The most effective counters will be able to survive some damage from Mephisto's teammates if they attempt to help him. Other heroes such as Kael'thas or Kel'thuzad can use their abilities on the shade right before Mephisto returns. Junkrat is able to place a mine on the shade and Displace you back to where you teleported. Stitches and Anub'arak are able to either Gorge or Cocoon after you cast Shade of Mephisto, negating the return teleport."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Mephisto does well on maps that force teams to fight for objectives in confined areas. These maps make it very easy for him to land his Abilities on enemy Heroes. Mephisto may struggle on maps with wide open areas, where enemies can freely reposition to avoid a lot of Mephisto's damage. Mephisto is rather unremarkable with regard to his interaction with Battlegrounds. He is not capable of solo capturing Mercenary Camps efficiently, but he does have an acceptable amount of waveclear."
+  },
+  "builds": [
+    {
+      "name": "Skull Missile Build",
+      "label": "Recommended",
+      "description": "The Skull Missile build focuses on buffing up Mephisto's Skull Missile. Through the level 1 Quest, we get an extra charge of Skull Missile. Combination with the later Talents turns Mephisto into a Hero with strong burst capabilities. The core strength of the build shows up at level 16; should you have the level 1 quest completed, everytime you dive in and are able to land your abilities, you turn Mephisto into a Skull Missile machine-gun.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "mephisto-talent-unyielding-power",
+              "name": "Unyielding Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "mephisto-talent-spite",
+              "name": "Spite",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "mephisto-talent-trickery",
+              "name": "Trickery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-7"
+            },
+            {
+              "id": "mephisto-talent-ghastly-armor",
+              "name": "Ghastly Armor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-7"
+            },
+            {
+              "id": "mephisto-talent-frost-storm",
+              "name": "Frost Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "mephisto-talent-durance-of-hate",
+              "name": "Durance of Hate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-10"
+            },
+            {
+              "id": "mephisto-talent-consume-souls",
+              "name": "Consume Souls",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "mephisto-talent-abhorred-skull",
+              "name": "Abhorred Skull",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "mephisto-talent-lightning-reaction",
+              "name": "Lightning Reaction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "mephisto-talent-unspeakable-horror",
+              "name": "Unspeakable Horror",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-20"
+            },
+            {
+              "id": "mephisto-talent-consumed-by-hatred",
+              "name": "Consumed by Hatred",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/mephisto#46.1!1332112"
+    },
+    {
+      "name": "Standard Lightning Nova Build",
+      "label": "Advanced",
+      "description": "The Lightning Nova focuses heavily on sticking to your enemies with your Nova, rewarding you greatly for doing so. Frost Storm makes it much easier to keep Lightning Nova applied to enemies for maximum damage, but any of the Level 7 options can be very useful depending on the team compositions. Shard of Hate helps out with reducing the basic ability cooldowns of Mephisto, allowing you to dive in more often with Shade of Mephisto. Static Field greatly enhances the damage and effective area of Lightning Nova. Once Mephisto has Mimic, it becomes possible for him to completely reset the cooldowns of Lightning Nova and Shade of Mephisto. At this point, his Health and Mana are the only things limiting his ability to keep two Lightning Novas active throughout a team fight.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "mephisto-talent-furious-spark",
+              "name": "Furious Spark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "mephisto-talent-static-barrier",
+              "name": "Static Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "mephisto-talent-trickery",
+              "name": "Trickery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-7"
+            },
+            {
+              "id": "mephisto-talent-ghastly-armor",
+              "name": "Ghastly Armor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-7"
+            },
+            {
+              "id": "mephisto-talent-frost-storm",
+              "name": "Frost Storm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "mephisto-talent-durance-of-hate",
+              "name": "Durance of Hate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "mephisto-talent-shard-of-hate",
+              "name": "Shard of Hate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "mephisto-talent-static-field",
+              "name": "Static Field",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "mephisto-talent-mimic",
+              "name": "Mimic",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/mephisto#46.1!2232323"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "The ARAM Build focuses on Skull Missile and Mephisto's Trait. This allows for massive poke opportunities and more frequent usage of his Heroic Ability.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "mephisto-talent-unyielding-power",
+              "name": "Unyielding Power",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "mephisto-talent-hateful-mending",
+              "name": "Hateful Mending",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "mephisto-talent-ghastly-armor",
+              "name": "Ghastly Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "mephisto-talent-consume-souls",
+              "name": "Consume Souls",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "mephisto-talent-hysteria",
+              "name": "Hysteria",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "mephisto-talent-lightning-reaction",
+              "name": "Lightning Reaction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "mephisto-talent-consumed-by-hatred",
+              "name": "Consumed by Hatred",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/mephisto-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/mephisto#46.1!1111211"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/mephisto-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:06.227143+00:00",
+    "updated_at": "2021-03-07T03:08:00+00:00",
+    "author_line": "Last updated on Mar 07, 2021 at 03:08 by Outofmilk"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "id": "murky",
+  "name": "Murky",
+  "role": "Melee Assassin",
+  "overview": "Murky is a Melee Assassin that excels at frustrating his opponents. Uniquely designed, he is adept at attracting the attention of enemy players, causing them to behave inefficiently to respond to his abrasive presence. Murky's allies must capitalise on the fact that he thrives in attrition battles; even if his attributes and damage values are limited, his Hero Trait, Spawn Egg, makes it so that he is never away from battle for long when killed.",
+  "strengths": [
+    "Good waveclear",
+    "Strong revival mechanic in the form of Spawn Egg",
+    "Has access to Octo-Grab, one of the strongest Heroic Abilities in the game",
+    "Abilities have no Mana cost",
+    "Generally very threatening late-game presence"
+  ],
+  "weaknesses": [
+    "Extremely fragile; by far the lowest amount of Health amongst all Heroes",
+    "Inept at carrying coin-like Objectives, which are dropped on death",
+    "Several conditions may limit his damage potential",
+    "Underwhelming early-game presence",
+    "Distinct playstyle to which your team must adapt"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "zarya",
+        "name": "Zarya"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      }
+    ],
+    "explanation": "Murky's small Health pool benefits from any effect that can mitigate incoming damage (for example Blinds, Armor, or Shields)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      }
+    ],
+    "explanation": "Murky's predictable attack plan and his dependency on remaining within close range of his targets to effectively deal damage make him vulnerable to most high damage Hero with some way of kiting him or quickly destroying Pufferfish."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Murky needs to scale for being impactful in team fights and that Murky's main strengths in the early game are gank resistance and waveclear. As such, Murky does great on late game Maps, especially if it possible to double soak, and does poorly on early game Maps.\n\nSince one of Murky's main strengths is the ability to quickly respawn from Spawn Egg, he is not a great choice on Maps where the Objective consists of items that need to be collected and are lost on death (Coins on Blackheart's Bay, Gems on Tomb of the Spider Queen, Warheads on Warhead Junction) because they require you to play safe."
+  },
+  "builds": [
+    {
+      "name": "Slime Build",
+      "label": "Recommended",
+      "description": "Murky's Slime Build is designed to increase his survivability during team fights, especially if he happens to hit multiple enemies with Slime. This allows Murky to be quite annoying when he does not get killed quickly.\n\nIn order to stack Slime Time at Level 4, try to hit enemy Heroes with Slime when there are no enemy Minions to clear. The range from Black Lagoon at Level 7 makes it easier to hit enemy Heroes with Slime. Toxic Buildup at Level 16 and Making Inky at Level 20 increase your damage output.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "murky-talent-a-fishy-deal",
+              "name": "A Fishy Deal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-1"
+            },
+            {
+              "id": "murky-talent-fish-eye",
+              "name": "Fish Eye",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "murky-talent-slime-time",
+              "name": "Slime Time",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "murky-talent-black-lagoon",
+              "name": "Black Lagoon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "murky-talent-march-of-the-murlocs",
+              "name": "March of the Murlocs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "murky-talent-fish-tank",
+              "name": "Fish Tank",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "murky-talent-toxic-buildup",
+              "name": "Toxic Buildup",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "murky-talent-making-inky",
+              "name": "Making Inky",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/murky#55.15!3111313"
+    },
+    {
+      "name": "Pufferfish Build",
+      "label": "Advanced",
+      "description": "Murky's Pufferfish Build is designed to empower your waveclear and, more in general, your macro impact on the game. This allows Murky to put a lot of pressure on the enemy team outside of team fights.\n\nTufferfish at Level 4 increases your waveclear. Fish Oil at Level 16 allows you to clear Minions by just using Pufferfish. Faster Fish at Level 20 makes Pufferfish more reliable against enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "murky-talent-a-fishy-deal",
+              "name": "A Fishy Deal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-1"
+            },
+            {
+              "id": "murky-talent-fish-eye",
+              "name": "Fish Eye",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "murky-talent-tufferfish",
+              "name": "Tufferfish",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "murky-talent-slippery-when-wet",
+              "name": "Slippery When Wet",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "murky-talent-march-of-the-murlocs",
+              "name": "March of the Murlocs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-10"
+            },
+            {
+              "id": "murky-talent-octo-grab",
+              "name": "Octo-Grab",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "murky-talent-rejuvenating-bubble",
+              "name": "Rejuvenating Bubble",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "murky-talent-fish-oil",
+              "name": "Fish Oil",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "murky-talent-faster-fish",
+              "name": "Faster Fish",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/murky#55.15!3221124"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Murky's ARAM Build is designed to increase his survivability during team fights, especially if he happens to hit multiple enemies with Slime. This allows Murky to be quite annoying when he does not get killed quickly.\n\nIn order to stack Slime Time at Level 4, try to hit enemy Heroes with Slime when there are no enemy Minions to clear. The range from Black Lagoon at Level 7 makes it easier to hit enemy Heroes with Slime. Toxic Buildup at Level 16 and Making Inky at Level 20 increase your damage output.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "murky-talent-fish-eye",
+              "name": "Fish Eye",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "murky-talent-slime-time",
+              "name": "Slime Time",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "murky-talent-black-lagoon",
+              "name": "Black Lagoon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "murky-talent-march-of-the-murlocs",
+              "name": "March of the Murlocs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "murky-talent-fish-tank",
+              "name": "Fish Tank",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "murky-talent-toxic-buildup",
+              "name": "Toxic Buildup",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "murky-talent-making-inky",
+              "name": "Making Inky",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/murky-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/murky#55.15!1111313"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/murky-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:08.236064+00:00",
+    "updated_at": "2026-09-21T23:15:00+00:00",
+    "author_line": "Last updated on Sep 21, 2026 at 23:15 by Elitesparkle"
+  }
+}

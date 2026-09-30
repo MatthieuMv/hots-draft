@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "id": "tyrande",
+  "name": "Tyrande",
+  "role": "Healer",
+  "overview": "Tyrande is a ranged Healer that offers an exceptional amount of utility. She is capable of providing vision for the rest of her team, healing wounded teammates, and disrupting enemy Heroes by Stunning and Slowing them. Tyrande is a very versatile Hero which allows her to adapt to the course of the game very well. Her strong crowd control and her ability to keep track of the enemy team's movements make up for her low Health pool and lack of mobility.",
+  "strengths": [
+    "Sentinel is a useful scouting Ability",
+    "Lunar Flare works incredibly well with other crowd control Abilities",
+    "Hunter's Mark significantly increases her team's damage when focusing on a single enemy target",
+    "Great single target healing",
+    "Access to a low-cooldown cleanse effect at Level 16",
+    "Is the only hero that can reliably increase Basic Attack Damage of allies"
+  ],
+  "weaknesses": [
+    "Lacks any form of escape ability",
+    "Bad waveclear",
+    "High learning curve",
+    "Requires a lot of map awareness",
+    "very susceptible to dives"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      }
+    ],
+    "explanation": "Tyrande synergizes very well with Tanks like Diablo, E.T.C., or Varian, whose initiation Abilities lay a perfect foundation for Lunar Flare's Stun effect. Burst-oriented Assassins can easily capitalize on Hunter's Mark Armor Reduction, while Basic Attack-heavy Heroes benefit from Trueshot Aura's 40% damage increase for 5 seconds."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "fenix",
+        "name": "Fenix"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      }
+    ],
+    "explanation": "Tyrande struggles against heavy dive Heroes, that can easily reach her, such as Anub'arak or Maiev. Despite that, since Tyrande lacks AoE healing, she also suffers against Heroes like Fenix or Lunara, that can damage all of her team at the same time."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Tyrande is great on smaller maps like Dragon Shire or Tomb of the Spider Queen that focus a lot on early game rotations. These frequent skirmishes also help her stack Lunar Flare's Quest early. Thanks to Hunter's Mark and Lunar Flare, she excels at taking down enemy Heroes with other crowd control abilities.\n\nHunter's Mark can also be applied to non-Heroic targets, such as Bosses, Immortals, or Punishers, which makes Tyrande a powerful pick on Battlefield of Eternity. When combined with Trueshot Aura, your team can quickly burn these high-Health targets during the 40% extra damage window. She is also excellent on maps where Objectives keep Minions nearby, allowing safer cooldown refunds while healing her team, such as Infernal Shrines or Tomb of the Spider Queen."
+  },
+  "builds": [
+    {
+      "name": "Hunter Build",
+      "label": "Recommended",
+      "description": "Tyrande's Hunter Build focuses on maximizing Hunter's Mark uptime to enable multiple Lunar Flare casts during team fights. It also provides strong healing through the Level 4 and Level 7 Talents, especially when you can attack without being punished.\n\nThis build encourages frequent use of Lunar Flare during team fights, enabled by the cooldown reduction from Ranger's Mark. In most fights, place Hunter's Mark on the enemy Tank to heal your frontline while applying pressure. When your frontline engages, use Hunter's Mark and immediately activate Trueshot Aura. Save the refreshed Hunter's Mark to follow up on another target if the original Mark target can no longer be hit.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tyrande-talent-trueshot-aura",
+              "name": "Trueshot Aura",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tyrande-talent-mark-of-mending",
+              "name": "Mark of Mending",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tyrande-talent-huntress-fury",
+              "name": "Huntress' Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tyrande-talent-starfall",
+              "name": "Starfall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-10"
+            },
+            {
+              "id": "tyrande-talent-shadowstalk",
+              "name": "Shadowstalk",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tyrande-talent-rangers-mark",
+              "name": "Ranger's Mark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tyrande-talent-celestial-attunement",
+              "name": "Celestial Attunement",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-16"
+            },
+            {
+              "id": "tyrande-talent-empower",
+              "name": "Empower",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-16"
+            },
+            {
+              "id": "tyrande-talent-darnassian-archery",
+              "name": "Darnassian Archery",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tyrande-talent-celestial-wrath",
+              "name": "Celestial Wrath",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-20"
+            },
+            {
+              "id": "tyrande-talent-iceblade-arrows",
+              "name": "Iceblade Arrows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tyrande#55.16!3232312"
+    },
+    {
+      "name": "Ranger Build",
+      "label": "Situational",
+      "description": "Tyrande's Ranger Build is completely focused on maximizing her Sentinel's power. While Ranger and Empower add some decent extra damage to Sentinel, Harsh Moonlight will greatly reduce the damage and Movement Speed of up to two enemies. After Level 13, Sentinel can be used either to peel teammates, to engage enemies, or to Slow down fleeing Heroes so your allies can easily finish them.\n\nSince this build revolves around Sentinel, prioritize stacking Lunar Flare early and secure the 20-Hero hits milestone quickly to unlock piercing for the mid and late-game. At Level 20, Commander of Sentinels adds a second Sentinel charge, turning Tyrande into a serious threat once that milestone is reached.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tyrande-talent-ranger",
+              "name": "Ranger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tyrande-talent-elunes-chosen",
+              "name": "Elune's Chosen",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-4"
+            },
+            {
+              "id": "tyrande-talent-mark-of-mending",
+              "name": "Mark of Mending",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tyrande-talent-elunes-gift",
+              "name": "Elune's Gift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-7"
+            },
+            {
+              "id": "tyrande-talent-kaldorei-resistance",
+              "name": "Kaldorei Resistance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-7"
+            },
+            {
+              "id": "tyrande-talent-huntress-fury",
+              "name": "Huntress' Fury",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tyrande-talent-shadowstalk",
+              "name": "Shadowstalk",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-10"
+            },
+            {
+              "id": "tyrande-talent-starfall",
+              "name": "Starfall",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tyrande-talent-harsh-moonlight",
+              "name": "Harsh Moonlight",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tyrande-talent-empower",
+              "name": "Empower",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tyrande-talent-commander-of-sentinels",
+              "name": "Commander of Sentinels",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tyrande#55.16!1311223"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Tyrande's ARAM Build focuses on maximizing Sentinel value. Differently from normal builds, at Level 4, it takes Everlasting Light, as it is the only option that provides reliable healing value without forcing Tyrande to risk positioning to land Basic Attacks. To enable Sentinel's piercing, prioritize stacking Lunar Flare quickly and reach the first 20-Hero hits milestone as soon as possible.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tyrande-talent-ranger",
+              "name": "Ranger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tyrande-talent-everlasting-light",
+              "name": "Everlasting Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-4"
+            },
+            {
+              "id": "tyrande-talent-mark-of-mending",
+              "name": "Mark of Mending",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-4"
+            },
+            {
+              "id": "tyrande-talent-elunes-chosen",
+              "name": "Elune's Chosen",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tyrande-talent-elunes-gift",
+              "name": "Elune's Gift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-7"
+            },
+            {
+              "id": "tyrande-talent-kaldorei-resistance",
+              "name": "Kaldorei Resistance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-7"
+            },
+            {
+              "id": "tyrande-talent-huntress-fury",
+              "name": "Huntress' Fury",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tyrande-talent-starfall",
+              "name": "Starfall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-10"
+            },
+            {
+              "id": "tyrande-talent-shadowstalk",
+              "name": "Shadowstalk",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tyrande-talent-harsh-moonlight",
+              "name": "Harsh Moonlight",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tyrande-talent-empower",
+              "name": "Empower",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tyrande-talent-commander-of-sentinels",
+              "name": "Commander of Sentinels",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrande-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tyrande#55.16!1112223"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/tyrande-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:31.296587+00:00",
+    "updated_at": "2026-05-08T22:50:00+00:00",
+    "author_line": "Last updated on May 08, 2026 at 22:50 by Derenash"
+  }
+}

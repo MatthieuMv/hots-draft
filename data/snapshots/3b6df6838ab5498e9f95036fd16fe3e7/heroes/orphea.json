@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "id": "orphea",
+  "name": "Orphea",
+  "role": "Ranged Assassin",
+  "overview": "Orphea is an odd caster with above-average survivability and high damage output potential but limited access to crowd control. Given that all of Orphea's Abilities have a cast time or delay, they can all be avoided by prepared opponents... unless you are better prepared.",
+  "strengths": [
+    "Powerful burst damage",
+    "High sustain damage potential for a caster",
+    "Excellent waveclear",
+    "Great follow up capacities",
+    "Relatively high survivability"
+  ],
+  "weaknesses": [
+    "All Abilities have a short cast time or delay, making them avoidable",
+    "Very limited access to crowd control",
+    "Relatively short range on most Abilities",
+    "Unable to efficiently claim Mercenary Camps",
+    "Easy to counter, as the main healing source can be countered by having blinds or physical armor",
+    "Particularly weak when playing from behind"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "malganis",
+        "name": "Mal'Ganis"
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "xul",
+        "name": "Xul"
+      }
+    ],
+    "explanation": "Since Orphea depends highly on skillshots to deal damage, she works well with any Hero that can provide reliable crowd control. Her frailty also makes her dependent on other Heroes to peel for her against melee Assassins particularly; Tanks tend to fulfill these two needs, though other Hero types can too."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      }
+    ],
+    "explanation": "Since Orphea relies heavily on skillshots with a cast time to deal damage and on hitting her charged Basic Attacks to heal herself, she is countered by many heroes. Her damage and survivability can be significantly reduced by canceling her abilities, blinding or evading her basic attacks, dashing out of her abilities, chaining crowd control, or using very high range attacks."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Orphea is a strong pick on snowball maps. She excels on maps with important bosses, like Sky Temple and Tomb of the Spider Queen, because her Eternal Feast is excellent in these situations. However, her lack of single-target PvE damage makes her a poor choice on maps like Battlefield of Eternity. As long as another hero can claim Mercenary Camps, she remains a reasonable pick on most maps."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "This build is the most consistent build of them all, it can be used in any game, against any composition. The recommended Heroic is Eternal Feast, however, Crushing Jaws can also be picked to cancel a channeled ability, like Mosh Pit.\n\nAt level 4 Allegrissimo can be chosen if the opposing team does not have any ways to quickly burst Orphea, and if she can consistently hit Shadow Waltz on a large target, like on Deathwing or Diablo. At Level 16 Lurking Terror can be chosen if Orphea's team needs better follow-up on a backliner, like on Hanzo or Valla.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "orphea-talent-ancestral-strength",
+              "name": "Ancestral Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "orphea-talent-backbiter",
+              "name": "Backbiter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-4"
+            },
+            {
+              "id": "orphea-talent-allegrissimo",
+              "name": "Allegrissimo",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "orphea-talent-mind-devourer",
+              "name": "Mind Devourer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "orphea-talent-eternal-feast",
+              "name": "Eternal Feast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-10"
+            },
+            {
+              "id": "orphea-talent-crushing-jaws",
+              "name": "Crushing Jaws",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "orphea-talent-invasive-miasma",
+              "name": "Invasive Miasma",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "orphea-talent-dead-magic",
+              "name": "Dead Magic",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-16"
+            },
+            {
+              "id": "orphea-talent-lurking-terror",
+              "name": "Lurking Terror",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "orphea-talent-monster-within",
+              "name": "Monster Within",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-20"
+            },
+            {
+              "id": "orphea-talent-engulfing-oblivion",
+              "name": "Engulfing Oblivion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/orphea#55.12!3231321"
+    },
+    {
+      "name": "Shadow Waltz Build",
+      "label": "Situational",
+      "description": "Orphea's Shadow Waltz Build focuses on improving sustain damage and chase potential. Even though this build has the highest possible DPS, it is challenging to make it work. Any crowd control greatly reduces Orphea's damage and survivability. Therefore, this build is only recommended for experienced players against compositions with low crowd control.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "orphea-talent-en-pointe",
+              "name": "En Pointe",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "orphea-talent-allegrissimo",
+              "name": "Allegrissimo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "orphea-talent-mind-devourer",
+              "name": "Mind Devourer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "orphea-talent-eternal-feast",
+              "name": "Eternal Feast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-10"
+            },
+            {
+              "id": "orphea-talent-crushing-jaws",
+              "name": "Crushing Jaws",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "orphea-talent-invasive-miasma",
+              "name": "Invasive Miasma",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "orphea-talent-bond-of-anguish",
+              "name": "Bond of Anguish",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "orphea-talent-final-toccata",
+              "name": "Final Toccata",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/orphea#55.12!1131314"
+    },
+    {
+      "name": "Chomp Build",
+      "label": "Beginner",
+      "description": "Orphea's Chomp Build has the best survivability among all Builds, and it is the best for beginners, as its damage is not reliant on hitting Shadow Waltz or Dread. However, it is terrible against enemies with high range, as it requires proximity to them to be useful.\n\nThis build has 2 main power spikes, the first one being on level 7, with Insatiable, which boosts Orphea's damage significantly. The second one is on level 13 with Abyssal Symbiosis, enhancing her survivability. After those levels, it is important to be take advantage of those strengths and focus on punishing enemies that are close to Orphea, as the extra shield and heal ensures that she will survive if not stunned or outnumbered.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "orphea-talent-ancestral-strength",
+              "name": "Ancestral Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "orphea-talent-allegrissimo",
+              "name": "Allegrissimo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-4"
+            },
+            {
+              "id": "orphea-talent-chaotic-assault",
+              "name": "Chaotic Assault",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "orphea-talent-insatiable",
+              "name": "Insatiable",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "orphea-talent-eternal-feast",
+              "name": "Eternal Feast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-10"
+            },
+            {
+              "id": "orphea-talent-crushing-jaws",
+              "name": "Crushing Jaws",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "orphea-talent-abyssal-symbiosis",
+              "name": "Abyssal Symbiosis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "orphea-talent-dead-magic",
+              "name": "Dead Magic",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "orphea-talent-eldritch-conduit",
+              "name": "Eldritch Conduit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-20"
+            },
+            {
+              "id": "orphea-talent-engulfing-oblivion",
+              "name": "Engulfing Oblivion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/orphea#55.12!3111223"
+    },
+    {
+      "name": "Aram Build",
+      "label": "ARAM",
+      "description": "Orphea's Aram Build is focused on high-range burst damage. To excel using this build, Orphea should focus on quickly completing her 2 quests, Growing Nightmare and Mind Devourer. Since Mind Devourer gets stacks from both the wave and explosion of Dread, it is always better to make sure that the wave will hit. Therefore, it is better to always aim Dread behind enemies.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "orphea-talent-growing-nightmare",
+              "name": "Growing Nightmare",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "orphea-talent-backbiter",
+              "name": "Backbiter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-4"
+            },
+            {
+              "id": "orphea-talent-allegrissimo",
+              "name": "Allegrissimo",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "orphea-talent-mind-devourer",
+              "name": "Mind Devourer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "orphea-talent-eternal-feast",
+              "name": "Eternal Feast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "orphea-talent-invasive-miasma",
+              "name": "Invasive Miasma",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "orphea-talent-lurking-terror",
+              "name": "Lurking Terror",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "orphea-talent-monster-within",
+              "name": "Monster Within",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/orphea-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/orphea#55.12!2231331"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/orphea-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:11.250370+00:00",
+    "updated_at": "2026-03-11T14:35:00+00:00",
+    "author_line": "Last updated on Mar 11, 2026 at 14:35 by Derenash"
+  }
+}

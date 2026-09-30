@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "id": "anubarak",
+  "name": "Anub'arak",
+  "role": "Tank",
+  "overview": "Anub'arak is an aggressive anti-caster Tank. His strongest points are his long-range disruption and powerful on-demand resistance to Ability-based damage. Although considered an archetypal Tank, Anub'arak's Health pool is considerably lower than that of other Tanks. He relies on opportunism and teamwork to survive, exemplifying the adage \"the best defence is a good offence.\"",
+  "strengths": [
+    "Excellent initiator",
+    "Access to Cocoon, a valuable Heroic Ability",
+    "Several long-range interruption Abilities"
+  ],
+  "weaknesses": [
+    "Fragile for a Tank",
+    "Limited damage output and waveclear",
+    "Main Abilities are skillshots that can be avoided"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      },
+      {
+        "id": "the-butcher",
+        "name": "The Butcher"
+      }
+    ],
+    "explanation": "Anub'arak's aggressive crowd control-oriented Ability set makes him particularly useful to any Hero who is able to follow up on said crowd control with their own Ability combo."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "valla",
+        "name": "Valla"
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "zuljin",
+        "name": "Zul'jin"
+      }
+    ],
+    "explanation": "Anub'arak's aggressive game plan is difficult to execute against Heroes that have ways of avoiding his skillshot or becoming immune to crowd control on-demand."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Anub'arak can be played without major issues on most Maps because he has access to powerful engage and peeling tools.\n\nHis best Map is Alterac Pass because, by using his Trait to keep Guards busy, he can capture the enemy Objective all by himself as long as the enemy Heroes are busy somewhere else.\n\nMaps where aggressive plays are rewarded (notably Dragon Shire) are great for Anub'arak because, when the enemy team is split into small groups, he can make high-risk high-reward plays to gain an advantage.\n\nHe does not excel on Maps where the Tank has to posture in vision for long (for example Braxis Holdout) because Anub'arak is not that durable against Basic Attacks or where those Heroes are popular."
+  },
+  "builds": [
+    {
+      "name": "Beetles Build",
+      "label": "Recommended",
+      "description": "Anub'arak's Beetles Build increases his sustain damage and self-sustain during prolonged team fights and when pushing. In the mid game you also gain some waveclear.\n\nThe increased damage and waveclear mainly come from Burning Beetles at Level 13. The survivability comes from Leeching Scarabs at Level 7 and potentially from Legion of Beetles at Level 1 blocking skillshots.\n\nLast but not the least, Legion of Beetles at Level 1 spawns additional Beetles and makes them harder to kill, allowing you to get more value from the rest of the Build.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "anubarak-talent-legion-of-beetles",
+              "name": "Legion of Beetles",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "anubarak-talent-bed-of-barbs",
+              "name": "Bed of Barbs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "anubarak-talent-leeching-scarabs",
+              "name": "Leeching Scarabs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "anubarak-talent-cocoon",
+              "name": "Cocoon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-10"
+            },
+            {
+              "id": "anubarak-talent-locust-swarm",
+              "name": "Locust Swarm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "anubarak-talent-burning-beetles",
+              "name": "Burning Beetles",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "anubarak-talent-epicenter",
+              "name": "Epicenter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-16"
+            },
+            {
+              "id": "anubarak-talent-beetle-juiced",
+              "name": "Beetle, Juiced",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "anubarak-talent-rewind",
+              "name": "Rewind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            },
+            {
+              "id": "anubarak-talent-the-traitor-king",
+              "name": "The Traitor King",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/anubarak#55.12!2132214"
+    },
+    {
+      "name": "Burrow Charge Build",
+      "label": "Advanced",
+      "description": "Anub'arak's Burrow Charge Build increases his burst damage, range, and survivability while using Burrow Charge aggressively, either immediately after Impale hits an enemy Hero or from over impassable terrain to take opponents off guard.\n\nThe survivability mostly comes from Subterranean Shield at Level 7 and the damage comes from Urticating Spines at Level 13, which is the best option when it comes to burst damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "anubarak-talent-nerubian-armor",
+              "name": "Nerubian Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-1"
+            },
+            {
+              "id": "anubarak-talent-legion-of-beetles",
+              "name": "Legion of Beetles",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-1"
+            },
+            {
+              "id": "anubarak-talent-regeneration-master",
+              "name": "Regeneration Master",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "anubarak-talent-underking",
+              "name": "Underking",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-4"
+            },
+            {
+              "id": "anubarak-talent-shed-exoskeleton",
+              "name": "Shed Exoskeleton",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "anubarak-talent-subterranean-shield",
+              "name": "Subterranean Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "anubarak-talent-cocoon",
+              "name": "Cocoon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-10"
+            },
+            {
+              "id": "anubarak-talent-locust-swarm",
+              "name": "Locust Swarm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "anubarak-talent-urticating-spines",
+              "name": "Urticating Spines",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "anubarak-talent-epicenter",
+              "name": "Epicenter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "anubarak-talent-rewind",
+              "name": "Rewind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            },
+            {
+              "id": "anubarak-talent-the-traitor-king",
+              "name": "The Traitor King",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/anubarak#55.12!1322114"
+    },
+    {
+      "name": "Harden Carapace Build",
+      "label": "Situational",
+      "description": "Anub'arak's Harden Carapace Build increases his mobility to reposition in team fights and dodge skillshots, burst damage to secure kills, and survivability against Spell Damage.\n\nConsider going for this Build when playing against Heroes who can deal Spell Damage with high tick rate (like Tassadar) or as damage over time (such as Lunara). This will trigger Chitinous Plating at Level 7 and thus allow you to get more value from Harden Carapace-related Talent.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "anubarak-talent-nerubian-armor",
+              "name": "Nerubian Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "anubarak-talent-shed-exoskeleton",
+              "name": "Shed Exoskeleton",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "anubarak-talent-chitinous-plating",
+              "name": "Chitinous Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "anubarak-talent-cocoon",
+              "name": "Cocoon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-10"
+            },
+            {
+              "id": "anubarak-talent-locust-swarm",
+              "name": "Locust Swarm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "anubarak-talent-urticating-spines",
+              "name": "Urticating Spines",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "anubarak-talent-epicenter",
+              "name": "Epicenter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-16"
+            },
+            {
+              "id": "anubarak-talent-debilitation",
+              "name": "Debilitation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "anubarak-talent-rewind",
+              "name": "Rewind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            },
+            {
+              "id": "anubarak-talent-the-traitor-king",
+              "name": "The Traitor King",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/anubarak#55.12!1212114"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Anub'arak's ARAM Build increases his sustain damage and self-sustain during prolonged team fights and when pushing. In the mid game you also gain some waveclear.\n\nThe increased damage and waveclear mainly come from Burning Beetles at Level 13. The survivability comes from Leeching Scarabs at Level 7 and potentially from Legion of Beetles at Level 1 blocking skillshots.\n\nLast but not the least, Legion of Beetles at Level 1 spawns additional Beetles and makes them harder to kill, allowing you to get more value from the rest of the Build.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "anubarak-talent-legion-of-beetles",
+              "name": "Legion of Beetles",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "anubarak-talent-bed-of-barbs",
+              "name": "Bed of Barbs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "anubarak-talent-leeching-scarabs",
+              "name": "Leeching Scarabs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "anubarak-talent-locust-swarm",
+              "name": "Locust Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-10"
+            },
+            {
+              "id": "anubarak-talent-cocoon",
+              "name": "Cocoon",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "anubarak-talent-burning-beetles",
+              "name": "Burning Beetles",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "anubarak-talent-beetle-juiced",
+              "name": "Beetle, Juiced",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-16"
+            },
+            {
+              "id": "anubarak-talent-epicenter",
+              "name": "Epicenter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "anubarak-talent-hive-master",
+              "name": "Hive Master",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            },
+            {
+              "id": "anubarak-talent-rewind",
+              "name": "Rewind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            },
+            {
+              "id": "anubarak-talent-the-traitor-king",
+              "name": "The Traitor King",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/anubarak-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/anubarak#55.12!2131231"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/anubarak-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:03.876307+00:00",
+    "updated_at": "2026-07-11T22:57:00+00:00",
+    "author_line": "Last updated on Jul 11, 2026 at 22:57 by Elitesparkle"
+  }
+}

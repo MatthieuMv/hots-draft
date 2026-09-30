@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "generated_at": "2026-09-30T21:00:43.525152+00:00",
+  "source_url": "https://www.icy-veins.com/heroes/",
+  "generation": "3b6df6838ab5498e9f95036fd16fe3e7",
+  "hero_count": 91,
+  "heroes": [
+    {
+      "id": "abathur",
+      "name": "Abathur",
+      "url": "https://www.icy-veins.com/heroes/abathur-build-guide"
+    },
+    {
+      "id": "alarak",
+      "name": "Alarak",
+      "url": "https://www.icy-veins.com/heroes/alarak-build-guide"
+    },
+    {
+      "id": "alexstrasza",
+      "name": "Alexstrasza",
+      "url": "https://www.icy-veins.com/heroes/alexstrasza-build-guide"
+    },
+    {
+      "id": "ana",
+      "name": "Ana",
+      "url": "https://www.icy-veins.com/heroes/ana-build-guide"
+    },
+    {
+      "id": "anduin",
+      "name": "Anduin",
+      "url": "https://www.icy-veins.com/heroes/anduin-build-guide"
+    },
+    {
+      "id": "anubarak",
+      "name": "Anub'arak",
+      "url": "https://www.icy-veins.com/heroes/anubarak-build-guide"
+    },
+    {
+      "id": "artanis",
+      "name": "Artanis",
+      "url": "https://www.icy-veins.com/heroes/artanis-build-guide"
+    },
+    {
+      "id": "arthas",
+      "name": "Arthas",
+      "url": "https://www.icy-veins.com/heroes/arthas-build-guide"
+    },
+    {
+      "id": "auriel",
+      "name": "Auriel",
+      "url": "https://www.icy-veins.com/heroes/auriel-build-guide"
+    },
+    {
+      "id": "azmodan",
+      "name": "Azmodan",
+      "url": "https://www.icy-veins.com/heroes/azmodan-build-guide"
+    },
+    {
+      "id": "blaze",
+      "name": "Blaze",
+      "url": "https://www.icy-veins.com/heroes/blaze-build-guide"
+    },
+    {
+      "id": "brightwing",
+      "name": "Brightwing",
+      "url": "https://www.icy-veins.com/heroes/brightwing-build-guide"
+    },
+    {
+      "id": "cassia",
+      "name": "Cassia",
+      "url": "https://www.icy-veins.com/heroes/cassia-build-guide"
+    },
+    {
+      "id": "chen",
+      "name": "Chen",
+      "url": "https://www.icy-veins.com/heroes/chen-build-guide"
+    },
+    {
+      "id": "cho",
+      "name": "Cho",
+      "url": "https://www.icy-veins.com/heroes/cho-build-guide"
+    },
+    {
+      "id": "chromie",
+      "name": "Chromie",
+      "url": "https://www.icy-veins.com/heroes/chromie-build-guide"
+    },
+    {
+      "id": "deathwing",
+      "name": "Deathwing",
+      "url": "https://www.icy-veins.com/heroes/deathwing-build-guide"
+    },
+    {
+      "id": "deckard",
+      "name": "Deckard",
+      "url": "https://www.icy-veins.com/heroes/deckard-build-guide"
+    },
+    {
+      "id": "dehaka",
+      "name": "Dehaka",
+      "url": "https://www.icy-veins.com/heroes/dehaka-build-guide"
+    },
+    {
+      "id": "diablo",
+      "name": "Diablo",
+      "url": "https://www.icy-veins.com/heroes/diablo-build-guide"
+    },
+    {
+      "id": "dva",
+      "name": "D.Va",
+      "url": "https://www.icy-veins.com/heroes/dva-build-guide"
+    },
+    {
+      "id": "e-t-c",
+      "name": "E.T.C.",
+      "url": "https://www.icy-veins.com/heroes/e-t-c-build-guide"
+    },
+    {
+      "id": "falstad",
+      "name": "Falstad",
+      "url": "https://www.icy-veins.com/heroes/falstad-build-guide"
+    },
+    {
+      "id": "fenix",
+      "name": "Fenix",
+      "url": "https://www.icy-veins.com/heroes/fenix-build-guide"
+    },
+    {
+      "id": "gall",
+      "name": "Gall",
+      "url": "https://www.icy-veins.com/heroes/gall-build-guide"
+    },
+    {
+      "id": "garrosh",
+      "name": "Garrosh",
+      "url": "https://www.icy-veins.com/heroes/garrosh-build-guide"
+    },
+    {
+      "id": "gazlowe",
+      "name": "Gazlowe",
+      "url": "https://www.icy-veins.com/heroes/gazlowe-build-guide"
+    },
+    {
+      "id": "genji",
+      "name": "Genji",
+      "url": "https://www.icy-veins.com/heroes/genji-build-guide"
+    },
+    {
+      "id": "greymane",
+      "name": "Greymane",
+      "url": "https://www.icy-veins.com/heroes/greymane-build-guide"
+    },
+    {
+      "id": "guldan",
+      "name": "Gul'dan",
+      "url": "https://www.icy-veins.com/heroes/guldan-build-guide"
+    },
+    {
+      "id": "hanzo",
+      "name": "Hanzo",
+      "url": "https://www.icy-veins.com/heroes/hanzo-build-guide"
+    },
+    {
+      "id": "hogger",
+      "name": "Hogger",
+      "url": "https://www.icy-veins.com/heroes/hogger-build-guide"
+    },
+    {
+      "id": "illidan",
+      "name": "Illidan",
+      "url": "https://www.icy-veins.com/heroes/illidan-build-guide"
+    },
+    {
+      "id": "imperius",
+      "name": "Imperius",
+      "url": "https://www.icy-veins.com/heroes/imperius-build-guide"
+    },
+    {
+      "id": "jaina",
+      "name": "Jaina",
+      "url": "https://www.icy-veins.com/heroes/jaina-build-guide"
+    },
+    {
+      "id": "johanna",
+      "name": "Johanna",
+      "url": "https://www.icy-veins.com/heroes/johanna-build-guide"
+    },
+    {
+      "id": "junkrat",
+      "name": "Junkrat",
+      "url": "https://www.icy-veins.com/heroes/junkrat-build-guide"
+    },
+    {
+      "id": "kaelthas",
+      "name": "Kael'thas",
+      "url": "https://www.icy-veins.com/heroes/kaelthas-build-guide"
+    },
+    {
+      "id": "kel-thuzad",
+      "name": "Kel'Thuzad",
+      "url": "https://www.icy-veins.com/heroes/kel-thuzad-build-guide"
+    },
+    {
+      "id": "kerrigan",
+      "name": "Kerrigan",
+      "url": "https://www.icy-veins.com/heroes/kerrigan-build-guide"
+    },
+    {
+      "id": "kharazim",
+      "name": "Kharazim",
+      "url": "https://www.icy-veins.com/heroes/kharazim-build-guide"
+    },
+    {
+      "id": "leoric",
+      "name": "Leoric",
+      "url": "https://www.icy-veins.com/heroes/leoric-build-guide"
+    },
+    {
+      "id": "li-li",
+      "name": "Li Li",
+      "url": "https://www.icy-veins.com/heroes/li-li-build-guide"
+    },
+    {
+      "id": "li-ming",
+      "name": "Li-Ming",
+      "url": "https://www.icy-veins.com/heroes/li-ming-build-guide"
+    },
+    {
+      "id": "lt-morales",
+      "name": "Lt. Morales",
+      "url": "https://www.icy-veins.com/heroes/lt-morales-build-guide"
+    },
+    {
+      "id": "lucio",
+      "name": "Lúcio",
+      "url": "https://www.icy-veins.com/heroes/lucio-build-guide"
+    },
+    {
+      "id": "lunara",
+      "name": "Lunara",
+      "url": "https://www.icy-veins.com/heroes/lunara-build-guide"
+    },
+    {
+      "id": "maiev",
+      "name": "Maiev",
+      "url": "https://www.icy-veins.com/heroes/maiev-build-guide"
+    },
+    {
+      "id": "malfurion",
+      "name": "Malfurion",
+      "url": "https://www.icy-veins.com/heroes/malfurion-build-guide"
+    },
+    {
+      "id": "malganis",
+      "name": "Mal'Ganis",
+      "url": "https://www.icy-veins.com/heroes/malganis-build-guide"
+    },
+    {
+      "id": "malthael",
+      "name": "Malthael",
+      "url": "https://www.icy-veins.com/heroes/malthael-build-guide"
+    },
+    {
+      "id": "medivh",
+      "name": "Medivh",
+      "url": "https://www.icy-veins.com/heroes/medivh-build-guide"
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "url": "https://www.icy-veins.com/heroes/mei-build-guide"
+    },
+    {
+      "id": "mephisto",
+      "name": "Mephisto",
+      "url": "https://www.icy-veins.com/heroes/mephisto-build-guide"
+    },
+    {
+      "id": "muradin",
+      "name": "Muradin",
+      "url": "https://www.icy-veins.com/heroes/muradin-build-guide"
+    },
+    {
+      "id": "murky",
+      "name": "Murky",
+      "url": "https://www.icy-veins.com/heroes/murky-build-guide"
+    },
+    {
+      "id": "nazeebo",
+      "name": "Nazeebo",
+      "url": "https://www.icy-veins.com/heroes/nazeebo-build-guide"
+    },
+    {
+      "id": "nova",
+      "name": "Nova",
+      "url": "https://www.icy-veins.com/heroes/nova-build-guide"
+    },
+    {
+      "id": "orphea",
+      "name": "Orphea",
+      "url": "https://www.icy-veins.com/heroes/orphea-build-guide"
+    },
+    {
+      "id": "probius",
+      "name": "Probius",
+      "url": "https://www.icy-veins.com/heroes/probius-build-guide"
+    },
+    {
+      "id": "qhira",
+      "name": "Qhira",
+      "url": "https://www.icy-veins.com/heroes/qhira-build-guide"
+    },
+    {
+      "id": "ragnaros",
+      "name": "Ragnaros",
+      "url": "https://www.icy-veins.com/heroes/ragnaros-build-guide"
+    },
+    {
+      "id": "raynor",
+      "name": "Raynor",
+      "url": "https://www.icy-veins.com/heroes/raynor-build-guide"
+    },
+    {
+      "id": "rehgar",
+      "name": "Rehgar",
+      "url": "https://www.icy-veins.com/heroes/rehgar-build-guide"
+    },
+    {
+      "id": "rexxar",
+      "name": "Rexxar",
+      "url": "https://www.icy-veins.com/heroes/rexxar-build-guide"
+    },
+    {
+      "id": "samuro",
+      "name": "Samuro",
+      "url": "https://www.icy-veins.com/heroes/samuro-build-guide"
+    },
+    {
+      "id": "sgt-hammer",
+      "name": "Sgt. Hammer",
+      "url": "https://www.icy-veins.com/heroes/sgt-hammer-build-guide"
+    },
+    {
+      "id": "sonya",
+      "name": "Sonya",
+      "url": "https://www.icy-veins.com/heroes/sonya-build-guide"
+    },
+    {
+      "id": "stitches",
+      "name": "Stitches",
+      "url": "https://www.icy-veins.com/heroes/stitches-build-guide"
+    },
+    {
+      "id": "stukov",
+      "name": "Stukov",
+      "url": "https://www.icy-veins.com/heroes/stukov-build-guide"
+    },
+    {
+      "id": "sylvanas",
+      "name": "Sylvanas",
+      "url": "https://www.icy-veins.com/heroes/sylvanas-build-guide"
+    },
+    {
+      "id": "tassadar",
+      "name": "Tassadar",
+      "url": "https://www.icy-veins.com/heroes/tassadar-build-guide"
+    },
+    {
+      "id": "the-butcher",
+      "name": "The Butcher",
+      "url": "https://www.icy-veins.com/heroes/the-butcher-build-guide"
+    },
+    {
+      "id": "the-lost-vikings",
+      "name": "The Lost Vikings",
+      "url": "https://www.icy-veins.com/heroes/the-lost-vikings-build-guide"
+    },
+    {
+      "id": "thrall",
+      "name": "Thrall",
+      "url": "https://www.icy-veins.com/heroes/thrall-build-guide"
+    },
+    {
+      "id": "tracer",
+      "name": "Tracer",
+      "url": "https://www.icy-veins.com/heroes/tracer-build-guide"
+    },
+    {
+      "id": "tychus",
+      "name": "Tychus",
+      "url": "https://www.icy-veins.com/heroes/tychus-build-guide"
+    },
+    {
+      "id": "tyrael",
+      "name": "Tyrael",
+      "url": "https://www.icy-veins.com/heroes/tyrael-build-guide"
+    },
+    {
+      "id": "tyrande",
+      "name": "Tyrande",
+      "url": "https://www.icy-veins.com/heroes/tyrande-build-guide"
+    },
+    {
+      "id": "uther",
+      "name": "Uther",
+      "url": "https://www.icy-veins.com/heroes/uther-build-guide"
+    },
+    {
+      "id": "valeera",
+      "name": "Valeera",
+      "url": "https://www.icy-veins.com/heroes/valeera-build-guide"
+    },
+    {
+      "id": "valla",
+      "name": "Valla",
+      "url": "https://www.icy-veins.com/heroes/valla-build-guide"
+    },
+    {
+      "id": "varian",
+      "name": "Varian",
+      "url": "https://www.icy-veins.com/heroes/varian-build-guide"
+    },
+    {
+      "id": "whitemane",
+      "name": "Whitemane",
+      "url": "https://www.icy-veins.com/heroes/whitemane-build-guide"
+    },
+    {
+      "id": "xalatath",
+      "name": "Xal'atath",
+      "url": "https://www.icy-veins.com/heroes/xalatath-build-guide"
+    },
+    {
+      "id": "xul",
+      "name": "Xul",
+      "url": "https://www.icy-veins.com/heroes/xul-build-guide"
+    },
+    {
+      "id": "yrel",
+      "name": "Yrel",
+      "url": "https://www.icy-veins.com/heroes/yrel-build-guide"
+    },
+    {
+      "id": "zagara",
+      "name": "Zagara",
+      "url": "https://www.icy-veins.com/heroes/zagara-build-guide"
+    },
+    {
+      "id": "zarya",
+      "name": "Zarya",
+      "url": "https://www.icy-veins.com/heroes/zarya-build-guide"
+    },
+    {
+      "id": "zeratul",
+      "name": "Zeratul",
+      "url": "https://www.icy-veins.com/heroes/zeratul-build-guide"
+    },
+    {
+      "id": "zuljin",
+      "name": "Zul'jin",
+      "url": "https://www.icy-veins.com/heroes/zuljin-build-guide"
+    }
+  ],
+  "files": {
+    "heroes/abathur.json": "7fa6ffead490b011dce7415e0169434c58895ac7df86f94ec39565e6a6f66869",
+    "heroes/alarak.json": "2b057085e77259287d18da86231813bb538855b4b8bc6b42a6444d0d7f6f5dfa",
+    "heroes/alexstrasza.json": "55d1f1c9616514ab1205b7dc07bb9d2aee9ddfd158cd24c16a6f4697580b1666",
+    "heroes/ana.json": "3b907a07981430711a23bc53ac5ed4be61d8fb4758865df389c977a87d527b92",
+    "heroes/anduin.json": "2797ad6b27c8a82c7174fcf669b315852922ae7570e1079b6dd771ad07aec0b3",
+    "heroes/anubarak.json": "bd19b492a64e8ca9bb9930f521d8465d4d18095a9d636e72127a7977f3dd4e35",
+    "heroes/artanis.json": "30d5336b66b5e9306fd246c0d20ea5be4c597f491dc16de5c245976ade81c872",
+    "heroes/arthas.json": "19e96d00e05c6e2a3e504fbbd2805c100c787b1b4de27126fe0bc709e65da321",
+    "heroes/auriel.json": "03d9853212b4b27f1a212da17efca6f6531994e9e4234ae1faf871f4b349e7f8",
+    "heroes/azmodan.json": "4e8f1dff530a67192e053fbf4da8bf666340e405c9aa8572a97724cc9e688c17",
+    "heroes/blaze.json": "878899966776ec19eeab7069d2fcf99e39d961431708e7c35b559795c4adb97e",
+    "heroes/brightwing.json": "338e13136b581a5f4d9190a2e641f7b340f08c8c8e7bb261dc4a67877b57e05c",
+    "heroes/cassia.json": "a7eb48dab00c3cffd4e2e8d677bf0132afd798ce619e8a32eebc787f131266a1",
+    "heroes/chen.json": "d7f00df43345242cd718d9b2482f853a2af66c3c719e4fa1d75e0c639a290b9d",
+    "heroes/cho.json": "270734b0f9fee7f8189b52f3cc71f2bc91ccdfefdff8e130200a3e111de84c5d",
+    "heroes/chromie.json": "2a057bb6dbe6b7a14fab65f52db4210c1495225a799b2a7061161659b41baa6f",
+    "heroes/deathwing.json": "8062bb73033fc28ed1d4f0abc19a58a4d13e751736624d56a3bac337415a8fda",
+    "heroes/deckard.json": "60c3f918fe2721f37652ad82d72049747e54c7d33558a1221976dc6d598a9c4a",
+    "heroes/dehaka.json": "851e168217b86e7dd043d53163e53866c892481035b4dbb9d90bc0194ed413dd",
+    "heroes/diablo.json": "d508ed7de421fd9d4419162a6ba9909f7388e241c70b445f74477064302582a8",
+    "heroes/dva.json": "e2e1cbe96a800a82d8b4077d335022bbb0506c76499c00b35bedbaece4ce91aa",
+    "heroes/e-t-c.json": "82c0efbf17e2c85cb2d373c503b03dc679433049c9e0113da5a18c932870e202",
+    "heroes/falstad.json": "3660853c1bc65154ec49139d207dc5fd4e965d3df7f5089f3d79893bd0e6b0ab",
+    "heroes/fenix.json": "54831faa16de7924abd927e10d3c799cd056a743401ee820d2af1696fb926e23",
+    "heroes/gall.json": "9869d96d29bf2e7f0dbdf8c35eb6dcbe0b282029e09ebb09218ddc761e469af7",
+    "heroes/garrosh.json": "0bf534614fb5f3324a1479537f6dc41f5c414bb86d279700d10a76b177bb69e8",
+    "heroes/gazlowe.json": "3cd7e918fab8f00d6ba4b6f6e04576285b6a3e0db0d79d0d554067b78a95b5e8",
+    "heroes/genji.json": "3da2a721c8764d22dac1108ee62261e5a88250311fffe372243273b79174f540",
+    "heroes/greymane.json": "d8adeb64882e9ba6930cdc8bea73d1d745bd254bfcb69806ce9aa10a86e5983e",
+    "heroes/guldan.json": "da914a0c5d495aefbb932dba13fb3a5f317298866b2c7b35debcb3aa62316af4",
+    "heroes/hanzo.json": "43951eeb87da2531fdd6fc75316f0850eb6cb725584e90387e30e3b9a45264e8",
+    "heroes/hogger.json": "88e0e57216f7d33d68d76c52d75abff9565e82484ed6e847b4fc93cddbd2400a",
+    "heroes/illidan.json": "d962b56e1e812fe4e1cc786cac9cc49372a02509680dbf3f1c64e0f918defec6",
+    "heroes/imperius.json": "5bf0bae4b78b1b8081a5b0ea4d3fdb8b0be619c5f15ffeb6ed03e4581ecbceab",
+    "heroes/jaina.json": "accbbbd6d997522d10e2d267fcf825359c04bb0269dae476a77f97b7e9981d1a",
+    "heroes/johanna.json": "3762ed45639d26da06d7b5e11984a98a8dde0dc3f03d415eb55e613d17cfceca",
+    "heroes/junkrat.json": "b8f3365218e9eb99da3f47ea77672b4c1b93db804280e575beb5343d2f8f0dd0",
+    "heroes/kaelthas.json": "095f04977f1b5654745d076fbe200894d9a755a8255ca5ceb27851d4f44fa598",
+    "heroes/kel-thuzad.json": "6b11d0bb56efc6ca2850e685cea370d1e45d2ffd798f1556550367bab5f0100d",
+    "heroes/kerrigan.json": "564e5830f907e494c946887df43f2967f2ed817d136f3132adb3e72487179629",
+    "heroes/kharazim.json": "8e61588eb6ab4f9eff90319c43290380bef59de95692b2da9ba92cb3132db8ba",
+    "heroes/leoric.json": "d8b1c17791221be39f5ade3cb517f7286792e2d224203612dabdb42e845f671e",
+    "heroes/li-li.json": "49c31c58f519126a05cd7806d4ff44f009d8806afe4fc25ea1e8d8dae29764af",
+    "heroes/li-ming.json": "86efd77a1ef1d2834ec7f703aa647cf42703d93c7e5b5e51c6f535d5a3db3c6b",
+    "heroes/lt-morales.json": "429c4a60c006bdec51ca0c735acb489fa550c3bcb7545d6fa039f7e9f3933421",
+    "heroes/lucio.json": "3e10c070c3779b52bef29f0a42a65aaf3c8e80e690d55b265b3fcb28067cd83a",
+    "heroes/lunara.json": "a85c7fa4b28c23dde7eb1c13298589f3ac7a458ac6073826888e1b2882e55d50",
+    "heroes/maiev.json": "ba44418856b6dd5eab6c91788bfda2466fc5126e5841d9bc8155e040f3f4a098",
+    "heroes/malfurion.json": "8f51818a8aa22ada3722e55bba07170f2f8298465d1b492a224c118836409cc5",
+    "heroes/malganis.json": "03503795b426ab56a5bb0021fcca271ffdeaba34f4cf61fa17a0cf5a263361dd",
+    "heroes/malthael.json": "12f8f3b712b2787b42406e1f147f64ed5aa979f524c12888dec687b7bfce9f74",
+    "heroes/medivh.json": "752f6332db6b1d113846eccb56fa2f9248acfd20e63b878d94bfc3df2a492e3d",
+    "heroes/mei.json": "8bf7bee75a9f73eb251bc080b0c86eb994cd1da671d5cede57852a9db9a505f9",
+    "heroes/mephisto.json": "f0bd4c40ead34169321ceb20f09c1a34536434ad78985acafba82a664ff6837b",
+    "heroes/muradin.json": "b51ce7d265124da16b65780eafadc01668ae6ed1e93345ee9f5c61e815852883",
+    "heroes/murky.json": "7d414f33d30723fef8e27efae9c46e9f535cac87f1410a6c9b69905d9d4a5b25",
+    "heroes/nazeebo.json": "354ad6dbb5fc176daebabdb9e3a26831d7115a8f7b8c846c90f9df06605f0e5e",
+    "heroes/nova.json": "dcfb943b959487d4b1b43859fdc5aa66acf52211bc878a9ce86d60ba8c676ebc",
+    "heroes/orphea.json": "23aa9b27b6393b55ef261aff5e332a13e176e61f5ef9cff8a9f639bec8146148",
+    "heroes/probius.json": "2cd3b28a574e9d0b5c674d4e096d7cb0ea2505655edafdfc375fe989d237f7cb",
+    "heroes/qhira.json": "b98a066c81d4addaff7a140b4bc6b1e4034442c117eed0f1c7967a8ed47ecca7",
+    "heroes/ragnaros.json": "6f1b36d44d13f2211d949ae0b8933da7ab66693eda517c6d8bd1b3ee82db98b1",
+    "heroes/raynor.json": "db96392af750b4c2b5858a8d8bbd37121381d563874ca5172f73882c97b4ef3b",
+    "heroes/rehgar.json": "43e42d07a0b59c2febf80e55148b0dd5276412ff549cc5eab3b154433d23144b",
+    "heroes/rexxar.json": "1dad20041effd59c86b87eb01ba12ee9747b75c347efc0c6d42c4acfe766b9d9",
+    "heroes/samuro.json": "adc10a1a1e26ec6adf7eca0d77e626cb9a33bfd8286a4bc40f9d2656efa7b375",
+    "heroes/sgt-hammer.json": "d940e5d46aad02e52e589878123f28e97e05050826bc7bd618bdb6ad580d03c7",
+    "heroes/sonya.json": "d9b057ac07d6f257dbe2c165d9b2dd8c71ec9b47cee34619910c930a8ae0e9f9",
+    "heroes/stitches.json": "1c553bb42b0f5c2ee347f8c2cc3d468b449e555c2f77d9e4690d4cb00961de44",
+    "heroes/stukov.json": "58e9b87f86289b0570ccc5cdbe86bdff80f765425c26814f47ba1867e5d33537",
+    "heroes/sylvanas.json": "541bc49cf684352d26e679eeec34593dff4fd4d3301bfa97e29488de3d75487f",
+    "heroes/tassadar.json": "9ba3562dac29da991da802079a98257fcd1115105d5231ca628af59a5c593636",
+    "heroes/the-butcher.json": "8aa17f4fa21c3e20f36ca4b7149133275b5bec0625a2767745245da6be872659",
+    "heroes/the-lost-vikings.json": "08c049d73b8d08046ef6cb9dd8c4264e5da97bcfaddb8b298613ade5c1d36c06",
+    "heroes/thrall.json": "4a67caf166f519491279a58e667b57cf10f96a7d8d7fbc456fb094c35b6e16a0",
+    "heroes/tracer.json": "41a083e875ba13d91dbc9b8b98d74bd649351de217935377b007f81583f1b934",
+    "heroes/tychus.json": "b947268c74990016b20f346ec86c5cdff33f199718ed0c8572095a58403d9742",
+    "heroes/tyrael.json": "836394d01ff54afc6c0cdbad6d7350a7a91545a06ce0f3ae386a5b92ffa32509",
+    "heroes/tyrande.json": "b410410b3160082faacc6500a0e2d26f641371e0945eb11ec44df4623ed50b45",
+    "heroes/uther.json": "3483868cb269d2a3441f09ff3b63c20545c2607127e01088651d26efc21edbf3",
+    "heroes/valeera.json": "21dfc9ddd7588ea0f9621bf6965dcd80582d232e7027c0e5513c49b5f29729fa",
+    "heroes/valla.json": "0a383b4332015d11560cb3b399d0b51b169e58b4f6cc377cfd33ed3e060179cd",
+    "heroes/varian.json": "fbae798a80bc2c80dda3e4e55f5e713f29a0f4f6b0da3849c18c58f89f1c3096",
+    "heroes/whitemane.json": "99ead91b160f8eca8412791d261ba29b0d6d07560297a283113c43f810118633",
+    "heroes/xalatath.json": "e69a735ddcb6f43a05a71b2408adacab7b82b54d2374ec6f227fda94cb37c76b",
+    "heroes/xul.json": "cad9e1bd563fd29621f533164df50e484a025305e51f9bbed2ce4ee0760f75f6",
+    "heroes/yrel.json": "ba2e2dbb48a66943f396bf94b1a2ef8fdcbb65b1a6132c4032ce68ec36f68d62",
+    "heroes/zagara.json": "074ca3485b07982f919a017b8e157bd371f21c35f75e25b800d15abf8d1d2f32",
+    "heroes/zarya.json": "d2e50f4ae8b335f9b2dfa2cecca9d6771b39dea0474b5487447ad05be1108fe1",
+    "heroes/zeratul.json": "5fded55c083edaed484cfcb37bce8c485982e76f148550a0d9dea2ed48dcf062",
+    "heroes/zuljin.json": "b0966b1c7d637ab30271b51572e58cb35908e4eb0c221fd18a3075f3a9677832",
+    "heroes.jsonl": "1ab2408c4ca4dfec86c4ffa3a97b26885d942e59c3b347ee85337b430ca010d5",
+    "draft-index.json": "a705e2ca8cbc28857f2cf4b4a1ffddfe6fff408839038ca0f7a3da57cd3b0614"
+  }
+}

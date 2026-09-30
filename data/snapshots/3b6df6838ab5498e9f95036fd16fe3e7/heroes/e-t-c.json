@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "id": "e-t-c",
+  "name": "E.T.C.",
+  "role": "Tank",
+  "overview": "E.T.C. is a disruptive but moderately durable Tank. Teammates will find his outstanding ability to engage and peel valuable, however, his limited damage output means that E.T.C. players must work well with allied Heroes in order to secure kills.",
+  "strengths": [
+    "Ability to engage from medium distance",
+    "Some mobility to get out of danger",
+    "Huge amount of crowd control",
+    "Opportunity to become global at Level 10"
+  ],
+  "weaknesses": [
+    "Relatively low damage output",
+    "Not as durable as most Tanks",
+    "Low waveclear"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "alarak",
+        "name": "Alarak"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "E.T.C.'s aggressive crowd control-oriented Ability set makes him particularly useful to any Hero who is able to follow up on said crowd control with powerful damaging and/or crowd controlling Abilities.\n\nIf you pair E.T.C. with a Hero who, like him, is capable of playing as either Tank and Offlaner, you can keep E.T.C. in the 4-man until Stage Dive gets unlocked and then swap.\n\nHealers who can provide Unstoppable during Mosh Pit (such as Kharazim with Cleansing Touch) are great to deny enemy interrupts which will otherwise shut it down."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "deathwing",
+        "name": "Deathwing"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      }
+    ],
+    "explanation": "E.T.C. struggles against Heroes who can easily dodge, quickly interrupt, or completely ignore his crowd control Abilities."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "explanation": "Having a well-rounded Ability set, E.T.C. works well on most Maps but performs better where he can flank—to Face Melt and then Powerslide as a safe engage—or fight near choke points—where he can easily hit enemy Heroes with Powerslide and his Heroic Abilities.\n\nBattlefield of Eternity is particularly interesting for E.T.C. because he can knockback and Stun enemy Heroes right below the allied Immortal to make it impossible for them to dodge his Abilities.\n\nWhile it is not necessarily a huge problem depending on the rest of your draft, E.T.C. is not that good for Maps where the Objective takes extremely long to be secured because, even if he has some self-sustain, he will struggle to be alive for long due to his below-average durability."
+  },
+  "builds": [
+    {
+      "name": "Face Melt Build",
+      "label": "Recommended",
+      "description": "E.T.C.'s Face Melt Build is designed to give you the highest amount of crowd control when playing as main Tank. Thanks to that, you will be able to disrupt enemy moves and peel for your team when needed.\n\nThanks to Loud Speakers at Level 4 increasing the radius of Face Melt, it will be easier to trigger Mic Check at Level 13 and thus be able to knockback and even interrupt enemy Heroes more often.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "e-t-c-talent-prog-rock",
+              "name": "Prog Rock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-1"
+            },
+            {
+              "id": "e-t-c-talent-block-party",
+              "name": "Block Party",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "e-t-c-talent-loud-speakers",
+              "name": "Loud Speakers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "e-t-c-talent-pinball-wizard",
+              "name": "Pinball Wizard",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "e-t-c-talent-mosh-pit",
+              "name": "Mosh Pit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-10"
+            },
+            {
+              "id": "e-t-c-talent-stage-dive",
+              "name": "Stage Dive",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "e-t-c-talent-mic-check",
+              "name": "Mic Check",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "e-t-c-talent-show-stopper",
+              "name": "Show Stopper",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-16"
+            },
+            {
+              "id": "e-t-c-talent-imposing-presence",
+              "name": "Imposing Presence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "e-t-c-talent-ride-the-lightning",
+              "name": "Ride the Lightning",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            },
+            {
+              "id": "e-t-c-talent-crowd-pleaser",
+              "name": "Crowd Pleaser",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            },
+            {
+              "id": "e-t-c-talent-power-of-the-horde",
+              "name": "Power of the Horde",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/e-t-c#51.2!2211115"
+    },
+    {
+      "name": "Hybrid Build",
+      "label": "Situational",
+      "description": "E.T.C.'s Hybrid Build boosts your waveclear and turns you into a global Hero, a combination that allows you to play as an Offlaner with great success, especially on big Maps because you can get more value from Stage Dive there.\n\nSince you want to keep Powerslide ready for when you will join a fight with Stage Dive, you will rely on Guitar Solo to trigger Echo Pedal at Level 7 to clear Minions and defend from Mercenaries. As a consequence, Aggressive Shredding at Level 16 will increase your waveclear.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "e-t-c-talent-prog-rock",
+              "name": "Prog Rock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-1"
+            },
+            {
+              "id": "e-t-c-talent-guitar-hero",
+              "name": "Guitar Hero",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-1"
+            },
+            {
+              "id": "e-t-c-talent-block-party",
+              "name": "Block Party",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "e-t-c-talent-speed-metal",
+              "name": "Speed Metal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-4"
+            },
+            {
+              "id": "e-t-c-talent-crowd-surfer",
+              "name": "Crowd Surfer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "e-t-c-talent-echo-pedal",
+              "name": "Echo Pedal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "e-t-c-talent-stage-dive",
+              "name": "Stage Dive",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "e-t-c-talent-encore",
+              "name": "Encore",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "e-t-c-talent-aggressive-shredding",
+              "name": "Aggressive Shredding",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "e-t-c-talent-crowd-pleaser",
+              "name": "Crowd Pleaser",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            },
+            {
+              "id": "e-t-c-talent-power-of-the-horde",
+              "name": "Power of the Horde",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            },
+            {
+              "id": "e-t-c-talent-ride-the-lightning",
+              "name": "Ride the Lightning",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/e-t-c#51.2!2332222"
+    },
+    {
+      "name": "Guitar Solo Build",
+      "label": "Situational",
+      "description": "E.T.C.'s Guitar Solo Build increases your damage output and, more importantly, self-sustain when hitting enemies with Basic Attacks, which not only keeps you healthy in lane but is also particularly effective in prolonged team fights.\n\nHammer-on at Level 7 increases the damage you deal with Basic Attacks and, as a consequence, it also increases the healing you get from Guitar Hero at Level 1. The cooldown reduction from Aggressive Shredding at Level 16 is useful when Guitar Solo expires.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "e-t-c-talent-guitar-hero",
+              "name": "Guitar Hero",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "e-t-c-talent-speed-metal",
+              "name": "Speed Metal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-4"
+            },
+            {
+              "id": "e-t-c-talent-crowd-surfer",
+              "name": "Crowd Surfer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-4"
+            },
+            {
+              "id": "e-t-c-talent-loud-speakers",
+              "name": "Loud Speakers",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "e-t-c-talent-hammer-on",
+              "name": "Hammer-on",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "e-t-c-talent-stage-dive",
+              "name": "Stage Dive",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "e-t-c-talent-encore",
+              "name": "Encore",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "e-t-c-talent-aggressive-shredding",
+              "name": "Aggressive Shredding",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "e-t-c-talent-crowd-pleaser",
+              "name": "Crowd Pleaser",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/e-t-c#51.2!1322222"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "E.T.C.'s ARAM Build is designed to give you the highest amount of crowd control when playing as main Tank. Thanks to that, you will be able to disrupt enemy moves and peel for your team when needed.\n\nThanks to Loud Speakers at Level 4 increasing the radius of Face Melt, it will be easier to trigger Mic Check at Level 13 and thus be able to knockback and even interrupt enemy Heroes more often.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "e-t-c-talent-prog-rock",
+              "name": "Prog Rock",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-1"
+            },
+            {
+              "id": "e-t-c-talent-block-party",
+              "name": "Block Party",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "e-t-c-talent-loud-speakers",
+              "name": "Loud Speakers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "e-t-c-talent-pinball-wizard",
+              "name": "Pinball Wizard",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "e-t-c-talent-mosh-pit",
+              "name": "Mosh Pit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-10"
+            },
+            {
+              "id": "e-t-c-talent-stage-dive",
+              "name": "Stage Dive",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "e-t-c-talent-mic-check",
+              "name": "Mic Check",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "e-t-c-talent-show-stopper",
+              "name": "Show Stopper",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-16"
+            },
+            {
+              "id": "e-t-c-talent-imposing-presence",
+              "name": "Imposing Presence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "e-t-c-talent-ride-the-lightning",
+              "name": "Ride the Lightning",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            },
+            {
+              "id": "e-t-c-talent-crowd-pleaser",
+              "name": "Crowd Pleaser",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            },
+            {
+              "id": "e-t-c-talent-power-of-the-horde",
+              "name": "Power of the Horde",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/e-t-c-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/e-t-c#51.2!2211115"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/e-t-c-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:57:58.309409+00:00",
+    "updated_at": "2026-08-11T22:50:00+00:00",
+    "author_line": "Last updated on Aug 11, 2026 at 22:50 by Elitesparkle"
+  }
+}

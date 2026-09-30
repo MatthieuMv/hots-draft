@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "id": "varian",
+  "name": "Varian",
+  "role": "Bruiser",
+  "overview": "Varian is a Bruiser who can also be played as Melee Assassin or a Tank depending on his Heroic Ability that can be picked at Level 4 rather than Level 10 like other Heroes.",
+  "strengths": [
+    "Role flexibility: Tank, Bruiser, Melee Assassin",
+    "Strong engage when played as Tank with Taunt",
+    "High burst damage when played as Melee Assassin with Colossus Smash",
+    "Good duelist when played as Offlaner with Twin Blades of Fury"
+  ],
+  "weaknesses": [
+    "Limited mobility",
+    "Low waveclear",
+    "Weak before Level 4"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "tyrande",
+        "name": "Tyrande"
+      }
+    ],
+    "explanation": "Taunt Build synergizes with Heroes who can easily follow up with crowd control (like Malfurion that can easily land a Root just a moment before the Taunt is going to expire) and burst damage (such as Jaina who will be able to get full damage from her Blizzard).\n\nColossus Smash Build works better when your team has crowd control but lacks burst damage to follow up.\n\nTwin Blades Build likes anything which can help Varian to stick on his target, usually something provided by the Tank (for example Johanna that can Slow and Stun enemy Heroes nearby)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      }
+    ],
+    "explanation": "Varian, independently from the Build used, is countered by Heroes who are able to kite him due to their range (such as Hanzo who can also use Sonic Arrow to deny a flank) and/or Heroes that have tools to drastically compromise his already low mobility (such as Garrosh).\n\nTaunt Build is countered by Heroes who have a tool to remove his Taunt on a short cooldown (such as Rehgar using Purge), to mitigate the burst damage that will come from his team (like Uther because he provides Armor to allied Heroes via Devotion), or to completely deny it.\n\nColossus Smash Build is countered by Heroes that have something to reduce or nullify the burst damage that will come from him and his teammates (for example Medivh because Force of Will provides Protected, a status effect that has no direct counters).\n\nTwin Blades Build heavily suffers from Heroes that can reduce his Attack Speed, crowd control him, and/or burst him down. Blinds are good against him as well."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Varian is good on Maps where team fights happen not only at the Objective but also in other locations of the battlefield because he can gain advantage from the fact that his Heroic Abilities have a really short cooldown and weak on Maps where there is only one big team fight at the Objective because the enemy team can play safe the rest of the time."
+  },
+  "builds": [
+    {
+      "name": "Offensive Taunt Build",
+      "label": "Recommended",
+      "description": "Varian's Offensive Taunt Build turns him into a Tank who is capable of engaging and/or peeling for his team.\n\nIn particular, this variation of Taunt Build helps you burst down a given target with the help of Overpower at Level 1 and by denying defensive tools with either Mortal Strike or Shattering Throw at Level 13.\n\nWe recommend this Build when your team needs a Tank and your team's strategy consists of bursting down enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "varian-talent-overpower",
+              "name": "Overpower",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "varian-talent-taunt",
+              "name": "Taunt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "varian-talent-victory-rush",
+              "name": "Victory Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-7"
+            },
+            {
+              "id": "varian-talent-second-wind",
+              "name": "Second Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "varian-talent-warbringer",
+              "name": "Warbringer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "varian-talent-mortal-strike",
+              "name": "Mortal Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-shattering-throw",
+              "name": "Shattering Throw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-juggernaut",
+              "name": "Juggernaut",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "varian-talent-banner-of-dalaran",
+              "name": "Banner of Dalaran",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "varian-talent-glory-to-the-alliance",
+              "name": "Glory to the Alliance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/varian#55.13!2132234"
+    },
+    {
+      "name": "Defensive Taunt Build",
+      "label": "Situational",
+      "description": "Varian's Defensive Taunt Built turns him into a Tank who is capable of engaging and/or peeling for his team.\n\nIn particular, this variation of Taunt Build gives you access to Shield Wall at Level 10 while avoiding anti-synergistic Talents, hence why we recommend High King's Quest at Level 1.\n\nYou can play this Build when your team needs a Tank, the enemy team can deal a huge amount of burst damage, and your team does not have enough tools to deal with that.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "varian-talent-high-kings-quest",
+              "name": "High King's Quest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "varian-talent-taunt",
+              "name": "Taunt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "varian-talent-victory-rush",
+              "name": "Victory Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-7"
+            },
+            {
+              "id": "varian-talent-second-wind",
+              "name": "Second Wind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "varian-talent-shield-wall",
+              "name": "Shield Wall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "varian-talent-mortal-strike",
+              "name": "Mortal Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-juggernaut",
+              "name": "Juggernaut",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-shattering-throw",
+              "name": "Shattering Throw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "varian-talent-banner-of-dalaran",
+              "name": "Banner of Dalaran",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "varian-talent-glory-to-the-alliance",
+              "name": "Glory to the Alliance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/varian#55.13!3131234"
+    },
+    {
+      "name": "Colossus Smash Build",
+      "label": "Situational",
+      "description": "Colossus Smash Build turns Varian into a highly explosive Melee Assassin, who excels at bursting down enemy priority targets using Colossus Smash to engage and exploit the Armor reduction effect to increase not only his own damage, but also the damage of the rest of his team.\n\nYou can play this Build only when your team does not need a Tank or an Offlaner because you will not be tanky enough to act as second frontline Hero.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "varian-talent-high-kings-quest",
+              "name": "High King's Quest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "varian-talent-colossus-smash",
+              "name": "Colossus Smash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "varian-talent-victory-rush",
+              "name": "Victory Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "varian-talent-shield-wall",
+              "name": "Shield Wall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-10"
+            },
+            {
+              "id": "varian-talent-warbringer",
+              "name": "Warbringer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "varian-talent-mortal-strike",
+              "name": "Mortal Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-juggernaut",
+              "name": "Juggernaut",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-shattering-throw",
+              "name": "Shattering Throw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "varian-talent-banner-of-dalaran",
+              "name": "Banner of Dalaran",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "varian-talent-glory-to-the-alliance",
+              "name": "Glory to the Alliance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/varian#55.13!3231234"
+    },
+    {
+      "name": "Twin Blades Build",
+      "label": "Situational",
+      "description": "Twin Blades Build turns Varian into a Bruiser thanks to the additional damage that Twin Blades of Fury provides.\n\nKeep in mind that this Build is only viable when playing as Offlaner, and not when your team needs a Tank or a second Assassin.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "varian-talent-high-kings-quest",
+              "name": "High King's Quest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "varian-talent-twin-blades-of-fury",
+              "name": "Twin Blades of Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "varian-talent-second-wind",
+              "name": "Second Wind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "varian-talent-shield-wall",
+              "name": "Shield Wall",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-10"
+            },
+            {
+              "id": "varian-talent-warbringer",
+              "name": "Warbringer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "varian-talent-mortal-strike",
+              "name": "Mortal Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-juggernaut",
+              "name": "Juggernaut",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-shattering-throw",
+              "name": "Shattering Throw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "varian-talent-banner-of-dalaran",
+              "name": "Banner of Dalaran",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "varian-talent-glory-to-the-alliance",
+              "name": "Glory to the Alliance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/varian#55.13!3321234"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "ARAM Build turns Varian into a Tank who is capable of engaging and/or peeling for his team.\n\nIn particular, this variation of Taunt Build helps you burst down a given target with the help of Overpower at Level 1 and by denying defensive tools with either Mortal Strike or Shattering Throw at Level 13.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "varian-talent-overpower",
+              "name": "Overpower",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "varian-talent-taunt",
+              "name": "Taunt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "varian-talent-victory-rush",
+              "name": "Victory Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "varian-talent-warbringer",
+              "name": "Warbringer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "varian-talent-mortal-strike",
+              "name": "Mortal Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-shattering-throw",
+              "name": "Shattering Throw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            },
+            {
+              "id": "varian-talent-juggernaut",
+              "name": "Juggernaut",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "varian-talent-banner-of-dalaran",
+              "name": "Banner of Dalaran",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "varian-talent-glory-to-the-alliance",
+              "name": "Glory to the Alliance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/varian-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/varian#55.13!2132234"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/varian-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:35.336972+00:00",
+    "updated_at": "2025-09-30T19:21:00+00:00",
+    "author_line": "Last updated on Sep 30, 2025 at 19:21 by Elitesparkle"
+  }
+}

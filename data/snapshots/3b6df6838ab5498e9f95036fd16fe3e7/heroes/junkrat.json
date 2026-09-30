@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "id": "junkrat",
+  "name": "Junkrat",
+  "role": "Ranged Assassin",
+  "overview": "Junkrat is a Ranged Assassin from the Overwatch universe who can deal a large amount of sustain or burst damage from a safe distance. The area of effect aspect of both Frag Launcher and his Basic Attacks provide him with great waveclear and team-wide splash damage. None of Junkrat's Abilities use Mana, giving him incredible lane sustain and high teamfight presence when challenging Objectives or areas of high contention. All of his Basic Abilities can also be cast while moving. This is critical, as he lacks any sort of reliable escape beyond Concussion Mine. When utilized correctly, Junkrat does have Talents that can make him rather slippery and difficult to catch by the enemy team, such as Tricky Shuffles and Ripper Air. Both of his Heroic Abilities, RIP-Tire and Rocket Ride, require a period of channeling to be cast. Junkrat should therefore always be on the lookout for enemy Abilities that can interrupt this channel and keep track of their use and remaining cooldowns.",
+  "strengths": [
+    "Uses no Mana, can remain in fights indefinitely when left unanswered by the enemy team",
+    "Incredibly long range can reach targets located behind otherwise impassable terrain.",
+    "Can reposition enemies and himself with Concussion Mine",
+    "Scales well into lategame.",
+    "Great waveclear via the AoE components of his Frag Launcher and Basic Attacks",
+    "Steel Trap is a valuable zoning tool.",
+    "Moderate siege potential.",
+    "Very high skill ceiling"
+  ],
+  "weaknesses": [
+    "Incredibly susceptible to dive and enemy crowd-control",
+    "All abilities are skillshots which can be difficult to land successfully",
+    "Bad Concussion Mine can result in an enemy surviving or an ally missing a critical skillshot.",
+    "Very squishy with no means of self-sustain",
+    "Requires close attention to proper positioning",
+    "Weak early game until scaling through talents.",
+    "Easy to play, difficult to master"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "Junkrat's low Health pool and squishiness require him to hide behind a strong frontline that can distract enemy Heroes during fights. Tanks and bruisers with reliable crowd-control can either help Junkrat set-up takedowns, or assist him with peel should he be focused by the enemy team. A support that can provide Junkrat with healing or damage mitigation in the form of a shield or buffs is mandatory as he has no source of self-sustain within his entire kit."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      }
+    ],
+    "explanation": "Junkrat is countered by highly mobile Heroes who can easily dive him in the backline. Beyond Concussion Mine Junkrat has no immediate source of peel, therefore he is particularly susceptible to Heroes that can stick to him with some form of gap-closer. The fact that all of Junkrat's abilities are skillshots also makes it particularly difficult to combat highly mobile enemy Heroes."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "weaker": [],
+    "explanation": "As noted earlier, Junkrat provides excellent lane sustain, teamfight presence, and wave clear. All of these traits make him good on maps where a rotation between lanes is needed and has a \"king of the hill\" type of objective, such as the Altars on Towers of Doom. The poke damage provided by Frag Launcher can be used to indefinitely whittle down enemies from afar as they attempt to take control of an objective. On bigger maps, Junkrat can make good use of his level 13 talent Ripper Air which allows him to quickly move from lane to lane. Maps with smaller choke points make Steel Trap a particularly effective zoning tool while Concussion Mine can catch an unaware enemy off-guard and force them into a detrimental position. Fighting an enemy team forced into a narrow corridor will also generate the most value from the splash-damage component of his abilities and Basic Attacks."
+  },
+  "builds": [
+    {
+      "name": "Steel Trap Build",
+      "label": "Recommended",
+      "description": "The Steel Trap build works well against an enemy team consisting of assassins like Genji or Zeratul. Once you have the talent Gotta Trap 'Em All!, you will be able to set up a perimeter around you, saving yourself from enemy assassins diving you, and then proceed to punish them for it. You will still want to go for RIP-Tire and Cannonball! at level 10 and 20 to nuke a trapped enemy hero.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "junkrat-talent-extra-wound-timers",
+              "name": "Extra-Wound Timers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-1"
+            },
+            {
+              "id": "junkrat-talent-blow-em-up",
+              "name": "Blow 'Em Up!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "junkrat-talent-chattering-teeth",
+              "name": "Chattering Teeth",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "junkrat-talent-sticky-wicket",
+              "name": "Sticky Wicket",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "junkrat-talent-rip-tire",
+              "name": "RIP-Tire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "junkrat-talent-gotta-trap-em-all",
+              "name": "Gotta Trap 'Em All!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-13"
+            },
+            {
+              "id": "junkrat-talent-big-as",
+              "name": "Big As",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "junkrat-talent-endless-nades",
+              "name": "Endless Nades",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-16"
+            },
+            {
+              "id": "junkrat-talent-spread-volley",
+              "name": "Spread Volley",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "junkrat-talent-cannonball",
+              "name": "Cannonball!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/junkrat#55.0!2321323"
+    },
+    {
+      "name": "Concussion Mine Build",
+      "label": "Situational",
+      "description": "The Concussion Mine build works well with an organized team due to the displacement power of this build. We prioritize getting all of the cooldown-reducing talents allowing Junkrat to always have Concussion Mine up for the occasion. Talents such as Bogged Down and BOOM POW reward Junkrat greatly for hitting an enemy hero with a mine, triggering Blow 'Em Up! and slowing the displaced enemy hero, effectively resulting in securing a kill.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "junkrat-talent-blow-em-up",
+              "name": "Blow 'Em Up!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "junkrat-talent-boom-pow",
+              "name": "BOOM POW",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "junkrat-talent-bogged-down",
+              "name": "Bogged Down",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "junkrat-talent-rip-tire",
+              "name": "RIP-Tire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "junkrat-talent-ripper-air",
+              "name": "Ripper Air",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "junkrat-talent-endless-nades",
+              "name": "Endless Nades",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-16"
+            },
+            {
+              "id": "junkrat-talent-spread-volley",
+              "name": "Spread Volley",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "junkrat-talent-cannonball",
+              "name": "Cannonball!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/junkrat#55.0!3211223"
+    },
+    {
+      "name": "Frag Launcher Build",
+      "label": "Situational",
+      "description": "Junkrat's Frag Lanucher Build emphasizes his ability to deal large amounts of damage from a distance. Taste For Explosions scales the damage done by Frag Launcher and makes Junkrat more powerful when heading into the late game. Endless Nades enables Junkrat to deal more reliable sustain damage during critical standoffs or trades and will help accrue stacks of Taste for Explosions more quickly. Ripper Air provides Junkrat with a much welcome kiting tool and means of self-peel when being dove by the enemy team. A well-placed RIP-Tire can be the difference between a lost and won teamfight.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "junkrat-talent-extra-wound-timers",
+              "name": "Extra-Wound Timers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "junkrat-talent-taste-for-explosions",
+              "name": "Taste For Explosions",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "junkrat-talent-dirty-trickster",
+              "name": "Dirty Trickster",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "junkrat-talent-rip-tire",
+              "name": "RIP-Tire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "junkrat-talent-ripper-air",
+              "name": "Ripper Air",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "junkrat-talent-endless-nades",
+              "name": "Endless Nades",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-16"
+            },
+            {
+              "id": "junkrat-talent-spread-volley",
+              "name": "Spread Volley",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "junkrat-talent-cannonball",
+              "name": "Cannonball!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/junkrat#55.0!2131223"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Junkrat's ARAM build focuses on the buffing Frag Launcher for good poke damage. Through Endless Nades, the talent pretty much allows you to do exactly what it says.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "junkrat-talent-blow-em-up",
+              "name": "Blow 'Em Up!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "junkrat-talent-taste-for-explosions",
+              "name": "Taste For Explosions",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "junkrat-talent-bogged-down",
+              "name": "Bogged Down",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "junkrat-talent-rip-tire",
+              "name": "RIP-Tire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "junkrat-talent-bombs-away",
+              "name": "Bombs Away",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "junkrat-talent-endless-nades",
+              "name": "Endless Nades",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "junkrat-talent-cannonball",
+              "name": "Cannonball!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/junkrat-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/junkrat#55.0!3111123"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/junkrat-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:13.353080+00:00",
+    "updated_at": "2023-09-26T10:00:00+00:00",
+    "author_line": "Last updated on Sep 26, 2023 at 10:00 by Outofmilk"
+  }
+}

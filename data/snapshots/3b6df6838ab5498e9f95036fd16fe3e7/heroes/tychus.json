@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "id": "tychus",
+  "name": "Tychus",
+  "role": "Ranged Assassin",
+  "overview": "Tychus is a sustained damage Assassin who excels at damaging Heroes with large Health pools. Much of his damage from Overkill and Minigun can be interrupted by crowd control, requiring Tychus to rely on careful positioning. Although his Heroic Abilities require some planning, they can be devastating game changers when used correctly.",
+  "strengths": [
+    "Extremely high sustain damage, especially against Tanks",
+    "Can kite very effectively during Overkill",
+    "Commandeer Odin is a great tool for controlling Objectives, pushing, or defending Structures from the enemy team",
+    "Fairly good waveclear with Overkill and Frag Grenade"
+  ],
+  "weaknesses": [
+    "Overkill and Minigun (Tychus' main sources of damage) can be interrupted",
+    "Vulnerable to crowd control",
+    "Relatively low range for a Ranged Assassin",
+    "Dealing meaningful damage with Minigun can be unsafe, as using Basic Attacks means being somewhat immobile."
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "dehaka",
+        "name": "Dehaka"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Tychus can deal an incredible amount of damage to a stationary target, and benefits greatly from having strong crowd-control on his team. Heroes who can chain crowd-control or displace enemies on their own do very well with Tychus, because they can lock down an enemy while Minigun does its work. Tychus thrives when his frontline is made up of disruptive Heroes that prevent the enemy team from focusing him safely."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      }
+    ],
+    "explanation": "Tychus does exceptionally high sustain damage with high-Cooldown Abilities. This can be countered by Heroes who can move themselves and their allies out of range of Tychus until his Abilities are on cooldown. Interrupting or Blinding Tychus is also a great way to control his damage output. Tychus is very susceptible to crowd-controls; they can interrupt Overkill and eat up Minigun's active duration."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Tychus's usefulness is more decided by team compositions than the map he is playing. This is because many of his Ability and Talent mechanics are designed to interact with enemy Heroes, rather than with the environment. However, there are some mechanics worth looking at when deciding to play him on certain maps or not. Tychus has fairly good waveclear, which makes him passable on most maps. If you need to play a Hero for your composition who can solo Mercenary Camps, his lack of self-sustain will make him a bad choice. For this reason, he is also a weak choice if you are playing a map that requires prolonged solo PvE encounters. Commandeer Odin greatly increases Tychus's effectiveness for a limited amount of time. This turns him into an excellent pick in Infernal Shrines and Volskaya Foundry, since it can be used during objective and enemies will have to choose between fighting with a disadvantage or giving up the objective."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "This build is a flexible build that will be good in every scenario.\n\nAt Level 4, The Bigger They Are... can be chosen if the opposing frontline has high HP, like Cho, Diablo, or Stitches. Otherwise, it is better to get Master Assassin, as even if the quest is not completed, it is the only Talent that will boost Commandeer Odin's damage.\n\nNeosteel Coating is an excellent Talent to get if the opposing team has high burst magical damage. It should be paired with Titan Grenade.\n\nIf Tychus does not need the magical armor from Neosteel Coating, he should get Spray 'n' Pray at Level 13. It is good with Armor Piercing Rounds against squishy enemies. But it can be picked with Titan Grenade to have more poke damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tychus-talent-quarterback",
+              "name": "Quarterback",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tychus-talent-master-assassin",
+              "name": "Master Assassin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-4"
+            },
+            {
+              "id": "tychus-talent-the-bigger-they-are",
+              "name": "The Bigger They Are...",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-4"
+            },
+            {
+              "id": "tychus-talent-in-the-rhythm",
+              "name": "In the Rhythm",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tychus-talent-melting-point",
+              "name": "Melting Point",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tychus-talent-commandeer-odin",
+              "name": "Commandeer Odin",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tychus-talent-spray-n-pray",
+              "name": "Spray 'n' Pray",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-13"
+            },
+            {
+              "id": "tychus-talent-neosteel-coating",
+              "name": "Neosteel Coating",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tychus-talent-armor-piercing-rounds",
+              "name": "Armor Piercing Rounds",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-16"
+            },
+            {
+              "id": "tychus-talent-titan-grenade",
+              "name": "Titan Grenade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tychus-talent-big-red-button",
+              "name": "Big Red Button",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tychus-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tychus#55.12!1311111"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/tychus-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:29.149590+00:00",
+    "updated_at": "2021-09-27T20:00:00+00:00",
+    "author_line": "Last updated on Sep 27, 2021 at 20:00 by Derenash"
+  }
+}

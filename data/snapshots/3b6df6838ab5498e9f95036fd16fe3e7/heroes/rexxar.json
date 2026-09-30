@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "id": "rexxar",
+  "name": "Rexxar",
+  "role": "Bruiser",
+  "overview": "Rexxar is a Bruiser followed by his bear companion, named Misha, who fights alongside him and offers him support in various ways throughout the game. Compared to most other Heroes, playing Rexxar is a unique experience since you have to control both him and Misha at the same time.",
+  "strengths": [
+    "Hard to gank if played properly",
+    "Misha can hold Capture Points for Objectives",
+    "Good crowd control"
+  ],
+  "weaknesses": [
+    "No mobility",
+    "Not a real Hero when Misha is dead",
+    "Mana management can be crucial to win the solo lane sometimes"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Rexxar pairs very well with Heroes who add additional crowd control to combine with Misha, Charge! in no particular order (such as Johanna that can group enemy Heroes for you or Malfurion that can make your engage last longer).\n\nMages will easily benefit from the additional crowd control provided by Misha, Charge! and by Unleash the Boars to a lesser extent (like Jaina that deals way more damage if her target is standing still or it is being Slowed down more than she can do on her own)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "qhira",
+        "name": "Qhira"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "kharazim",
+        "name": "Kharazim"
+      }
+    ],
+    "explanation": "When laning, Rexxar is weak against Heroes who have a gap-closer to reach Rexxar behind Misha, damage to pressure Misha to death or kill Rexxar, and self-sustain to make good trades.\n\nIn team fights, Rexxar suffers from Heroes who can dive him and dodge his crowd control thanks to their high mobility (such as Zeratul)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      }
+    ],
+    "average": [
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Rexxar excels on Braxis Holdout and Dragon Shire because he can get a lot of value from having 2 bodies: Rexxar can safely take care of Minions while Misha stays on the Capture Point of the Objective.\n\nRexxar does well on Tomb of the Spider Queen because he can safely collect Gems with Misha and he cannot lose Gems when only Misha dies."
+  },
+  "builds": [
+    {
+      "name": "Basic Attacks Build",
+      "label": "Recommended",
+      "description": "Rexxar's Basic Attacks Build is designed to improve both Rexxar and Misha, so that they can do better on their own but also work together to take down foes.\n\nThe additional crowd control provided by Aspect of the Beast or Crippling Talons at Level 7 helps both Rexxar and Misha to land more Basic Attacks on enemy Heroes so that you can get more value from Aspect of the Hawk at Level 13.\n\nChoose this Build when you can safely use Basic Attacks as Rexxar, when you need more damage for responding to the enemy dive, and/or when you want to increase the amount of peeling tools at your disposal, either to increase your own survivability or to help allied Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "rexxar-talent-bird-of-prey",
+              "name": "Bird of Prey",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-1"
+            },
+            {
+              "id": "rexxar-talent-flare",
+              "name": "Flare",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "rexxar-talent-hunter-gatherer",
+              "name": "Hunter-Gatherer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-4"
+            },
+            {
+              "id": "rexxar-talent-hungry-bear",
+              "name": "Hungry Bear",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-4"
+            },
+            {
+              "id": "rexxar-talent-grizzled-fortitude",
+              "name": "Grizzled Fortitude",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "rexxar-talent-aspect-of-the-beast",
+              "name": "Aspect of the Beast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-7"
+            },
+            {
+              "id": "rexxar-talent-crippling-talons",
+              "name": "Crippling Talons",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-7"
+            },
+            {
+              "id": "rexxar-talent-taking-flight",
+              "name": "Taking Flight",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "rexxar-talent-unleash-the-boars",
+              "name": "Unleash the Boars",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "rexxar-talent-aspect-of-the-hawk",
+              "name": "Aspect of the Hawk",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "rexxar-talent-feign-death",
+              "name": "Feign Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            },
+            {
+              "id": "rexxar-talent-thrill-of-the-hunt",
+              "name": "Thrill of the Hunt",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            },
+            {
+              "id": "rexxar-talent-primal-intimidation",
+              "name": "Primal Intimidation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "rexxar-talent-kill-command",
+              "name": "Kill Command",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-20"
+            },
+            {
+              "id": "rexxar-talent-hardened-skin",
+              "name": "Hardened Skin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/rexxar#44.1!1232132"
+    },
+    {
+      "name": "Charge Build",
+      "label": "Situational",
+      "description": "Rexxar's Charge Build focuses on improving Misha to get the most value out of this Hero without exposing too much as Rexxar, however, it is less effective when Misha is dead.\n\nAspect of the Beast at Level 7 can potentially double your crowd control and has synergy with Dire Beast at Level 13, a Talent that makes Misha scary if ignored by the enemy team.\n\nChoose this Build when you expect that the enemy team will not give you a lot of space to safely Basic Attack as Rexxar for multiple seconds and/or when you want to increase the amount of peeling tools at your disposal, either to increase your own survivability or to help allied Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "rexxar-talent-bird-of-prey",
+              "name": "Bird of Prey",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-1"
+            },
+            {
+              "id": "rexxar-talent-flare",
+              "name": "Flare",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "rexxar-talent-hunter-gatherer",
+              "name": "Hunter-Gatherer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-4"
+            },
+            {
+              "id": "rexxar-talent-hungry-bear",
+              "name": "Hungry Bear",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-4"
+            },
+            {
+              "id": "rexxar-talent-grizzled-fortitude",
+              "name": "Grizzled Fortitude",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "rexxar-talent-aspect-of-the-beast",
+              "name": "Aspect of the Beast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "rexxar-talent-unleash-the-boars",
+              "name": "Unleash the Boars",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "rexxar-talent-dire-beast",
+              "name": "Dire Beast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "rexxar-talent-feign-death",
+              "name": "Feign Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            },
+            {
+              "id": "rexxar-talent-thrill-of-the-hunt",
+              "name": "Thrill of the Hunt",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            },
+            {
+              "id": "rexxar-talent-primal-intimidation",
+              "name": "Primal Intimidation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "rexxar-talent-kill-command",
+              "name": "Kill Command",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-20"
+            },
+            {
+              "id": "rexxar-talent-hardened-skin",
+              "name": "Hardened Skin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/rexxar#44.1!1232232"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Rexxar's ARAM Build is designed to improve both Rexxar and Misha, so that they can do better on their own but also work together to take down foes.\n\nThe additional crowd control provided by Aspect of the Beast or Crippling Talons at Level 7 helps both Rexxar and Misha to land more Basic Attacks on enemy Heroes so that you can get more value from Aspect of the Hawk at Level 13.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "rexxar-talent-flare",
+              "name": "Flare",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "rexxar-talent-hunter-gatherer",
+              "name": "Hunter-Gatherer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-4"
+            },
+            {
+              "id": "rexxar-talent-grizzled-fortitude",
+              "name": "Grizzled Fortitude",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "rexxar-talent-aspect-of-the-beast",
+              "name": "Aspect of the Beast",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "rexxar-talent-unleash-the-boars",
+              "name": "Unleash the Boars",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "rexxar-talent-aspect-of-the-hawk",
+              "name": "Aspect of the Hawk",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "rexxar-talent-feign-death",
+              "name": "Feign Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            },
+            {
+              "id": "rexxar-talent-thrill-of-the-hunt",
+              "name": "Thrill of the Hunt",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            },
+            {
+              "id": "rexxar-talent-primal-intimidation",
+              "name": "Primal Intimidation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "rexxar-talent-kill-command",
+              "name": "Kill Command",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-20"
+            },
+            {
+              "id": "rexxar-talent-hardened-skin",
+              "name": "Hardened Skin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rexxar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/rexxar#44.1!3232132"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/rexxar-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:17.252200+00:00",
+    "updated_at": "2026-09-21T10:10:00+00:00",
+    "author_line": "Last updated on Sep 21, 2026 at 10:10 by Elitesparkle"
+  }
+}

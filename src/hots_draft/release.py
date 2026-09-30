@@ -56,7 +56,7 @@ def main() -> None:
     subprocess.run(["uv", "lock"], cwd=root, check=True)
     git(root, "add", "pyproject.toml", "uv.lock", "src/hots_draft/_version.py")
     git(root, "commit", "-m", f"Release {tag}")
-    git(root, "tag", "-a", tag, "-m", f"Nexus Draft {tag}")
+    git(root, "tag", "-a", tag, "-m", f"HotsDraft {tag}")
     # Atomic push avoids publishing a tag without its main-branch commit.
     git(root, "push", "--atomic", "origin", branch, tag)
     print("Release build queued: https://github.com/MatthieuMv/hots-draft/actions")

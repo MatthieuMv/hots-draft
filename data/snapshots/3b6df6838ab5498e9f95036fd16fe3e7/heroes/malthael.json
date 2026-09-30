@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "id": "malthael",
+  "name": "Malthael",
+  "role": "Bruiser",
+  "overview": "Malthael is a Bruiser who naturally counters high-Health Heroes. Calm players who are able to apply Reaper's Mark onto multiple targets will be rewarded with overwhelming sustain damage and great survivability.",
+  "strengths": [
+    "Excellent self-sustain",
+    "Powerful duelist",
+    "Solid non-Structural PvE damage",
+    "Very difficult to escape from once marked by Reaper's Mark",
+    "Last Rites is excellent to execute Heroes",
+    "Multiple sources of percent-based damage that cannot be reduced by Armor"
+  ],
+  "weaknesses": [
+    "Highly prone to being kited",
+    "Offers limited utility beyond raw damage",
+    "Limited upfront burst damage",
+    "Weak siege damage",
+    "Low maximum Health, being vulnerable to crowd control and bursts during the early game"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "tychus",
+        "name": "Tychus"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Heroes that displace enemies, like Garrosh and E.T.C. are excellent with Malthael, as they will ease the focus on a target, allowing Last Rites to execute it. One of Malthael's problems is that he takes too long to reduce an enemy's health to Last Rites's threshold, so he is great with Greymane's Cursed Bullet or with Tychus's The Bigger They Are....\n\nDue to how Malthael's damage and self sustain is completely tied to Soul Rip, he has excellent synergy with Heroes that can reduce his Cooldowns. While Ana with Nano Boost turns Malthael into an immortal killing machine, Malfurion can enhance his effectiveness very often through Innervate."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      },
+      {
+        "id": "fenix",
+        "name": "Fenix"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "valla",
+        "name": "Valla"
+      }
+    ],
+    "explanation": "As a Bruiser with a rather telegraphed play style, Malthael is very vulnerable to any form of targeted crowd control. Furthermore, since his main gap closer, Wraith Strike, requires him to either attack or hit a slow skillshot, he is naturally bound to be kited by nimble ranged Heroes.\n\nAgainst experienced players, Blaze will be an excellent counter to Malthael. Bunker Drop cleanses Reaper's Mark from anyone that enters it. It also denies Last Rites's damage. Considering enemies will be inside bunker, Malthael's self-sustain will be very limited, as Malthael will not be able to use Soul Rip to sustain himself."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Malthael is a very versatile Hero that is excellent in many different maps. On a Pale Horse enhances Malthael's effectiveness in large maps, while his outstanding double soak makes him a good pick on Infernal Shrines, Sky Temple, and Towers of Doom. His good dueling capabilities can be abused on Dragon Shire and Tomb of the Spider Queen. Additionally, since Malthael can easily capture Mercenary Camps, due to his good self-sustain, he is good on macro-heavy maps, like Garden of Terror and Blackheart's Bay.\n\nMalthael cannot abuse his fast rotation and waveclear in 2-lane maps. Therefore, we do not recommend him on Hanamura Temple and Battlefield of Eternity."
+  },
+  "builds": [
+    {
+      "name": "Massacre Build",
+      "label": "Recommended",
+      "description": "Malthael's Massacre Build offers good versatility, letting you finish off enemies with Last Rites or pressure teams as a mobile damage dealer with Tormented Souls. Your major power spike comes at Level 16 with Mortality. After that, Malthael becomes a powerful threat that can deal massive damage to multiple enemies.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malthael-talent-fear-the-reaper",
+              "name": "Fear the Reaper",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-1"
+            },
+            {
+              "id": "malthael-talent-deaths-reach",
+              "name": "Death's Reach",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-1"
+            },
+            {
+              "id": "malthael-talent-on-a-pale-horse",
+              "name": "On a Pale Horse",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malthael-talent-die-alone",
+              "name": "Die Alone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-4"
+            },
+            {
+              "id": "malthael-talent-throwing-shade",
+              "name": "Throwing Shade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malthael-talent-massacre",
+              "name": "Massacre",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malthael-talent-last-rites",
+              "name": "Last Rites",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-10"
+            },
+            {
+              "id": "malthael-talent-tormented-souls",
+              "name": "Tormented Souls",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malthael-talent-inevitable-end",
+              "name": "Inevitable End",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-13"
+            },
+            {
+              "id": "malthael-talent-shroud-of-wisdom",
+              "name": "Shroud of Wisdom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-13"
+            },
+            {
+              "id": "malthael-talent-ethereal-existence",
+              "name": "Ethereal Existence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malthael-talent-mortality",
+              "name": "Mortality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malthael-talent-no-one-can-stop-death",
+              "name": "No One Can Stop Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malthael#30.0!3122324"
+    },
+    {
+      "name": "Standard Build",
+      "label": "Situational",
+      "description": "Malthael's Standard Build provides superior survivability and sustain damage. It provides you with powerful self-sustain and continuous area of effect damage that force your opponents to spread out, reducing their effectiveness.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malthael-talent-fear-the-reaper",
+              "name": "Fear the Reaper",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-1"
+            },
+            {
+              "id": "malthael-talent-on-a-pale-horse",
+              "name": "On a Pale Horse",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malthael-talent-die-alone",
+              "name": "Die Alone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malthael-talent-touch-of-death",
+              "name": "Touch of Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-7"
+            },
+            {
+              "id": "malthael-talent-massacre",
+              "name": "Massacre",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-7"
+            },
+            {
+              "id": "malthael-talent-cold-hand",
+              "name": "Cold Hand",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malthael-talent-last-rites",
+              "name": "Last Rites",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malthael-talent-inevitable-end",
+              "name": "Inevitable End",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-13"
+            },
+            {
+              "id": "malthael-talent-shroud-of-wisdom",
+              "name": "Shroud of Wisdom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malthael-talent-soul-collector",
+              "name": "Soul Collector",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malthael-talent-no-one-can-stop-death",
+              "name": "No One Can Stop Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malthael#30.0!3132314"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Malthael's ARAM Build is focused on dealing the maximum possible AoE damage through Massacre and Mortality. Tormented Souls adds extra damage and mobility to Malthael through multiples uses of Wraith Strike.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malthael-talent-fear-the-reaper",
+              "name": "Fear the Reaper",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-1"
+            },
+            {
+              "id": "malthael-talent-deaths-reach",
+              "name": "Death's Reach",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malthael-talent-die-alone",
+              "name": "Die Alone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-4"
+            },
+            {
+              "id": "malthael-talent-throwing-shade",
+              "name": "Throwing Shade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malthael-talent-massacre",
+              "name": "Massacre",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malthael-talent-tormented-souls",
+              "name": "Tormented Souls",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-10"
+            },
+            {
+              "id": "malthael-talent-last-rites",
+              "name": "Last Rites",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malthael-talent-inevitable-end",
+              "name": "Inevitable End",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-13"
+            },
+            {
+              "id": "malthael-talent-shroud-of-wisdom",
+              "name": "Shroud of Wisdom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-13"
+            },
+            {
+              "id": "malthael-talent-ethereal-existence",
+              "name": "Ethereal Existence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malthael-talent-mortality",
+              "name": "Mortality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malthael-talent-no-one-can-stop-death",
+              "name": "No One Can Stop Death",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malthael-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malthael#30.0!3121324"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/malthael-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:27.373611+00:00",
+    "updated_at": "2025-05-02T09:35:00+00:00",
+    "author_line": "Last updated on May 02, 2025 at 09:35 by Derenash"
+  }
+}

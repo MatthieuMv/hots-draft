@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "id": "falstad",
+  "name": "Falstad",
+  "role": "Ranged Assassin",
+  "overview": "Falstad is a versatile and flexible Ranged Assassin. His strong points are his solid single-target damage per second, extreme on-demand area of effect ranged burst damage, and global presence. However, his relative fragility makes him a high-priority target for enemy Heroes.",
+  "strengths": [
+    "Good waveclear",
+    "Global thanks to Flight",
+    "Access to Mighty Gust"
+  ],
+  "weaknesses": [
+    "Extremely dependent on good positioning",
+    "Mediocre damage output during the early game",
+    "Vulnerable to crowd control"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "tassadar",
+        "name": "Tassadar"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Falstad is at his best when something stands between him and his enemies. Large, healthy Tanks are particularly desirable as they draw attention away from Falstad, and often provide their own form of crowd control for potential follow-ups. Otherwise, anything that can protect Falstad is also desirable. Shielding effects are particularly impactful due to his limited Health pool."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "nova",
+        "name": "Nova"
+      },
+      {
+        "id": "valeera",
+        "name": "Valeera"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "As a frail Ranged Assassin, Falstad tends to naturally struggle against high-damage Heroes who have the ability to effectively gap close past his Barrel Roll's range or otherwise sneak up on him. With little in the way of self-peeling, see to stay near your Healer when possible against such Heroes, and make no bold attempts at outplaying your opponents."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Flight makes Falstad particularly effective on larger Maps that feature multiple Objectives that must be contested, as it allows him to effectively soak and push without giving up potential team fighting presence, as would other Heroes.\n\nMighty Gust also makes him potent on Maps that feature Bosses, as he makes it particularly difficult for opponents to safely try and claim or contest due to the fear of being knocked away.\n\nOverall, Falstad's versatility makes him a viable pick almost anywhere, but he gives less value on small Maps where it is hard to make good use of its global."
+  },
+  "builds": [
+    {
+      "name": "Basic Attacks Build",
+      "label": "Recommended",
+      "description": "Falstad's Basic Attacks Build provides a fair amount of sustain damage on a single target thanks to multiple Talents that improve your damage via Basic Attacks: Frequent Flyer at Level 1, Secret Weapon at Level 7, and Sustained Winds at Level 13.\n\nAs this Build gives you access to percent-based damage, it is great for pressuring and/or taking down the enemy frontline, even if they have access to Armor effects.\n\nGiven it does not need to stack on enemy Heroes, this Build is the go-to when you are playing on a big Map (for example Sky Temple) and your strategy revolves around split-pushing to pressure the enemy team.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "falstad-talent-frequent-flyer",
+              "name": "Frequent Flyer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "falstad-talent-hammer-gains",
+              "name": "Hammer Gains",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "falstad-talent-secret-weapon",
+              "name": "Secret Weapon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "falstad-talent-mighty-gust",
+              "name": "Mighty Gust",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "falstad-talent-sustained-winds",
+              "name": "Sustained Winds",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "falstad-talent-aerie-gusts",
+              "name": "Aerie Gusts",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-16"
+            },
+            {
+              "id": "falstad-talent-crippling-hammer",
+              "name": "Crippling Hammer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-16"
+            },
+            {
+              "id": "falstad-talent-afterburner",
+              "name": "Afterburner",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "falstad-talent-wind-tunnel",
+              "name": "Wind Tunnel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-20"
+            },
+            {
+              "id": "falstad-talent-epic-mount",
+              "name": "Epic Mount",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/falstad#55.16!3312322"
+    },
+    {
+      "name": "Hammerang Build",
+      "label": "Situational",
+      "description": "Falstad's Hammerang Build provides a high amount of poke damage, which can be increased by pairing him with a Mage who will get value from BOOMerang at Level 7.\n\nGiven it needs to stack on enemy Heroes, this Build does better on 2-lane Maps (such as Braxis Holdout), where it will be easier to stack Gathering Storm.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "falstad-talent-gathering-storm",
+              "name": "Gathering Storm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "falstad-talent-updraft",
+              "name": "Updraft",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "falstad-talent-boomerang",
+              "name": "BOOMerang",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "falstad-talent-mighty-gust",
+              "name": "Mighty Gust",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "falstad-talent-flow-rider",
+              "name": "Flow Rider",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "falstad-talent-aerie-gusts",
+              "name": "Aerie Gusts",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "falstad-talent-wind-tunnel",
+              "name": "Wind Tunnel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-20"
+            },
+            {
+              "id": "falstad-talent-epic-mount",
+              "name": "Epic Mount",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/falstad#55.16!1222222"
+    },
+    {
+      "name": "Lightning Rod Build",
+      "label": "Situational",
+      "description": "Falstad's Lightning Rod Build offers a high amount of damage on a single target by empowering Lightning Rod, allowing him to trade extremely well with Heroes who gank or dive alone.\n\nWe find this Build more appropriate when playing against dive Heroes because it greatly increases your dueling power, assuming you manage to stack Dishonorable Discharge at Level 1 enough to unlock the second Reward.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "falstad-talent-dishonorable-discharge",
+              "name": "Dishonorable Discharge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "falstad-talent-static-shield",
+              "name": "Static Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "falstad-talent-thunderstrikes",
+              "name": "Thunderstrikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "falstad-talent-mighty-gust",
+              "name": "Mighty Gust",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "falstad-talent-charged-up",
+              "name": "Charged Up",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "falstad-talent-afterburner",
+              "name": "Afterburner",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-16"
+            },
+            {
+              "id": "falstad-talent-crippling-hammer",
+              "name": "Crippling Hammer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-16"
+            },
+            {
+              "id": "falstad-talent-aerie-gusts",
+              "name": "Aerie Gusts",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "falstad-talent-wind-tunnel",
+              "name": "Wind Tunnel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-20"
+            },
+            {
+              "id": "falstad-talent-epic-mount",
+              "name": "Epic Mount",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/falstad#55.16!2132132"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Falstad's ARAM Build provides a high amount of poke damage, which can be increased by pairing him with a Mage who will get value from BOOMerang at Level 7.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "falstad-talent-gathering-storm",
+              "name": "Gathering Storm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "falstad-talent-updraft",
+              "name": "Updraft",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "falstad-talent-boomerang",
+              "name": "BOOMerang",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "falstad-talent-mighty-gust",
+              "name": "Mighty Gust",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-10"
+            },
+            {
+              "id": "falstad-talent-hinterland-blast",
+              "name": "Hinterland Blast",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "falstad-talent-flow-rider",
+              "name": "Flow Rider",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "falstad-talent-aerie-gusts",
+              "name": "Aerie Gusts",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "falstad-talent-wind-tunnel",
+              "name": "Wind Tunnel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-20"
+            },
+            {
+              "id": "falstad-talent-call-of-the-wildhammer",
+              "name": "Call of the Wildhammer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/falstad-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/falstad#55.16!1222222"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/falstad-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:57:59.300462+00:00",
+    "updated_at": "2026-04-22T12:30:00+00:00",
+    "author_line": "Last updated on Apr 22, 2026 at 12:30 by Elitesparkle"
+  }
+}

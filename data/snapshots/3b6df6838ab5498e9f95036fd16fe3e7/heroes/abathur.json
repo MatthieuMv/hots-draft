@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "id": "abathur",
+  "name": "Abathur",
+  "role": "Support",
+  "overview": "Abathur plays differently from every other Hero in the game. With extremely low health and negligible Basic Attack damage, he needs to avoid direct confrontations with enemy Heroes. He instead applies pressure to the map through use of his global Abilities, and participates in team fights by empowering his allies with Symbiote. Abathur is very dependent on good strategy, and can greatly benefit from (or suffer on) certain maps and team compositions.",
+  "strengths": [
+    "Can soak multiple lanes at once, creating an XP lead",
+    "Excellent synergy with specific Heroes",
+    "One of the best split-pushing Heroes in the game",
+    "Can teleport anywhere on the map (provided there is vision) using Deep Tunnel",
+    "Toxic Nest is excellent at spotting and dismounting enemies attempting to gank allies or sneak objectives"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Cannot solo a lane by himself",
+    "Body is extremely vulnerable if found",
+    "Requires very good multitasking and map awareness",
+    "Team must adapt to Abathur's unique gameplay style in order to succeed",
+    "Viability is very dependent on the map and team compositions"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      }
+    ],
+    "explanation": "Abathur is strong with Heroes who serve as ideal Symbiote hosts, or who are good targets for Ultimate Evolution. Ideal Symbiote hosts are Heroes that naturally position themselves in melee range, or with mobile assassins, that can easily abuse Symbiote to kill squishy targets."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "dehaka",
+        "name": "Dehaka"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      },
+      {
+        "id": "ragnaros",
+        "name": "Ragnaros"
+      },
+      {
+        "id": "zarya",
+        "name": "Zarya"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      }
+    ],
+    "explanation": "Abathur's Symbiote and Locusts help him to deny the enemy team experience when objectives spawn, when most Heroes will need to vacate lanes in order to rotate. This tactic is directly countered by Heroes who can travel globally, and who waveclear very efficiently. He is also very weak against compositions that can join as four to push down a lane. Heroes like Sylvanas, Zarya or Sgt. Hammer are great for that purpose, and for this reason are a big threat for Abathur's team."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "explanation": "Abathur's win condition is to be more places at once than his enemy, and overwhelm the other team with a constant stream of subtle pressure. Abathur is very strong on large maps that feature frequent objective spawns, which allow him to be somewhat ignored for some of the match. These maps allow him to either soak an advantage, or force the enemy team to split. His strength, however, is also his weakness. Abathur gets very little value on small maps that feature fewer lanes, team fights near lanes, or objectives that do not require immediate rotations. Abathur is excellent on Sky Temple due to Calldown: MULE denying most of objective's shots."
+  },
+  "builds": [
+    {
+      "name": "Symbiote Build",
+      "label": "Recommended",
+      "description": "The Symbiote Build maximises Abathur's team fight presence by taking Talents that improve Symbiote's damage dealing Abilities. This team fight presence comes at the cost of global pressure, as you will lack the huge lane pressure provided by other builds. Although this is not a build that focuses on pushing lanes, it is still important to soak as much experience as possible. Due to the short range of Symbiote's Abilities, this build is ideally paired with a melee assassin who benefits from increased attack speed.\n\nAdrenal Overload will greatly increase the performance of certain heroes, like Illidan, or Greymane. When the Symbiote host is not reliant on Basic Attacks, you should get Needlespine instead. Even though Calldown: MULE will be useful in most games, Vile Nest is also an option in Dragon Shire and Cursed Hollow, since it will provide much control for enemy rotation and objectives. At Level 16 Adrenaline Boost is the standard Talent, but Envenomed Spikes is a great option against team compositions with limited mobility, since the slow will affect all enemies, greatly disrupting their movement. Together with a Dragonblade Genji or Maiev, you can go for Evolutionary Link at Level 20, since the shield and the extra duration will be incredibly good for those Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "abathur-talent-pressurized-glands",
+              "name": "Pressurized Glands",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "abathur-talent-adrenal-overload",
+              "name": "Adrenal Overload",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-4"
+            },
+            {
+              "id": "abathur-talent-needlespine",
+              "name": "Needlespine",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "abathur-talent-networked-carapace",
+              "name": "Networked Carapace",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-7"
+            },
+            {
+              "id": "abathur-talent-calldown-mule",
+              "name": "Calldown: MULE",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-7"
+            },
+            {
+              "id": "abathur-talent-vile-nest",
+              "name": "Vile Nest",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "abathur-talent-ultimate-evolution",
+              "name": "Ultimate Evolution",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-10"
+            },
+            {
+              "id": "abathur-talent-evolve-monstrosity",
+              "name": "Evolve Monstrosity",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "abathur-talent-soma-transference",
+              "name": "Soma Transference",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "abathur-talent-adrenaline-boost",
+              "name": "Adrenaline Boost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-16"
+            },
+            {
+              "id": "abathur-talent-envenomed-spikes",
+              "name": "Envenomed Spikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "abathur-talent-hivemind",
+              "name": "Hivemind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-20"
+            },
+            {
+              "id": "abathur-talent-evolutionary-link",
+              "name": "Evolutionary Link",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/abathur#57.0!1121223"
+    },
+    {
+      "name": "Toxic Nest Build",
+      "label": "Situational",
+      "description": "Toxic Nest build can be a good choice in situations where you do not have viable heroes to place Symbiote on. It excels in maps with constant rotation, such as Dragon Shire, Blackheart's Bay, Cursed Hollow, Garden of Terror and Towers of Doom.\n\nEven though it sounds interesting to use all your Toxic Nest in the same point, this is not the best way to abuse this build. We recommend using the Nests between the waves, while making sure they are not very close between them. The main focus is to abuse Vile Nest's slow to delay enemy rotations or to control the way towards the objective. It is also very important to always have a Toxic Nest on enemy's Mercenary camps, since it will give that information to your team, and sometimes it will even stop their intention in capturing it.\n\nEnvenomed Nest is especially strong when your team has a good ganker or roamer, as Toxic Nests can catch enemies during rotations. Together with Vile Nest, affected Heroes are Slowed and have their Armor reduced by 15, giving your ally time to secure the kill. At level 13, Soma Transference is the default pick as long as most of your simbiote hosts are frontline Heroes. Therefore, it is better to go for Spatial Efficiency when backliners are the hosts. Evolutionary Link can be a good Talent as well, and you should use the Heroic Ability on your teammate that is having more trouble staying alive, since the 35% shield will be applied to them, giving them some much needed protection.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "abathur-talent-envenomed-nest",
+              "name": "Envenomed Nest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-1"
+            },
+            {
+              "id": "abathur-talent-pressurized-glands",
+              "name": "Pressurized Glands",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "abathur-talent-prolific-dispersal",
+              "name": "Prolific Dispersal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "abathur-talent-vile-nest",
+              "name": "Vile Nest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-7"
+            },
+            {
+              "id": "abathur-talent-calldown-mule",
+              "name": "Calldown: MULE",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "abathur-talent-ultimate-evolution",
+              "name": "Ultimate Evolution",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "abathur-talent-soma-transference",
+              "name": "Soma Transference",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-13"
+            },
+            {
+              "id": "abathur-talent-spatial-efficiency",
+              "name": "Spatial Efficiency",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "abathur-talent-adrenaline-boost",
+              "name": "Adrenaline Boost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "abathur-talent-evolutionary-link",
+              "name": "Evolutionary Link",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-20"
+            },
+            {
+              "id": "abathur-talent-hivemind",
+              "name": "Hivemind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/abathur#57.0!2311221"
+    },
+    {
+      "name": "Locust Strain Build",
+      "label": "Situational",
+      "description": "The Locust Strain Build is strong on large Maps, where Deep Tunnel and Locust Brood allow Abathur to create split-push pressure far from the enemy team. Locusts can sustain themselves through undefended Minion waves, making their pressure harder to answer after Bombard Strain at Level 13 and Survival Instincts at Level 16. When enemies are visible elsewhere, tunnel to an advanced position, use Locust Brood, and retreat. Ultimate Evolution can then be used to assist your team while enemies respond to the Locusts.\n\nAt Level 4, Adrenal Overload is excellent when your team has a decent Basic Attacker, such as Illidan or Greymane, who can take full advantage of its bonus Attack Speed. Without such an ally, Prolific Dispersal provides more map control and information through additional Toxic Nests, while Slapathur makes Abathur much harder to dive when facing Heroes such as Genji or Zeratul. At Level 7, Networked Carapace greatly strengthens the push of allied Minion waves, but Calldown: MULE is essential on Sky Temple and Haunted Mines, where repairing Structures helps counter objective pressure.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "abathur-talent-locust-brood",
+              "name": "Locust Brood",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "abathur-talent-adrenal-overload",
+              "name": "Adrenal Overload",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-4"
+            },
+            {
+              "id": "abathur-talent-prolific-dispersal",
+              "name": "Prolific Dispersal",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-4"
+            },
+            {
+              "id": "abathur-talent-slapathur",
+              "name": "Slapathur",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "abathur-talent-networked-carapace",
+              "name": "Networked Carapace",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-7"
+            },
+            {
+              "id": "abathur-talent-calldown-mule",
+              "name": "Calldown: MULE",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "abathur-talent-ultimate-evolution",
+              "name": "Ultimate Evolution",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "abathur-talent-bombard-strain",
+              "name": "Bombard Strain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "abathur-talent-survival-instincts",
+              "name": "Survival Instincts",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "abathur-talent-locust-nest",
+              "name": "Locust Nest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-20"
+            },
+            {
+              "id": "abathur-talent-evolutionary-link",
+              "name": "Evolutionary Link",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/abathur-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/abathur#57.0!4121344"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/abathur-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:55:58.866553+00:00",
+    "updated_at": "2026-08-24T08:10:00+00:00",
+    "author_line": "Last updated on Aug 24, 2026 at 08:10 by Derenash"
+  }
+}

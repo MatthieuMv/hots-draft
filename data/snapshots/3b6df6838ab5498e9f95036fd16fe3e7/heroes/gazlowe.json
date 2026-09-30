@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "id": "gazlowe",
+  "name": "Gazlowe",
+  "role": "Bruiser",
+  "overview": "Gazlowe is a Bruiser that excels at controlling the space around him, sieging, and painlessly claiming Mercenary Camps. With decent survivability provided by Talents, Gazlowe can easily survive dives while also creating many turrets, being a nuisance for the enemy team. However, his abilities have a delay to be applied, so he will be better in a chaotic situation, where enemies cannot properly predict and react to Xplodium Charge and Grav-O-Bomb 3000.",
+  "strengths": [
+    "Outstanding zoning potential",
+    "Decent sieging capabilities",
+    "Situationally high sustain damage",
+    "May safely solo claim any Mercenary Camp",
+    "Strong combo potential with Grav-O-Bomb 3000",
+    "Great self-sustain if not under crowd control",
+    "Good follow up to Tanks with Xplodium Charge"
+  ],
+  "weaknesses": [
+    "Very little target-focused damage",
+    "Requires setup to maximise damage",
+    "Particularly weak versus ranged damage dealers",
+    "Unique playstyle around which teammates must play",
+    "Cannot properly engage for his team"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Gazlowe is at his best when coupled with Heroes that have the means of setting up for or following up on his Grav-O-Bomb 3000- Xplodium Charge combo. Otherwise, his Turrets and Xplodium Charge remain useful for hindering opponents from attacking vulnerable backline teammates, making him relatively versatile in this regard."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "guldan",
+        "name": "Gul'dan"
+      },
+      {
+        "id": "chromie",
+        "name": "Chromie"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      }
+    ],
+    "explanation": "Gazlowe's short-range nature makes him ineffective against anything that can outrange him and his Turrets. Lacking a reliable Movement Speed reduction effect also makes him prone to being kited."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "explanation": "Gazlowe's static nature makes him thrive on Maps with fixed Objectives that allow him to get scrap through Big Game Hunter, like Infernal Shrines and Sky Temple. Conversely, he tends to be weaker in maps that require more initiative during the objective, like in Hanamura Temple and Towers of Doom."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "Gazlowe's Standard Build focuses on creating extra Turrets through the Scrap from Goblin Fusion, while also adding more sustain to the Hero from Rock It Sock It's Shields.\n\nAt Level 10, we recommend getting Grav-O-Bomb 3000 due to the great potential to win teamfights with it. However, if your plan is to constantly split-push, Robo-Goblin might be a better option.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "gazlowe-talent-rocket-boots",
+              "name": "Rocket Boots",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-1"
+            },
+            {
+              "id": "gazlowe-talent-big-game-hunter",
+              "name": "Big Game Hunter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "gazlowe-talent-rock-it-sock-it",
+              "name": "Rock It Sock It",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "gazlowe-talent-goblin-fusion",
+              "name": "Goblin Fusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "gazlowe-talent-grav-o-bomb-3000",
+              "name": "Grav-O-Bomb 3000",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-10"
+            },
+            {
+              "id": "gazlowe-talent-robo-goblin",
+              "name": "Robo-Goblin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "gazlowe-talent-superior-schematics",
+              "name": "Superior Schematics",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-13"
+            },
+            {
+              "id": "gazlowe-talent-overcharged-capacitors",
+              "name": "Overcharged Capacitors",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "gazlowe-talent-ark-reaktor",
+              "name": "Ark Reaktor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-16"
+            },
+            {
+              "id": "gazlowe-talent-firin-mah-lazorz",
+              "name": "Firin' Mah Lazorz",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "gazlowe-talent-miniature-black-hole",
+              "name": "Miniature Black Hole",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-20"
+            },
+            {
+              "id": "gazlowe-talent-its-raining-scrap",
+              "name": "It's Raining Scrap",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-20"
+            },
+            {
+              "id": "gazlowe-talent-bomb-toss",
+              "name": "Bomb Toss",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/gazlowe#52.0!1112222"
+    },
+    {
+      "name": "Xplodium Build",
+      "label": "Situational",
+      "description": "Gazlowe's Xplodium Build allows him to follow up his Tank's engages from anywhere, while also dealing high damage from afar. This build does not have as much early game presence as the Standard one, but it gets extremely powerful at Level 16 and Level 20.\n\nThis build is a good option if you are not in the solo lane or if your team features a tank with good engage tools, such as E.T.C. or Anub'arak.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "gazlowe-talent-rocket-boots",
+              "name": "Rocket Boots",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "gazlowe-talent-hyperfocus-coils",
+              "name": "Hyperfocus Coils",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "gazlowe-talent-overload",
+              "name": "Overload",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-7"
+            },
+            {
+              "id": "gazlowe-talent-master-blaster",
+              "name": "Master Blaster",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "gazlowe-talent-grav-o-bomb-3000",
+              "name": "Grav-O-Bomb 3000",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "gazlowe-talent-overcharged-capacitors",
+              "name": "Overcharged Capacitors",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "gazlowe-talent-ark-reaktor",
+              "name": "Ark Reaktor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-16"
+            },
+            {
+              "id": "gazlowe-talent-firin-mah-lazorz",
+              "name": "Firin' Mah Lazorz",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "gazlowe-talent-bomb-toss",
+              "name": "Bomb Toss",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-20"
+            },
+            {
+              "id": "gazlowe-talent-miniature-black-hole",
+              "name": "Miniature Black Hole",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/gazlowe#52.0!1222324"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Gazlowe's ARAM Build focuses on getting the most value from clumped enemies. It also provides good setup with Grav-O-Bomb 3000 and strong follow-up with Xplodium Charge empowered by Rocket Boots after allied engages.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "gazlowe-talent-rocket-boots",
+              "name": "Rocket Boots",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "gazlowe-talent-hyperfocus-coils",
+              "name": "Hyperfocus Coils",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-4"
+            },
+            {
+              "id": "gazlowe-talent-ez-pz-dimensional-ripper",
+              "name": "EZ-PZ Dimensional Ripper",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "gazlowe-talent-overload",
+              "name": "Overload",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "gazlowe-talent-grav-o-bomb-3000",
+              "name": "Grav-O-Bomb 3000",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "gazlowe-talent-overcharged-capacitors",
+              "name": "Overcharged Capacitors",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "gazlowe-talent-ark-reaktor",
+              "name": "Ark Reaktor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "gazlowe-talent-bomb-toss",
+              "name": "Bomb Toss",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-20"
+            },
+            {
+              "id": "gazlowe-talent-miniature-black-hole",
+              "name": "Miniature Black Hole",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/gazlowe-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/gazlowe#52.0!1222324"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/gazlowe-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:03.276998+00:00",
+    "updated_at": "2026-09-13T12:30:00+00:00",
+    "author_line": "Last updated on Sep 13, 2026 at 12:30 by Derenash"
+  }
+}

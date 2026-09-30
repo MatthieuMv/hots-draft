@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "id": "raynor",
+  "name": "Raynor",
+  "role": "Ranged Assassin",
+  "overview": "Raynor is a Ranged Assassin who relies on his hard-hitting Basic Attacks and long range to fight his enemies from a safe distance. He combines plain abilities with simple mechanics, however, he requires good positioning and map awareness in order to unfold his true strength. Since Raynor lacks any form of innate escape mechanism, like teleports or dashes, knowing when to take a fight and when to retreat is crucial to achieve good results when playing this Hero.",
+  "strengths": [
+    "Strong Basic Attacks",
+    "Low learning curve",
+    "Good self-sustain through Talents and Abilities",
+    "Decent PvE damage with Exterminator",
+    "Long range"
+  ],
+  "weaknesses": [
+    "One-sided playstyle",
+    "No innate escape mechanisms",
+    "Blinds greatly reduce his effectiveness",
+    "Requires good positioning"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "thrall",
+        "name": "Thrall"
+      },
+      {
+        "id": "lt-morales",
+        "name": "Lt. Morales"
+      }
+    ],
+    "explanation": "Raynor excels if played with Heroes that can easily protect him, while also creating space so he can deliver more Basic Attacks. Beside the tanks with decent peel capabilities, Thrall is a good teammate, since Earthquake's slow will not only assist Raynor against engages, but will also allow him to play freely in fights."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "artanis",
+        "name": "Artanis"
+      },
+      {
+        "id": "cassia",
+        "name": "Cassia"
+      }
+    ],
+    "explanation": "Since Raynor relies completely on his Basic Attacks, Blinds are his worst enemy. As a result, Heroes like Johanna, Artanis, or Cassia can really cripple Raynor's combat performance."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Raynor usually performs decently on most Maps, however, he is slightly more efficient on push-heavy Maps, such as Infernal Shrines or Dragon Shire. The more opportunities he gets to attack his opponents from a safe distance, the better. Try to avoid getting caught separately from your team when playing Raynor, as his escape potential is rather limited. Raynor should not be played in the sofflane, instead, try to be part of rotations and stay behind your Warriors at all time while moving from lane to lane."
+  },
+  "builds": [
+    {
+      "name": "Penetrating Round Build",
+      "label": "Recommended",
+      "description": "The Penetrating Round Build is designed to amplify Raynor's damage while also giving him good survivability. At level 1, Exterminator will drastically increase Raynor's PvE damage. It should be picked in Maps where waveclear and mercenaries are essential, or in Battlefield of Eternity, to greatly increase damage on immortal. At Level 10, both Heroic Abilities are viable, however, we recommend Raynor's Raider as the main option, while Hyperion can be a great option to push Forts, Keeps or to control Objectives in Volskaya Foundry or Infernal Shrines.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "raynor-talent-exterminator",
+              "name": "Exterminator",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-1"
+            },
+            {
+              "id": "raynor-talent-ace-in-the-hole",
+              "name": "Ace In The Hole",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-1"
+            },
+            {
+              "id": "raynor-talent-veteran-marksman",
+              "name": "Veteran Marksman",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "raynor-talent-fight-or-flight",
+              "name": "Fight or Flight",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-4"
+            },
+            {
+              "id": "raynor-talent-behemoth-armor",
+              "name": "Behemoth Armor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "raynor-talent-unstable-compound",
+              "name": "Unstable Compound",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "raynor-talent-raynors-raider",
+              "name": "Raynor's Raider",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-10"
+            },
+            {
+              "id": "raynor-talent-hyperion",
+              "name": "Hyperion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "raynor-talent-line-em-up",
+              "name": "Line 'Em Up",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "raynor-talent-paint-them-red",
+              "name": "Paint Them Red",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "raynor-talent-dusk-wing",
+              "name": "Dusk Wing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-20"
+            },
+            {
+              "id": "raynor-talent-cavalrys-arrived",
+              "name": "Cavalry's Arrived",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-20"
+            },
+            {
+              "id": "raynor-talent-raiders-roll",
+              "name": "Raiders Roll",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/raynor#35.0!1132112"
+    },
+    {
+      "name": "Adrenaline Build",
+      "label": "Situational",
+      "description": "The Adrenaline Build greatly amplifies Raynor's self-sustain from Adrenaline Rush, and Attack Speed during Inspire. This build may not have a good early game and mid game, but it becomes extremely good at level 20 with Raiders Roll.\n\nWe recommend this build if you are in maps that will often reach Level 20, such as Volskaya Foundry or Alterac Pass.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "raynor-talent-exterminator",
+              "name": "Exterminator",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-1"
+            },
+            {
+              "id": "raynor-talent-ace-in-the-hole",
+              "name": "Ace In The Hole",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-1"
+            },
+            {
+              "id": "raynor-talent-veteran-marksman",
+              "name": "Veteran Marksman",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "raynor-talent-fight-or-flight",
+              "name": "Fight or Flight",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "raynor-talent-fuel-the-rush",
+              "name": "Fuel The Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "raynor-talent-raynors-raider",
+              "name": "Raynor's Raider",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-10"
+            },
+            {
+              "id": "raynor-talent-hyperion",
+              "name": "Hyperion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "raynor-talent-give-me-more",
+              "name": "Give Me More!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "raynor-talent-rallying-cry",
+              "name": "Rallying Cry",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "raynor-talent-raiders-roll",
+              "name": "Raiders Roll",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/raynor-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/raynor#35.0!1122323"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/raynor-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:15.193816+00:00",
+    "updated_at": "2025-05-31T18:40:00+00:00",
+    "author_line": "Last updated on May 31, 2025 at 18:40 by Derenash"
+  }
+}

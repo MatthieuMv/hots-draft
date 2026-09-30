@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "id": "auriel",
+  "name": "Auriel",
+  "role": "Healer",
+  "overview": "Auriel is a Healer who turns part of the damage done by a chosen allied Hero and by herself into area of effect healing.",
+  "strengths": [
+    "High sustain healing during team fights",
+    "Good peeling",
+    "Decent waveclear",
+    "Strong crowd control near impassable terrain"
+  ],
+  "weaknesses": [
+    "Low sustain healing when out of combat",
+    "No mobility",
+    "Weak to poke damage",
+    "Heroic Abilities that make the target allied Hero's position exploitable",
+    "No access to Cleanse or similar tools to remove crowd-control effects",
+    "Unable to provide Unstoppable frames"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "valla",
+        "name": "Valla"
+      },
+      {
+        "id": "tassadar",
+        "name": "Tassadar"
+      }
+    ],
+    "explanation": "To get the most value out of Bestow Hope, you should pick Auriel together with a Hero who can consistently deal damage from the distance (such as Valla) without relying too much on skillshots.\n\nDetainment Strike benefits from impassable terrain, making Auriel better when paired with Heroes that can push enemy Heroes on it (like Diablo with Shadow Charge) or create it out of nowhere (for example Nazeebo with Zombie Wall).\n\nAs she can fight for long periods of time without having Mana issues, Auriel likes to be in team with Heroes who can take care of multiple lanes at the same time by double soaking (like Yrel) while the rest of her team puts a lot of pressure on a single lane.\n\nSince she heals using Energy instead of Mana, Auriel is one of the best Healers to pair with Cho'Gall, another Hero without Mana. Furthermore, using Bestow Hope on them will convert both Cho's and Gall's damage into Energy."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "junkrat",
+        "name": "Junkrat"
+      },
+      {
+        "id": "chromie",
+        "name": "Chromie"
+      },
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      }
+    ],
+    "explanation": "The 4-second cooldown on Ray of Heaven prevents it from saving allied Heroes from burst damage. A well-timed crowd control (such as Wailing Arrow) 3 seconds after she cast the previous Ray of Heaven can further extend this time frame.\n\nHeroes who have access to Knockback effects (like Junkrat with Concussion Mine) can use them to split Auriel's team so that she cannot use Ray of Heaven on multiple Heroes at the same time.\n\nAuriel's Heroic Abilities allows the enemy team to easily follow up with their Abilities (for example Entangling Roots by Malfurion).\n\nDue to her dependency on dealing damage to get Energy for healing, Auriel does not perform that well against poke damage (such as Hanzo), especially when the enemy team has the lead."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "The fact that Auriel does not use Mana is great during the early game, therefore she is a fantastic pick on Maps where a good start can make the difference between a win and a loss (notably Braxis Holdout).\n\nIf your team has an Offlaner who can double soak (such as Xul), you can basically play Auriel on 3-lane Maps like when you are playing on 2-lane Maps, so just focus on a side lane and pressure the enemy team as much as you can.\n\nAuriel also likes Maps where she can exploit impassable terrain to Stun enemy Heroes with Detainment Strike."
+  },
+  "builds": [
+    {
+      "name": "Detainment Strike Build",
+      "label": "Recommended",
+      "description": "Auriel's Detainment Strike Build empowers your healing output, crowd control, and damage. Due to how Detainment Strike works, this Build works best when fighting near impassable terrain.\n\nLevel 13 is flexible. You can pick Blinding Flash to Blind melee Heroes, Converging Force as a secondary interrupt for stationary channels, or Piercing Lash to for additional crowd control on grouped enemy Heroes.\n\nSince it increases your maximum Energy, Reservoir of Hope at Level 16 not only makes Ray of Heaven heal more but also deal more damage to enemy Heroes via Searing Light at Level 1. So, when hitting enemy Heroes with it, you will gain Energy.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "auriel-talent-searing-light",
+              "name": "Searing Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "auriel-talent-repeated-offense",
+              "name": "Repeated Offense",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "auriel-talent-energized-cord",
+              "name": "Energized Cord",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            },
+            {
+              "id": "auriel-talent-glimmer-of-hope",
+              "name": "Glimmer of Hope",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            },
+            {
+              "id": "auriel-talent-empathic-link",
+              "name": "Empathic Link",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "auriel-talent-crystal-aegis",
+              "name": "Crystal Aegis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "auriel-talent-blinding-flash",
+              "name": "Blinding Flash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-13"
+            },
+            {
+              "id": "auriel-talent-converging-force",
+              "name": "Converging Force",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-13"
+            },
+            {
+              "id": "auriel-talent-piercing-lash",
+              "name": "Piercing Lash",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "auriel-talent-reservoir-of-hope",
+              "name": "Reservoir of Hope",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            },
+            {
+              "id": "auriel-talent-will-of-heaven",
+              "name": "Will of Heaven",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            },
+            {
+              "id": "auriel-talent-wrath-of-heaven",
+              "name": "Wrath of Heaven",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "auriel-talent-shield-of-hope",
+              "name": "Shield of Hope",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-20"
+            },
+            {
+              "id": "auriel-talent-diamond-resolve",
+              "name": "Diamond Resolve",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/auriel#55.12!3332114"
+    },
+    {
+      "name": "Sacred Sweep Build",
+      "label": "Situational",
+      "description": "Auriel's Sacred Sweep Build empowers your healing output and damage on grouped enemy Heroes who cannot punish you. Due to how Sacred Sweep works, this Build works best when facing at least 3 melee Heroes and when the enemy team lacks crowd control effects.\n\nThe increased radius provided by Majestic Span at Level 4 makes it easier to hit enemy Heroes with Sacred Sweep, which is great for Righteous Assault at Level 1 and Converging Force at Level 13.\n\nSince it increases your maximum Energy, Reservoir of Hope at Level 16 not only makes Ray of Heaven heal more but also deal more damage to enemy Heroes via Searing Light at Level 1. So, when hitting enemy Heroes with it, you will gain Energy.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "auriel-talent-righteous-assault",
+              "name": "Righteous Assault",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "auriel-talent-majestic-span",
+              "name": "Majestic Span",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "auriel-talent-energized-cord",
+              "name": "Energized Cord",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            },
+            {
+              "id": "auriel-talent-glimmer-of-hope",
+              "name": "Glimmer of Hope",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            },
+            {
+              "id": "auriel-talent-empathic-link",
+              "name": "Empathic Link",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "auriel-talent-crystal-aegis",
+              "name": "Crystal Aegis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "auriel-talent-converging-force",
+              "name": "Converging Force",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "auriel-talent-reservoir-of-hope",
+              "name": "Reservoir of Hope",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            },
+            {
+              "id": "auriel-talent-will-of-heaven",
+              "name": "Will of Heaven",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            },
+            {
+              "id": "auriel-talent-wrath-of-heaven",
+              "name": "Wrath of Heaven",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "auriel-talent-shield-of-hope",
+              "name": "Shield of Hope",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-20"
+            },
+            {
+              "id": "auriel-talent-diamond-resolve",
+              "name": "Diamond Resolve",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/auriel#55.12!2132214"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Auriel's ARAM Build empowers your healing output, crowd control, and damage. Due to how Detainment Strike works, this Build works best when fighting near impassable terrain.\n\nLevel 13 is flexible. You can pick Blinding Flash to Blind melee Heroes, Converging Force as a secondary interrupt for stationary channels, or Piercing Lash to for additional crowd control on grouped enemy Heroes.\n\nSince it increases your maximum Energy, Reservoir of Hope at Level 16 not only makes Ray of Heaven heal more but also deal more damage to enemy Heroes via Searing Light at Level 1. So, when hitting enemy Heroes with it, you will gain Energy.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "auriel-talent-searing-light",
+              "name": "Searing Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "auriel-talent-repeated-offense",
+              "name": "Repeated Offense",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "auriel-talent-energized-cord",
+              "name": "Energized Cord",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            },
+            {
+              "id": "auriel-talent-glimmer-of-hope",
+              "name": "Glimmer of Hope",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            },
+            {
+              "id": "auriel-talent-empathic-link",
+              "name": "Empathic Link",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "auriel-talent-crystal-aegis",
+              "name": "Crystal Aegis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "auriel-talent-blinding-flash",
+              "name": "Blinding Flash",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-13"
+            },
+            {
+              "id": "auriel-talent-converging-force",
+              "name": "Converging Force",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-13"
+            },
+            {
+              "id": "auriel-talent-piercing-lash",
+              "name": "Piercing Lash",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "auriel-talent-reservoir-of-hope",
+              "name": "Reservoir of Hope",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            },
+            {
+              "id": "auriel-talent-will-of-heaven",
+              "name": "Will of Heaven",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            },
+            {
+              "id": "auriel-talent-wrath-of-heaven",
+              "name": "Wrath of Heaven",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "auriel-talent-shield-of-hope",
+              "name": "Shield of Hope",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-20"
+            },
+            {
+              "id": "auriel-talent-diamond-resolve",
+              "name": "Diamond Resolve",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/auriel-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/auriel#55.12!3332114"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/auriel-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:06.881073+00:00",
+    "updated_at": "2026-06-01T14:50:00+00:00",
+    "author_line": "Last updated on Jun 01, 2026 at 14:50 by Elitesparkle"
+  }
+}

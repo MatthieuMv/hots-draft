@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "id": "malganis",
+  "name": "Mal'Ganis",
+  "role": "Tank",
+  "overview": "Mal'Ganis is a Tank who relies on a really good amount of self-sustain to stay alive, allowing him to harass the enemy backline in order to create space for his team.\n\nBe careful while playing him because most of his Abilities can be interrupted by crowd control effects (say Raynor using his knockback to mess up Night Rush), something that can easily become frustrating, especially if you do not pay enough attention to it and/or not adapt your playstyle accordingly.",
+  "strengths": [
+    "High survivability",
+    "Decent damage output",
+    "Good crowd control",
+    "Decent waveclear"
+  ],
+  "weaknesses": [
+    "Weak to kiting (e.g. Lunara)",
+    "Vulnerable to interrupts, especially on his Heroic Abilities",
+    "Not able to peel from high mobility Heroes (like Illidan)",
+    "Weak to Root (e.g. Deckard Cain)"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Mal'Ganis performs better with a Mage (such as Kel'Thuzad) that can follow up on his crowd control or with some Bruisers (like Sonya) or some Melee Assassins (such as Illidan) that can dive on a given target Hero while the rest of the enemy team is Sleeping."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Mal'Ganis is susceptible to enemy Heroes that can quickly Displace him away during Night Rush (such as Raynor with Penetrating Round) or lock him down with crowd control to deny him any chance to use his Heroic Ability (like Garrosh with Warlord's Challenge) while he is getting focused down to death. Heroes with a lot of mobility (such as Zeratul) are hard to hit for Mal'Ganis, so he will not be able to provide any peeling from them. Heroes with a lot of range (such as Hanzo) can easily kite Mal'Ganis, rendering him quite unimpactful. Another weakness he has is the fact that Heroes with Roots (such as Deckard Cain) can stop Mal'Ganis in place during Night Rush."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Mal'Ganis is good on Maps that have narrow passages and corridors, allowing him to get amazing area of effect value from most of his Abilities, and/or where the Objective does not spawn too often because he really needs his Heroic Ability in order to be a complete Hero, but he is bad on Maps that do not have good places where to flank from."
+  },
+  "builds": [
+    {
+      "name": "Necrotic Embrace Build",
+      "label": "Recommended",
+      "description": "Mal'Ganis's Necrotic Embrace Build is designed to get as much value as possible from the Hero by increasing his survivability. Talents that increase his damage contribute to this plan as well because Vampiric Touch heals Mal'Ganis based on damage dealt.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malganis-talent-time-to-feed",
+              "name": "Time to Feed",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-1"
+            },
+            {
+              "id": "malganis-talent-winged-guard",
+              "name": "Winged Guard",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malganis-talent-might-of-sargeras",
+              "name": "Might of Sargeras",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malganis-talent-spreading-plague",
+              "name": "Spreading Plague",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-7"
+            },
+            {
+              "id": "malganis-talent-black-claws",
+              "name": "Black Claws",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malganis-talent-carrion-swarm",
+              "name": "Carrion Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malganis-talent-blood-rush",
+              "name": "Blood Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-13"
+            },
+            {
+              "id": "malganis-talent-deep-sleep",
+              "name": "Deep Sleep",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malganis-talent-plague-bats",
+              "name": "Plague Bats",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malganis-talent-seeker-swarm",
+              "name": "Seeker Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malganis#57.0!3131311"
+    },
+    {
+      "name": "Fel Claws Build",
+      "label": "Situational",
+      "description": "Mal'Ganis's Fel Claws Build allows you to crowd control multiple enemy Heroes when they group too much, damaging them and keeping them in place for your team to follow-up.\n\nWhen you successfully Stun at least 2 Heroes, activate Blind as a Bat at Level 16 and spam Fel Claws on the same targets. This play is pretty good for securing Boss Camps when contested.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malganis-talent-will-of-tichondrius",
+              "name": "Will of Tichondrius",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malganis-talent-might-of-sargeras",
+              "name": "Might of Sargeras",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malganis-talent-spreading-plague",
+              "name": "Spreading Plague",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-7"
+            },
+            {
+              "id": "malganis-talent-black-claws",
+              "name": "Black Claws",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malganis-talent-carrion-swarm",
+              "name": "Carrion Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malganis-talent-blood-rush",
+              "name": "Blood Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-13"
+            },
+            {
+              "id": "malganis-talent-deep-sleep",
+              "name": "Deep Sleep",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malganis-talent-blind-as-a-bat",
+              "name": "Blind as a Bat",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malganis-talent-seeker-swarm",
+              "name": "Seeker Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malganis#57.0!1131331"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Mal'Ganis's ARAM is designed to get as much value as possible from the Hero by increasing his survivability. Talents that increase his damage contribute to this plan as well because Vampiric Touch heals Mal'Ganis based on damage dealt.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "malganis-talent-time-to-feed",
+              "name": "Time to Feed",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-1"
+            },
+            {
+              "id": "malganis-talent-winged-guard",
+              "name": "Winged Guard",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "malganis-talent-might-of-sargeras",
+              "name": "Might of Sargeras",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "malganis-talent-spreading-plague",
+              "name": "Spreading Plague",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-7"
+            },
+            {
+              "id": "malganis-talent-black-claws",
+              "name": "Black Claws",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "malganis-talent-carrion-swarm",
+              "name": "Carrion Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "malganis-talent-blood-rush",
+              "name": "Blood Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-13"
+            },
+            {
+              "id": "malganis-talent-deep-sleep",
+              "name": "Deep Sleep",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "malganis-talent-plague-bats",
+              "name": "Plague Bats",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "malganis-talent-seeker-swarm",
+              "name": "Seeker Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/malganis-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/malganis#57.0!3131311"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/malganis-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:26.375002+00:00",
+    "updated_at": "2026-07-20T22:30:00+00:00",
+    "author_line": "Last updated on Jul 20, 2026 at 22:30 by Elitesparkle"
+  }
+}

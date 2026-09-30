@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "id": "zagara",
+  "name": "Zagara",
+  "role": "Ranged Assassin",
+  "overview": "Zagara is a Ranged Assassin who relies on Zerg summons to wreak havoc on her opponents. Creep Tumor is a strong ability, providing not only buffs to several of her attributes, including attack range and movement speed, but also supplying precious vision throughout the Battleground. Zagara is capable of tearing down enemy defenses from afar and, when left alone for even a small duration, will turn the strongest enemy fortifications into nothing more than heaps of rubble.",
+  "strengths": [
+    "Excellent long range, sustain damage",
+    "Great waveclear",
+    "Strong sieging power",
+    "Creep Tumor provides a massive amount of vision throughout the entire battlefield",
+    "Able to solo Mercenary Camps with ease"
+  ],
+  "weaknesses": [
+    "Quite vulnerable to crowd control",
+    "Zero mobility, except on Creep",
+    "Mana hungry",
+    "Low burst damage",
+    "Her only form of hard crowd control is Devouring Maw"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      }
+    ],
+    "explanation": "Due to her lack of mobility, Zagara is best when paired with one or two Tanks who can provide her a strong frontline. Those with reliable crowd-control can also set up devastating combos with Zagara's Devouring Maw."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "falstad",
+        "name": "Falstad"
+      },
+      {
+        "id": "chen",
+        "name": "Chen"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "Zagara is counterd in lane by high mobility Assassins like Illidan, who can outsustain her and stick to her even while on Creep. Furthermore, global range Heroes like Falstad or Dehaka can drastically limit her efficiency while split-pushing."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Zagara is particularly good on larger Maps with multiple Objective locations (such as Sky Temple), when she can take advantage of distracted enemy Heroes to split-push uncontested, sometimes even with the help of Nydus Network.\n\nMaps that are smaller (such as Tomb of the Spider Queen) make it much more difficult for Zagara to split-push. In those situations, Zagara can still be a great lane bully in the early game and a powerful damage dealer in the late game, thanks to Talents."
+  },
+  "builds": [
+    {
+      "name": "Infested Drop Build",
+      "label": "Recommended",
+      "description": "Zagara's Infested Drop Build allows you to deal a solid amount of damage in team fights, especially in the late game against Heroes who have high maximum Health.\n\nIn particular, Corpse Feeders at Level 1 and Bile Drop at Level 7 boost the already good damage output of Corrosive Saliva at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zagara-talent-corpse-feeders",
+              "name": "Corpse Feeders",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zagara-talent-envenomed-spines",
+              "name": "Envenomed Spines",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zagara-talent-bile-drop",
+              "name": "Bile Drop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zagara-talent-devouring-maw",
+              "name": "Devouring Maw",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-10"
+            },
+            {
+              "id": "zagara-talent-nydus-network",
+              "name": "Nydus Network",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zagara-talent-hydralisk-transfusion",
+              "name": "Hydralisk Transfusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-13"
+            },
+            {
+              "id": "zagara-talent-spell-shield",
+              "name": "Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zagara-talent-corrosive-saliva",
+              "name": "Corrosive Saliva",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zagara-talent-pack-instinct",
+              "name": "Pack Instinct",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zagara#55.13!2131114"
+    },
+    {
+      "name": "Infest Build",
+      "label": "Situational",
+      "description": "Zagara's Infest Build makes you more powerful when split-pushing but weaker while fighting against enemy Heroes. Due to being vulnerable to ganks as usual, you should not choose this Build when the enemy team has Heroes good for that (for example Zeratul).\n\nInfest at Level 1 empowers nearby Minions, so that you can take down enemy Structures with ease, unless the enemy team can quickly clear your Minions. Mutalisk at Level 16 is good for taking down to enemy Structures as well as for dealing with Mercenaries.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zagara-talent-infest",
+              "name": "Infest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zagara-talent-medusa-blades",
+              "name": "Medusa Blades",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zagara-talent-viscous-acid",
+              "name": "Viscous Acid",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zagara-talent-nydus-network",
+              "name": "Nydus Network",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zagara-talent-hydralisk-transfusion",
+              "name": "Hydralisk Transfusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zagara-talent-mutalisk",
+              "name": "Mutalisk",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zagara-talent-pack-instinct",
+              "name": "Pack Instinct",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zagara#55.13!3222124"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Zagara's ARAM Build allows you to deal a solid amount of damage in team fights, especially in the late game against Heroes who have high maximum Health.\n\nIn particular, Corpse Feeders at Level 1 and Bile Drop at Level 7 boost the already good damage output of Corrosive Saliva at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zagara-talent-corpse-feeders",
+              "name": "Corpse Feeders",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zagara-talent-envenomed-spines",
+              "name": "Envenomed Spines",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zagara-talent-bile-drop",
+              "name": "Bile Drop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zagara-talent-devouring-maw",
+              "name": "Devouring Maw",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-10"
+            },
+            {
+              "id": "zagara-talent-nydus-network",
+              "name": "Nydus Network",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zagara-talent-hydralisk-transfusion",
+              "name": "Hydralisk Transfusion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-13"
+            },
+            {
+              "id": "zagara-talent-spell-shield",
+              "name": "Spell Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zagara-talent-corrosive-saliva",
+              "name": "Corrosive Saliva",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zagara-talent-pack-instinct",
+              "name": "Pack Instinct",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zagara-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zagara#55.13!2131114"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/zagara-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:40.269954+00:00",
+    "updated_at": "2026-05-12T14:50:00+00:00",
+    "author_line": "Last updated on May 12, 2026 at 14:50 by Elitesparkle"
+  }
+}

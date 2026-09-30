@@ -17,6 +17,7 @@ hots-draft = "hots_draft:main"
 hots-scrape = "hots_draft.scraper:main"
 hots-build = "hots_draft.build:main"
 hots-release = "hots_draft.release:main"
+hots-assets = "hots_draft.assets:main"
 
 [build-system]
 requires = ["uv_build>=0.12.21,<0.13.0"]

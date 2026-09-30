@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "id": "whitemane",
+  "name": "Whitemane",
+  "role": "Healer",
+  "overview": "Whitemane is a Healer who can heal her allies with Zeal by damaging her enemies. She is capable of trading damage favourably against most Heroes, and must do so in order to maximise her healing. If she is able to consistently deal damage, she can generate immense healing for her team.",
+  "strengths": [
+    "High burst healing",
+    "Access to a cleanse effect"
+  ],
+  "weaknesses": [
+    "Very poor waveclear and Camp clear",
+    "Lack of mobility",
+    "Healing output largely dependent on damage dealt, therefore low out-of-combat healing",
+    "No crowd control",
+    "Weak to healing reduction effects"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "cassia",
+        "name": "Cassia"
+      },
+      {
+        "id": "chromie",
+        "name": "Chromie"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      }
+    ],
+    "explanation": "Whitemane has synergy with Heroes who can create a lot of space (for example Johanna) or that like to take prolonged team fights (such as Sonya) as she can keep healing them for long.\n\nDue to the high amount of raw healing she has access to, Whitemane is great when paired with Heroes who have Armor baseline (like Garrosh) or with high uptime (notably Cassia)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "alarak",
+        "name": "Alarak"
+      },
+      {
+        "id": "li-ming",
+        "name": "Li-Ming"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      }
+    ],
+    "explanation": "Whitemane has very limited mobility, and must remain within the threat range of enemies in order to deal damage to heal her allies. She will struggle against Heroes who can displace her, as she lacks any kind of escape once caught, or crowd control her to death.\n\nHeroes who can deal damage to Whitemane and her teammates while she cannot damage them back (for example Chromie) may be difficult to play against. Additionally, Heroes who can significantly reduce or prevent healing received (such as Deckard Cain with Sapphire at Level 7) can greatly reduce the effectiveness of Zeal during teamfights."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Whitemane excels in short team fights and at contesting Objectives that take less than 30 seconds to be secured (for example Infernal Shrines). If the fight takes too long, she struggles to keep up with her Mana consumption.\n\nThe least interesting Maps to play Whitemane on are the ones where she cannot abuse her kit around the Objective, that are heavily focused on Mercenaries (such as Sky Temple), or where the early game is too important (notably Braxis Holdout)."
+  },
+  "builds": [
+    {
+      "name": "Inquisition Build",
+      "label": "Recommended",
+      "description": "Whitemane's Inquisition Build is based on Talents that increase the defensive and offensive effectiveness of Inquisition, making it a useful peeling tool and a powerful follow up for allied engages.\n\nSubjugation at Level 13 will reduce the damage done by enemy Heroes and Shared Punishment at Level 16 will reduce their Armor, a great combination of Talents that will shift damage and healing in your team's favor. To do all of this more often, we have Pity the Frail at Level 1.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "whitemane-talent-pity-the-frail",
+              "name": "Pity the Frail",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "whitemane-talent-martyrdom",
+              "name": "Martyrdom",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "whitemane-talent-intercession",
+              "name": "Intercession",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "whitemane-talent-scarlet-aegis",
+              "name": "Scarlet Aegis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-10"
+            },
+            {
+              "id": "whitemane-talent-divine-reckoning",
+              "name": "Divine Reckoning",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "whitemane-talent-subjugation",
+              "name": "Subjugation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "whitemane-talent-shared-punishment",
+              "name": "Shared Punishment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "whitemane-talent-scarlet-crusade",
+              "name": "Scarlet Crusade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            },
+            {
+              "id": "whitemane-talent-judgment-day",
+              "name": "Judgment Day",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            },
+            {
+              "id": "whitemane-talent-purge-the-wicked",
+              "name": "Purge the Wicked",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/whitemane#57.0!1231121"
+    },
+    {
+      "name": "Searing Lash Build",
+      "label": "Advanced",
+      "description": "Whitemane's Searing Lash Build empowers Searing Lash, increasing your damage output and giving you access to crowd control in the late game. Consider going for this Build when you expect Inquisition to be interrupted too often and too quickly.\n\nBlock enemy Heroes with Harsh Discipline at Level 16 to help your team deal more damage to them or to peel when needed. When doing so, you can easily get a cooldown reset from Lashing Out at Level 13.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "whitemane-talent-pity-the-frail",
+              "name": "Pity the Frail",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "whitemane-talent-martyrdom",
+              "name": "Martyrdom",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "whitemane-talent-intercession",
+              "name": "Intercession",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "whitemane-talent-scarlet-aegis",
+              "name": "Scarlet Aegis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-10"
+            },
+            {
+              "id": "whitemane-talent-divine-reckoning",
+              "name": "Divine Reckoning",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "whitemane-talent-lashing-out",
+              "name": "Lashing Out",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "whitemane-talent-harsh-discipline",
+              "name": "Harsh Discipline",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "whitemane-talent-scarlet-crusade",
+              "name": "Scarlet Crusade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            },
+            {
+              "id": "whitemane-talent-judgment-day",
+              "name": "Judgment Day",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            },
+            {
+              "id": "whitemane-talent-purge-the-wicked",
+              "name": "Purge the Wicked",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/whitemane#57.0!1231231"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Whitemane's ARAM Build is based on Talents that increase the defensive and offensive effectiveness of Inquisition, making it a useful peeling tool and a powerful follow up for allied engages.\n\nSubjugation at Level 13 will reduce the damage done by enemy Heroes and Shared Punishment at Level 16 will reduce their Armor, a great combination of Talents that will shift damage and healing in your team's favor. To do all of this more often, we have Pity the Frail at Level 1.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "whitemane-talent-pity-the-frail",
+              "name": "Pity the Frail",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "whitemane-talent-martyrdom",
+              "name": "Martyrdom",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "whitemane-talent-intercession",
+              "name": "Intercession",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "whitemane-talent-scarlet-aegis",
+              "name": "Scarlet Aegis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-10"
+            },
+            {
+              "id": "whitemane-talent-divine-reckoning",
+              "name": "Divine Reckoning",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "whitemane-talent-subjugation",
+              "name": "Subjugation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "whitemane-talent-shared-punishment",
+              "name": "Shared Punishment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "whitemane-talent-scarlet-crusade",
+              "name": "Scarlet Crusade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            },
+            {
+              "id": "whitemane-talent-judgment-day",
+              "name": "Judgment Day",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            },
+            {
+              "id": "whitemane-talent-purge-the-wicked",
+              "name": "Purge the Wicked",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/whitemane-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/whitemane#57.0!1231121"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/whitemane-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:36.279231+00:00",
+    "updated_at": "2026-05-20T22:40:00+00:00",
+    "author_line": "Last updated on May 20, 2026 at 22:40 by Elitesparkle"
+  }
+}

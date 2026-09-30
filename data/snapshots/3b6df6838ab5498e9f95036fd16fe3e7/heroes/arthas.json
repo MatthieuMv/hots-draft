@@ -1,0 +1,632 @@
+{
+  "schema_version": 1,
+  "id": "arthas",
+  "name": "Arthas",
+  "role": "Tank",
+  "overview": "Arthas is a Tank who relies on Roots and Slows to peel for his team or to stop enemy Heroes from retreating. This type of crowd-control is great against melee Heroes that rely on Basic Attacks and lack mobility.",
+  "strengths": [
+    "Powerful crowd control",
+    "Good self-sustain",
+    "Counters melee Heroes that rely on Basic Attacks",
+    "Solid damage output",
+    "Durable against burst damage"
+  ],
+  "weaknesses": [
+    "Weak engage with Howling Blast",
+    "No mobility",
+    "Weak to Displacement effects",
+    "Consumes a lot of Mana with Frozen Tempest",
+    "Suffers against healing reduction effects",
+    "Weak to kite"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "chromie",
+        "name": "Chromie"
+      },
+      {
+        "id": "zarya",
+        "name": "Zarya"
+      },
+      {
+        "id": "stukov",
+        "name": "Stukov"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      }
+    ],
+    "explanation": "Arthas pairs well with Heroes who can either follow-up on his crowd control (such as Chromie with A Proper Greeting) or initiate with their own (for example Maiev), especially if your main Tank does not provide enough crowd control for peeling (Stitches comes to mind).\n\nHeroes who can give him some mobility (for example Zarya with Speed Barrier at Level 4) and/or help him survive through burst damage definitely help (such as Medivh)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      }
+    ],
+    "explanation": "Arthas, due to his lack of mobility gets easily countered by Displacement effects (such as Wrecking Ball by Garrosh).\n\nHe also suffers against burst damage usually coming from Mages (for example Kel'Thuzad), healing reduction effects (such as Emerald by Deckard Cain), high range (Hanzo comes to mind), Slow effects (for example Jaina), and high mobility (such as Zeratul played correctly)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      }
+    ],
+    "explanation": "Due to Frozen Tempest being heavy on Mana consumption, Arthas suffers on Maps where he needs to stay active for long periods of time (with Braxis Holdout being the major offender) and does not shine on Maps where it is highly preferred to have your Offlaner take care of 2 lanes by double soaking (for example top-mid on Towers of Doom).\n\nWhile being decent at it, Arthas does not excel at capturing Camps and/or defending enemy Mercenaries in lane, making him a suboptimal pick on Maps where macro is important (for example Garden of Terror)."
+  },
+  "builds": [
+    {
+      "name": "Death Coil Build",
+      "label": "Recommended",
+      "description": "Arthas's Death Coil Build is designed to increase his damage from the distance, his team's burst damage, and his self-sustain. We find this Build particularly good against ranged Heroes.\n\nFrost Presence at Level 1 makes both your engage and your peeling reliable. The burst damage comes from Shattered Armor at Level 4 and Deathlord at Level 13.\n\nWhen playing against Heroes with slow but heavy hitting Basic Attacks, pick Rime at Level 1. When playing against Heroes who deal a lot of damage with Abilities, pick Anti-Magic Shell at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "arthas-talent-frost-presence",
+              "name": "Frost Presence",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-1"
+            },
+            {
+              "id": "arthas-talent-rime",
+              "name": "Rime",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "arthas-talent-shattered-armor",
+              "name": "Shattered Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "arthas-talent-immortal-coil",
+              "name": "Immortal Coil",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "arthas-talent-summon-sindragosa",
+              "name": "Summon Sindragosa",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-10"
+            },
+            {
+              "id": "arthas-talent-army-of-the-dead",
+              "name": "Army of the Dead",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "arthas-talent-deathlord",
+              "name": "Deathlord",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "arthas-talent-remorseless-winter",
+              "name": "Remorseless Winter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-16"
+            },
+            {
+              "id": "arthas-talent-anti-magic-shell",
+              "name": "Anti-Magic Shell",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "arthas-talent-absolute-zero",
+              "name": "Absolute Zero",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            },
+            {
+              "id": "arthas-talent-death-pact",
+              "name": "Death Pact",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            },
+            {
+              "id": "arthas-talent-path-of-frost",
+              "name": "Path of Frost",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/arthas#55.16!1112112"
+    },
+    {
+      "name": "Howling Blast Build",
+      "label": "Advanced",
+      "description": "Arthas's Howling Blast Build is designed to increase his damage from the distance, his team's burst damage, and his survivability against burst damage. We find this Build particularly good for short team fights.\n\nFrost Presence at Level 1 makes both your engage and your peeling reliable. The burst damage comes from Shattered Armor at Level 4 and Deathchill at Level 13.\n\nWhen playing against Heroes with slow but heavy hitting Basic Attacks, pick Rime at Level 1. When playing against Heroes who deal a lot of damage with Abilities, pick Anti-Magic Shell at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "arthas-talent-frost-presence",
+              "name": "Frost Presence",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-1"
+            },
+            {
+              "id": "arthas-talent-rime",
+              "name": "Rime",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "arthas-talent-shattered-armor",
+              "name": "Shattered Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "arthas-talent-icebound-fortitude",
+              "name": "Icebound Fortitude",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-7"
+            },
+            {
+              "id": "arthas-talent-immortal-coil",
+              "name": "Immortal Coil",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "arthas-talent-army-of-the-dead",
+              "name": "Army of the Dead",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-10"
+            },
+            {
+              "id": "arthas-talent-summon-sindragosa",
+              "name": "Summon Sindragosa",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "arthas-talent-deathchill",
+              "name": "Deathchill",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "arthas-talent-remorseless-winter",
+              "name": "Remorseless Winter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-16"
+            },
+            {
+              "id": "arthas-talent-anti-magic-shell",
+              "name": "Anti-Magic Shell",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "arthas-talent-path-of-frost",
+              "name": "Path of Frost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            },
+            {
+              "id": "arthas-talent-absolute-zero",
+              "name": "Absolute Zero",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            },
+            {
+              "id": "arthas-talent-death-pact",
+              "name": "Death Pact",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/arthas#55.16!1131214"
+    },
+    {
+      "name": "Frozen Tempest Build",
+      "label": "Situational",
+      "description": "Arthas's Frozen Tempest Build allows him to cripple the enemy team's advance or retreat by further increasing the power and utility of Frozen Tempest. We find this Build particularly good against melee Heroes with low-mobility.\n\nBorean Winds at Level 1 gives a moderate amount of mobility, Biting Cold at Level 13 increases your damage output, and Remorseless Winter at Level 16 provides another way to Root enemy Heroes.\n\nWhen playing against Heroes with slow but heavy hitting Basic Attacks, pick Rime at Level 1. When playing against Heroes who deal a lot of damage with Abilities, pick Anti-Magic Shell at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "arthas-talent-borean-winds",
+              "name": "Borean Winds",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-1"
+            },
+            {
+              "id": "arthas-talent-rime",
+              "name": "Rime",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "arthas-talent-icy-talons",
+              "name": "Icy Talons",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "arthas-talent-rune-tap",
+              "name": "Rune Tap",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "arthas-talent-army-of-the-dead",
+              "name": "Army of the Dead",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-10"
+            },
+            {
+              "id": "arthas-talent-summon-sindragosa",
+              "name": "Summon Sindragosa",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "arthas-talent-biting-cold",
+              "name": "Biting Cold",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "arthas-talent-remorseless-winter",
+              "name": "Remorseless Winter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-16"
+            },
+            {
+              "id": "arthas-talent-anti-magic-shell",
+              "name": "Anti-Magic Shell",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "arthas-talent-path-of-frost",
+              "name": "Path of Frost",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            },
+            {
+              "id": "arthas-talent-absolute-zero",
+              "name": "Absolute Zero",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            },
+            {
+              "id": "arthas-talent-death-pact",
+              "name": "Death Pact",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/arthas#55.16!2221314"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Arthas's ARAM Build is designed to increase his damage from the distance, his team's burst damage, and his self-sustain. We find this Build particularly good against ranged Heroes.\n\nFrost Presence at Level 1 makes both your engage and your peeling reliable. The burst damage comes from Shattered Armor at Level 4 and Deathlord at Level 13.\n\nWhen playing against Heroes with slow but heavy hitting Basic Attacks, pick Rime at Level 1. When playing against Heroes who deal a lot of damage with Abilities, pick Anti-Magic Shell at Level 16.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "arthas-talent-frost-presence",
+              "name": "Frost Presence",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-1"
+            },
+            {
+              "id": "arthas-talent-rime",
+              "name": "Rime",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "arthas-talent-shattered-armor",
+              "name": "Shattered Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "arthas-talent-immortal-coil",
+              "name": "Immortal Coil",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "arthas-talent-summon-sindragosa",
+              "name": "Summon Sindragosa",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-10"
+            },
+            {
+              "id": "arthas-talent-army-of-the-dead",
+              "name": "Army of the Dead",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "arthas-talent-deathlord",
+              "name": "Deathlord",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "arthas-talent-remorseless-winter",
+              "name": "Remorseless Winter",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-16"
+            },
+            {
+              "id": "arthas-talent-anti-magic-shell",
+              "name": "Anti-Magic Shell",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "arthas-talent-absolute-zero",
+              "name": "Absolute Zero",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            },
+            {
+              "id": "arthas-talent-death-pact",
+              "name": "Death Pact",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            },
+            {
+              "id": "arthas-talent-path-of-frost",
+              "name": "Path of Frost",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/arthas-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/arthas#55.16!1112112"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/arthas-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:05.874131+00:00",
+    "updated_at": "2026-05-26T00:05:00+00:00",
+    "author_line": "Last updated on May 26, 2026 at 00:05 by Elitesparkle"
+  }
+}

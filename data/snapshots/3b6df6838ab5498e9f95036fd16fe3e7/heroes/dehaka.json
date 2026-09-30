@@ -1,0 +1,595 @@
+{
+  "schema_version": 1,
+  "id": "dehaka",
+  "name": "Dehaka",
+  "role": "Bruiser",
+  "overview": "Dehaka is an aggressive Bruiser with great waveclear, powerful crowd control, global presence, and high survivability thanks to his large Health pool and dependable self-sustain. Due to Drag having a long delay, Dehaka is not good against high-mobility Heroes (for example Tracer) and ideally requires other Heroes to start the engage for him.",
+  "strengths": [
+    "High waveclear",
+    "Great self-sustain",
+    "Can Drag enemies out of position",
+    "Cannot be body-blocked while using Dark Swarm",
+    "Can avoid incoming Abilities with Burrow",
+    "High map mobility via Brushstalker"
+  ],
+  "weaknesses": [
+    "Lacks a reliable gap-closer",
+    "Susceptible to kiting",
+    "Drag and Isolation are difficult skillshots",
+    "Limited mobility when Brushstalker is on cooldown"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      }
+    ],
+    "explanation": "Dehaka does well with Heroes who can help him get within range of enemies easily. This can be done by crowd controlling enemy Heroes, so that Dehaka can easily hit them with Drag or Isolation if chosen as Heroic Ability.\n\nConsidering that he is a global Hero, Dehaka also works well with poke Heroes because they can stall Objectives while Dehaka keeps soaking. This strategy helps to get more Experience than the enemy team."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "valla",
+        "name": "Valla"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      }
+    ],
+    "explanation": "One of Dehaka's drawbacks is his lack of a gap-closer, which makes him susceptible to kiting from highly mobile ranged damage dealers. Heroes with very high sustain damage can push through his healing to force him to play passively. Heroes with interrupts will be able to stop Drag and Isolation before they go off. Heroes with knockback effects will reduce his capacity to reach the enemy backline."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "explanation": "Dehaka is great on large Maps where his global presence can be abused to its maximum. This allows Dehaka to soak lanes away from an Objective longer than other Offlaners, and still show up on time to help his team secure kills.\n\nDehaka does not have a Mount, so he relies on Brushstalker to move across the battlefield on Maps. Due to this limitation, he struggles on Maps that lack bushes between lanes and around important areas."
+  },
+  "builds": [
+    {
+      "name": "Brushstalker Build",
+      "label": "Recommended",
+      "description": "Dehaka's Brushstalker Build provides more Movement Speed near bushes, making it easier to fight against enemy Heroes who would otherwise easily run away from you. This is also Dehaka's most bush-dependent Build, so it is not ideal on all Maps.\n\nWhen you have the opportunity to walk into bushes, the extra Movement Speed from Enhanced Agility at Level 1 allows you to rotate faster or to reach enemy Heroes more easily while fighting, and the additional damage from Ferocious Stalker at Level 13 increases your waveclear while laning and your damage output while fighting.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "dehaka-talent-enhanced-agility",
+              "name": "Enhanced Agility",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "dehaka-talent-lurker-strain",
+              "name": "Lurker Strain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-4"
+            },
+            {
+              "id": "dehaka-talent-one-who-collects",
+              "name": "One-Who-Collects",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-4"
+            },
+            {
+              "id": "dehaka-talent-hero-stalker",
+              "name": "Hero Stalker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "dehaka-talent-feeding-frenzy",
+              "name": "Feeding Frenzy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-7"
+            },
+            {
+              "id": "dehaka-talent-paralyzing-enzymes",
+              "name": "Paralyzing Enzymes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "dehaka-talent-isolation",
+              "name": "Isolation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-10"
+            },
+            {
+              "id": "dehaka-talent-adaptation",
+              "name": "Adaptation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "dehaka-talent-ferocious-stalker",
+              "name": "Ferocious Stalker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "dehaka-talent-pack-leader",
+              "name": "Pack Leader",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-16"
+            },
+            {
+              "id": "dehaka-talent-elongated-tongue",
+              "name": "Elongated Tongue",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-16"
+            },
+            {
+              "id": "dehaka-talent-tunneling-claws",
+              "name": "Tunneling Claws",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "dehaka-talent-contagion",
+              "name": "Contagion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            },
+            {
+              "id": "dehaka-talent-change-is-survival",
+              "name": "Change Is Survival",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            },
+            {
+              "id": "dehaka-talent-apex-predator",
+              "name": "Apex Predator",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/dehaka#55.13!3111131"
+    },
+    {
+      "name": "Essence Build",
+      "label": "Situational",
+      "description": "Dehaka's Essence Build is designed to increase your self-sustain as much as possible, so that you will be able to heal yourself when needed and be in a good shape when joining team fights. This is also Dehaka's most versatile Build because it does not have any particular requirement.\n\nSince Tissue Regeneration at Level 1 passively heals you, you will not always need to activate Essence Collection when missing some Health, thus allowing you to save Essence for team fights or ganks. Furthermore, Primal Rage at Level 13 will empower your Attack Damage based on Essence stored.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "dehaka-talent-tissue-regeneration",
+              "name": "Tissue Regeneration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "dehaka-talent-one-who-collects",
+              "name": "One-Who-Collects",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-4"
+            },
+            {
+              "id": "dehaka-talent-hero-stalker",
+              "name": "Hero Stalker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "dehaka-talent-feeding-frenzy",
+              "name": "Feeding Frenzy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-7"
+            },
+            {
+              "id": "dehaka-talent-paralyzing-enzymes",
+              "name": "Paralyzing Enzymes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "dehaka-talent-isolation",
+              "name": "Isolation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-10"
+            },
+            {
+              "id": "dehaka-talent-adaptation",
+              "name": "Adaptation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "dehaka-talent-primal-rage",
+              "name": "Primal Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "dehaka-talent-elongated-tongue",
+              "name": "Elongated Tongue",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "dehaka-talent-contagion",
+              "name": "Contagion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            },
+            {
+              "id": "dehaka-talent-change-is-survival",
+              "name": "Change Is Survival",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            },
+            {
+              "id": "dehaka-talent-essence-claws",
+              "name": "Essence Claws",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            },
+            {
+              "id": "dehaka-talent-apex-predator",
+              "name": "Apex Predator",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/dehaka#55.13!2211311"
+    },
+    {
+      "name": "Dark Swarm Build",
+      "label": "Situational",
+      "description": "Dehaka's Dark Swarm Build excels against Heroes reliant on Spell Damage and short-range or melee Heroes who tend to group within Dark Swarm's range. This is also Dehaka's most durable Build, helping you to stay alive for longer in team fights.\n\nSymbiosis at Level 7 allows you to cast Dark Swarm more often when hitting enemy Heroes. As a consequence, you will get more value from Enduring Swarm at Level 1 giving you Spell Armor and from Primal Swarm at Level 13 reducing the Armor of enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "dehaka-talent-enduring-swarm",
+              "name": "Enduring Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "dehaka-talent-hero-stalker",
+              "name": "Hero Stalker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "dehaka-talent-symbiosis",
+              "name": "Symbiosis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "dehaka-talent-isolation",
+              "name": "Isolation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-10"
+            },
+            {
+              "id": "dehaka-talent-adaptation",
+              "name": "Adaptation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "dehaka-talent-primal-swarm",
+              "name": "Primal Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "dehaka-talent-elongated-tongue",
+              "name": "Elongated Tongue",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "dehaka-talent-contagion",
+              "name": "Contagion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            },
+            {
+              "id": "dehaka-talent-change-is-survival",
+              "name": "Change Is Survival",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            },
+            {
+              "id": "dehaka-talent-apex-predator",
+              "name": "Apex Predator",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/dehaka#55.13!1331211"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Dehaka's ARAM Build excels against Heroes reliant on Spell Damage and short-range or melee Heroes who tend to group within Dark Swarm's range. This is also Dehaka's most durable Build, helping you to stay alive for longer in team fights.\n\nSymbiosis at Level 7 allows you to cast Dark Swarm more often when hitting enemy Heroes. As a consequence, you will get more value from Enduring Swarm at Level 1 giving you Spell Armor and from Primal Swarm at Level 13 reducing the Armor of enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "dehaka-talent-enduring-swarm",
+              "name": "Enduring Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "dehaka-talent-hero-stalker",
+              "name": "Hero Stalker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "dehaka-talent-symbiosis",
+              "name": "Symbiosis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "dehaka-talent-isolation",
+              "name": "Isolation",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-10"
+            },
+            {
+              "id": "dehaka-talent-adaptation",
+              "name": "Adaptation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "dehaka-talent-primal-swarm",
+              "name": "Primal Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "dehaka-talent-elongated-tongue",
+              "name": "Elongated Tongue",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "dehaka-talent-contagion",
+              "name": "Contagion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            },
+            {
+              "id": "dehaka-talent-change-is-survival",
+              "name": "Change Is Survival",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/dehaka-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/dehaka#55.13!1331211"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/dehaka-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:57:55.323854+00:00",
+    "updated_at": "2025-09-30T19:08:00+00:00",
+    "author_line": "Last updated on Sep 30, 2025 at 19:08 by Elitesparkle"
+  }
+}

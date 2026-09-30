@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "id": "probius",
+  "name": "Probius",
+  "role": "Ranged Assassin",
+  "overview": "Probius is a Ranged Assassin who excels at zone control by means of setting up and activating a plethora of structures and abilities. When given the opportunity, Probius is able to craft a devastating gauntlet that will cripple the entire enemy team. His bread and butter ability combo ( Disruption Pulse/ Warp Rift) can deal massive amounts of AoE damage to multiple enemies, while Photon Cannon will chip away at any and all who stray too close. At Level 10, Probius is able to chose between damage ( Pylon Overcharge) and utility ( Null Gate), either of which will greatly aid his allies in combat.",
+  "strengths": [
+    "Good area of effect burst damage",
+    "Great zoning potential",
+    "Excellent waveclear",
+    "Great staying power, impressive Mana regen via Warp In Pylon",
+    "Able to contest Objectives for a long duration",
+    "Very high skill ceiling"
+  ],
+  "weaknesses": [
+    "Very low Healthpool",
+    "Vulnerable to crowd-control",
+    "No reliable hard crowd-control like stuns or roots",
+    "Hard learning curve",
+    "Unreliable damage"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Probius works best with Heroes that provide a strong frontline he is able to seek refuge behind, as well as supports who can assist in peeling away enemies attempting to dive him. These Heroes also should have some reliable source of hard crowd-control since Probius unfortunately does not have any himself until Level 10 with Null Gate."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      },
+      {
+        "id": "alarak",
+        "name": "Alarak"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      }
+    ],
+    "explanation": "Probius is countered by high mobility Assassins with large amounts of burst damage and crowd-control. Probius' lack of a gap-closer may regularly be capitalized on by more agile opponents."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      }
+    ],
+    "explanation": "Probius performs best on larger Battlegrounds that revolve heavily around objectives that he is able to have ample time to set up for. Probius has incredible staying power and is able to easily prevent enemies from capturing certain objectives (such as Altars on Towers of Doom) with his ranged abilities and Photon Cannons. Battlegrounds with lots of narrow spaces and chokepoints give Probius many places to hide Pylons and force enemy Heroes through the effected area of his Warp Rifts."
+  },
+  "builds": [
+    {
+      "name": "Photon Cannon Build",
+      "label": "Recommended",
+      "description": "Photon Cannon's Build is a balanced Probius build that focuses on always having several Photon Cannons active in the battlefield. Echo Pulse is picked instead of Gather Minerals because of its synergy with his Level 7 Talent, Tower Defense. It is important to always use Photon Cannons and Disruption Pulse when they are available, as Probius can get a whole cooldown refund in a single Disruption Pulse with these Talents.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "probius-talent-echo-pulse",
+              "name": "Echo Pulse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "probius-talent-photon-barrier",
+              "name": "Photon Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-4"
+            },
+            {
+              "id": "probius-talent-shield-capacitor",
+              "name": "Shield Capacitor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "probius-talent-tower-defense",
+              "name": "Tower Defense",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "probius-talent-pylon-overcharge",
+              "name": "Pylon Overcharge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "probius-talent-shield-battery",
+              "name": "Shield Battery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-13"
+            },
+            {
+              "id": "probius-talent-power-overflowing",
+              "name": "Power Overflowing",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "probius-talent-quantum-entanglement",
+              "name": "Quantum Entanglement",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-16"
+            },
+            {
+              "id": "probius-talent-interference",
+              "name": "Interference",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "probius-talent-construct-additional-pylons",
+              "name": "Construct Additional Pylons",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/probius-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/probius#49.2!1131311"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/probius-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:12.214563+00:00",
+    "updated_at": "2025-05-31T16:00:00+00:00",
+    "author_line": "Last updated on May 31, 2025 at 16:00 by Derenash"
+  }
+}

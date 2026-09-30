@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "id": "hanzo",
+  "name": "Hanzo",
+  "role": "Ranged Assassin",
+  "overview": "Hanzo is a long-ranged Assassin who must land skillshots from precise angles in order to deal damage effectively. He excels in areas that have many terrain features, where his Abilities are most effective. All his Abilities grant exceptional vision utility, and allow him to keep track of enemy movements beyond the fog of war. One of his main strengths is being one of the few ranged assassins that are able to start fights, through Dragon's Arrow.",
+  "strengths": [
+    "Can poke from very long range",
+    "Strong Basic Attacks",
+    "Has access to good sustain damage or burst damage",
+    "Has a reliable escape",
+    "His Heroic Abilities are good follow up and engage tools",
+    "Can clear Minion waves quickly from a safe distance (after Level 4)"
+  ],
+  "weaknesses": [
+    "Somewhat locked into build paths after Level 1 Talent choice",
+    "Limited usefulness of Basic Abilities without Talents",
+    "No self-sustain",
+    "Hard to play",
+    "Very squishy",
+    "Dependent on skillshots"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "malganis",
+        "name": "Mal'Ganis"
+      }
+    ],
+    "explanation": "Both of Hanzo's Heroics are excellent follow-ups, and can prove devastating to enemies caught by setup Heroics like Zeratul's Void Prison or E.T.C.'s Mosh Pit. However, Dragon's Arrow can also be used as an engage tool, having great synergy with Diablo's Apocalypse or Blaze's Jet Propulsion.\n\nJust like all the other marksmen, he is excellent with heroes that can easily create space for him to attack, like Johanna, Mal'Ganis, or Blaze can."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "Hanzo has very limited mobility during combat, and must keep his distance from enemies in order to survive. Hanzo will struggle to shake highly mobile Heroes when they get within melee range of him, especially if they can follow him over walls when he uses Natural Agility to escape."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Hanzo does well on maps that feature objectives in small areas where movement is restricted by terrain walls. This makes all of his skillshots easier to land, and provides several surfaces for him to split Scatter Arrow with. He can also use Natural Agility on one of the several surrounding terrain features to escape threats. By the same reasoning, Hanzo can struggle on maps that feature large areas that are free of terrain features."
+  },
+  "builds": [
+    {
+      "name": "Storm Bow Build",
+      "label": "Recommended",
+      "description": "The Storm Bow Build has excellent poke damage, burst damage, good waveclear, and very long range. This build requires accurate and successful Storm Bow hits in order to be effective. It will be more difficult to use against highly mobile Heroes, as they are likely to avoid skillshots. This build should never be used against Abathur; the slug can easily prevent you from ever completing Target Practice.\n\nAt Level 16, there are two excellent talent options for Hanzo:",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "hanzo-talent-target-practice",
+              "name": "Target Practice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "hanzo-talent-explosive-arrows",
+              "name": "Explosive Arrows",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            },
+            {
+              "id": "hanzo-talent-serrated-arrows",
+              "name": "Serrated Arrows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            },
+            {
+              "id": "hanzo-talent-ignore-all-distractions",
+              "name": "Ignore All Distractions",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "hanzo-talent-the-dragon-hungers",
+              "name": "The Dragon Hungers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-7"
+            },
+            {
+              "id": "hanzo-talent-never-outmatched",
+              "name": "Never Outmatched",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "hanzo-talent-dragons-arrow",
+              "name": "Dragon's Arrow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-10"
+            },
+            {
+              "id": "hanzo-talent-dragonstrike",
+              "name": "Dragonstrike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "hanzo-talent-fleet-of-foot",
+              "name": "Fleet of Foot",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            },
+            {
+              "id": "hanzo-talent-ninja-assassin",
+              "name": "Ninja Assassin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            },
+            {
+              "id": "hanzo-talent-mounted-archery",
+              "name": "Mounted Archery",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "hanzo-talent-flawless-technique",
+              "name": "Flawless Technique",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-16"
+            },
+            {
+              "id": "hanzo-talent-piercing-arrows",
+              "name": "Piercing Arrows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "hanzo-talent-bullseye",
+              "name": "Bullseye",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-20"
+            },
+            {
+              "id": "hanzo-talent-play-of-the-game",
+              "name": "Play of the Game",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/hanzo#29.7!1112113"
+    },
+    {
+      "name": "Scatter Arrow Build",
+      "label": "Advanced",
+      "description": "Scatter Arrow Build focuses on Talents that improve Scatter Arrow, transforming it into your primary Ability. Of the 3 builds, this one is the hardest to use, and an inexperienced Hanzo will deal much less consistent Hero damage with it. However, this build can perform well if you really want a playstyle focused around Scatter Arrow. This build works best on maps that have narrow corridors, where Scatter Arrow's ricochets are more likely to hit enemies.\n\nGrab Simple Geometry at Level 1 to improve Scatter Arrow once you complete the quest. Serrated Arrows will only be good at Battlefield of Eternity or Hanamura Temple. Explosive Arrows has better waveclear than Serrated Arrows; pick it up at Level 4, if you are not in one of the 2 mentioned maps. Furthermore, Ignore All Distractions is an excellent choice on Volskaya Foundry.\n\nThis build really comes online at Level 16. We recommend choosing Giant Slayer, as it greatly improves your burst damage with Scatter Arrow and your sustained damage with Basic Attacks. However, Piercing Arrows is also a good option. It allows Scatter Arrow to be shot into terrain through an enemy Hero. This opens up many more angles for Scatter Arrow, and makes it much harder for enemies to prevent it from colliding with terrain. Piercing Arrows also allows Explosive Arrows to explode twice with each Storm Bow arrow, greatly improving your waveclear, being relevant in maps such as Infernal Shrines or Tomb of the Spider Queen.\n\nAt Level 10, you should usually take Dragon's Arrow. It gives you some much needed crowd control, which can be used to turn a team fight, or to set up and secure kills. Dragonstrike can also work with this build, but requires your team to have some way to set up a wombo-combo. The Dragon Awakens makes it possible to reset Dragonstrike quickly enough to cast it more than once in a team fight after Level 20.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "hanzo-talent-simple-geometry",
+              "name": "Simple Geometry",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "hanzo-talent-explosive-arrows",
+              "name": "Explosive Arrows",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            },
+            {
+              "id": "hanzo-talent-serrated-arrows",
+              "name": "Serrated Arrows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            },
+            {
+              "id": "hanzo-talent-ignore-all-distractions",
+              "name": "Ignore All Distractions",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "hanzo-talent-never-outmatched",
+              "name": "Never Outmatched",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "hanzo-talent-dragons-arrow",
+              "name": "Dragon's Arrow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-10"
+            },
+            {
+              "id": "hanzo-talent-dragonstrike",
+              "name": "Dragonstrike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "hanzo-talent-fleet-of-foot",
+              "name": "Fleet of Foot",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            },
+            {
+              "id": "hanzo-talent-ninja-assassin",
+              "name": "Ninja Assassin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            },
+            {
+              "id": "hanzo-talent-mounted-archery",
+              "name": "Mounted Archery",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "hanzo-talent-giant-slayer",
+              "name": "Giant Slayer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-16"
+            },
+            {
+              "id": "hanzo-talent-piercing-arrows",
+              "name": "Piercing Arrows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "hanzo-talent-bullseye",
+              "name": "Bullseye",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-20"
+            },
+            {
+              "id": "hanzo-talent-play-of-the-game",
+              "name": "Play of the Game",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-20"
+            },
+            {
+              "id": "hanzo-talent-the-dragon-awakens",
+              "name": "The Dragon Awakens",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/hanzo#29.7!2122133"
+    },
+    {
+      "name": "Basic Attack Build",
+      "label": "Situational",
+      "description": "The Basic Attack Build takes Talents that dramatically improve Hanzo's sustained damage. As with any ranged Basic Attack strategy, you want to position yourself near maximum range while delivering Basic Attacks to enemy Heroes.\n\nNever Outmatched significantly reduces the cooldown of Scatter Arrow and enhances your overall damage output. However, new Hanzo players might find it challenging to get used to, as the increased attack speed from Redemption requires quick use of Scatter Arrow after every two Basic Attacks. Sharpened Arrowheads is an easier yet still excellent option, as each consecutive Basic Attack or Storm Bow hit on an enemy Hero reduces their armor for 3 seconds, increasing all damage done to that enemy.\n\nGiant Slayer works very well against enemy Tanks with large health pools. If the enemy frontline is lacking and you need finishing power against squishy enemy Heroes, Flawless Technique can be a good choice instead.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "hanzo-talent-redemption",
+              "name": "Redemption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "hanzo-talent-ignore-all-distractions",
+              "name": "Ignore All Distractions",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            },
+            {
+              "id": "hanzo-talent-explosive-arrows",
+              "name": "Explosive Arrows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            },
+            {
+              "id": "hanzo-talent-serrated-arrows",
+              "name": "Serrated Arrows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "hanzo-talent-never-outmatched",
+              "name": "Never Outmatched",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-7"
+            },
+            {
+              "id": "hanzo-talent-sharpened-arrowheads",
+              "name": "Sharpened Arrowheads",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "hanzo-talent-dragons-arrow",
+              "name": "Dragon's Arrow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-10"
+            },
+            {
+              "id": "hanzo-talent-dragonstrike",
+              "name": "Dragonstrike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "hanzo-talent-fleet-of-foot",
+              "name": "Fleet of Foot",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            },
+            {
+              "id": "hanzo-talent-ninja-assassin",
+              "name": "Ninja Assassin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            },
+            {
+              "id": "hanzo-talent-mounted-archery",
+              "name": "Mounted Archery",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "hanzo-talent-giant-slayer",
+              "name": "Giant Slayer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-16"
+            },
+            {
+              "id": "hanzo-talent-flawless-technique",
+              "name": "Flawless Technique",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "hanzo-talent-bullseye",
+              "name": "Bullseye",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-20"
+            },
+            {
+              "id": "hanzo-talent-perfect-agility",
+              "name": "Perfect Agility",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-20"
+            },
+            {
+              "id": "hanzo-talent-play-of-the-game",
+              "name": "Play of the Game",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/hanzo-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/hanzo#29.7!3322133"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/hanzo-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:07.326762+00:00",
+    "updated_at": "2025-09-25T11:40:00+00:00",
+    "author_line": "Last updated on Sep 25, 2025 at 11:40 by Derenash"
+  }
+}

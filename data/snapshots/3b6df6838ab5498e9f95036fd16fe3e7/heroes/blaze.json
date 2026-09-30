@@ -1,0 +1,619 @@
+{
+  "schema_version": 1,
+  "id": "blaze",
+  "name": "Blaze",
+  "role": "Tank",
+  "overview": "Blaze is a heavy Tank with great waveclear, powerful crowd-control, and high survivability thanks to his large Health pool and dependable self-sustain. Due to Jet Propulsion having a long delay, Blaze is not good against high-mobility Heroes (for example Tracer) and ideally requires other Heroes to start the engage for him.",
+  "strengths": [
+    "Outstanding ability to disrupt opponents' plans through plentiful crowd control and Bunker Drop",
+    "Hard to kill due to large Health pool and on-demand access to Armor",
+    "Respectable area of effect damage potential and waveclear for a Tank"
+  ],
+  "weaknesses": [
+    "Reliance on multiple skillshots that can be avoided",
+    "Fairly immobile, thus prone to be kited",
+    "Limited burst and single-target damage output"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "kerrigan",
+        "name": "Kerrigan"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Blaze's well-rounded Ability set allows him to work in most team compositions and with most other Heroes, granted he is also picked for his anti-melee role. Oil Spill's Slowing effect is particularly useful for improving the uptime of Assassins, whereas most Heroes with skillshots will find Jet Propulsion a great way of setting up for accurate hits."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "nova",
+        "name": "Nova"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "valla",
+        "name": "Valla"
+      }
+    ],
+    "explanation": "Since Blaze relies on skillshots to deal damage and on the rather slow charge up of Jet Propulsion to initiate, he tends to struggle offensively against highly mobile Heroes. Furthermore, his large Health pool and limited mobility makes him particularly vulnerable to percentage-based damage."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      }
+    ],
+    "explanation": "Thanks to his great waveclear and good self-sustain, Blaze excels on Maps where it is possible to double-soak and does well on most Maps.\n\nBlaze can get a lot of value from his Abilities on Maps that feature static Objectives that force opponents to fight within a specific area or in enclosed spaces (such as Infernal Shrines).\n\nOn the contrary, Blaze does not excel at dueling, therefore he does not do well on Maps where there is a Capture Point to contest in the early game (so Braxis Holdout)."
+  },
+  "builds": [
+    {
+      "name": "Basic Attacks Build",
+      "label": "Recommended",
+      "description": "Blaze's Basic Attacks Build primarily empowers your waveclear while also increasing your survivability, utility, and damage. As a consequence, we recommend this Build when playing Blaze as Offlaner.\n\nIn particular, Incinerator Gauntlets at Level 4 makes it easier to clear Minions and Mercenaries while laning and Adrenaline Stimpack at Level 1 further empowers its value against Mercenaries while also boosting your damage against enemy Heroes.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "blaze-talent-adrenaline-stimpack",
+              "name": "Adrenaline Stimpack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "blaze-talent-incinerator-gauntlets",
+              "name": "Incinerator Gauntlets",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "blaze-talent-suppressive-fire",
+              "name": "Suppressive Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-7"
+            },
+            {
+              "id": "blaze-talent-nanomachine-coating",
+              "name": "Nanomachine Coating",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "blaze-talent-bunker-drop",
+              "name": "Bunker Drop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-10"
+            },
+            {
+              "id": "blaze-talent-combustion",
+              "name": "Combustion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "blaze-talent-collision-course",
+              "name": "Collision Course",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "blaze-talent-juggernaut-plating",
+              "name": "Juggernaut Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-16"
+            },
+            {
+              "id": "blaze-talent-thermal-protection",
+              "name": "Thermal Protection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "blaze-talent-fortified-bunker",
+              "name": "Fortified Bunker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            },
+            {
+              "id": "blaze-talent-flash-fire",
+              "name": "Flash Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            },
+            {
+              "id": "blaze-talent-burn-notice",
+              "name": "Burn Notice",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/blaze#55.17!1311331"
+    },
+    {
+      "name": "Oil Spill Build",
+      "label": "Situational",
+      "description": "Blaze's Oil Spill Build primarily empowers your engage while also increasing your survivability, utility, and damage. We recommend this Build when playing Blaze as Tank, preferably against 2 melee Heroes or less.\n\nIn particular, the Slow increase provided by Oil Dispersal at Level 4 makes it easier to use Oil Spill as a setup for Jet Propulsion.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "blaze-talent-new-habits",
+              "name": "New Habits",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-1"
+            },
+            {
+              "id": "blaze-talent-endurance-stimpack",
+              "name": "Endurance Stimpack",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-1"
+            },
+            {
+              "id": "blaze-talent-neural-stimpack",
+              "name": "Neural Stimpack",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "blaze-talent-oil-dispersal",
+              "name": "Oil Dispersal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "blaze-talent-suppressive-fire",
+              "name": "Suppressive Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-7"
+            },
+            {
+              "id": "blaze-talent-nanomachine-coating",
+              "name": "Nanomachine Coating",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "blaze-talent-bunker-drop",
+              "name": "Bunker Drop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-10"
+            },
+            {
+              "id": "blaze-talent-combustion",
+              "name": "Combustion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "blaze-talent-collision-course",
+              "name": "Collision Course",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "blaze-talent-juggernaut-plating",
+              "name": "Juggernaut Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-16"
+            },
+            {
+              "id": "blaze-talent-thermal-protection",
+              "name": "Thermal Protection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "blaze-talent-fortified-bunker",
+              "name": "Fortified Bunker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            },
+            {
+              "id": "blaze-talent-flash-fire",
+              "name": "Flash Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            },
+            {
+              "id": "blaze-talent-burn-notice",
+              "name": "Burn Notice",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/blaze#55.17!4111331"
+    },
+    {
+      "name": "Pyromania Build",
+      "label": "Situational",
+      "description": "Blaze's Pyromania Build primarily empowers your engage while also increasing your survivability, utility, and damage. We recommend this Build when playing Blaze as Tank, ideally against 3 melee Heroes or more.\n\nIn particular, the damage reduction from Meltdown at Level 4 is great for reducing the damage done by melee Heroes and Heat Treatment at Level 16 can heal you by a lot when surrounded by enemy Heroes in melee range. The cooldown reduction from New Habits at Level 1 lets you do this more often.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "blaze-talent-new-habits",
+              "name": "New Habits",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "blaze-talent-meltdown",
+              "name": "Meltdown",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "blaze-talent-suppressive-fire",
+              "name": "Suppressive Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-7"
+            },
+            {
+              "id": "blaze-talent-nanomachine-coating",
+              "name": "Nanomachine Coating",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "blaze-talent-bunker-drop",
+              "name": "Bunker Drop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-10"
+            },
+            {
+              "id": "blaze-talent-combustion",
+              "name": "Combustion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "blaze-talent-collision-course",
+              "name": "Collision Course",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "blaze-talent-heat-treatment",
+              "name": "Heat Treatment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "blaze-talent-fortified-bunker",
+              "name": "Fortified Bunker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            },
+            {
+              "id": "blaze-talent-flash-fire",
+              "name": "Flash Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            },
+            {
+              "id": "blaze-talent-burn-notice",
+              "name": "Burn Notice",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/blaze#55.17!4211321"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Blaze's ARAM Build primarily empowers your engage while also increasing your survivability, utility, and damage. As a consequence, we recommend this Build when playing Blaze as Tank.\n\nIn particular, the Slow increase provided by Oil Dispersal at Level 4 makes it easier to use Oil Spill as a setup for Jet Propulsion.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "blaze-talent-new-habits",
+              "name": "New Habits",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-1"
+            },
+            {
+              "id": "blaze-talent-endurance-stimpack",
+              "name": "Endurance Stimpack",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-1"
+            },
+            {
+              "id": "blaze-talent-neural-stimpack",
+              "name": "Neural Stimpack",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "blaze-talent-oil-dispersal",
+              "name": "Oil Dispersal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "blaze-talent-suppressive-fire",
+              "name": "Suppressive Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-7"
+            },
+            {
+              "id": "blaze-talent-nanomachine-coating",
+              "name": "Nanomachine Coating",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "blaze-talent-bunker-drop",
+              "name": "Bunker Drop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-10"
+            },
+            {
+              "id": "blaze-talent-combustion",
+              "name": "Combustion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "blaze-talent-collision-course",
+              "name": "Collision Course",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "blaze-talent-juggernaut-plating",
+              "name": "Juggernaut Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-16"
+            },
+            {
+              "id": "blaze-talent-thermal-protection",
+              "name": "Thermal Protection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "blaze-talent-fortified-bunker",
+              "name": "Fortified Bunker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            },
+            {
+              "id": "blaze-talent-flash-fire",
+              "name": "Flash Fire",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            },
+            {
+              "id": "blaze-talent-burn-notice",
+              "name": "Burn Notice",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/blaze-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/blaze#55.17!4111331"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/blaze-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:09.036838+00:00",
+    "updated_at": "2026-07-20T22:05:00+00:00",
+    "author_line": "Last updated on Jul 20, 2026 at 22:05 by Elitesparkle"
+  }
+}

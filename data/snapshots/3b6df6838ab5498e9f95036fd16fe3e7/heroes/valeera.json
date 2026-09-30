@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "id": "valeera",
+  "name": "Valeera",
+  "role": "Melee Assassin",
+  "overview": "Valeera is a Melee Assassin who uses Stealth and a unique Combo Point system to deal devastating amounts of burst damage to her enemies. Combo Points are generated every time Valeera strikes an enemy Hero with one of her Basic Abilities, which can then be spent on a powerful finishing move called Eviscerate. Unlike other Stealth based Heroes, Valeera is able to activate Vanish at will, allowing her to regularly shift back and forth between the shadows to trick and deceive her opponents. When Stealthed, Valeera has access to a whole new set of Abilities commonly referred to as \"openers\", as these Abilities are used to break Valeera from stealth and be the opening sequence to her unrelenting Ability combo.\n\nEach one of Valeera's three openers providers her with a different bonus; Ambush can be used for instantaneous pure damage, Cheap Shot for hard crowd-control in the form of a Stun, and Garrote for damage-over-time and a crippling Silence. It is important for players to recognize which opener will best suit Valeera's needs at that exact moment, and being able to recognize this is an integral step in pursuing mastery of Valeera's kit.",
+  "strengths": [
+    "Very high skill ceiling",
+    "Anti-Assassin, can take down high priority targets deep within the backline",
+    "Exceptional at roaming and ganking",
+    "Diverse kit with lots of utility",
+    "Potential for various playstyles",
+    "Strong crowd control",
+    "High HP pool"
+  ],
+  "weaknesses": [
+    "Dependent on Level 4 and 7 Talents",
+    "Weak PvE",
+    "Particularly susceptible to heavy crowd-control",
+    "Very hard learning curve",
+    "Incredibly weak when revealed",
+    "Suffers against coordinated teams"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "thrall",
+        "name": "Thrall"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "abathur",
+        "name": "Abathur"
+      }
+    ],
+    "explanation": "Valeera peforms best with Heroes who have a reliable source of crowd-control, high burst damage, or both. Besides those, Garrosh and E.T.C. are good partners, because they can easily displace an enemy for Valeera to silence and kill. Furthermore, Abathur is a great pick with her. He will turn Valeera into an even more dangerous roamer, capable of killing targets anywhere before they leave silence."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      }
+    ],
+    "explanation": "Valeera is countered by Heroes who are able to easily break her from Stealth, as this will prevent her from being able to cast any of her opener abilities. She also is very susceptible to crowd-control as her overextended positioning within the enemy backline will often cause her to be quickly taken down once rendered immobile."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Valeera is best suited for larger maps with multiple Objective locations, as she will be able to roam around the Battleground looking for vulnerable enemy Heroes. Due to her limited waveclear and overall PvE potential she tends to suffer on maps where clearing large amounts of enemy Minions or Mercenaries is of high priority."
+  },
+  "builds": [
+    {
+      "name": "Sinister Strike Build",
+      "label": "Recommended",
+      "description": "Valeera's Sinister Strike Build focuses on Talents that cause Sinister Strike to become one of Valeera's primary sources of burst damage. Relentless Strikes at Level 4 will allow Valeera to cast Sinister strike more regularly and Mutilate at Level 7 will vastly increase Sinister Strike's overall damage. When Seal Fate is used in conjunction with Mutilate, Valeera will be able to deal a very large amount of instantaneous burst damage when leaping onto a target effected by a Silence, Root, or Stun (which conveniently can be provided through Cheap Shot or Garrote).",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "valeera-talent-crippling-poison",
+              "name": "Crippling Poison",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-1"
+            },
+            {
+              "id": "valeera-talent-combat-readiness",
+              "name": "Combat Readiness",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "valeera-talent-relentless-strikes",
+              "name": "Relentless Strikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "valeera-talent-mutilate",
+              "name": "Mutilate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "valeera-talent-smoke-bomb",
+              "name": "Smoke Bomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-10"
+            },
+            {
+              "id": "valeera-talent-cloak-of-shadows",
+              "name": "Cloak of Shadows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "valeera-talent-strangle",
+              "name": "Strangle",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-13"
+            },
+            {
+              "id": "valeera-talent-blind",
+              "name": "Blind",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "valeera-talent-seal-fate",
+              "name": "Seal Fate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "valeera-talent-elusiveness",
+              "name": "Elusiveness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/valeera#55.13!4111314"
+    },
+    {
+      "name": "Limpanjo Build",
+      "label": "Situational",
+      "description": "Valeera's Limpanjo Build is dedicated to Limpanjo, a well-known multiple Grand Master Valeera main from Europe, who was kind enough to share his input on our Valeera Build Guide. The Build itself is quite similar to the Sinister Strike Build with few exceptions. At Level 1, Combat Readiness can be picked to provide very strong protection against enemy Basic Attacks, which allows Valeera to be played more safely both as a Melee Assassin in the 4-man capable to gank or as an Offlaner. At Level 13 and 16, the Build takes a unique path. There, the focus lies on taking down individual (and preferably) isolated targets by opening Valeera's combo with Ambush. Thanks to Death From Above, Valeera is able to close the distance to her target nicely while also reducing the cooldown on Vanish, which in return allows her to strike from the shadows again more quickly. Assassinate works great with previous burst damage Talents, most importantly, Mutilate at Level 7, as it lowers her targets Armor even further and deals extra damage as well.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "valeera-talent-crippling-poison",
+              "name": "Crippling Poison",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-1"
+            },
+            {
+              "id": "valeera-talent-combat-readiness",
+              "name": "Combat Readiness",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "valeera-talent-relentless-strikes",
+              "name": "Relentless Strikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "valeera-talent-mutilate",
+              "name": "Mutilate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "valeera-talent-smoke-bomb",
+              "name": "Smoke Bomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-10"
+            },
+            {
+              "id": "valeera-talent-cloak-of-shadows",
+              "name": "Cloak of Shadows",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "valeera-talent-death-from-above",
+              "name": "Death From Above",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "valeera-talent-assassinate",
+              "name": "Assassinate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "valeera-talent-elusiveness",
+              "name": "Elusiveness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/valeera-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/valeera#55.13!4111124"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/valeera-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:33.255668+00:00",
+    "updated_at": "2022-06-05T01:00:00+00:00",
+    "author_line": "Last updated on Jun 05, 2022 at 01:00 by Derenash"
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "id": "sonya",
+  "name": "Sonya",
+  "role": "Bruiser",
+  "overview": "Sonya is an aggressive but durable Bruiser with a fair amount of self-sustain and capable of dealing a high amount of damage from melee distance, making her one of the best Offlaners in the game when played correctly.",
+  "strengths": [
+    "High waveclear",
+    "Great self-sustain",
+    "High single-target damage",
+    "Great at capturing Mercenary Camps"
+  ],
+  "weaknesses": [
+    "Susceptible to being kited",
+    "No options to deal damage from range",
+    "Excessively reliant on hitting Ancient Spear",
+    "Whirlwind can be easily interrupted",
+    "Low mobility"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      }
+    ],
+    "explanation": "When going for Leap as Heroic Ability, having a powerful follow-up is crucial. As such, she does better when paired with Heroes who can dive together with her and/or deal a lot of burst damage on the same target.\n\nWhen going for Wrath of the Berserker as Heroic Ability, survival means damage and damage means survival. As a consequence, she works well with any Hero that can keep her alive for longer with healing, damage mitigation effects, added mobility, or who can reliably crowd control enemy Heroes."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "sylvanas",
+        "name": "Sylvanas"
+      },
+      {
+        "id": "tychus",
+        "name": "Tychus"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      }
+    ],
+    "explanation": "Sonya can be easily punished after engaging because she relies on the self-sustain from her Abilities and Talents. For this reason, Heroes that have crowd control and/or burst damage in their kit are a respectable threat for her.\n\nWrath of the Berserker only reduces the duration of Stun, Root, and Slow effects. As such, Heroes with access to Silence effects (including Taunt and Fear) are better for crowd controlling her."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "explanation": "As a solid Offlaner capable of double soaking and clear Mercenary Camps with ease, Sonya can find a place on all Maps. She is, however, particularly effective on those Maps that feature several Mercenary Camps (for example Garden of Terror).\n\nDue to being relatively weak to ganks, Sonya struggles on Maps where it is easier to gank the enemy Offlaner (notably Towers of Doom)."
+  },
+  "builds": [
+    {
+      "name": "Basic Attacks Build",
+      "label": "Recommended",
+      "description": "Sonya's Basic Attacks Build is designed to increase your sustain damage for killing Heroes with Wrath of the Berserker active, ways to generate Fury for extending Wrath of the Berserker's duration while active, and some survivability tools for team fights.\n\nThe damage increase comes from Furious Blow at Level 1, Giant Slammer at Level 16, and (optionally) from Poisoned Spear at Level 7. The extra Fury generation comes from Shot Of Fury at Level 4.\n\nUse Whirlwind and Battle Rage at Level 7 to heal yourself in lane or while fighting. Use Ignore Pain at Level 20 to reduce incoming burst damage while fighting.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sonya-talent-furious-blow",
+              "name": "Furious Blow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sonya-talent-shot-of-fury",
+              "name": "Shot Of Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sonya-talent-battle-rage",
+              "name": "Battle Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-7"
+            },
+            {
+              "id": "sonya-talent-poisoned-spear",
+              "name": "Poisoned Spear",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sonya-talent-wrath-of-the-berserker",
+              "name": "Wrath of the Berserker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sonya-talent-no-escape",
+              "name": "No Escape",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sonya-talent-giant-slammer",
+              "name": "Giant Slammer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sonya-talent-ignore-pain",
+              "name": "Ignore Pain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sonya#32.2!1332314"
+    },
+    {
+      "name": "Leap Build",
+      "label": "Situational",
+      "description": "Sonya's Leap Build is designed to increase burst damage for killing enemy Heroes right after using Leap, waveclear for laning, and some survivability tools for team fights.\n\nThe damage increase comes from Furious Blow at Level 1, from Giant Slammer at Level 16, and (optionally) from Poisoned Spear at Level 7. The waveclear comes from Shattered Ground at Level 4.\n\nUse Whirlwind and Battle Rage at Level 7 to heal yourself in lane or while fighting. Use Ignore Pain at Level 20 to reduce incoming burst damage while fighting.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sonya-talent-furious-blow",
+              "name": "Furious Blow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sonya-talent-shattered-ground",
+              "name": "Shattered Ground",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sonya-talent-battle-rage",
+              "name": "Battle Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-7"
+            },
+            {
+              "id": "sonya-talent-poisoned-spear",
+              "name": "Poisoned Spear",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sonya-talent-leap",
+              "name": "Leap",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sonya-talent-no-escape",
+              "name": "No Escape",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sonya-talent-giant-slammer",
+              "name": "Giant Slammer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sonya-talent-ignore-pain",
+              "name": "Ignore Pain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sonya#32.2!1131314"
+    },
+    {
+      "name": "Whirlwind Build",
+      "label": "Situational",
+      "description": "Sonya's Whirlwind Build excels against team compositions without reliable ways to interrupt Sonya during Whirlwind and ideally with multiple melee or low-range Heroes to hit at the same time, so that you will self-heal for more and thus be harder to kill.\n\nLife Funnel at Level 7 increases the healing Sonya receives from Whirlwind. Hurricane at Level 4 allows you to cast Whirlwind more often and, more importantly, gives you the ability to remove any Slow or Root from yourself.\n\nUse Whirlwind to heal yourself in lane or while fighting. Use either Nerves of Steel at Level 16 or Ignore Pain at Level 20 to reduce incoming burst damage while fighting.\n\nIf the enemy team has Heroes with high Attack Speed or multi-hit Basic Attacks, you should replace Tough As Nails at Level 1 with War Paint otherwise they will easily deplete all your Block charges.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sonya-talent-tough-as-nails",
+              "name": "Tough As Nails",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-1"
+            },
+            {
+              "id": "sonya-talent-war-paint",
+              "name": "War Paint",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sonya-talent-hurricane",
+              "name": "Hurricane",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sonya-talent-life-funnel",
+              "name": "Life Funnel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sonya-talent-wrath-of-the-berserker",
+              "name": "Wrath of the Berserker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sonya-talent-no-escape",
+              "name": "No Escape",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sonya-talent-nerves-of-steel",
+              "name": "Nerves of Steel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sonya-talent-ignore-pain",
+              "name": "Ignore Pain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-20"
+            },
+            {
+              "id": "sonya-talent-composite-spear",
+              "name": "Composite Spear",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sonya#32.2!3222334"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Sonya's Basic Attacks Build is designed to increase your sustain damage for killing Heroes with Wrath of the Berserker active, ways to generate Fury for extending Wrath of the Berserker's duration while active, and some survivability tools for team fights.\n\nThe damage increase comes from Furious Blow at Level 1, Giant Slammer at Level 16, and (optionally) from Poisoned Spear at Level 7. The extra Fury generation comes from Shot Of Fury at Level 4.\n\nUse Whirlwind and Battle Rage at Level 7 to heal yourself in lane or while fighting. Use Ignore Pain at Level 20 to reduce incoming burst damage while fighting.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "sonya-talent-furious-blow",
+              "name": "Furious Blow",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "sonya-talent-shot-of-fury",
+              "name": "Shot Of Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "sonya-talent-battle-rage",
+              "name": "Battle Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "sonya-talent-wrath-of-the-berserker",
+              "name": "Wrath of the Berserker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "sonya-talent-no-escape",
+              "name": "No Escape",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "sonya-talent-giant-slammer",
+              "name": "Giant Slammer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "sonya-talent-ignore-pain",
+              "name": "Ignore Pain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/sonya-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/sonya#32.2!1332314"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/sonya-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:20.300508+00:00",
+    "updated_at": "2025-08-22T10:56:00+00:00",
+    "author_line": "Last updated on Aug 22, 2025 at 10:56 by Elitesparkle"
+  }
+}

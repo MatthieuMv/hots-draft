@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "id": "thrall",
+  "name": "Thrall",
+  "role": "Bruiser",
+  "overview": "Thrall is a durable Bruiser with extraordinary burst damage potential in close combat and a kit that provides his team powerful crowd control Abilities but lacks waveclear.",
+  "strengths": [
+    "Strong self-sustain due to Frostwolf Resilience",
+    "Solid crowd control",
+    "Huge impact in team fights thanks to his Heroic Abilities"
+  ],
+  "weaknesses": [
+    "Low mobility",
+    "Weak to kite",
+    "Poor waveclear"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "fenix",
+        "name": "Fenix"
+      },
+      {
+        "id": "chromie",
+        "name": "Chromie"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      }
+    ],
+    "explanation": "Thrall's Earthquake synergizes really well with other strong area of effect Abilities who benefit from the Slow to connect on enemy Heroes (such as Ring of Frost by Jaina), to deal bonus damage to them (for example Purification Salvo by Fenix), or to stop their retreat and engage them with powerful buffs for your team (for example Bloodlust by Rehgar)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Thrall suffers against Heroes who can kite (such as Lunara) as a consequence of him lacking mobility, even if he can overcome it by using his Heroic Abilities to engage. Well-timed Blind effects (like Blinding Wind by Li Li) will annoy him for sure, so try to play around them by holding your Windfury when they are debuffing you. Like most Heroes, he also suffers against crowd control followed by burst damage (for example Kael'thas)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Thrall excels on Maps where the team can play together as a 4-man (for example Battlefield of Eternity) and he rarely has to split from the rest of the team to take care of Minions.\n\nThrall does poorly on Maps where waveclear is important (such as Tomb of the Spider Queen) because he cannot quickly clear Minions like many other Heroes."
+  },
+  "builds": [
+    {
+      "name": "Chain Lightning Build",
+      "label": "Recommended",
+      "description": "Thrall's Chain Lightning Build is designed to safely deal poke damage to enemy Heroes before the real team fight starts and then engage when they are not full Health.\n\nThunderstorm at Level 16 greatly empowers this kind of playstyle because it makes Chain Lightning deal more damage every time you switch target. Mana Tide at Level 4 lets you do that more often.\n\nChoose this Build when the enemy team suffers against poke damage because they do not have a good Healer for that or they completely lack one.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "thrall-talent-echo-of-the-elements",
+              "name": "Echo of the Elements",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-1"
+            },
+            {
+              "id": "thrall-talent-crash-lightning",
+              "name": "Crash Lightning",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "thrall-talent-mana-tide",
+              "name": "Mana Tide",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "thrall-talent-rolling-thunder",
+              "name": "Rolling Thunder",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-7"
+            },
+            {
+              "id": "thrall-talent-ancestral-wrath",
+              "name": "Ancestral Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "thrall-talent-sundering",
+              "name": "Sundering",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-10"
+            },
+            {
+              "id": "thrall-talent-earthquake",
+              "name": "Earthquake",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "thrall-talent-frostwolfs-grace",
+              "name": "Frostwolf's Grace",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-13"
+            },
+            {
+              "id": "thrall-talent-spirit-shield",
+              "name": "Spirit Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "thrall-talent-thunderstorm",
+              "name": "Thunderstorm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "thrall-talent-wind-rush",
+              "name": "Wind Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            },
+            {
+              "id": "thrall-talent-worldbreaker",
+              "name": "Worldbreaker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            },
+            {
+              "id": "thrall-talent-earthen-shields",
+              "name": "Earthen Shields",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/thrall#55.17!1311225"
+    },
+    {
+      "name": "Feral Spirit Build",
+      "label": "Situational",
+      "description": "Thrall's Feral Spirit Build is designed to take down enemy Heroes more easily by empowering Feral Spirit and Basic Attacks. The amount of burst damage you can deal can be threatening even for the most durable Heroes.\n\nAlpha Wolf at Level 16 allows you to deal more damage on enemy Heroes that have high maximum Health (for example Azmodan). Frostwolf Pack at Level 4, once you complete its Quest, will let you do that more often. Alternatively, you can pick Feral Resilience at Level 4 to increase your survivability against Heroes with slow but heavy-hitting Basic Attacks.\n\nChoose this Build when you want to burst down the enemy frontline and/or when the enemy team has more than 2 Heroes with high maximum Health.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "thrall-talent-maelstrom-weapon",
+              "name": "Maelstrom Weapon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "thrall-talent-frostwolf-pack",
+              "name": "Frostwolf Pack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-4"
+            },
+            {
+              "id": "thrall-talent-feral-resilience",
+              "name": "Feral Resilience",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "thrall-talent-elemental-assault",
+              "name": "Elemental Assault",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-7"
+            },
+            {
+              "id": "thrall-talent-ancestral-wrath",
+              "name": "Ancestral Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "thrall-talent-sundering",
+              "name": "Sundering",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-10"
+            },
+            {
+              "id": "thrall-talent-earthquake",
+              "name": "Earthquake",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "thrall-talent-frostwolfs-grace",
+              "name": "Frostwolf's Grace",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-13"
+            },
+            {
+              "id": "thrall-talent-spirit-shield",
+              "name": "Spirit Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "thrall-talent-alpha-wolf",
+              "name": "Alpha Wolf",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "thrall-talent-wind-rush",
+              "name": "Wind Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            },
+            {
+              "id": "thrall-talent-worldbreaker",
+              "name": "Worldbreaker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            },
+            {
+              "id": "thrall-talent-earthen-shields",
+              "name": "Earthen Shields",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/thrall#55.17!3231235"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Thrall's ARAM Build is designed to take down enemy Heroes more easily by empowering Feral Spirit and Basic Attacks. The amount of burst damage you can deal can be threatening even for the most durable Heroes.\n\nAlpha Wolf at Level 16 allows you to deal more damage on enemy Heroes that have high maximum Health (for example Azmodan). Frostwolf Pack at Level 4, once you complete its Quest, will let you do that more often. Alternatively, you can pick Feral Resilience at Level 4 to increase your survivability against Heroes with slow but heavy-hitting Basic Attacks.\n\nChoose this Build when you want to burst down the enemy frontline and/or when the enemy team has more than 2 Heroes with high maximum Health.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "thrall-talent-maelstrom-weapon",
+              "name": "Maelstrom Weapon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "thrall-talent-frostwolf-pack",
+              "name": "Frostwolf Pack",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-4"
+            },
+            {
+              "id": "thrall-talent-feral-resilience",
+              "name": "Feral Resilience",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "thrall-talent-elemental-assault",
+              "name": "Elemental Assault",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-7"
+            },
+            {
+              "id": "thrall-talent-ancestral-wrath",
+              "name": "Ancestral Wrath",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "thrall-talent-sundering",
+              "name": "Sundering",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-10"
+            },
+            {
+              "id": "thrall-talent-earthquake",
+              "name": "Earthquake",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "thrall-talent-frostwolfs-grace",
+              "name": "Frostwolf's Grace",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-13"
+            },
+            {
+              "id": "thrall-talent-spirit-shield",
+              "name": "Spirit Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "thrall-talent-alpha-wolf",
+              "name": "Alpha Wolf",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "thrall-talent-wind-rush",
+              "name": "Wind Rush",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            },
+            {
+              "id": "thrall-talent-worldbreaker",
+              "name": "Worldbreaker",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            },
+            {
+              "id": "thrall-talent-earthen-shields",
+              "name": "Earthen Shields",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/thrall-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/thrall#55.17!3231235"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/thrall-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:27.317331+00:00",
+    "updated_at": "2026-07-28T23:30:00+00:00",
+    "author_line": "Last updated on Jul 28, 2026 at 23:30 by Elitesparkle"
+  }
+}

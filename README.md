@@ -1,4 +1,4 @@
-# Nexus Draft — Heroes of the Storm draft companion
+# HotsDraft — Heroes of the Storm draft companion
 
 Python module that discovers the current hero roster from
 [Icy Veins](https://www.icy-veins.com/heroes/) and extracts each hero's overview,
@@ -12,9 +12,11 @@ uv sync
 uv run hots-draft
 ```
 
-`hots-draft` opens the native desktop overlay. It initializes `./data` in a worker
-thread when missing, incomplete, or corrupt; a complete dataset starts entirely
-offline. The window stays responsive during initialization, and shows a retry
+`hots-draft` opens the native desktop overlay. Source runs initialize `./data`
+in a worker thread when missing, incomplete,
+or corrupt. The committed dataset starts offline. Packaged apps initialize from
+the included dataset and never scrape on the target host. The window stays
+responsive during initialization, and shows a retry
 action if loading fails. `hots-scrape` remains the separate data management command:
 
 ```powershell
@@ -40,16 +42,21 @@ uv --cache-dir .uv-cache --no-managed-python run hots-draft
 uv run --group build hots-build
 ```
 
-Produces `dist/NexusDraft.exe`, a standalone desktop executable with no console
+Produces `dist/HotsDraft.exe`, a standalone desktop executable with no console
 window. Build on Windows to produce a Windows executable. Python and uv are not
-required on the destination computer. The executable initializes its hero data
-on first launch and stores data, portraits, and the draft session in
-`%LOCALAPPDATA%\NexusDraft\data`; `--data-dir` overrides this location.
-The scraped dataset is not bundled, so first initialization requires internet.
+required on the destination computer. The executable initializes from its
+bundled data on first launch and stores
+its working data and draft session in
+`%LOCALAPPDATA%\HotsDraft\data`; `--data-dir` overrides this location.
+The validated dataset, all hero portraits and talent icons, and the app icon
+are committed and included in builds. No target-host scraping or asset downloads
+are needed. Packaged apps read artwork directly from the bundle. Missing or
+corrupt bundled data reports an installation error rather than scraping.
+Existing saved drafts from `%LOCALAPPDATA%\NexusDraft\data` are migrated.
 
 Use `--output-dir dist/new-build` to avoid replacing a currently running build.
 For a folder build, use `uv run --group build hots-build --onedir` and distribute
-the entire `dist/NexusDraft` folder. Packaging uses
+the entire `dist/HotsDraft` folder. Packaging uses
 [PyInstaller](https://www.pyinstaller.org/en/stable/usage.html).
 Close the overlay before rebuilding its uv environment. Alternatively, build in
 an isolated environment:
@@ -58,6 +65,21 @@ an isolated environment:
 $env:UV_PROJECT_ENVIRONMENT = '.venv-build'
 uv run --group build hots-build
 ```
+
+The executable uses the committed `assets/hots-draft.ico`; its SVG source is
+`assets/hots-draft.svg`. Regenerate it with `uv run python tools/generate_app_icon.py`.
+
+To refresh data and artwork on the publisher's machine before committing:
+
+```powershell
+uv run hots-scrape --refresh
+uv run hots-assets
+```
+
+Builds fail if the validated dataset or artwork is incomplete. Only published
+snapshots and artwork are committed; scraper caches, session files and temporary
+UI icons remain local. The data and artwork are sourced from
+[Icy Veins](https://www.icy-veins.com/heroes/).
 
 ## Publish a release
 
@@ -74,7 +96,7 @@ normal Git authentication (SSH in this repository). The working tree must be
 clean and the version must be newer than the current version.
 
 [GitHub Actions](https://github.com/MatthieuMv/hots-draft/actions) tests and builds
-on Windows, then publishes `NexusDraft.exe` and `SHA256SUMS.txt` to a GitHub
+on Windows, then publishes `HotsDraft.exe` and `SHA256SUMS.txt` to a GitHub
 Release. A failed test or build prevents publication. No GitHub token needs to
 be stored locally; the workflow uses GitHub's repository-scoped token.
 If a push fails after tagging, retry `git push --atomic origin master v0.2.0`
@@ -90,14 +112,18 @@ restarts with its original arguments. Data and portraits remain in their data
 folder. The installation folder must be writable by the current user.
 
 Offline checks, API failures, and invalid downloads leave the current app
-running. A previous executable is retained beside the app as `NexusDraft.exe.bak`.
+running. A previous executable is retained beside the app as `HotsDraft.exe.bak`.
 Update failures are logged to the `updates/update-error.log` folder beside the
 data folder. If necessary, close the app, restore the `.bak` file, and launch
 with `--no-update`. Updates can also be skipped with:
 
 ```powershell
-NexusDraft.exe --no-update
+HotsDraft.exe --no-update
 ```
+
+Releases are published only when you explicitly run the release command.
+Older NexusDraft executables need one manual replacement with HotsDraft because
+the release asset name has changed.
 
 Source runs through `uv run hots-draft` do not replace themselves; use `git pull`
 and `uv sync` for source updates. Existing executables built before this updater

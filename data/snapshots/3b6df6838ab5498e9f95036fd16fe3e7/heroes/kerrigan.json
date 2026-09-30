@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "id": "kerrigan",
+  "name": "Kerrigan",
+  "role": "Melee Assassin",
+  "overview": "Kerrigan is a Melee Assassin that utilizes a devestating combo of Primal Grasp and Impaling Blades to Stun and damage groups of enemies. Kerrigan is able to deal very high burst damage to her target, although she is vulnerable to burst damage herself due to her low Health pool and lack of defensive Abilities. One of Kerrigan's greatest strengths is her Ability to roam the battlefield in search of ganks, as simply one or two successful picks will provide her team a significant Experience lead that can many times snowball into an easy victory.",
+  "strengths": [
+    "Excellent burst damage and crowd-control",
+    "Strong inititaition by means of Ravage",
+    "Excels at ganking opponents right from the get-go",
+    "Deceptively tanky due to Assimilation and Assimilation-related Talents",
+    "Great against Spell Damage dealers because of Psionic Barrier"
+  ],
+  "weaknesses": [
+    "Incredibly vulnerable to crowd-control",
+    "Very reliant on Ability cooldowns",
+    "High skill cap and learning curve",
+    "No means of escape (without Psionic Shift)",
+    "Very dependent on completing the first part of Ravage's Quest",
+    "High mana cost for low cooldown Abilities"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "tyrande",
+        "name": "Tyrande"
+      }
+    ],
+    "explanation": ""
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      }
+    ],
+    "explanation": ""
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Kerrigan is best suited for smaller Battlegrounds that are oriented primarily around team fighting, as that is where she excels most. She also thrives on these Maps because shorter rotations allow her to stack Ravage's Quest quickly through frequent wave clears and skirmishes. Maps that contain multiple bushes with paths that lead behind the enemy team will more easily allow Kerrigan to flank her opponents. Kerrigan should avoid larger Maps where fights are rarer and it is harder to keep her Quest progress consistent."
+  },
+  "builds": [
+    {
+      "name": "Primal Grasp Build",
+      "label": "Recommended",
+      "description": "Primal Grasp Build consists in constantly having stacked spell armor through Psionic Barrier and Psionic Pulse. It should be the choice when facing more than one spell damage dealer, since it will greatly reduce their damage against Kerrigan.\n\nAfter Level 13, to get the most out of this build, you should learn the pulse timings from Primal Grasp and Psionic Pulse. Primal Grasp pulses 2.5 seconds after being used, while the second pulse from Psionic Pulse happens 4.5 seconds after the cast. Each pulse will increase Kerrigan's Movement Speed and spell armor, while also extending the duration of the existing bonuses from Psionic Barrier. During fights, Kerrigan should use Ravage shortly before each pulse to hit as many targets as possible and keep these bonuses active.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kerrigan-talent-fury-of-the-swarm",
+              "name": "Fury of the Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-1"
+            },
+            {
+              "id": "kerrigan-talent-siphoning-impact",
+              "name": "Siphoning Impact",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kerrigan-talent-psionic-pulse",
+              "name": "Psionic Pulse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kerrigan-talent-boundless-fury",
+              "name": "Boundless Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kerrigan-talent-summon-ultralisk",
+              "name": "Summon Ultralisk",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-10"
+            },
+            {
+              "id": "kerrigan-talent-maelstrom",
+              "name": "Maelstrom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kerrigan-talent-psionic-barrier",
+              "name": "Psionic Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kerrigan-talent-unbridled-energy",
+              "name": "Unbridled Energy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kerrigan-talent-psionic-shift",
+              "name": "Psionic Shift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kerrigan#55.15!3322134"
+    },
+    {
+      "name": "Combo Build",
+      "label": "Situational",
+      "description": "The Combo Build favors Talent options that give Kerrigan the most utility possible, while also having good burst damage in teamfights.\n\nThis Build is good if your playstyle revolves around following a Tank's engages or if the enemy team has many ways to punish your dives.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kerrigan-talent-fury-of-the-swarm",
+              "name": "Fury of the Swarm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kerrigan-talent-kinetic-fulmination",
+              "name": "Kinetic Fulmination",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kerrigan-talent-boundless-fury",
+              "name": "Boundless Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-7"
+            },
+            {
+              "id": "kerrigan-talent-bladed-momentum",
+              "name": "Bladed Momentum",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kerrigan-talent-summon-ultralisk",
+              "name": "Summon Ultralisk",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-10"
+            },
+            {
+              "id": "kerrigan-talent-maelstrom",
+              "name": "Maelstrom",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kerrigan-talent-chrysalis",
+              "name": "Chrysalis",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-13"
+            },
+            {
+              "id": "kerrigan-talent-volatile-power",
+              "name": "Volatile Power",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kerrigan-talent-painful-spikes",
+              "name": "Painful Spikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kerrigan-talent-psionic-shift",
+              "name": "Psionic Shift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kerrigan#55.15!3222324"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Kerrigan's ARAM Build is focused on adding as much survivability and damage as possible when fighting against 5 enemies at once. While Siphoning Impact paired with Boundless Fury greatly increases the Shields provided by Assimilation, Psionic Pulse in combination with Psionic Barrier will provide enough Spell Armor to make those Shields and Kerrigan's Health last much longer.\n\nWhen playing without a Healer, Assimilation Mastery can be a good Level 1 choice, as it provides strong sustain and helps with Mana management, allowing Kerrigan to use her combo more often.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "kerrigan-talent-siphoning-impact",
+              "name": "Siphoning Impact",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-1"
+            },
+            {
+              "id": "kerrigan-talent-assimilation-mastery",
+              "name": "Assimilation Mastery",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "kerrigan-talent-psionic-pulse",
+              "name": "Psionic Pulse",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "kerrigan-talent-boundless-fury",
+              "name": "Boundless Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "kerrigan-talent-maelstrom",
+              "name": "Maelstrom",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-10"
+            },
+            {
+              "id": "kerrigan-talent-summon-ultralisk",
+              "name": "Summon Ultralisk",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "kerrigan-talent-psionic-barrier",
+              "name": "Psionic Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "kerrigan-talent-unbridled-energy",
+              "name": "Unbridled Energy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "kerrigan-talent-psionic-shift",
+              "name": "Psionic Shift",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/kerrigan-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/kerrigan#55.15!1321134"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/kerrigan-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:16.348855+00:00",
+    "updated_at": "2026-01-29T18:15:00+00:00",
+    "author_line": "Last updated on Jan 29, 2026 at 18:15 by Derenash"
+  }
+}

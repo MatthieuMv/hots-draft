@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "id": "johanna",
+  "name": "Johanna",
+  "role": "Tank",
+  "overview": "Johanna is a low-mobility, extremely resilient Tank, capable of Blinding, Slowing, Stunning, and briefly Pulling enemies. She excels at creating chaos and disruption in the midst of the enemy team for extended periods of time while also peeling for her allies. Johanna is one of the handful of Heroes in the game with no direct counters, and is able to fit into nearly any team composition.",
+  "strengths": [
+    "High durability",
+    "Solid crowd control",
+    "Good waveclear",
+    "Access to Blinds",
+    "Capable of interrupting",
+    "On-demand Unstoppable"
+  ],
+  "weaknesses": [
+    "Low damage",
+    "No tools to handle high-mobility Heroes",
+    "Low mobility",
+    "Reliant on the Shield from Iron Skin to survive longer"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      }
+    ],
+    "explanation": "Johanna pairs extremely well with Heroes that can follow up her slow but powerful engage with any kind of area of effect Ability to deal burst damage to enemy Heroes and/or to crowd control them.\n\nDue to her weak engage when her Heroic Ability is not available, Johanna greatly benefits from Heroes that can help her with that in the 4-man (such as Maiev) and/or from the offlane (for example Leoric with Entomb at Level 10)."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "leoric",
+        "name": "Leoric"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      }
+    ],
+    "explanation": "Johanna can be countered by constantly depleting her Health with sustain damage, targeting her while Iron Skin is on cooldown, or using high-mobility Heroes to target her backline.\n\nVarian, due to Shattering Throw at Level 13, can completely destroy Johanna's main defensive tools: Iron Skin baseline and either Indestructible or Blinded By The Light at Level 20."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "explanation": "Johanna performs better on medium-sized Battlegrounds that favor early-game rotations with tons of waveclear (such as Tomb of the Spider Queen) or on Battlegrounds where it is easy to reach the late game (for example Warhead Junction). On the other hand, she is lackluster on most 2-lane Maps as well as Maps with wide empty areas (such as Hanamura Temple)."
+  },
+  "builds": [
+    {
+      "name": "Shield Glare Build",
+      "label": "Recommended",
+      "description": "Johanna's Shield Glare Build gives you the opportunity to Blind enemy Heroes more often and, in the late-game, get self-healing and cooldown reduction from that.\n\nYou can play this Build when you and your teammates need help against enemy Heroes who rely on Basic Attacks (for example Greymane). Just make sure to keep at least one charge of Shield Glare for peeling.\n\nWhen playing against Heroes with a lot of raw healing (notably Whitemane), you should consider picking Sins Exposed at Level 7, especially if your team lacks powerful healing reduction effects.\n\nWhen playing as Offlaner and having to double soak, to avoid Mana problems, you should pick Eternal Retaliation at Level 4 and only use Condemn for clearing Minions.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "johanna-talent-zealous-glare",
+              "name": "Zealous Glare",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "johanna-talent-subdue",
+              "name": "Subdue",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-4"
+            },
+            {
+              "id": "johanna-talent-eternal-retaliation",
+              "name": "Eternal Retaliation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "johanna-talent-conviction",
+              "name": "Conviction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-7"
+            },
+            {
+              "id": "johanna-talent-sins-exposed",
+              "name": "Sins Exposed",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "johanna-talent-blessed-shield",
+              "name": "Blessed Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-10"
+            },
+            {
+              "id": "johanna-talent-falling-sword",
+              "name": "Falling Sword",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "johanna-talent-blessed-hammer",
+              "name": "Blessed Hammer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-13"
+            },
+            {
+              "id": "johanna-talent-roar",
+              "name": "Roar",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "johanna-talent-holy-renewal",
+              "name": "Holy Renewal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "johanna-talent-blinded-by-the-light",
+              "name": "Blinded By The Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            },
+            {
+              "id": "johanna-talent-radiating-faith",
+              "name": "Radiating Faith",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            },
+            {
+              "id": "johanna-talent-heavens-fury",
+              "name": "Heaven's Fury",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/johanna#55.17!1122324"
+    },
+    {
+      "name": "Basic Attacks Build",
+      "label": "Situational",
+      "description": "Johanna's Basic Attacks Build allows you to crowd control enemy Heroes more often in the late game while also having a respectable amount of additional survivability.\n\nYou can play this Build when you want more self-sustain in the early game, thanks to Laws of Hope at Level 1, and when you want more crowd control later on, thanks to either Blessed Momentum's cooldown reduction or Shrinking Vacuum's damage reduction at Level 16.\n\nWhen playing against Heroes with a lot of raw healing (notably Whitemane), you should consider picking Sins Exposed at Level 7, especially if your team lacks powerful healing reduction effects.\n\nWhen playing as Offlaner and having to double soak, to avoid Mana problems, you should pick Eternal Retaliation at Level 4 and only use Condemn for clearing Minions.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "johanna-talent-laws-of-hope",
+              "name": "Laws of Hope",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "johanna-talent-subdue",
+              "name": "Subdue",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-4"
+            },
+            {
+              "id": "johanna-talent-eternal-retaliation",
+              "name": "Eternal Retaliation",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "johanna-talent-conviction",
+              "name": "Conviction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-7"
+            },
+            {
+              "id": "johanna-talent-sins-exposed",
+              "name": "Sins Exposed",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "johanna-talent-blessed-shield",
+              "name": "Blessed Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-10"
+            },
+            {
+              "id": "johanna-talent-falling-sword",
+              "name": "Falling Sword",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "johanna-talent-blessed-hammer",
+              "name": "Blessed Hammer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-13"
+            },
+            {
+              "id": "johanna-talent-roar",
+              "name": "Roar",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "johanna-talent-blessed-momentum",
+              "name": "Blessed Momentum",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-16"
+            },
+            {
+              "id": "johanna-talent-shrinking-vacuum",
+              "name": "Shrinking Vacuum",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "johanna-talent-blinded-by-the-light",
+              "name": "Blinded By The Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            },
+            {
+              "id": "johanna-talent-radiating-faith",
+              "name": "Radiating Faith",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            },
+            {
+              "id": "johanna-talent-heavens-fury",
+              "name": "Heaven's Fury",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/johanna#55.17!3122334"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Johanna's ARAM Build gives you the opportunity to Blind enemy Heroes more often and, in the late-game, get self-healing and cooldown reduction from that.\n\nWhen playing against Heroes with a lot of raw healing (notably Whitemane), you should consider picking Sins Exposed at Level 7, especially if your team lacks powerful healing reduction effects.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "johanna-talent-zealous-glare",
+              "name": "Zealous Glare",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "johanna-talent-subdue",
+              "name": "Subdue",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "johanna-talent-conviction",
+              "name": "Conviction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-7"
+            },
+            {
+              "id": "johanna-talent-sins-exposed",
+              "name": "Sins Exposed",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "johanna-talent-blessed-shield",
+              "name": "Blessed Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-10"
+            },
+            {
+              "id": "johanna-talent-falling-sword",
+              "name": "Falling Sword",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "johanna-talent-blessed-hammer",
+              "name": "Blessed Hammer",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-13"
+            },
+            {
+              "id": "johanna-talent-roar",
+              "name": "Roar",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "johanna-talent-holy-renewal",
+              "name": "Holy Renewal",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "johanna-talent-blinded-by-the-light",
+              "name": "Blinded By The Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            },
+            {
+              "id": "johanna-talent-radiating-faith",
+              "name": "Radiating Faith",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            },
+            {
+              "id": "johanna-talent-heavens-fury",
+              "name": "Heaven's Fury",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/johanna-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/johanna#55.17!1122324"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/johanna-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:12.322090+00:00",
+    "updated_at": "2026-07-20T22:25:00+00:00",
+    "author_line": "Last updated on Jul 20, 2026 at 22:25 by Elitesparkle"
+  }
+}

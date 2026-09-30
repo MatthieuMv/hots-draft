@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "id": "cassia",
+  "name": "Cassia",
+  "role": "Ranged Assassin",
+  "overview": "Cassia is a ranged Assassin who deals increased damage to Blinded enemies. Blinding Light makes her exceptionally strong against melee Heroes who are reliant on Basic Attacks as a primary damage source. Although she has strong all-in potential with Ball Lightning and Fend, her kit lacks escape options once she is committed. While Cassia can fit into many different team compositions, she gets very squishy when against crowd control.",
+  "strengths": [
+    "Decent waveclear with Fend if Minions are Blinded",
+    "Great against melee Heroes due to Charged Strikes",
+    "Strong against Basic Attack oriented Heroes thanks to Blinding Light",
+    "Gets more value from Healing, due to having innate armor from Avoidance"
+  ],
+  "weaknesses": [
+    "No escapes",
+    "Very mana intensive",
+    "Fend can be interrupted",
+    "Any debuff that stops movement will greatly reduce her survivability",
+    "Small range",
+    "Dependent on Level 13 and 16 talents"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "li-li",
+        "name": "Li Li"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "artanis",
+        "name": "Artanis"
+      },
+      {
+        "id": "thrall",
+        "name": "Thrall"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      }
+    ],
+    "explanation": "Cassia greatly benefits from allied Heroes who can Blind enemies, because she deals increased damage to Blinded targets. If her allies can also Slow enemies, she can get additional value from Martial Law."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "xul",
+        "name": "Xul"
+      },
+      {
+        "id": "imperius",
+        "name": "Imperius"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "malganis",
+        "name": "Mal'Ganis"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      }
+    ],
+    "explanation": "Cassia has no escapes, limited self-sustain and small range. Powerful backline Heroes can win trades with her at range, and punish her brutally if she dives in with Fend. Reliable crowd controls are also excellent against her, since Avoidance is only active when Cassia is moving."
+  },
+  "maps": {
+    "stronger": [],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Cassia can perform well on any map. She has good waveclear, excellent siege damage at gates, is an effective duelist, and contributes high single-target damage against Boss type map objectives. Her viability is more dependent on team compositions than battlegrounds."
+  },
+  "builds": [
+    {
+      "name": "Lightning Fury Build",
+      "label": "Recommended",
+      "description": "This Build slightly increases Lightning Fury's damage, and is a great option if you are looking for more poke damage. The playstyle of this build differs greatly from the other builds, as you will usually deal damage from a safer range.\n\nUse Lightning Fury on enemy Heroes whenever possible, in order to stack Thunderstroke quickly. If you cast Lightning Fury perpendicularly toward enemy Gates, the lightning bolts will also damage the Towers and Walls with each cast.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "cassia-talent-thunderstroke",
+              "name": "Thunderstroke",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "cassia-talent-inner-light",
+              "name": "Inner Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "cassia-talent-surge-of-light",
+              "name": "Surge of Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "cassia-talent-ball-lightning",
+              "name": "Ball Lightning",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-10"
+            },
+            {
+              "id": "cassia-talent-valkyrie",
+              "name": "Valkyrie",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "cassia-talent-war-traveler",
+              "name": "War Traveler",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "cassia-talent-static-electricity",
+              "name": "Static Electricity",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "cassia-talent-infinite-lightning",
+              "name": "Infinite Lightning",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-20"
+            },
+            {
+              "id": "cassia-talent-rockstopper",
+              "name": "Rockstopper",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-20"
+            },
+            {
+              "id": "cassia-talent-imprisoning-light",
+              "name": "Imprisoning Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/cassia#50.2!1331221"
+    },
+    {
+      "name": "Charged Strikes Build",
+      "label": "Situational",
+      "description": "Cassia's Charged Strikes Build will make you deal a substantial amount of sustain damage through Basic Attacks to the enemy team. The main drawback of this build is that it requires you to remain within Cassia's short attack range while delivering Basic Attacks. But this weakness is compensated by Gloves Of Alacrity at Level 13.\n\nDue to Cassia's small range, you will have a hard time constantly delivering Basic Attacks in the early game. It is better to be playing safely, only attacking enemies when you are sure of your safety. Start playing more aggressively after Level 13's Talents, because of the extra range or mobility provided by those.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "cassia-talent-charged-strikes",
+              "name": "Charged Strikes",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "cassia-talent-ring-of-the-leech",
+              "name": "Ring of the Leech",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-4"
+            },
+            {
+              "id": "cassia-talent-plate-of-the-whale",
+              "name": "Plate of the Whale",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "cassia-talent-surge-of-light",
+              "name": "Surge of Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "cassia-talent-ball-lightning",
+              "name": "Ball Lightning",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-10"
+            },
+            {
+              "id": "cassia-talent-valkyrie",
+              "name": "Valkyrie",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "cassia-talent-gloves-of-alacrity",
+              "name": "Gloves Of Alacrity",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-13"
+            },
+            {
+              "id": "cassia-talent-war-traveler",
+              "name": "War Traveler",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "cassia-talent-martial-law",
+              "name": "Martial Law",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "cassia-talent-titans-revenge",
+              "name": "Titan's Revenge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-20"
+            },
+            {
+              "id": "cassia-talent-infinite-lightning",
+              "name": "Infinite Lightning",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-20"
+            },
+            {
+              "id": "cassia-talent-rockstopper",
+              "name": "Rockstopper",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-20"
+            },
+            {
+              "id": "cassia-talent-imprisoning-light",
+              "name": "Imprisoning Light",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/cassia-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/cassia#50.2!3231333"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/cassia-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:10.866929+00:00",
+    "updated_at": "2025-05-31T10:00:00+00:00",
+    "author_line": "Last updated on May 31, 2025 at 10:00 by Derenash"
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "id": "xalatath",
+  "name": "Xal'atath",
+  "role": "Ranged Assassin",
+  "overview": "Xal'atath is a Ranged Assassin who can deal burst damage by hitting an enemy Hero with the center of Shadow Mark and detonating Dark Heart Ritual on them. Unlike many mages, she can Basic Attack while moving. Her attacks deal substantial Physical Damage even to frontline Heroes and charge Void Volley, so she can keep dealing damage between Ability casts.\n\nXal'atath is very fragile and has only Void Step to escape. Its long, telegraphed teleport sequence gives enemies time to react, while she must keep using Basic Attacks to charge Void Volley. Although she is difficult to play safely, her mix of good Physical Damage from Basic Attacks and burst damage from Void Volley and her other Abilities is hard for enemies to mitigate, making her rewarding when played well.",
+  "strengths": [
+    "Great burst damage",
+    "Has great area of effect damage",
+    "Excellent late game scaling",
+    "Can reposition with Void Step",
+    "Can stall channeled Objectives with Dark Heart Ritual"
+  ],
+  "weaknesses": [
+    "Very fragile",
+    "Vulnerable to hard engages",
+    "Steep learning curve",
+    "Burst depends on landing delayed skillshots",
+    "Struggles against highly mobile Heroes"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      }
+    ],
+    "explanation": "Allied crowd control gives Xal'atath a window to land Shadow Mark's center and several Void Volley projectiles. It also gives the Dark Heart time to reach a Marked target. Void Prison and Containment Disc let Xal'atath charge Void Eruption in advance."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "genji",
+        "name": "Genji"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "alarak",
+        "name": "Alarak"
+      }
+    ],
+    "explanation": "Shadow Mark travels slowly, and Void Volley's projectiles launch over time, giving mobile enemies a chance to avoid both. Xal'atath has low Health, little self-peel, and only Void Step to escape. Hard engages such as Dragon's Arrow or Leap can catch her before she can reposition, especially if she has already used Void Step."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Xal'atath benefits from Maps that bring teams together for frequent fights. They give her more chances to stack Void Volley, while narrow areas make her area-of-effect skillshots easier to land. Infernal Shrines, Volskaya Foundry, and Towers of Doom have contested spaces that make Dark Heart Ritual and Shadow Mark harder to avoid.\n\nShe struggles on Maps where enemies can flank from several directions. Her low Health and predictable Void Step make it hard to escape once surrounded."
+  },
+  "builds": [
+    {
+      "name": "Dark Heart Ritual Build",
+      "label": "Recommended",
+      "description": "The Dark Heart Ritual Build controls space, especially at narrow choke points. Dark Heart Ritual should be placed across paths enemies must take to advance or retreat, forcing them to take damage and, with Pull of the Dark Heart, be Slowed.\n\nThis Build is also strong on Maps with channeled Objectives, such as Cursed Hollow and Towers of Doom. With Anchored Core, the Dark Heart lasts 10 seconds and Dark Heart Ritual has a 15-second cooldown. By placing it on the Objective every 15 seconds, Xal'atath can stall its 6-second channel on her own indefinitely, as long as she stays in range and can keep casting.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "xalatath-talent-anchored-core",
+              "name": "Anchored Core",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "xalatath-talent-dark-barrier",
+              "name": "Dark Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "xalatath-talent-toxic-mark",
+              "name": "Toxic Mark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-convergence",
+              "name": "Void Convergence",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-10"
+            },
+            {
+              "id": "xalatath-talent-void-eruption",
+              "name": "Void Eruption",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "xalatath-talent-pull-of-the-dark-heart",
+              "name": "Pull of the Dark Heart",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-13"
+            },
+            {
+              "id": "xalatath-talent-dark-hearts-protection",
+              "name": "Dark Heart's Protection",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "xalatath-talent-fractured-reality",
+              "name": "Fractured Reality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "xalatath-talent-unstable-core",
+              "name": "Unstable Core",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-20"
+            },
+            {
+              "id": "xalatath-talent-rift-invasion",
+              "name": "Rift Invasion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/xalatath#57.0!2212134"
+    },
+    {
+      "name": "Void Volley Build",
+      "label": "Situational",
+      "description": "The Void Volley Build maximizes Xal'atath's burst damage and adds utility through Dark Heart's Protection's Silence. It works best with allied crowd control, which helps stack Void Adept and Void Volley. Keep Basic Attacking anything in range to charge Void Volley, then use it to hit enemy Heroes whenever possible. Reaching its first 20 Quest stacks is essential for this Build.\n\nIf your Tank has reliable crowd control, spend the early game using only Basic Attacks and Void Volley until they catch an enemy Hero. Then follow up with Shadow Mark and Dark Heart Ritual to detonate the Dark Heart on the Marked target.\n\nWithout reliable allied setup, use Dark Heart Ritual on enemy Heroes or Minion waves, then aim Shadow Mark at Heroes leaving its area. In small skirmishes, try Shadow Mark first. If you miss, wait 2 seconds before placing Dark Heart Ritual on the wave. Shadow Mark will be ready roughly 4 seconds later; hitting a Hero with its center lets the previously placed Dark Heart pursue and detonate on them for a Void Adept stack while you clear the wave.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-adept",
+              "name": "Void Adept",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-acolyte",
+              "name": "Void Acolyte",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-4"
+            },
+            {
+              "id": "xalatath-talent-cold-feet",
+              "name": "Cold Feet",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "xalatath-talent-toxic-mark",
+              "name": "Toxic Mark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-eruption",
+              "name": "Void Eruption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-10"
+            },
+            {
+              "id": "xalatath-talent-void-convergence",
+              "name": "Void Convergence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "xalatath-talent-dark-hearts-protection",
+              "name": "Dark Heart's Protection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "xalatath-talent-fractured-reality",
+              "name": "Fractured Reality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-16"
+            },
+            {
+              "id": "xalatath-talent-marked-resilience",
+              "name": "Marked Resilience",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "xalatath-talent-dueling-orbs",
+              "name": "Dueling Orbs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-20"
+            },
+            {
+              "id": "xalatath-talent-rift-invasion",
+              "name": "Rift Invasion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/xalatath#57.0!1311233"
+    },
+    {
+      "name": "Void Step Build",
+      "label": "Not recommended",
+      "description": "The Void Step Build requires Xal'atath to use Void Step aggressively in fights to deal damage. Spending her only mobility Ability to close in leaves her vulnerable to Stuns. Even if enemies cannot stop her, they can leave Basic Attack range between blinks, making the damage from Relentless Whispers inconsistent. For these reasons, we do not recommend this Build.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "xalatath-talent-cloak-of-shadows",
+              "name": "Cloak of Shadows",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-acolyte",
+              "name": "Void Acolyte",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-summoner",
+              "name": "Void Summoner",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-eruption",
+              "name": "Void Eruption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-10"
+            },
+            {
+              "id": "xalatath-talent-void-convergence",
+              "name": "Void Convergence",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "xalatath-talent-dark-hearts-protection",
+              "name": "Dark Heart's Protection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "xalatath-talent-relentless-whispers",
+              "name": "Relentless Whispers",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "xalatath-talent-paradox-loop",
+              "name": "Paradox Loop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/xalatath#57.0!3331225"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "The ARAM Build focuses on Shadow Mark and stacking Void Adept. To get the most out of the Quest, hold Dark Heart Ritual until Shadow Mark hits an enemy Hero, then cast it to detonate the Dark Heart on the Marked target. ARAM's frequent fights let Xal'atath stack Void Adept quickly, so she can already deal substantial burst damage by Level 7 with Toxic Mark.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-adept",
+              "name": "Void Adept",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "xalatath-talent-cold-feet",
+              "name": "Cold Feet",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "xalatath-talent-toxic-mark",
+              "name": "Toxic Mark",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "xalatath-talent-void-eruption",
+              "name": "Void Eruption",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "xalatath-talent-dark-hearts-protection",
+              "name": "Dark Heart's Protection",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "xalatath-talent-fractured-reality",
+              "name": "Fractured Reality",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "xalatath-talent-dueling-orbs",
+              "name": "Dueling Orbs",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/xalatath-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/xalatath#57.0!1111233"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/xalatath-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:37.277878+00:00",
+    "updated_at": "2026-09-29T02:50:00+00:00",
+    "author_line": "Last updated Today at 02:50 by Derenash"
+  }
+}

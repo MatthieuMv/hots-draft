@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "id": "tyrael",
+  "name": "Tyrael",
+  "role": "Tank",
+  "overview": "Tyrael is a melee Tank, whose great mobility allows him to get in and out of combat very quickly. With his unique kit, he can support allied Heroes in various ways: Shielding them, giving them Movement Speed, and more. On the other hand, compared to his counterparts, Tyrael lacks crowd control and thus cannot easily punish enemy Heroes who are out of position.",
+  "strengths": [
+    "Supports allied Heroes with Movement Speed and Shields",
+    "Exceptional mobility",
+    "Reduces enemy waveclear, especially with Justice for All",
+    "Good engage with Judgment",
+    "Great protection for allied Heroes with Sanctification",
+    "Good waveclear with Burning Halo",
+    "Able to secure Capture Points with Holy Ground",
+    "High damage output for his Role, augmentable with dedicated Talents"
+  ],
+  "weaknesses": [
+    "Lack of crowd control",
+    "Extremely Mana dependent throughout the game",
+    "Weak engage outside of Judgment",
+    "Time Stop can nullify Sanctification"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "alarak",
+        "name": "Alarak"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      },
+      {
+        "id": "lt-morales",
+        "name": "Lt. Morales"
+      }
+    ],
+    "explanation": "Tyrael has synergy with allied Heroes who want to dive (such as Kerrigan), lack mobility (like Alarak), or want to constantly hit enemy Heroes with Basic Attacks (for example Valla).\n\nDue to his lack of crowd control outside of Judgment, we suggest pairing Tyrael with Heroes who have some crowd control for helping to engage and/or peel. You can play without too, however, it is easier with.\n\nTogether with Lt. Morales, Tyrael is a fundamental piece of the famous Juice Pirates team composition. This backdoor strategy relies on Medivac Dropships to quickly reach enemy Structures as a team and Sanctification to push uncontested, unless they have a counter for it."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      }
+    ],
+    "explanation": "Tyrael with Judgment is countered by Heroes who can protect the targeted Hero with Shields and similar effects (notably Medivh with Force of Will), who can quickly deny the dive with disengage tools (for example Mighty Gust by Falstad), or who have access to cleanse effects (such as Purge by Rehgar).\n\nTyrael with Sanctification is countered by Heroes who can interrupt it, protect Heroes during it (for example Bunker Drop by Blaze), or nullify it by using Time Stop on the Heroes protected by it (only Medivh, Mei, and Zeratul can do it, with Ley Line Seal, Ice Wall, and Void Prison respectively).\n\nTyrael with Holy Ground is countered by displacement effects (notably Mighty Gust by Falstad) as it will mainly be used to secure Boss Camp by standing on the Capture Point uncontested. For obvious reasons, this part is only relevant on Maps where Boss Camps are a win condition."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "explanation": "Thanks to Holy Ground at Level 13 being usable to block the path of enemy Heroes, Tyrael excels on Maps where Boss Camps are a win condition and does well on Maps with narrow corridors around the Objective.\n\nTyrael's Heroic Abilities are extremely powerful in team fights. Considering that both Judgment and Sanctification have a relatively long cooldown, Tyrael does better on Maps where team fights do not happen too often, so that he has time to get them back before fighting again."
+  },
+  "builds": [
+    {
+      "name": "Basic Attacks Build",
+      "label": "Recommended",
+      "description": "Tyrael's Basic Attacks Build provides self-sustain in combat, more damage, and waveclear. With it, you will be able to harass enemy Heroes.\n\nThe self-sustain mainly comes from Ardent Restoration at Level 1 and is increased by Burning Halo at Level 7 which makes its healing ramp up faster at the beginning of a team fight. Reciprocate at Level 4 also heals you a bit.\n\nThe waveclear comes from Burning Halo at Level 7, which passively deals area of effect damage, increased when teleporting with El'druin's Might.\n\nOnce you get Sword of Justice at Level 13, your playstyle will be drastically different: use El'druin's Might, reactivate it to reach enemy Heroes, deal damage to them, and then reactivate it again to teleport back.\n\nWhen not playing against Garrosh, you can pick Holy Ground at Level 13 for blocking the path of enemy Heroes in narrow corridors or to secure Capture Points. Combine it with Horadric Reforging at Level 16 for cooldown reduction.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tyrael-talent-ardent-restoration",
+              "name": "Ardent Restoration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tyrael-talent-reciprocate",
+              "name": "Reciprocate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tyrael-talent-burning-halo",
+              "name": "Burning Halo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tyrael-talent-judgment",
+              "name": "Judgment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tyrael-talent-sword-of-justice",
+              "name": "Sword of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-13"
+            },
+            {
+              "id": "tyrael-talent-holy-ground",
+              "name": "Holy Ground",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tyrael-talent-bound-by-law",
+              "name": "Bound by Law",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-16"
+            },
+            {
+              "id": "tyrael-talent-horadric-reforging",
+              "name": "Horadric Reforging",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tyrael-talent-angel-of-justice",
+              "name": "Angel of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tyrael#55.14!3211111"
+    },
+    {
+      "name": "Righteousness Build",
+      "label": "Advanced",
+      "description": "Tyrael's Righteousness Build provides peeling and utility for your team, in the form of Movement Speed and Attack Speed. With it, you will be able to enable allied Heroes.\n\nThe peeling comes from Justice for All at Level 1 providing a bigger Shield for allied Heroes, from Holy Ground at Level 13 blocking the path of melee Heroes, and from your Heroic Ability.\n\nSwift Retribution at Level 7 is great for enabling allied Heroes who rely on Basic Attacks. After picking it, remember to use Smite on allied Heroes instead of using it on enemies.\n\nHoly Ground at Level 13 is great for blocking the path of enemy Heroes in narrow corridors or to secure Boss Camps. Horadric Reforging at Level 16 gives cooldown reduction for that.\n\nWhen playing against Garrosh, you should pick Sword of Justice at Level 13 to teleport back when caught by Wrecking Ball. Combine it with Bound by Law at Level 16 for blocking his engage with a stronger Slow.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tyrael-talent-justice-for-all",
+              "name": "Justice for All",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tyrael-talent-stalwart-angel",
+              "name": "Stalwart Angel",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tyrael-talent-swift-retribution",
+              "name": "Swift Retribution",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tyrael-talent-sanctification",
+              "name": "Sanctification",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tyrael-talent-holy-ground",
+              "name": "Holy Ground",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-13"
+            },
+            {
+              "id": "tyrael-talent-sword-of-justice",
+              "name": "Sword of Justice",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tyrael-talent-horadric-reforging",
+              "name": "Horadric Reforging",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-16"
+            },
+            {
+              "id": "tyrael-talent-bound-by-law",
+              "name": "Bound by Law",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tyrael-talent-holy-arena",
+              "name": "Holy Arena",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tyrael#55.14!2132222"
+    },
+    {
+      "name": "Smite Build",
+      "label": "Situational",
+      "description": "Tyrael's Smite Build provides self-sustain, high damage, and mobility. With it, you can empower Smite and Basic Attacks to deal a huge amount of damage to enemy Heroes, especially if they tend to group.\n\nThe self-sustain mainly comes from Divine Vigor at Level 4 and is increased by Purge Evil at Level 7. Ardent Restoration at Level 1 also heals you a bit.\n\nOnce you get Sword of Justice at Level 13, your playstyle will be drastically different: use El'druin's Might, reactivate it to reach enemy Heroes, deal damage to them, and then reactivate it again to teleport back.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tyrael-talent-ardent-restoration",
+              "name": "Ardent Restoration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tyrael-talent-divine-vigor",
+              "name": "Divine Vigor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tyrael-talent-purge-evil",
+              "name": "Purge Evil",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tyrael-talent-judgment",
+              "name": "Judgment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tyrael-talent-sword-of-justice",
+              "name": "Sword of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tyrael-talent-bound-by-law",
+              "name": "Bound by Law",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tyrael-talent-angel-of-justice",
+              "name": "Angel of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tyrael#55.14!3321111"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Tyrael's ARAM Build provides self-sustain in combat, more damage, and waveclear. With it, you will be able to harass enemy Heroes.\n\nThe self-sustain mainly comes from Ardent Restoration at Level 1 and is increased by Burning Halo at Level 7 which makes its healing ramp up faster at the beginning of a team fight. Reciprocate at Level 4 also heals you a bit.\n\nThe waveclear comes from Burning Halo at Level 7, which passively deals area of effect damage, increased when teleporting with El'druin's Might.\n\nOnce you get Sword of Justice at Level 13, your playstyle will be drastically different: use El'druin's Might, reactivate it to reach enemy Heroes, deal damage to them, and then reactivate it again to teleport back.\n\nWhen not playing against Garrosh, you can pick Holy Ground at Level 13 for blocking the path of enemy Heroes in narrow corridors or to secure Capture Points. Combine it with Horadric Reforging at Level 16 for cooldown reduction.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tyrael-talent-ardent-restoration",
+              "name": "Ardent Restoration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tyrael-talent-reciprocate",
+              "name": "Reciprocate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tyrael-talent-burning-halo",
+              "name": "Burning Halo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tyrael-talent-judgment",
+              "name": "Judgment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tyrael-talent-sword-of-justice",
+              "name": "Sword of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-13"
+            },
+            {
+              "id": "tyrael-talent-holy-ground",
+              "name": "Holy Ground",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tyrael-talent-bound-by-law",
+              "name": "Bound by Law",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-16"
+            },
+            {
+              "id": "tyrael-talent-horadric-reforging",
+              "name": "Horadric Reforging",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tyrael-talent-angel-of-justice",
+              "name": "Angel of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tyrael-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tyrael#55.14!3211111"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/tyrael-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:30.320090+00:00",
+    "updated_at": "2026-07-15T09:55:00+00:00",
+    "author_line": "Last updated on Jul 15, 2026 at 09:55 by Elitesparkle"
+  }
+}

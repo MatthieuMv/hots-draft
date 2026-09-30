@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "id": "genji",
+  "name": "Genji",
+  "role": "Ranged Assassin",
+  "overview": "Genji is a highly mobile ranged Assassin whose kit also consists of explosive melee components allowing him to quickly dash in and out of combat. While his innate health pool is quite low, which makes him susceptible to enemy crowd control abilities, he does have several escape mechanisms that allow him to escape dangerous situations. If you are looking for a challenging high risk high reward Hero with tricky cooldown reset mechanics, Genji is the right choice for you.",
+  "strengths": [
+    "Extremely mobile",
+    "Flashy playstyle",
+    "Cooldown resets on Swift Strike allow for devastating combos",
+    "Decent poke"
+  ],
+  "weaknesses": [
+    "Weak waveclear",
+    "Very high learning curve",
+    "Low health pool",
+    "Needs constant healing"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      }
+    ],
+    "explanation": "Genji synergizes extremely well with Heroes who can provide both burst damage and some form of crowd control, such as Jaina or Kael'thas, who can help him take down individual targets very quickly in order to proc his cooldown reset on Swift Strike. He also pairs very well with burst Healers like Uther, whose Armor buffs and Divine Shield can greatly enhance Genji's own survivability."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "uther",
+        "name": "Uther"
+      }
+    ],
+    "explanation": "Due to his very low health pool, Genji struggles against Heroes with strong crowd control that render him defenseless for a short period of time. Thus, abilities like Varian's Taunt or Malfurion's Twilight Dream can cause great problems for him. Furthermore, nimble ranged Assassins with great kiting potential such as Lunara can bait him into overextending only to get outnumbered by the enemy team. Keep in mind that any form of poison damage continues to tick after Genji's Deflect expires, which is another reason why Lunara is a dangerous enemy for him to face. Heroes with point-and-click CC such as Uther work great in countering Genji should he dive into the backline."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      }
+    ],
+    "average": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      },
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Genji excels on Maps like Cursed Hollow, Hanamura Temple, or Garden of Terror, on which he can utilize his superior mobility to quickly engage and disengage using impassable terrain to his advantage. Doing so allows him to surprise the enemy team's backline from an unexpected angle. On smaller Maps like Battlefield of Eternity or Tomb of the Spider Queen, that require good waveclear, Genji's options are rather limited and make him a suboptimal pick. On Braxis Holdout, however, he can use his superior mobility to gank the offlane. Furthermore, Deflect can be used to great effect against the Boss on Braxis Holdout, whose fast Attack Speed causes Deflect to inflict heavy damage against it."
+  },
+  "builds": [
+    {
+      "name": "Shuriken Build",
+      "label": "Recommended",
+      "description": "The Shuriken Build focuses primarily on getting the most out of your Shingan talent. The key to playing this build is to be as close as you can to your enemy target, shotgunning your shurikens to trigger Shingan. Zanshin allows for aggressive gameplay to finish off targets in close combat. If you cannot complete Zanshin any time soon, or, if you prefer cooldown reduction on your Heroic Ability, Living Weapon is a great choice, too.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "genji-talent-agile-dismount",
+              "name": "Agile Dismount",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "genji-talent-shuriken-mastery",
+              "name": "Shuriken Mastery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-4"
+            },
+            {
+              "id": "genji-talent-dragon-claw",
+              "name": "Dragon Claw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "genji-talent-cyber-shield",
+              "name": "Cyber Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "genji-talent-x-strike",
+              "name": "X-Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-10"
+            },
+            {
+              "id": "genji-talent-dragonblade",
+              "name": "Dragonblade",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "genji-talent-shingan",
+              "name": "Shingan",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "genji-talent-final-cut",
+              "name": "Final Cut",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-16"
+            },
+            {
+              "id": "genji-talent-reflect",
+              "name": "Reflect",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "genji-talent-living-weapon",
+              "name": "Living Weapon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-20"
+            },
+            {
+              "id": "genji-talent-the-dragon-becomes-me",
+              "name": "The Dragon Becomes Me",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-20"
+            },
+            {
+              "id": "genji-talent-zanshin",
+              "name": "Zanshin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/genji#55.17!2132122"
+    },
+    {
+      "name": "Swift Strike Build",
+      "label": "Situational",
+      "description": "Genji's Swift Strike Build is a high skill-cap Build that focuses on Genji slicing and dicing his way through the enemy team, aiming to get as many cooldown resets and Mana cost refunds on Swift Strike as possible. Timing is crucial when playing this Build, as Genji needs to make sure to quickly execute an individual target in order to get his combo rolling. Activating Dragonblade shortly after using Swift Strike usually allows Genji to deal a heavy amount of burst damage. However, remember that he is still very susceptible to enemy Stuns and Roots, as they can completely shut down his momentum. Consequently, wait until some of those crowd control Abilities have been used before recklessly diving deep into the enemy lines.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "genji-talent-swift-as-the-wind",
+              "name": "Swift as the Wind",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "genji-talent-strike-at-the-heart",
+              "name": "Strike At The Heart",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-4"
+            },
+            {
+              "id": "genji-talent-dragon-claw",
+              "name": "Dragon Claw",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "genji-talent-augmented-guard",
+              "name": "Augmented Guard",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-7"
+            },
+            {
+              "id": "genji-talent-perfect-defense",
+              "name": "Perfect Defense",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-7"
+            },
+            {
+              "id": "genji-talent-cyber-shield",
+              "name": "Cyber Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "genji-talent-dragonblade",
+              "name": "Dragonblade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "genji-talent-flow-like-water",
+              "name": "Flow Like Water",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "genji-talent-steady-blade",
+              "name": "Steady Blade",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "genji-talent-the-dragon-becomes-me",
+              "name": "The Dragon Becomes Me",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-20"
+            },
+            {
+              "id": "genji-talent-zanshin",
+              "name": "Zanshin",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/genji#55.17!1211231"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Genji's ARAM build is very cooldown-dependent and you likely want to wait with engaging until you have Deflect up. Due to the nature of ARAM games, it's very easy for Genji to secure kills and get out safely with Swift Strike resets.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "genji-talent-agile-dismount",
+              "name": "Agile Dismount",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "genji-talent-shuriken-mastery",
+              "name": "Shuriken Mastery",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "genji-talent-augmented-guard",
+              "name": "Augmented Guard",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "genji-talent-x-strike",
+              "name": "X-Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "genji-talent-shingan",
+              "name": "Shingan",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "genji-talent-final-cut",
+              "name": "Final Cut",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "genji-talent-living-weapon",
+              "name": "Living Weapon",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/genji-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/genji#55.17!2112122"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/genji-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:04.312028+00:00",
+    "updated_at": "2026-07-23T09:00:00+00:00",
+    "author_line": "Last updated on Jul 23, 2026 at 09:00 by Outofmilk"
+  }
+}

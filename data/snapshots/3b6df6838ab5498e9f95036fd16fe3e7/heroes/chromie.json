@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "id": "chromie",
+  "name": "Chromie",
+  "role": "Ranged Assassin",
+  "overview": "Chromie is a Ranged Assassin with outstanding burst damage and poke potential. Her strong burst Abilities allow her to inflict heavy damage onto her targets, while both of her Heroic Abilities provide her with decent crowd control during team fights. When playing Chromie, it is of utmost importance to anticipate your target's movement path, since both Sand Blast and Dragon's Breath come with a short delay. Ultimately, Chromie is a Hero that requires good game sense and quick reflexes in order to shine, however, if played well, she is one of the most dangerous Ranged Assassins in the game.",
+  "strengths": [
+    "Outstanding poke",
+    "Extremely long range",
+    "Both Slowing Sands and Temporal Loop are viable Heroic Abilities",
+    "High burst damage output"
+  ],
+  "weaknesses": [
+    "Susceptible to crowd control",
+    "Low health pool",
+    "High learning curve",
+    "Below average mobility",
+    "Requires good positioning"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "One of Chromie's favorite Healers has to be Malfurion. His Innervate Trait provides her with precious Mana regeneration and cooldown reduction, while his Regrowth allows Chromie to stay in battle for a long period of time. Another Healer that works wonders with Chromie is Ana, whose Nano Boost greatly empowers Chromie's damage for a short period of time."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      }
+    ],
+    "explanation": "Chromie struggles against two kinds of Heroes: the ones that are too beefy for her to take down quickly and the ones that are too fast for her to reliably land her Basic Abilities. As such, Heroes like Illidan or Tracer can become quite dangerous."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Chromie performs decent on most maps. Her current best maps are Volskaya Foundry and Braxis Holdout. This is due to the nature of the maps allowing her to poke into the objective zone. Chromie does not really have any weak maps as her poke is a threat on any map where there is an objective area both teams need to be on."
+  },
+  "builds": [
+    {
+      "name": "Sand Blast Build",
+      "label": "Recommended",
+      "description": "Chromie’s Sand Blast build focuses on maximizing her long-range poke and burst damage. The build enhances Sand Blast, allowing Chromie to consistently pressure enemies from a safe distance. It’s especially strong when you can land your shots reliably, making positioning and accuracy the key to getting the most out of the build.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "chromie-talent-timewalkers-pursuit",
+              "name": "Timewalker's Pursuit",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-1"
+            },
+            {
+              "id": "chromie-talent-once-again-the-first-time",
+              "name": "Once Again the First Time",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "talents": [
+            {
+              "id": "chromie-talent-time-troubles",
+              "name": "Time Troubles",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            },
+            {
+              "id": "chromie-talent-andorhal-anomaly",
+              "name": "Andorhal Anomaly",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            },
+            {
+              "id": "chromie-talent-chronic-conditions",
+              "name": "Chronic Conditions",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "talents": [
+            {
+              "id": "chromie-talent-a-proper-greeting",
+              "name": "A Proper Greeting",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "talents": [
+            {
+              "id": "chromie-talent-slowing-sands",
+              "name": "Slowing Sands",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-8"
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "talents": [
+            {
+              "id": "chromie-talent-time-out",
+              "name": "Time Out",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-11"
+            },
+            {
+              "id": "chromie-talent-gnome-speed-ahead",
+              "name": "Gnome Speed Ahead!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-11"
+            }
+          ]
+        },
+        {
+          "level": 14,
+          "talents": [
+            {
+              "id": "chromie-talent-fast-forward",
+              "name": "Fast Forward",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-14"
+            }
+          ]
+        },
+        {
+          "level": 18,
+          "talents": [
+            {
+              "id": "chromie-talent-unravelling",
+              "name": "Unravelling",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-18"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/chromie#55.17!3231321"
+    },
+    {
+      "name": "Dragon's Breath Build",
+      "label": "Situational",
+      "description": "The Dragon's Breath build focuses on enhancing Chromie's Dragon's Breath ability. Through Deep Breathing, Chromie can significantly increase the damage output. The build heavily relies on hitting enemy heroes in the center of your Dragon's Breath, therefore, having CC on your team and waiting for them to use their abilities will greatly improve your own damage output. Thanks to the slow from Mobius Loop, hitting an enemy hero with the first wave can increase the chance of them getting hit by all three.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "chromie-talent-deep-breathing",
+              "name": "Deep Breathing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "talents": [
+            {
+              "id": "chromie-talent-andorhal-anomaly",
+              "name": "Andorhal Anomaly",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            },
+            {
+              "id": "chromie-talent-time-troubles",
+              "name": "Time Troubles",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            },
+            {
+              "id": "chromie-talent-chronic-conditions",
+              "name": "Chronic Conditions",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "talents": [
+            {
+              "id": "chromie-talent-mobius-loop",
+              "name": "Mobius Loop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "talents": [
+            {
+              "id": "chromie-talent-temporal-loop",
+              "name": "Temporal Loop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-8"
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "talents": [
+            {
+              "id": "chromie-talent-time-out",
+              "name": "Time Out",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-11"
+            }
+          ]
+        },
+        {
+          "level": 14,
+          "talents": [
+            {
+              "id": "chromie-talent-quantum-overdrive",
+              "name": "Quantum Overdrive",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-14"
+            }
+          ]
+        },
+        {
+          "level": 18,
+          "talents": [
+            {
+              "id": "chromie-talent-stuck-in-a-loop",
+              "name": "Stuck in a Loop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-18"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/chromie#55.17!2322332"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Chromie's ARAM build is similar to the Dragon's Breath Build, and due to Chromie's passive ability, you unlock her power spike quite early in ARAM games. Infinite stacking proves to be quite strong and becomes even stronger if games last longer.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "chromie-talent-deep-breathing",
+              "name": "Deep Breathing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "talents": [
+            {
+              "id": "chromie-talent-time-troubles",
+              "name": "Time Troubles",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            },
+            {
+              "id": "chromie-talent-andorhal-anomaly",
+              "name": "Andorhal Anomaly",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            },
+            {
+              "id": "chromie-talent-chronic-conditions",
+              "name": "Chronic Conditions",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-2"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "talents": [
+            {
+              "id": "chromie-talent-mobius-loop",
+              "name": "Mobius Loop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "talents": [
+            {
+              "id": "chromie-talent-temporal-loop",
+              "name": "Temporal Loop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-8"
+            }
+          ]
+        },
+        {
+          "level": 11,
+          "talents": [
+            {
+              "id": "chromie-talent-time-out",
+              "name": "Time Out",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-11"
+            }
+          ]
+        },
+        {
+          "level": 14,
+          "talents": [
+            {
+              "id": "chromie-talent-quantum-overdrive",
+              "name": "Quantum Overdrive",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-14"
+            }
+          ]
+        },
+        {
+          "level": 18,
+          "talents": [
+            {
+              "id": "chromie-talent-stuck-in-a-loop",
+              "name": "Stuck in a Loop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/chromie-talents#level-18"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/chromie#55.17!2222332"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/chromie-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:13.890950+00:00",
+    "updated_at": "2026-09-15T11:00:00+00:00",
+    "author_line": "Last updated on Sep 15, 2026 at 11:00 by Outofmilk"
+  }
+}

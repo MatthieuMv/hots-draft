@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "id": "zarya",
+  "name": "Zarya",
+  "role": "Support",
+  "overview": "Zarya is a Support who combines protective tools with strong offensive capabilities. She has a unique Basic Attack that allows her to hit multiple enemy targets at the same time. She can cast a Shield on herself or provide a Shield to allied Heroes, get Energy based on the damage absorbed by any of her Shields, and deal additional damage based on how much Energy has been stored, however, her Energy will slowly decay over time. As a consequence, in order to play Zarya effectively, it is important to predict incoming damage to cast Shields at the right moment, a move that will allow you to maximize both damage mitigation and Energy generation.",
+  "strengths": [
+    "High survivability",
+    "Good damage output at high Energy",
+    "Shields for allied Heroes",
+    "Abilities are free"
+  ],
+  "weaknesses": [
+    "Relatively low waveclear",
+    "Lack of crowd control when Heroic Abilities are not available",
+    "No mobility",
+    "Vulnerable to displacement effects, especially in the early game",
+    "Weak against sustain damage because her Shields have a short duration"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "valla",
+        "name": "Valla"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "As she can provide powerful Shields to allied Heroes, Zarya is good when paired with Heroes who suffer against burst damage: most Marskmen (notably Valla) and sustain Healers (such as Malfurion).\n\nHeroes who lack mobility like to have Zarya on their side because she can give them Movement Speed thanks to Speed Barrier at Level 4.\n\nA team featuring Zarya should prefer an Offlaner who has enough self-sustain to not need any help from their team and survive to enemy ganks (for example Yrel) when playing on any Map and that can also double soak (such as Leoric) when playing on 3-lane Maps."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "maiev",
+        "name": "Maiev"
+      },
+      {
+        "id": "auriel",
+        "name": "Auriel"
+      }
+    ],
+    "explanation": "Zarya is an easy target for enemy Heroes who can abuse her lack of mobility with displacement effects (such as Wrecking Ball by Garrosh), kiting (like Lunara), and skillshots (for example Maiev).\n\nConsidering that her Shields expire after few seconds, Zarya struggles against Heroes who can deal a constant amount of damage, either because they do not rely on their offensive Basic Abilities that much (such as Raynor) or because their Basic Abilities to deal damage have low cooldown (like Chromie).\n\nBlinds are quite effective against Zarya because a good portion of her damage comes from Basic Attacks. Heroes who can deal high damage to Shields (notably Varian with Shattering Throw at Level 13) are also powerful against Zarya because, when playing against them, she is less durable and cannot easily save allied Heroes from burst damage.\n\nWhen facing Zarya, your Offlaner needs to be able to mitigate a push made by 3-4 enemy Heroes while the reinforcements are coming. The best tools for doing so are waveclear and/or crowd control (for example Yrel)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "The fact that Zarya does not use Mana is great during the early game, therefore she is a fantastic pick on Maps where a good start can make the difference between a win and a loss (notably Braxis Holdout).\n\nIf your team has an Offlaner who can double soak (such as Xul), you can basically play Zarya on 3-lane Maps like when you are playing on 2-lane Maps, so just focus on a side lane and pressure the enemy team as much as you can."
+  },
+  "builds": [
+    {
+      "name": "Basic Attacks Build",
+      "label": "Recommended",
+      "description": "Zarya's Basic Attacks Build boosts her damage from melee distance by empowering her Basic Attacks, which will deal even more damage at high Energy. Use this Build to melt the enemy frontline.\n\nThe signature Talent of this Build is Feel the Heat at Level 1. To get more value from it, you need the extra survivability and the additional Energy generation from I Am the Strongest at Level 4.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zarya-talent-feel-the-heat",
+              "name": "Feel the Heat",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zarya-talent-i-am-the-strongest",
+              "name": "I Am the Strongest",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zarya-talent-explosive-barrier",
+              "name": "Explosive Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zarya-talent-expulsion-zone",
+              "name": "Expulsion Zone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zarya-talent-unstoppable-competitor",
+              "name": "Unstoppable Competitor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            },
+            {
+              "id": "zarya-talent-spell-barrier",
+              "name": "Spell Barrier",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            },
+            {
+              "id": "zarya-talent-pain-is-temporary",
+              "name": "Pain is Temporary",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zarya-talent-gain-train",
+              "name": "Gain Train",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-16"
+            },
+            {
+              "id": "zarya-talent-cleansing-shield",
+              "name": "Cleansing Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-16"
+            },
+            {
+              "id": "zarya-talent-born-in-battle",
+              "name": "Born in Battle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zarya-talent-unyielding-defender",
+              "name": "Unyielding Defender",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zarya#54.4!3132124"
+    },
+    {
+      "name": "Shield Ally Build",
+      "label": "Advanced",
+      "description": "Zarya's Shield Ally Build offers damage and utility for your team. Being playable from ranged distance, this Build can be used in a multitude of situations without fear of being punished.\n\nThe damage comes from Pinpoint Accuracy at Level 7 and, since they give you more Energy, from either Together We Are Strong or Maximum Charge at Level 1.\n\nLevel 4 is flexible: Speed Barrier helps to engage or retreat, Defensive Shielding counters slow but heavy-hitting Basic Attacks, and Give Me Twenty makes Shield Ally more powerful and usable slightly more often.\n\nCleansing Shield at Level 16 is great for removing crowd control effects and some other debuffs from allied Heroes. When that is not needed, pick Gain Train instead.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zarya-talent-together-we-are-strong",
+              "name": "Together We Are Strong",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-1"
+            },
+            {
+              "id": "zarya-talent-maximum-charge",
+              "name": "Maximum Charge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zarya-talent-speed-barrier",
+              "name": "Speed Barrier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-4"
+            },
+            {
+              "id": "zarya-talent-give-me-twenty",
+              "name": "Give Me Twenty",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-4"
+            },
+            {
+              "id": "zarya-talent-defensive-shielding",
+              "name": "Defensive Shielding",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zarya-talent-pinpoint-accuracy",
+              "name": "Pinpoint Accuracy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zarya-talent-expulsion-zone",
+              "name": "Expulsion Zone",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zarya-talent-pain-is-temporary",
+              "name": "Pain is Temporary",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            },
+            {
+              "id": "zarya-talent-unstoppable-competitor",
+              "name": "Unstoppable Competitor",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            },
+            {
+              "id": "zarya-talent-spell-barrier",
+              "name": "Spell Barrier",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zarya-talent-cleansing-shield",
+              "name": "Cleansing Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-16"
+            },
+            {
+              "id": "zarya-talent-gain-train",
+              "name": "Gain Train",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zarya-talent-unyielding-defender",
+              "name": "Unyielding Defender",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-20"
+            },
+            {
+              "id": "zarya-talent-grenadier",
+              "name": "Grenadier",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zarya#54.4!2312414"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Zarya's ARAM Build offers damage and utility for your team. Being playable from ranged distance, this Build can be used in a multitude of situations without fear of being punished.\n\nOnce completed, Demolitions Expert at Level 1 empowers your poke damage, especially after getting Pinpoint Accuracy at Level 7 and if you decide to pick Grenadier at Level 20.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "zarya-talent-demolitions-expert",
+              "name": "Demolitions Expert",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "zarya-talent-give-me-twenty",
+              "name": "Give Me Twenty",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-4"
+            },
+            {
+              "id": "zarya-talent-speed-barrier",
+              "name": "Speed Barrier",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-4"
+            },
+            {
+              "id": "zarya-talent-defensive-shielding",
+              "name": "Defensive Shielding",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "zarya-talent-pinpoint-accuracy",
+              "name": "Pinpoint Accuracy",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "zarya-talent-graviton-surge",
+              "name": "Graviton Surge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-10"
+            },
+            {
+              "id": "zarya-talent-expulsion-zone",
+              "name": "Expulsion Zone",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "zarya-talent-unstoppable-competitor",
+              "name": "Unstoppable Competitor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            },
+            {
+              "id": "zarya-talent-spell-barrier",
+              "name": "Spell Barrier",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            },
+            {
+              "id": "zarya-talent-pain-is-temporary",
+              "name": "Pain is Temporary",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "zarya-talent-gain-train",
+              "name": "Gain Train",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-16"
+            },
+            {
+              "id": "zarya-talent-cleansing-shield",
+              "name": "Cleansing Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "zarya-talent-grenadier",
+              "name": "Grenadier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-20"
+            },
+            {
+              "id": "zarya-talent-gravity-kills",
+              "name": "Gravity Kills",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-20"
+            },
+            {
+              "id": "zarya-talent-unyielding-defender",
+              "name": "Unyielding Defender",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/zarya-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/zarya#54.4!1211123"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/zarya-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:41.286158+00:00",
+    "updated_at": "2025-04-18T15:10:00+00:00",
+    "author_line": "Last updated on Apr 18, 2025 at 15:10 by Elitesparkle"
+  }
+}

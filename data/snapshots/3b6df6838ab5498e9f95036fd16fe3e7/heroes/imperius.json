@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "id": "imperius",
+  "name": "Imperius",
+  "role": "Bruiser",
+  "overview": "Imperius is a durable Bruiser with extraordinary burst damage potential in close combat and a kit that provides his team powerful crowd control Abilities but lacks waveclear.",
+  "strengths": [
+    "Outstanding self-healing",
+    "Strong burst damage",
+    "Decent in lane",
+    "Good late game",
+    "Can be played as a Melee Assassin or an Offlaner",
+    "Great follow up for crowd controls"
+  ],
+  "weaknesses": [
+    "Dependent on hitting Celestial Charge",
+    "Limited mobility",
+    "Has no peeling mechanics until Level 20",
+    "Can be kited easily by enemies with high range",
+    "Mediocre waveclear",
+    "Weak against knockbacks, Roots, and Slows"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "fenix",
+        "name": "Fenix"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      },
+      {
+        "id": "malganis",
+        "name": "Mal'Ganis"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "yrel",
+        "name": "Yrel"
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      }
+    ],
+    "explanation": "Imperius's mobility is one of his greatest weaknesses, consequently, he pairs extremely well with Heroes like Jaina or Fenix that can slow enemies, so Imperius can catch them up with Celestial Charge. On the other hand, Heroes like Mal'Ganis or E.T.C. that can keep enemies in place are even better, because Imperius is very dependent on hitting his Charge, and a sleeping or stunned enemy is a guaranteed hit. Furthermore, as a tank, Imperius requires another resistant Hero in the frontline that can compensate for his lack of peel, like Yrel or Blaze."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      },
+      {
+        "id": "zuljin",
+        "name": "Zul'jin"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      }
+    ],
+    "explanation": "Imperius has limited mobility, and can be easily punished by ranged Heroes if he cannot hit Celestial Charge. For this reason, slows and knockbacks are very good against him, since they greatly facilitate the kiting against Imperius and can be used to interrupt Celestial Charge."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "explanation": "Imperius falls slightly behind other Offlaners when it comes to waveclear and capturing Mercenary Camps, however, he excels in team fights due to his high damage and sustain. For those reasons, Imperius performs better on Maps where it is not possible to double soak and there are not too many Mercenary Camps."
+  },
+  "builds": [
+    {
+      "name": "Celestial Charge Build",
+      "label": "Recommended",
+      "description": "Imperius's Celestial Charge Build is designed to increase your damage output and your durability in team fights, but also features a damage reduction effect that can be used to increase your own survivability and the survivability of allied Heroes in the late game.\n\nPathetic Mortals at Level 13 allows you to reduce the damage done by enemy Heroes. Impaling Light at Level 1 lets you use it more often, unless you decided to pick Burn the Impure at Level 1 in order to deal more percent-based damage.\n\nDue to its lack of waveclear, you should not choose this Build when playing Imperius as Offlaner but only consider using it when playing Imperius in the 4-man.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "imperius-talent-impaling-light",
+              "name": "Impaling Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-1"
+            },
+            {
+              "id": "imperius-talent-burn-the-impure",
+              "name": "Burn the Impure",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "imperius-talent-sovereign-armor",
+              "name": "Sovereign Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            },
+            {
+              "id": "imperius-talent-battle-hunger",
+              "name": "Battle Hunger",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            },
+            {
+              "id": "imperius-talent-press-forward",
+              "name": "Press Forward",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "imperius-talent-flash-of-anger",
+              "name": "Flash of Anger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "imperius-talent-wrath-of-the-angiris",
+              "name": "Wrath of the Angiris",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-10"
+            },
+            {
+              "id": "imperius-talent-angelic-armaments",
+              "name": "Angelic Armaments",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "imperius-talent-pathetic-mortals",
+              "name": "Pathetic Mortals",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "imperius-talent-celestial-swiftness",
+              "name": "Celestial Swiftness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "imperius-talent-brand-of-solarion",
+              "name": "Brand of Solarion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-heavenly-host",
+              "name": "Heavenly Host",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-unrelenting-descent",
+              "name": "Unrelenting Descent",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-impervious",
+              "name": "Impervious",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/imperius#55.12!1112114"
+    },
+    {
+      "name": "Hybrid Build",
+      "label": "Advanced",
+      "description": "Imperius's Hybrid Build is designed to increase your damage output in team fights by empowering Celestial Charge, survivability against burst damage, and damage contribution during team fights in the late game by reducing the Armor of enemy Heroes.\n\nMelting Touch at Level 16 allows you to reduce the Armor of enemy Heroes, so that you and your teammates can burst them down. Divine Rage at Level 13 lets you use it more often.\n\nDue to its lack of waveclear, you should not choose this Build when playing Imperius as Offlaner but only consider using it when playing Imperius in the 4-man.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "imperius-talent-impaling-light",
+              "name": "Impaling Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "imperius-talent-sovereign-armor",
+              "name": "Sovereign Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            },
+            {
+              "id": "imperius-talent-battle-hunger",
+              "name": "Battle Hunger",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            },
+            {
+              "id": "imperius-talent-press-forward",
+              "name": "Press Forward",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "imperius-talent-flash-of-anger",
+              "name": "Flash of Anger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "imperius-talent-wrath-of-the-angiris",
+              "name": "Wrath of the Angiris",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-10"
+            },
+            {
+              "id": "imperius-talent-angelic-armaments",
+              "name": "Angelic Armaments",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "imperius-talent-divine-rage",
+              "name": "Divine Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "imperius-talent-melting-touch",
+              "name": "Melting Touch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "imperius-talent-impervious",
+              "name": "Impervious",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-heavenly-host",
+              "name": "Heavenly Host",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-unrelenting-descent",
+              "name": "Unrelenting Descent",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-brand-of-solarion",
+              "name": "Brand of Solarion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/imperius#55.12!1112225"
+    },
+    {
+      "name": "Molten Armor Build",
+      "label": "Situational",
+      "description": "Imperius's Molten Armor Build improves your waveclear in the early game, survivability against burst damage, and damage contribution during team fights in the late game by reducing the Armor of enemy Heroes.\n\nMelting Touch at Level 16 allows you to reduce the Armor of enemy Heroes, so that you and your teammates can burst them down. Divine Rage at Level 13 lets you use it more often.\n\nThe additional waveclear comes from Consuming Flame at Level 1 and particularly Holy Fervor at Level 7. Due to its limited amount, however, you will not be able to double soak.\n\nWhen playing Imperius as Offlaner, you should pick Consuming Flame at Level 1. When playing Imperius in the 4-man, you should pick Burn the Impure at Level 1 instead.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "imperius-talent-consuming-flame",
+              "name": "Consuming Flame",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-1"
+            },
+            {
+              "id": "imperius-talent-burn-the-impure",
+              "name": "Burn the Impure",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "imperius-talent-sovereign-armor",
+              "name": "Sovereign Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            },
+            {
+              "id": "imperius-talent-battle-hunger",
+              "name": "Battle Hunger",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            },
+            {
+              "id": "imperius-talent-press-forward",
+              "name": "Press Forward",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "imperius-talent-holy-fervor",
+              "name": "Holy Fervor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "imperius-talent-wrath-of-the-angiris",
+              "name": "Wrath of the Angiris",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-10"
+            },
+            {
+              "id": "imperius-talent-angelic-armaments",
+              "name": "Angelic Armaments",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "imperius-talent-divine-rage",
+              "name": "Divine Rage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "imperius-talent-melting-touch",
+              "name": "Melting Touch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "imperius-talent-impervious",
+              "name": "Impervious",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-heavenly-host",
+              "name": "Heavenly Host",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-unrelenting-descent",
+              "name": "Unrelenting Descent",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-brand-of-solarion",
+              "name": "Brand of Solarion",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/imperius#55.12!2132225"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Imperius's ARAM Build is designed to increase your damage output and your durability in team fights, but also features a damage reduction effect that can be used to increase your own survivability and the survivability of allied Heroes in the late game.\n\nPathetic Mortals at Level 13 allows you to reduce the damage done by enemy Heroes. Impaling Light at Level 1 lets you use it more often, unless you decided to pick Burn the Impure at Level 1 in order to deal more percent-based damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "imperius-talent-impaling-light",
+              "name": "Impaling Light",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-1"
+            },
+            {
+              "id": "imperius-talent-burn-the-impure",
+              "name": "Burn the Impure",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "imperius-talent-sovereign-armor",
+              "name": "Sovereign Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            },
+            {
+              "id": "imperius-talent-battle-hunger",
+              "name": "Battle Hunger",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            },
+            {
+              "id": "imperius-talent-press-forward",
+              "name": "Press Forward",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "imperius-talent-flash-of-anger",
+              "name": "Flash of Anger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "imperius-talent-wrath-of-the-angiris",
+              "name": "Wrath of the Angiris",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-10"
+            },
+            {
+              "id": "imperius-talent-angelic-armaments",
+              "name": "Angelic Armaments",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "imperius-talent-pathetic-mortals",
+              "name": "Pathetic Mortals",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "imperius-talent-celestial-swiftness",
+              "name": "Celestial Swiftness",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "imperius-talent-brand-of-solarion",
+              "name": "Brand of Solarion",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-heavenly-host",
+              "name": "Heavenly Host",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-unrelenting-descent",
+              "name": "Unrelenting Descent",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            },
+            {
+              "id": "imperius-talent-impervious",
+              "name": "Impervious",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/imperius-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/imperius#55.12!1112114"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/imperius-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:10.349707+00:00",
+    "updated_at": "2025-08-31T11:52:00+00:00",
+    "author_line": "Last updated on Aug 31, 2025 at 11:52 by Elitesparkle"
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "id": "deathwing",
+  "name": "Deathwing",
+  "role": "Bruiser",
+  "overview": "Deathwing is a melee Bruiser with various ranged Abilities that also make him a threat to be reckoned with from larger distances. His massive dragon form renders him resistant to enemy crowd control, however, it also prevents any form of healing or Shielding on him.\n\nHe excels at dealing dangerous burst damage onto his foes, however, most of his Abilities have a rather slow casting animation, allowing most opponents to dodge them if they are not impaired in their movement. Thus, Deathwing is a heavy hitter that is somewhat reliant on his teammates to pave the way for his impactful damage Abilities by using crowd control effects on enemy Heroes.",
+  "strengths": [
+    "Outstanding burst damage",
+    "Immune to any form of crowd control",
+    "Global re-deployment thanks to Dragonflight",
+    "Great at pushing and sieging enemy Structures"
+  ],
+  "weaknesses": [
+    "Cannot be affected by allies' buffs or healing",
+    "Slow casting animations",
+    "Poor in-combat mobility",
+    "Weak against high mobility Heroes"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      }
+    ],
+    "explanation": "It is hard to find Heroes that naturally synergize with Deathwing, since he cannot be buffed or enhanced in any way. However, there are some Heroes, usually crowd control heavy Tanks, that can make it easier for Deathwing to land his devastating damage Abilities. Consequently, we find Heroes like E.T.C., Johanna, or Arthas to be a fitting match, since their Stuns and Slows can buy enough time for Deathwing to wipe the opposing team off the battlefield."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "tychus",
+        "name": "Tychus"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      },
+      {
+        "id": "valla",
+        "name": "Valla"
+      },
+      {
+        "id": "zeratul",
+        "name": "Zeratul"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      }
+    ],
+    "explanation": "Because of Deathwing's health, size, and low mobility, there are two types of Heroes that counter him very well. Firstly, percentage-based damage abilities, such as Tychus' Minigun or Greymane's Cursed Bullet inflict a lot of damage on Deathwing's high health pool. Secondly, nimble Assassins like Zeratul, Valla, or Tracer have an easy time dodging and thus diminishing a lot of Deathwing's damage due to long casting animations on most of his abilities."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      }
+    ],
+    "explanation": "Deathwing excels on Maps where the Objective gives vision and needs to be channeled (so Cursed Hollow and Garden of Terror) because he can use Skyfall at Level 7 to interrupt enemy Heroes without exposing himself.\n\nWhile he is fine being in lane on his own, we do not recommend playing him on big Maps where teams tend to split a lot because Deathwing works best when accompanied by other Heroes who can setup for Molten Flame.\n\nContrary to other global Heroes, he does not provide much value on big Maps because the time it takes for Deathwing to use Dragonflight for going from a lane to another is too slow."
+  },
+  "builds": [
+    {
+      "name": "Dragonflight Build",
+      "label": "Recommended",
+      "description": "Deathwing's Dragonflight Build is a powerful choice for games where you can safely land on top of enemy Heroes after your Tank engages or when the enemy team dives.\n\nThe combination of Dragon Soul at Level 1 and Heat Wave at Level 4 boosts your damage and survivability. Later in the game, Fire and Fury at Level 13 further empowers Deathwing's overall power when fighting at melee range.\n\nThe key Talents of this Build, however, are Death Drop at Level 7 indirectly increasing the damage dealt by allied Heroes and Gaze Onto Destruction at Level 16 reducing the damage dealt by enemy Heroes while also Slowing them.\n\nWhen playing this Build, you should use Destroyer Form when you can play aggressively or World Breaker Form when you have to play defensively.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deathwing-talent-dragon-soul",
+              "name": "Dragon Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deathwing-talent-heat-wave",
+              "name": "Heat Wave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deathwing-talent-death-drop",
+              "name": "Death Drop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deathwing-talent-bellowing-roar",
+              "name": "Bellowing Roar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deathwing-talent-fire-and-fury",
+              "name": "Fire and Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deathwing-talent-gaze-onto-destruction",
+              "name": "Gaze Onto Destruction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deathwing-talent-destroyers-rampage",
+              "name": "Destroyer's Rampage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deathwing#55.16!1222323"
+    },
+    {
+      "name": "Basic Attacks Build",
+      "label": "Situational",
+      "description": "Deathwing's Basic Attacks Build makes you harder to kill and increases your damage at the same time, especially when you can fight at melee range.\n\nThe combination of Dragon Soul at Level 1 and Heat Wave at Level 4 boosts your damage and survivability. Later in the game, Fire and Fury at Level 13 further empowers Deathwing's overall power when fighting at melee range and Elementium Plating at Level 16 increases your survivability even more.\n\nWhen playing this Build, you should use Destroyer Form when you can play aggressively or World Breaker Form when you have to play defensively.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deathwing-talent-dragon-soul",
+              "name": "Dragon Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deathwing-talent-heat-wave",
+              "name": "Heat Wave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deathwing-talent-firestorm",
+              "name": "Firestorm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-7"
+            },
+            {
+              "id": "deathwing-talent-skyfall",
+              "name": "Skyfall",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deathwing-talent-bellowing-roar",
+              "name": "Bellowing Roar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-10"
+            },
+            {
+              "id": "deathwing-talent-burn-beneath-my-shadow",
+              "name": "Burn Beneath My Shadow",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deathwing-talent-fire-and-fury",
+              "name": "Fire and Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deathwing-talent-elementium-plating",
+              "name": "Elementium Plating",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deathwing-talent-stood-in-the-fire",
+              "name": "Stood in the Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deathwing#55.16!1212331"
+    },
+    {
+      "name": "Molten Flame Build",
+      "label": "Situational",
+      "description": "Deathwing's Molten Flame Build empowers the damage you can deal from the distance to enemy Heroes caught within Molten Flame for a few seconds.\n\nThe damage comes from the combination of multiple Talents that empower the same Basic Ability: Infernus at Level 4, Wicked Inferno at Level 13, and Conflagration at Level 16.\n\nTo get the most value out of this Build, you should only cast Molten Flame when having 75 Energy or higher. This means that, even if you are full Energy, you can only afford to cast one different Basic Ability before it: either Lava Burst or Earth Shatter.\n\nWhen playing this Build, you should heavily prefer World Breaker Form.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deathwing-talent-molten-blood",
+              "name": "Molten Blood",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-1"
+            },
+            {
+              "id": "deathwing-talent-draconic-might",
+              "name": "Draconic Might",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deathwing-talent-infernus",
+              "name": "Infernus",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deathwing-talent-firestorm",
+              "name": "Firestorm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-7"
+            },
+            {
+              "id": "deathwing-talent-skyfall",
+              "name": "Skyfall",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deathwing-talent-bellowing-roar",
+              "name": "Bellowing Roar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-10"
+            },
+            {
+              "id": "deathwing-talent-burn-beneath-my-shadow",
+              "name": "Burn Beneath My Shadow",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deathwing-talent-wicked-inferno",
+              "name": "Wicked Inferno",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deathwing-talent-conflagration",
+              "name": "Conflagration",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deathwing-talent-stood-in-the-fire",
+              "name": "Stood in the Fire",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deathwing#55.16!2112111"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Deathwing's ARAM Build is a powerful choice for games where you can safely land on top of enemy Heroes after your Tank engages or when the enemy team dives.\n\nThe combination of Dragon Soul at Level 1 and Heat Wave at Level 4 boosts your damage and survivability. Later in the game, Fire and Fury at Level 13 further empowers Deathwing's overall power when fighting at melee range.\n\nThe key Talents of this Build, however, are Death Drop at Level 7 indirectly increasing the damage dealt by allied Heroes and Gaze Onto Destruction at Level 16 reducing the damage dealt by enemy Heroes while also Slowing them.\n\nWhen playing this Build, you should use Destroyer Form when you can play aggressively or World Breaker Form when you have to play defensively.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "deathwing-talent-dragon-soul",
+              "name": "Dragon Soul",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "deathwing-talent-heat-wave",
+              "name": "Heat Wave",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "deathwing-talent-death-drop",
+              "name": "Death Drop",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "deathwing-talent-bellowing-roar",
+              "name": "Bellowing Roar",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "deathwing-talent-fire-and-fury",
+              "name": "Fire and Fury",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "deathwing-talent-gaze-onto-destruction",
+              "name": "Gaze Onto Destruction",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "deathwing-talent-destroyers-rampage",
+              "name": "Destroyer's Rampage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/deathwing-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/deathwing#55.16!1222323"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/deathwing-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:56:14.869570+00:00",
+    "updated_at": "2026-09-20T10:50:00+00:00",
+    "author_line": "Last updated on Sep 20, 2026 at 10:50 by Elitesparkle"
+  }
+}

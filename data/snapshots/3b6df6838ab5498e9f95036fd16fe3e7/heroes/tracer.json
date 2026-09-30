@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "id": "tracer",
+  "name": "Tracer",
+  "role": "Ranged Assassin",
+  "overview": "Tracer is an extremely mobile Ranged Assassin. Due to her fragility, she relies on her Abilities to constantly reposition and outmaneuver enemy forces. With her high burst damage and many escapes, she can be a nuisance to the enemy backline.",
+  "strengths": [
+    "Can move while Basic Attacking",
+    "High Basic Attack speed",
+    "Excellent mobility",
+    "Can remove debuffs with Recall",
+    "Has sustained and burst damage",
+    "Can safely overextend with Recall",
+    "Has a decent self-sustain from Basic Attacks and Talents"
+  ],
+  "weaknesses": [
+    "Extremely poor waveclear",
+    "Very fragile",
+    "Requires Level 7 to deal decent damage",
+    "Can be difficult to master",
+    "Easy to kill if controlled",
+    "Is easily countered by Heroes with good ranged damage, such as Raynor or Sgt. Hammer"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "tassadar",
+        "name": "Tassadar"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "guldan",
+        "name": "Gul'dan"
+      },
+      {
+        "id": "kaelthas",
+        "name": "Kael'thas"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      },
+      {
+        "id": "anduin",
+        "name": "Anduin"
+      },
+      {
+        "id": "abathur",
+        "name": "Abathur"
+      }
+    ],
+    "explanation": "Tracer does well with Heroes who have strong waveclear, who can also deal area damage over time. Malfurion is a good pick for Tracer. He can heal her from a long distance due to how Regrowth works. Anduin is also good with her, because with her high mobility, Tracer can easily make Lightbomb hit the opposing backline."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "medivh",
+        "name": "Medivh"
+      },
+      {
+        "id": "raynor",
+        "name": "Raynor"
+      },
+      {
+        "id": "sgt-hammer",
+        "name": "Sgt. Hammer"
+      }
+    ],
+    "explanation": "Tracer is threatened by Heroes who have Abilities that can target her directly, such as Poly Bomb or Taunt. Her survival depends on mobility; she dies very quickly when she cannot avoid damage. This makes her vulnerable against Heroes with powerful ranged Basic Attacks, and Heroes who can disable her with single target crowdcontrol that prevents Recall from being cast."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "explanation": "Tracer is generally strong on maps that encourage enemies to split up, where she can punish Heroes caught away from the safety of structures or allies. She can struggle against PvE map objectives, especially if the design promotes teams to group up."
+  },
+  "builds": [
+    {
+      "name": "Burst Build",
+      "label": "Recommended",
+      "description": "Tracer's Burst Build is a good template to use while approaching each game. Because Tracer must typically deal sustain damage until she can go in for a kill, her effectiveness scales with the amount of time that she can safely remain within Basic Attack range. While Talents like Jumper and Pulse Generator facilitate her playstyle around that, your Level 1 and Level 16 Talents are great for having more burst damage to execute the target.\n\nOne-Two Punch greatly increases Tracer's damage outside of team fights, but you will not be able to use melee that often during a team fight for an Objective. However, Parting Gift is a good choice at that Level, as it adds a more consistent burst damage on an immobilized target, because you do not need to wait for the cooldowns between Melee charges.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tracer-talent-one-two-punch",
+              "name": "One-Two Punch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-1"
+            },
+            {
+              "id": "tracer-talent-parting-gift",
+              "name": "Parting Gift",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tracer-talent-pulse-generator",
+              "name": "Pulse Generator",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-4"
+            },
+            {
+              "id": "tracer-talent-is-that-a-health-pack",
+              "name": "Is That a Health Pack?!",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tracer-talent-locked-and-loaded",
+              "name": "Locked and Loaded",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-7"
+            },
+            {
+              "id": "tracer-talent-sleight-of-hand",
+              "name": "Sleight of Hand",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tracer-talent-sticky-bomb",
+              "name": "Sticky Bomb",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-10"
+            },
+            {
+              "id": "tracer-talent-quantum-spike",
+              "name": "Quantum Spike",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-10"
+            },
+            {
+              "id": "tracer-talent-pulse-rounds",
+              "name": "Pulse Rounds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tracer-talent-jumper",
+              "name": "Jumper",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tracer-talent-heavy-handed",
+              "name": "Heavy Handed",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-16"
+            },
+            {
+              "id": "tracer-talent-bullet-spray",
+              "name": "Bullet Spray",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tracer-talent-get-stuffed",
+              "name": "Get Stuffed!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tracer#55.12!1231222"
+    },
+    {
+      "name": "Basic Attacks Build",
+      "label": "Situational",
+      "description": "Differently from Burst Build, this build is focused on constantly attacking the opposing frontline, while dealing the maximum possible damage without risking yourself. This Build is recommended if the opposing team has many stuns or polymorphs that can shut you down during your dive.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "tracer-talent-tracer-rounds",
+              "name": "Tracer Rounds",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "tracer-talent-pulse-generator",
+              "name": "Pulse Generator",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-4"
+            },
+            {
+              "id": "tracer-talent-leeching-rounds",
+              "name": "Leeching Rounds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "tracer-talent-locked-and-loaded",
+              "name": "Locked and Loaded",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-7"
+            },
+            {
+              "id": "tracer-talent-sleight-of-hand",
+              "name": "Sleight of Hand",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "tracer-talent-pulse-rounds",
+              "name": "Pulse Rounds",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "tracer-talent-untouchable",
+              "name": "Untouchable",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-13"
+            },
+            {
+              "id": "tracer-talent-jumper",
+              "name": "Jumper",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "tracer-talent-ricochet",
+              "name": "Ricochet",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "tracer-talent-get-stuffed",
+              "name": "Get Stuffed!",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-20"
+            },
+            {
+              "id": "tracer-talent-chrono-triggers",
+              "name": "Chrono Triggers",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/tracer-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/tracer#55.12!3233132"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/tracer-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:28.328051+00:00",
+    "updated_at": "2025-03-08T04:40:00+00:00",
+    "author_line": "Last updated on Mar 08, 2025 at 04:40 by Derenash"
+  }
+}

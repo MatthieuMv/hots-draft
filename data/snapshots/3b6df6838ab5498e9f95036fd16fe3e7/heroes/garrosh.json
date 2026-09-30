@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "id": "garrosh",
+  "name": "Garrosh",
+  "role": "Tank",
+  "overview": "Garrosh is a Tank who becomes more difficult to kill the closer he is to death because of how his Trait, Armor Up, works. Arguably, one of Garrosh's strongest mechanics is his ability to displace enemy Heroes over relatively large distances via Wrecking Ball, something that will immensely impact the outcome of a team fight and put a lot of pressure on the enemy team while laning.",
+  "strengths": [
+    "Incredibly durable via Armor Up, becomes harder to kill the closer he is to death",
+    "Can reposition enemies or allies with Wrecking Ball and Into the Fray",
+    "Very strong playmaker",
+    "Provides a reliable frontline, with excellent damage mitigation",
+    "Very high skill ceiling"
+  ],
+  "weaknesses": [
+    "Rather poor damage output, especially during the late game",
+    "Can be easily kited, particularly by Ranged Assassins",
+    "Absolutely no method of increasing mobility; relies entirely on Abilities and crowd-control to reach his desired target",
+    "Very complex Hero, requires mastery of many subtle nuances to be most effective"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "zarya",
+        "name": "Zarya"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "If you want to get more value from Garrosh, pair him with Heroes who can follow up his engage with crowd control (such as Deckard Cain) and/or burst damage (for example Kael'thas).\n\nGarrosh does not have a strong engage from the distance, so he likes to play in team with Heroes who have access to powerful Abiliities to help him engage (like Hanzo with Dragon's Arrow).\n\nCompensate his lack of mobility (for example with Speed Barrier by Zarya) and Garrosh will become even more scary to play against as he will be able to just walk towards enemy Heroes for catching them with Wrecking Ball."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "malthael",
+        "name": "Malthael"
+      },
+      {
+        "id": "hanzo",
+        "name": "Hanzo"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "anduin",
+        "name": "Anduin"
+      }
+    ],
+    "explanation": "Garrosh does not like to face Heroes who have access to on-demand Unstoppable effects (such as Johanna) because Wrecking Ball will not target them but the second nearest target in range. If these Heroes get thrown instead of an ally to peel for them, then they can use that defensive Ability to walk out uncontested, unless crowd controlled to death.\n\nHeroes who can kite him away from their team (for example Lunara) are great Garrosh's counters, however, keep in mind that he can occasionally mitigate this by activating Indomitable at Level 4.\n\nConsidering that Garrosh relies on Armor to mitigate incoming damage, he is weak to percent-based damage (like Leoric) and effects that reduce Armor (for example Sylvanas with Overwhelming Affliction at Level 1).\n\nAnother way to counter Garrosh is using tools to help allied Heroes survive burst damage (such as Force of Will by Medivh) and/or move them out of danger (like Leap of Faith by Anduin)."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Garrosh thrives in situations where his enemies are forced to clump together in groups. This is because most of his Abilities, (notably Groundbreaker and Warlord's Challenge) gain value when they are able to strike more than one target. Maps with many narrow choke points provide Garrosh a playground of opportunities to catch out his enemies. Wrecking Ball is a lot of fun on Maps with lots of terrain as Garrosh can use it to completely isolate an enemy Hero away from their allies by flipping them over impassable terrain or Structure into his team."
+  },
+  "builds": [
+    {
+      "name": "Bloodthirst Build",
+      "label": "Recommended",
+      "description": "Garrosh's Bloodthirst Build provides various improvements which allow him to shine in most situations: additional damage, more survivability, and utility to help teammates.\n\nThe synergy between Bloodcraze at Level 13 and Seasoned Soldier at Level 16 makes you quite durable, especially if when you can safely wait 3 seconds between Bloodthirst's casts.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "garrosh-talent-unrivaled-strength",
+              "name": "Unrivaled Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-1"
+            },
+            {
+              "id": "garrosh-talent-body-check",
+              "name": "Body Check",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "garrosh-talent-indomitable",
+              "name": "Indomitable",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-4"
+            },
+            {
+              "id": "garrosh-talent-in-for-the-kill",
+              "name": "In For the Kill",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-4"
+            },
+            {
+              "id": "garrosh-talent-thirst-for-battle",
+              "name": "Thirst for Battle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "garrosh-talent-oppressor",
+              "name": "Oppressor ",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "garrosh-talent-decimate",
+              "name": "Decimate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-10"
+            },
+            {
+              "id": "garrosh-talent-warlords-challenge",
+              "name": "Warlord's Challenge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "garrosh-talent-bloodcraze",
+              "name": "Bloodcraze",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "garrosh-talent-seasoned-soldier",
+              "name": "Seasoned Soldier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "garrosh-talent-deadly-calm",
+              "name": "Deadly Calm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            },
+            {
+              "id": "garrosh-talent-death-wish",
+              "name": "Death Wish",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            },
+            {
+              "id": "garrosh-talent-titanic-might",
+              "name": "Titanic Might",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/garrosh#57.0!2322232"
+    },
+    {
+      "name": "Groundbreaker Build",
+      "label": "Advanced",
+      "description": "Garrosh's Groundbreaker Build gives you more crowd control and some survivability at the cost of damage. As such, this Build is oriented towards a defensive playstyle, when your team needs a lot of peeling.\n\nThanks to Earthshaker at Level 16, you will have an additional interrupt and an easier time grouping enemy Heroes: use Wrecking Ball to throw an enemy Hero on top of another one, walk towards them as they are Stunned, and use Warlord's Challenge once in range.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "garrosh-talent-warbreaker",
+              "name": "Warbreaker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "garrosh-talent-indomitable",
+              "name": "Indomitable",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "garrosh-talent-oppressor",
+              "name": "Oppressor ",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "garrosh-talent-warlords-challenge",
+              "name": "Warlord's Challenge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "garrosh-talent-defensive-measures",
+              "name": "Defensive Measures",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "garrosh-talent-earthshaker",
+              "name": "Earthshaker",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "garrosh-talent-titanic-might",
+              "name": "Titanic Might",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            },
+            {
+              "id": "garrosh-talent-death-wish",
+              "name": "Death Wish",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/garrosh#57.0!1321123"
+    },
+    {
+      "name": "Wrecking Ball Build",
+      "label": "Advanced",
+      "description": "Garrosh's Wrecking Ball Build gives you more crowd control and damage at the cost of survivability. As such, this Build is oriented towards an aggressive playstyle, when your team does not need a lot of peeling.\n\nThanks to Mortal Combo at Level 16 and Titanic Might at Level 20, when catching 2 enemy Heroes with Wrecking Ball and hitting them with Groundbreaker right after, you will be able to throw them on the spot 2 more times.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "garrosh-talent-unrivaled-strength",
+              "name": "Unrivaled Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "garrosh-talent-indomitable",
+              "name": "Indomitable",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "garrosh-talent-oppressor",
+              "name": "Oppressor ",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "garrosh-talent-warlords-challenge",
+              "name": "Warlord's Challenge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "garrosh-talent-defensive-measures",
+              "name": "Defensive Measures",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "garrosh-talent-mortal-combo",
+              "name": "Mortal Combo",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "garrosh-talent-titanic-might",
+              "name": "Titanic Might",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/garrosh#57.0!2321113"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Garrosh's ARAM Build provides various improvements which allow him to shine in most situations: additional damage, more survivability, and utility to help teammates.\n\nThe synergy between Bloodcraze at Level 13 and Seasoned Soldier at Level 16 makes you quite durable, especially if when you can safely wait 3 seconds between Bloodthirst's casts.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "garrosh-talent-unrivaled-strength",
+              "name": "Unrivaled Strength",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-1"
+            },
+            {
+              "id": "garrosh-talent-body-check",
+              "name": "Body Check",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "garrosh-talent-indomitable",
+              "name": "Indomitable",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-4"
+            },
+            {
+              "id": "garrosh-talent-thirst-for-battle",
+              "name": "Thirst for Battle",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "garrosh-talent-oppressor",
+              "name": "Oppressor ",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "garrosh-talent-decimate",
+              "name": "Decimate",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-10"
+            },
+            {
+              "id": "garrosh-talent-warlords-challenge",
+              "name": "Warlord's Challenge",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "garrosh-talent-bloodcraze",
+              "name": "Bloodcraze",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "garrosh-talent-seasoned-soldier",
+              "name": "Seasoned Soldier",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "garrosh-talent-deadly-calm",
+              "name": "Deadly Calm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            },
+            {
+              "id": "garrosh-talent-death-wish",
+              "name": "Death Wish",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            },
+            {
+              "id": "garrosh-talent-titanic-might",
+              "name": "Titanic Might",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/garrosh-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/garrosh#57.0!2322232"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/garrosh-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:02.363400+00:00",
+    "updated_at": "2026-04-22T12:30:00+00:00",
+    "author_line": "Last updated on Apr 22, 2026 at 12:30 by Elitesparkle"
+  }
+}

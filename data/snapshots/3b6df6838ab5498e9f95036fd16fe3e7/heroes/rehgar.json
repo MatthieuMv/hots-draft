@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "id": "rehgar",
+  "name": "Rehgar",
+  "role": "Healer",
+  "overview": "Rehgar is a Healer with solid waveclear, the ability to clear Mercenary Camps on his own, and a powerful Trait to counter crowd control effects: Purge.",
+  "strengths": [
+    "Capable of clearing Mercenary Camps on his own very quickly",
+    "High waveclear",
+    "Option to use Ghost Wolf for in-combat mobility"
+  ],
+  "weaknesses": [
+    "Lack of single-target sustain healing",
+    "No access to hard crowd control and interrupts",
+    "Low range on Purge to save allied Heroes without risk"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "sonya",
+        "name": "Sonya"
+      },
+      {
+        "id": "illidan",
+        "name": "Illidan"
+      },
+      {
+        "id": "greymane",
+        "name": "Greymane"
+      }
+    ],
+    "explanation": "Rehgar is a strong enabler for Bruisers (such as Sonya) and Melee Assassins (for example Illidan) because they benefit a lot from his whole kit: Lightning Shield is great on them, Ancestral Healing can be used to keep them alive, and Bloodlust provides them mobility, damage, and survivability."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "muradin",
+        "name": "Muradin"
+      },
+      {
+        "id": "varian",
+        "name": "Varian"
+      },
+      {
+        "id": "ana",
+        "name": "Ana"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      }
+    ],
+    "explanation": "Due to his limited single-target sustain healing, Rehgar is not that good against poke compositions who can whittle down a single target (usually the Tank) with constant damage.\n\nAlthough he is great against burst-compositions, some of them will have access to healing reduction effects (notably Biotic Grenade by Ana), which can partially or completely shut down his main anti-burst tool when timed correctly: Ancestral Healing."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "explanation": "Rehgar is particularly good on Maps where macro is important (such as Sky Temple) as he can capture most Mercenary Camps on his own.\n\nDue to his limited amount of sustain healing, especially when the damage is concentrated on a single target, Rehgar does suffer on Maps where there is constant action (notably Braxis Holdout)."
+  },
+  "builds": [
+    {
+      "name": "Earthbind Totem Build",
+      "label": "Recommended",
+      "description": "Rehgar's Earthbind Totem Build consists of various tools that can increase the survivability of your teammates: from more healing for allied Heroes to damage reduction effects for enemy Heroes.\n\nGrounded Totem at Level 7, combined with Colossal Totem at Level 1, turns Earthbind Totem into a powerful damage reduction Ability.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "rehgar-talent-colossal-totem",
+              "name": "Colossal Totem",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "rehgar-talent-earthliving-enchant",
+              "name": "Earthliving Enchant",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-4"
+            },
+            {
+              "id": "rehgar-talent-healing-totem",
+              "name": "Healing Totem",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "rehgar-talent-grounded-totem",
+              "name": "Grounded Totem",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "rehgar-talent-ancestral-healing",
+              "name": "Ancestral Healing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-10"
+            },
+            {
+              "id": "rehgar-talent-bloodlust",
+              "name": "Bloodlust",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "rehgar-talent-tidal-waves",
+              "name": "Tidal Waves",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-13"
+            },
+            {
+              "id": "rehgar-talent-earth-shield",
+              "name": "Earth Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "rehgar-talent-earthgrasp-totem",
+              "name": "Earthgrasp Totem",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "rehgar-talent-farseers-blessing",
+              "name": "Farseer's Blessing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            },
+            {
+              "id": "rehgar-talent-gladiators-war-shout",
+              "name": "Gladiator's War Shout",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            },
+            {
+              "id": "rehgar-talent-pit-fighter",
+              "name": "Pit Fighter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/rehgar#55.1!2111121"
+    },
+    {
+      "name": "Hybrid Build",
+      "label": "Advanced",
+      "description": "Rehgar's Hybrid Build is not the best when it comes to healing output but it offers various tools to increase your survivability, save allied Heroes from burst damage, and even crowd control enemy Heroes.\n\nYour opponents will have a hard time choosing their target because your teammates will be valid targets for Purification at Level 7 and you will have extra survivability from Feral Heart at Level 1.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "rehgar-talent-feral-heart",
+              "name": "Feral Heart",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "rehgar-talent-healing-totem",
+              "name": "Healing Totem",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "rehgar-talent-purification",
+              "name": "Purification",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "rehgar-talent-ancestral-healing",
+              "name": "Ancestral Healing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "rehgar-talent-earth-shield",
+              "name": "Earth Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "rehgar-talent-earthgrasp-totem",
+              "name": "Earthgrasp Totem",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "rehgar-talent-farseers-blessing",
+              "name": "Farseer's Blessing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            },
+            {
+              "id": "rehgar-talent-elemental-conduit",
+              "name": "Elemental Conduit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            },
+            {
+              "id": "rehgar-talent-pit-fighter",
+              "name": "Pit Fighter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/rehgar#55.1!3321221"
+    },
+    {
+      "name": "Lightning Shield Build",
+      "label": "Situational",
+      "description": "Rehgar's Lighting Shield Build can be used to increase the survivability of melee Heroes (such as Illidan) by putting Lightning Shield (empowered with various Talents) on them while they are fighting enemy Heroes.\n\nThanks to Rising Storm at Level 16, the Hero affected by Lightning Shield will be healed more by Electric Charge at Level 4. The range provided by Stormcaller at Level 1 helps getting value from these Talents.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "rehgar-talent-stormcaller",
+              "name": "Stormcaller",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "rehgar-talent-electric-charge",
+              "name": "Electric Charge",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "rehgar-talent-blood-and-thunder",
+              "name": "Blood and Thunder",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "rehgar-talent-ancestral-healing",
+              "name": "Ancestral Healing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-10"
+            },
+            {
+              "id": "rehgar-talent-bloodlust",
+              "name": "Bloodlust",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "rehgar-talent-earth-shield",
+              "name": "Earth Shield",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "rehgar-talent-rising-storm",
+              "name": "Rising Storm",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "rehgar-talent-farseers-blessing",
+              "name": "Farseer's Blessing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            },
+            {
+              "id": "rehgar-talent-gladiators-war-shout",
+              "name": "Gladiator's War Shout",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            },
+            {
+              "id": "rehgar-talent-elemental-conduit",
+              "name": "Elemental Conduit",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/rehgar#55.1!1231211"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Rehgar's ARAM Build consists of various tools that can increase the survivability of your teammates: from more healing for allied Heroes to damage reduction effects for enemy Heroes.\n\nGrounded Totem at Level 7, combined with Colossal Totem at Level 1, turns Earthbind Totem into a powerful damage reduction Ability.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "rehgar-talent-colossal-totem",
+              "name": "Colossal Totem",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "rehgar-talent-earthliving-enchant",
+              "name": "Earthliving Enchant",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-4"
+            },
+            {
+              "id": "rehgar-talent-healing-totem",
+              "name": "Healing Totem",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "rehgar-talent-grounded-totem",
+              "name": "Grounded Totem",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "rehgar-talent-ancestral-healing",
+              "name": "Ancestral Healing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-10"
+            },
+            {
+              "id": "rehgar-talent-bloodlust",
+              "name": "Bloodlust",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "rehgar-talent-tidal-waves",
+              "name": "Tidal Waves",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-13"
+            },
+            {
+              "id": "rehgar-talent-earth-shield",
+              "name": "Earth Shield",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "rehgar-talent-earthgrasp-totem",
+              "name": "Earthgrasp Totem",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "rehgar-talent-farseers-blessing",
+              "name": "Farseer's Blessing",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            },
+            {
+              "id": "rehgar-talent-gladiators-war-shout",
+              "name": "Gladiator's War Shout",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            },
+            {
+              "id": "rehgar-talent-pit-fighter",
+              "name": "Pit Fighter",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/rehgar-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/rehgar#55.1!2111121"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/rehgar-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:16.230638+00:00",
+    "updated_at": "2026-01-27T11:40:00+00:00",
+    "author_line": "Last updated on Jan 27, 2026 at 11:40 by Elitesparkle"
+  }
+}

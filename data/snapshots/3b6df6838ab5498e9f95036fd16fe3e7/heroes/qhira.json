@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "id": "qhira",
+  "name": "Qhira",
+  "role": "Melee Assassin",
+  "overview": "Qhira is a Melee Assassin who combines strong mobility, speed, and damage to relentlessly chase down her prey. Most of Qhira's damage derives from a stackable Bleeding effect that gets applied whenever she damages enemy Heroes with both Basic Attacks and any of her abilities and can be amplified by activating Blood Rage in a timely manner.",
+  "strengths": [
+    "Great mobility",
+    "Strong damage-over-time",
+    "Good Offlane",
+    "Excellent duelist",
+    "Powerful late game",
+    "Can mitigate damage with Revolving Sweep and Blood Rage"
+  ],
+  "weaknesses": [
+    "Susceptible to enemy Stuns and Silences",
+    "Dependent on terrain",
+    "Steep learning curve",
+    "Extremely dependent on hitting her Abilities",
+    "Bad waveclear",
+    "Dependent on stacking Blood Rage"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "uther",
+        "name": "Uther"
+      },
+      {
+        "id": "rehgar",
+        "name": "Rehgar"
+      },
+      {
+        "id": "abathur",
+        "name": "Abathur"
+      },
+      {
+        "id": "anubarak",
+        "name": "Anub'arak"
+      }
+    ],
+    "explanation": "Qhira pairs very well with Healers that excel at supporting individual targets by empowering their damage or granting them large amounts of protection. Furthermore, Tanks with strong crowd control make it easier for her to reliably land her skillshots."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "diablo",
+        "name": "Diablo"
+      },
+      {
+        "id": "garrosh",
+        "name": "Garrosh"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      }
+    ],
+    "explanation": "Every Qhira Ability besides Blood Rage can be interrupted by crowd control or displacements ( Unrelenting Strikes is only interrupted by stuns or silences). Therefore, she is countered by Heroes that can constantly knock her back or stun her.\n\nSince Carnage and Revolving Sweep are slow skillshots, it is extremely painful for her to face very mobile ranged Heroes, like Tracer."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "weaker": [],
+    "explanation": "Qhira excels at holding the offlane and, later on, hitting enemy Heroes from an unexpected angle while flanking. Thus, Maps with lots of openings, such as Dragon Shire or Tomb of the Spider Queen are well suited for her while she is often predictable on enclosed Maps such as Towers of Doom."
+  },
+  "builds": [
+    {
+      "name": "Heavy Bleeding Build",
+      "label": "Recommended",
+      "description": "Qhira's Heavy Bleeding Build focuses on Qhira's outstanding sustain damage potential. Her main goal should always be to spread the ticking bleeding damage onto several enemies at the same time.\n\nAt Level 4, Qhira can decide which talent to take depending on the situation she finds herself in. We usually recommend picking Upstage, but when you are against Heroes with fast Basic Attacks, like Tracer, Your Pain, My Gain is a good alternative.\n\nFinal Strike is the standard Heroic Ability here, as it will be very effective in most games. However, Unrelenting Strikes is a better choice if enemies cannot easily cancel it. In this scenario you should pick Silent Killer at Level 20, since the Silence and cooldown Reduction provided by it will be excellent in fights.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "qhira-talent-maximum-effort",
+              "name": "Maximum Effort",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "qhira-talent-upstage",
+              "name": "Upstage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-4"
+            },
+            {
+              "id": "qhira-talent-your-pain-my-gain",
+              "name": "Your Pain, My Gain",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "qhira-talent-healmonger",
+              "name": "Healmonger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "qhira-talent-final-strike",
+              "name": "Final Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-10"
+            },
+            {
+              "id": "qhira-talent-unrelenting-strikes",
+              "name": "Unrelenting Strikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "qhira-talent-chainsaw",
+              "name": "Chainsaw",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "qhira-talent-lingering-ailment",
+              "name": "Lingering Ailment",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            },
+            {
+              "id": "qhira-talent-booming-kick",
+              "name": "Booming Kick",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            },
+            {
+              "id": "qhira-talent-swing-life-away",
+              "name": "Swing Life Away",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "qhira-talent-utility-belt",
+              "name": "Utility Belt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            },
+            {
+              "id": "qhira-talent-no-sanctuary",
+              "name": "No Sanctuary",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            },
+            {
+              "id": "qhira-talent-silent-killer",
+              "name": "Silent Killer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/qhira#57.0!1122123"
+    },
+    {
+      "name": "Basic Attack Build",
+      "label": "Situational",
+      "description": "The Basic Attack Build, as the name suggests, focuses on Qhira's Basic Attacks. This build is mostly focused on Qhira's dueling potential because it is not as effective as the other builds in teamfights. However, the extra damage from Finishing Touch and the healing from Siphoning Link are very oppressive in a duel. This build is better in Braxis Holdout and Dragon Shire, because controlling the objective in the solo lane is essential on those maps.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "qhira-talent-finishing-touch",
+              "name": "Finishing Touch",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "qhira-talent-your-pain-my-gain",
+              "name": "Your Pain, My Gain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-4"
+            },
+            {
+              "id": "qhira-talent-upstage",
+              "name": "Upstage",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "qhira-talent-siphoning-link",
+              "name": "Siphoning Link",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "qhira-talent-final-strike",
+              "name": "Final Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-10"
+            },
+            {
+              "id": "qhira-talent-unrelenting-strikes",
+              "name": "Unrelenting Strikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "qhira-talent-the-hunted",
+              "name": "The Hunted",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "qhira-talent-booming-kick",
+              "name": "Booming Kick",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            },
+            {
+              "id": "qhira-talent-swing-life-away",
+              "name": "Swing Life Away",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            },
+            {
+              "id": "qhira-talent-lingering-ailment",
+              "name": "Lingering Ailment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "qhira-talent-utility-belt",
+              "name": "Utility Belt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            },
+            {
+              "id": "qhira-talent-no-sanctuary",
+              "name": "No Sanctuary",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            },
+            {
+              "id": "qhira-talent-silent-killer",
+              "name": "Silent Killer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/qhira#57.0!3332313"
+    },
+    {
+      "name": "ARAM Build",
+      "label": "ARAM",
+      "description": "Qhira's ARAM Build takes advantage of constant team fights to quickly progress Blood Rage's infinite Quest by spreading its Bleeding effect with Carnage. Refresh Bleeding effects across the enemy team rather than focusing on a single target, maximizing Qhira's sustained damage.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "qhira-talent-maximum-effort",
+              "name": "Maximum Effort",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-1"
+            },
+            {
+              "id": "qhira-talent-fatal-wounds",
+              "name": "Fatal Wounds",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "qhira-talent-upstage",
+              "name": "Upstage",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "qhira-talent-healmonger",
+              "name": "Healmonger",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "qhira-talent-final-strike",
+              "name": "Final Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-10"
+            },
+            {
+              "id": "qhira-talent-unrelenting-strikes",
+              "name": "Unrelenting Strikes",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "qhira-talent-chainsaw",
+              "name": "Chainsaw",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "qhira-talent-booming-kick",
+              "name": "Booming Kick",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            },
+            {
+              "id": "qhira-talent-lingering-ailment",
+              "name": "Lingering Ailment",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            },
+            {
+              "id": "qhira-talent-swing-life-away",
+              "name": "Swing Life Away",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "qhira-talent-utility-belt",
+              "name": "Utility Belt",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            },
+            {
+              "id": "qhira-talent-no-sanctuary",
+              "name": "No Sanctuary",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            },
+            {
+              "id": "qhira-talent-silent-killer",
+              "name": "Silent Killer",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/qhira-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/qhira#57.0!1122113"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/qhira-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T21:00:13.209280+00:00",
+    "updated_at": "2026-08-24T04:40:00+00:00",
+    "author_line": "Last updated on Aug 24, 2026 at 04:40 by Derenash"
+  }
+}

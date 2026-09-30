@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "id": "maiev",
+  "name": "Maiev",
+  "role": "Melee Assassin",
+  "overview": "Maiev is an exceptionally resilient Assassin who excels at initiating and generally punishing mispositioned opponents. With Fan of Knives as Maiev's main damage-dealing tool, she is excellent at facing multiple enemies. With good micro, she can very often win 1v2 or 2v3 fights.",
+  "strengths": [
+    "Unique initiation utility through Umbral Bind",
+    "Notably high survivability for an Assassin through high Health, Vault of the Wardens, and generally high mobility",
+    "High area of effect damage potential",
+    "Strong ganker and equally difficult to gank",
+    "Decent waveclear",
+    "Fastest Mercenary Clear in the early game with Naisha's Memento",
+    "Extremely high skill ceiling",
+    "Great pick-off potential with Containment Disc",
+    "Two viable Heroic Abilities, being able to adapt for each situation"
+  ],
+  "weaknesses": [
+    "Predictable playstyle that can ultimately be countered",
+    "No options for self-sustain",
+    "Limited ability to solo-lane",
+    "Relatively low single-target damage output, particularly in dueling situations",
+    "Has to engage from bushes or vents to surprise enemies",
+    "Easy to get punished after making mistakes",
+    "Low damage output if you miss Fan of Knives"
+  ],
+  "synergies": {
+    "heroes": [
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "blaze",
+        "name": "Blaze"
+      },
+      {
+        "id": "jaina",
+        "name": "Jaina"
+      },
+      {
+        "id": "tassadar",
+        "name": "Tassadar"
+      },
+      {
+        "id": "deckard",
+        "name": "Deckard Cain"
+      },
+      {
+        "id": "malfurion",
+        "name": "Malfurion"
+      }
+    ],
+    "explanation": "Maiev's unique ability to reliably Pull a number of Heroes to her works particularly well with Tanks who seek to set up crowd control chains. Assassins with large amounts of avoidable area of effect damage will also find Umbral Bind particularly useful. Additionally, she is also favored by having healers with good AoE spells to benefit from her engage."
+  },
+  "counters": {
+    "heroes": [
+      {
+        "id": "arthas",
+        "name": "Arthas"
+      },
+      {
+        "id": "tyrael",
+        "name": "Tyrael"
+      },
+      {
+        "id": "e-t-c",
+        "name": "E.T.C."
+      },
+      {
+        "id": "johanna",
+        "name": "Johanna"
+      },
+      {
+        "id": "lunara",
+        "name": "Lunara"
+      },
+      {
+        "id": "tracer",
+        "name": "Tracer"
+      },
+      {
+        "id": "lucio",
+        "name": "Lúcio"
+      },
+      {
+        "id": "brightwing",
+        "name": "Brightwing"
+      }
+    ],
+    "explanation": "Maiev's relatively predictable game plan tends to be easily disrupted by crowd control or blinds, since those will completely shutdown Maiev's Umbral Bind. Furthermore, Maiev also struggles against Heroes with high mobility that can easily kite her."
+  },
+  "maps": {
+    "stronger": [
+      {
+        "id": "braxis-holdout",
+        "name": "Braxis Holdout"
+      },
+      {
+        "id": "cursed-hollow",
+        "name": "Cursed Hollow"
+      },
+      {
+        "id": "dragon-shire",
+        "name": "Dragon Shire"
+      },
+      {
+        "id": "garden-of-terror",
+        "name": "Garden of Terror"
+      },
+      {
+        "id": "infernal-shrines",
+        "name": "Infernal Shrines"
+      },
+      {
+        "id": "tomb-of-the-spider-queen",
+        "name": "Tomb of the Spider Queen"
+      }
+    ],
+    "average": [
+      {
+        "id": "alterac-pass",
+        "name": "Alterac Pass"
+      },
+      {
+        "id": "blackhearts-bay",
+        "name": "Blackheart's Bay"
+      },
+      {
+        "id": "sky-temple",
+        "name": "Sky Temple"
+      },
+      {
+        "id": "towers-of-doom",
+        "name": "Towers of Doom"
+      },
+      {
+        "id": "volskaya-foundry",
+        "name": "Volskaya Foundry"
+      }
+    ],
+    "weaker": [
+      {
+        "id": "battlefield-of-eternity",
+        "name": "Battlefield of Eternity"
+      },
+      {
+        "id": "hanamura-temple",
+        "name": "Hanamura Temple"
+      },
+      {
+        "id": "warhead-junction",
+        "name": "Warhead Junction"
+      }
+    ],
+    "explanation": "Maiev's early game power and incredible mercenary camp clear speed make her a good pick in most maps. However, she excels in maps with numerous vents, bushes, and tiny corridors, as those will facilitate her engage with Spirit of Vengeance and Umbral Bind. Maiev becomes an even better pick if the map has several mercenaries for her to capture, since she will be able to dictate how the game will be played."
+  },
+  "builds": [
+    {
+      "name": "Standard Build",
+      "label": "Recommended",
+      "description": "Maiev's Standard Build provides superior sustain damage. Key Fan of Knives-related Talents provide you with powerful, continuous area of effect damage that force your opponents to spread out, reducing their effectiveness.\n\nNaisha's Memento is the default option for this build, as it will greatly improve your early game and PvE capabilities. However, on Maps where you cannot abuse your improved Mercenary clear speed, we recommend getting Pursuit of Vengeance instead.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "maiev-talent-naishas-memento",
+              "name": "Naisha's Memento",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-1"
+            },
+            {
+              "id": "maiev-talent-pursuit-of-vengeance",
+              "name": "Pursuit of Vengeance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "maiev-talent-pin-down",
+              "name": "Pin Down",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-4"
+            },
+            {
+              "id": "maiev-talent-blade-dance",
+              "name": "Blade Dance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "maiev-talent-elunes-wrath",
+              "name": "Elune's Wrath",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "maiev-talent-containment-disc",
+              "name": "Containment Disc",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-10"
+            },
+            {
+              "id": "maiev-talent-wardens-cage",
+              "name": "Warden's Cage",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "maiev-talent-bladed-armor",
+              "name": "Bladed Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "maiev-talent-vengeful-knives",
+              "name": "Vengeful Knives",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "maiev-talent-shadow-orb-shadow-strike",
+              "name": "Shadow Orb: Shadow Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-20"
+            },
+            {
+              "id": "maiev-talent-shadow-orb-huntress",
+              "name": "Shadow Orb: Huntress",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/maiev#55.13!3111113"
+    },
+    {
+      "name": "Cruel Chain Build",
+      "label": "Situational",
+      "description": "Maiev's Cruel Chain Build focuses on dealing the maximum possible damage in the late game. Through stacking in the early Levels, Bonds of Justice will greatly improve Umbral Bind.\n\nBe aware that Bonds of Justice stacks for each secondary target hit by Umbral Bind, so it is better to always apply the empowered Basic Attack on a minion. As the name suggests, this Build is extremely dependent on Cruel Chain, therefore we recommend focusing on stacking your Level 1 Talent before picking it.",
+      "talent_tiers": [
+        {
+          "level": 1,
+          "talents": [
+            {
+              "id": "maiev-talent-bonds-of-justice",
+              "name": "Bonds of Justice",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "talents": [
+            {
+              "id": "maiev-talent-blade-dance",
+              "name": "Blade Dance",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-4"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "talents": [
+            {
+              "id": "maiev-talent-elunes-wrath",
+              "name": "Elune's Wrath",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-7"
+            },
+            {
+              "id": "maiev-talent-bonds-of-corruption",
+              "name": "Bonds of Corruption",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-7"
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "talents": [
+            {
+              "id": "maiev-talent-containment-disc",
+              "name": "Containment Disc",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-10"
+            },
+            {
+              "id": "maiev-talent-wardens-cage",
+              "name": "Warden's Cage",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-10"
+            }
+          ]
+        },
+        {
+          "level": 13,
+          "talents": [
+            {
+              "id": "maiev-talent-bladed-armor",
+              "name": "Bladed Armor",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-13"
+            },
+            {
+              "id": "maiev-talent-chain-gang",
+              "name": "Chain Gang",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-13"
+            }
+          ]
+        },
+        {
+          "level": 16,
+          "talents": [
+            {
+              "id": "maiev-talent-cruel-chain",
+              "name": "Cruel Chain",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-16"
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "talents": [
+            {
+              "id": "maiev-talent-shadow-orb-shadow-strike",
+              "name": "Shadow Orb: Shadow Strike",
+              "recommended": true,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-20"
+            },
+            {
+              "id": "maiev-talent-shadow-orb-vengeance",
+              "name": "Shadow Orb: Vengeance",
+              "recommended": false,
+              "url": "https://www.icy-veins.com/heroes/maiev-talents#level-20"
+            }
+          ]
+        }
+      ],
+      "calculator_url": "https://www.icy-veins.com/heroes/talent-calculator/maiev#55.13!1211123"
+    }
+  ],
+  "source": {
+    "url": "https://www.icy-veins.com/heroes/maiev-build-guide",
+    "site": "Icy Veins",
+    "retrieved_at": "2026-09-30T20:58:24.357112+00:00",
+    "updated_at": "2021-09-28T20:40:00+00:00",
+    "author_line": "Last updated on Sep 28, 2021 at 20:40 by Derenash"
+  }
+}
